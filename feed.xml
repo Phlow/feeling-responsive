@@ -3,8 +3,8 @@
   <channel>
     <title>Feeling Responsive</title>
     <description></description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://phlow.github.io/feeling-responsive/</link>
+    <atom:link href="http://phlow.github.io/feeling-responsive/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Possibilites to style your Post</title>
@@ -19,8 +19,8 @@
 &lt;h2 id=&quot;meta-data&quot;&gt;Meta-Data&lt;/h2&gt;
 </description>
         <pubDate>Fri, 18 Jul 2014 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/layout/layout-elements/</link>
-        <guid isPermaLink="true">http://localhost:4000/layout/layout-elements/</guid>
+        <link>http://phlow.github.io/feeling-responsive/layout/layout-elements/</link>
+        <guid isPermaLink="true">http://phlow.github.io/feeling-responsive/layout/layout-elements/</guid>
       </item>
     
       <item>
@@ -73,8 +73,8 @@
 
 </description>
         <pubDate>Sat, 05 Jul 2014 09:00:00 +0200</pubDate>
-        <link>http://localhost:4000/layout/grid/</link>
-        <guid isPermaLink="true">http://localhost:4000/layout/grid/</guid>
+        <link>http://phlow.github.io/feeling-responsive/layout/grid/</link>
+        <guid isPermaLink="true">http://phlow.github.io/feeling-responsive/layout/grid/</guid>
       </item>
     
       <item>
@@ -113,8 +113,8 @@
 &lt;/dl&gt;
 </description>
         <pubDate>Sat, 05 Jul 2014 09:00:00 +0200</pubDate>
-        <link>http://localhost:4000/typography/this-is-h1-headline/</link>
-        <guid isPermaLink="true">http://localhost:4000/typography/this-is-h1-headline/</guid>
+        <link>http://phlow.github.io/feeling-responsive/typography/this-is-h1-headline/</link>
+        <guid isPermaLink="true">http://phlow.github.io/feeling-responsive/typography/this-is-h1-headline/</guid>
       </item>
     
       <item>
@@ -130,8 +130,8 @@
 &lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Mar 2014 01:00:00 +0100</pubDate>
-        <link>http://localhost:4000/layout/post-right-sidebar/</link>
-        <guid isPermaLink="true">http://localhost:4000/layout/post-right-sidebar/</guid>
+        <link>http://phlow.github.io/feeling-responsive/layout/post-right-sidebar/</link>
+        <guid isPermaLink="true">http://phlow.github.io/feeling-responsive/layout/post-right-sidebar/</guid>
       </item>
     
       <item>
@@ -145,8 +145,8 @@
 &lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Mar 2014 01:00:00 +0100</pubDate>
-        <link>http://localhost:4000/layout/post-left-sidebar/</link>
-        <guid isPermaLink="true">http://localhost:4000/layout/post-left-sidebar/</guid>
+        <link>http://phlow.github.io/feeling-responsive/layout/post-left-sidebar/</link>
+        <guid isPermaLink="true">http://phlow.github.io/feeling-responsive/layout/post-left-sidebar/</guid>
       </item>
     
   </channel>

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<div id="blog-index" class="row">
+	<div class="medium-7 columns top-30">
+
+		{% for post in site.posts %}
+			<div class="row">
+				<div class="small-12 columns bottom-60">
+					<p class="subtitle">{% if post.subtitle %}{{ post.subtitle }}{% endif %}<span class="subheader"><small> {{ post.date | date: "%d.%m.%Y" }} &middot; {% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</small></span></p>
+					<h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+					<p>
+						{% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/assets/img/{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+						{{ post.description }}
+						<a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>Read more ›</strong></a>
+					</p>
+				</div><!-- /.small-12.columns -->
+			</div><!-- /.row -->
+		{% endfor %}
+
+	</div><!-- /.medium-7.columns -->
+
+
+
+	<div class="medium-5 columns top-30">
+		{% include sidebar.html %}
+	</div><!-- /.medium-5.columns -->
+</div><!-- /.row -->
+
+

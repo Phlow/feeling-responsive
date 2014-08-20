@@ -1,0 +1,14 @@
+		<dl>
+			{% for post in site.posts reversed %}
+				{% if post.categories contains include.list-category %}
+				<dt>
+					<a href="{{ site.url }}{{ post.url }}">{% if post.chapter != nil %}{{ post.chapter }}. {% endif %}{{ post.title }}</a>
+				</dt>
+					{% if post.description %}
+					<dd>
+					    {{ post.description }}
+					</dd>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		</dl>

@@ -1,0 +1,65 @@
+		<footer id="footer-content" class="bg-grau">
+			<div id="footer">
+				<div class="row">
+					<div class="medium-6 large-5 columns">
+						<h5 class="black-shadow">About this Website</h5>
+
+						<p class="black-shadow">
+							{% include _site_description.html %}
+						</p>
+					</div><!-- /.large-6.columns -->
+
+
+					<div class="small-6 medium-3 large-3 large-offset-1 columns">
+						<aside>
+							<div class="textwidget">
+								<h5 class="black-shadow">Services</h5>
+								<ul class="no-bullet black-shadow">
+									<li><a href="contact.html">Contact</a></li>
+									<li class="rss-link"><a href="{{ site.url }}/feed.xml">RSS</a></li>
+									<li class="sitemap-link"><a href="{{ site.url }}/sitemap.xml">Sitemap.xml</a></li>
+								</ul>
+							</div>
+						</aside>
+					</div><!-- /.large-4.columns -->
+
+
+					<div class="small-6 medium-3 large-3 columns">
+								<h5 class="black-shadow">Thank You!</h5>
+								<ul class="no-bullet black-shadow">
+									<li><a href="http://entypo.com/">Icons by Daniel Bruce</a></li>
+									<li><a href="http://foundation.zurb.com/">Built on Foundation</a></li>
+									<li><a href="http://unsplash.com/">Images by Unsplash</a></li>
+									<li><a href="http://srobbin.com/jquery-plugins/backstretch/">Using Backstretch by Scott Robbin</a></li>
+								</ul>
+					</div><!-- /.large-3.columns -->
+				</div><!-- /.row -->
+
+				<div class="row">
+					<div class="small-12 columns" style="text-align: right;">
+						<a class="entypo entypo-48" href="#masthead">&#59231;</a>
+					</div><!-- /.small-12.columns -->
+				</div><!-- /.row -->
+
+			</div><!-- /#footer -->
+
+
+			<div id="subfooter">
+				<nav class="row">
+					<section id="subfooter-left" class="bottom-30 small-12 medium-6 columns">
+						<ul class="inline-list">
+							<li><a href="{{ site.url }}/about/">About</a></li>
+							<li><a href="http://phlow.de/webdesign/">Theme &amp; Webdesign by Phlow</a></li>
+						</ul>
+					</section>
+
+					<section id="subfooter-right" class="small-12 medium-6 columns social-icons">
+						<ul class="inline-list">
+						{% for social_item in site.data.socialmedia %}
+							<li><a href="{{ social_item.url }}" target="_blank" id="{{ social_item.id }}" class="{{ social_item.class }}" title="{{ social_item.title }}">{{ social_item.entypo }}</a></li>
+						{% endfor %}
+						</ul>
+					</section>
+				</nav>
+			</div><!-- /#subfooter -->
+		</footer>

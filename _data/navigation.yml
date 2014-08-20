@@ -1,0 +1,46 @@
+- title: Start
+  url: "/index.html"
+  side: left
+
+- title: "Style your content"
+  url: "/design/style-guide/"
+  side: left
+  dropdown:
+  - title: "Style Your Posts"
+    url: "/design/elements/"
+  - title: "The Grid"
+    url: "/design/grid/"
+  - title: "Blog-Page"
+    url: "/blog/"
+  - title: "Post-Layout"
+    url: "/design/post/"
+  - title: "Post-Left-Sidebar"
+    url: "/design/post-left-sidebar/"
+  - title: "Post-Right-Sidebar"
+    url: "/design/post-right-sidebar/"
+  - title: "Typography"
+    url: "/typography/"
+#  - title: "Fullwidth Layout"
+#    url: "/design/full-width/"
+
+# - title: "Portfolio"
+#   url: "/portfolio/"
+#   side: left
+
+- title: Documentation
+  url: "/documentation/"
+  side: left
+
+- title: Blog
+  url: "/blog/"
+  side: left
+
+- title: "Changelog"
+  url: "/changelog/"
+  side: left
+
+- title: "Contact"
+  url: "http://phlow.de/kontakt/"
+  side: right
+
+

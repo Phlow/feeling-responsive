@@ -1,0 +1,106 @@
+# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
+#
+#      _____ _ __          _____      __  __  _                 
+#     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
+#     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
+#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  ) 
+#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/  
+#                                                 /____/        
+title: "Feeling Responsive"
+slogan: "A Responsive Theme for Jekyll"
+description: "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
+logo: "logo.png"
+baseurl: ""
+paginate: 5
+paginate_path: "blog/page:num"
+
+url: "http://localhost:4000"
+# - url: "http://phlow.github.io/feeling-responsive"
+
+
+
+# Header
+language: "en"
+# google_author: ""
+
+
+#       _   __            _             __  _           
+#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
+#     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
+#    / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
+#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
+#                       /____/                          
+#
+#  Open _data/navigation.yml to adjust the left and right topbar navigation
+#
+
+
+
+#     _____ __________ 
+#    / ___// ____/ __ \
+#    \__ \/ __/ / / / /
+#   ___/ / /___/ /_/ / 
+#  /____/_____/\____/    Verify Website to Webmaster Tools
+
+google_author: "https://plus.google.com/u/0/118311555303973066167"
+google_site_verification:   ""
+# bing_webmastertools_id:   ""
+# alexa_verify_id:          ""
+
+
+
+#       ______            _                      
+#      / ____/___ __   __(_)________  ____  _____
+#     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
+#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  ) 
+#   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicons, Apple Touch Buttons
+#                                                 More information » http://j.mp/apple-touch-icons
+
+favicon:                         "http://images.phlow.de/phlow/phlow-favicon-32x.png"                    # iOS7 Size 32x32
+apple_touch_icon_iphone:         "http://images.phlow.de/phlow/phlow-touch-icon-iphone-60x.png"          # iOS7 Size 60x60
+apple_touch_icon_iphone_retina:  "http://images.phlow.de/phlow/phlow-touch-icon-iphone-retina-120x.png"  # iOS7 Size 120x120
+apple_touch_icon_ipad:           "http://images.phlow.de/phlow/phlow-touch-icon-ipad-76x.png"            # iOS7 Size 76x76
+apple_touch_icon_ipad_retina:    "http://images.phlow.de/phlow/phlow-touch-icon-ipad-retina-152x.png"    # iOS7 Size 152x152
+apple_touch_icon_precomposed:    "http://images.phlow.de/phlow/phlow-touch-icon-android-152x.png"        # iOS7 Size 152x152
+
+
+#       ______                __                __  
+#      / ____/___ _________  / /_  ____  ____  / /__
+#     / /_  / __ `/ ___/ _ \/ __ \/ __ \/ __ \/ //_/
+#    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<   
+#   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
+
+og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
+# og_locale:                        "de_DE"
+# og_type:                          "website"
+# og_title:                         ""
+# og_description:                   ""
+# og_url:                           ""
+# og_site_name:                     ""
+
+
+#      _____            _       __   __  ___         ___      
+#     / ___/____  _____(_)___ _/ /  /  |/  /__  ____/ (_)___ _
+#     \__ \/ __ \/ ___/ / __ `/ /  / /|_/ / _ \/ __  / / __ `/
+#    ___/ / /_/ / /__/ / /_/ / /  / /  / /  __/ /_/ / / /_/ / 
+#   /____/\____/\___/_/\__,_/_/  /_/  /_/\___/\__,_/_/\__,_/  
+#
+#  Open _data/socialmedia.yml to adjust the left and right topbar navigation
+#
+
+
+
+
+# Social Media
+
+username: phlow
+
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+highlight: pygments
+exclude: []
+include: ['.htaccess']
+
+

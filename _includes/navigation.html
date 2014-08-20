@@ -1,0 +1,117 @@
+
+<div id="navigation" class="contain-to-grid sticky">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name"></li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+{% comment %}
+
+    ____            __    __          _   __            _             __  _           
+   / __ \___  _____/ /_  / /____     / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
+  / /_/ / _ \/ ___/ __ \/ __/ _ \   /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
+ / _, _/  __/ /__/ / / / /_/  __/  / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
+/_/ |_|\___/\___/_/ /_/\__/\___/  /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
+                                                      /____/                          
+
+{% endcomment %}
+      <ul class="right">
+        {% for link in site.data.navigation %}
+
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% else %}
+                {% assign domain = site.url %}
+              {% endif %}
+
+          {% comment %}   Wenn rechte Seite sonst mach nichts   {% endcomment %}
+          {% if link.side == 'right' %}
+            {% comment %}   Wenn rechte Seite OHNE Dropdown Menu dann   {% endcomment %}
+            {% if link.dropdown == nil %}
+              <li class="divider"></li>
+              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+
+            {% comment %}   Wenn rechte Seite mit Dropdown Menu dann   {% endcomment %}
+            {% else %}
+
+              <li class="divider"></li>
+              <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
+                <a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
+
+                  <ul class="dropdown">
+                    {% for dropdown_link in link.dropdown %}
+
+                      {% if dropdown_link.url contains 'http' %}
+                        {% assign domain = '' %}
+                        {% else %}
+                        {% assign domain = site.url %}
+                      {% endif %}
+
+                      <li><a href="{{ domain }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                  
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% comment %}   Fertig Schleife 1   {% endcomment %}
+      </ul>
+{% comment %}
+
+    __    _       __           _   __            _             __  _           
+   / /   (_)___  / /_____     / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
+  / /   / / __ \/ //_/ _ \   /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
+ / /___/ / / / / ,< /  __/  / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
+/_____/_/_/ /_/_/|_|\___/  /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
+                                               /____/                          
+
+{% endcomment %}
+      <ul class="left">
+        {% for link in site.data.navigation %}
+
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+                {% else %}
+                {% assign domain = site.url %}
+              {% endif %}
+
+          {% comment %}   Wenn linke Seite sonst mach nichts   {% endcomment %}
+          {% if link.side == 'left' %}
+
+            {% comment %}   Wenn linke Seite OHNE Dropdown Menu dann   {% endcomment %}
+            {% if link.dropdown == nil %}
+              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+              <li class="divider"></li>
+
+            {% comment %}   Wenn linke Seite mit Dropdown Menu dann   {% endcomment %}
+            {% else %}
+
+              <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
+                <a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
+
+                  <ul class="dropdown">
+                    {% for dropdown_link in link.dropdown %}
+
+                      {% if dropdown_link.url contains 'http' %}
+                        {% assign domain = '' %}
+                        {% else %}
+                        {% assign domain = site.url %}
+                      {% endif %}
+
+                      <li><a href="{{ domain }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title }}</a></li>
+                    {% endfor %}
+                  </ul>
+                  
+              </li>
+              <li class="divider"></li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% comment %}   Fertig Schleife 1   {% endcomment %}
+      </ul>
+    </section>
+  </nav>
+</div><!-- /#navigation -->

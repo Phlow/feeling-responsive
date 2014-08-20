@@ -1,0 +1,8 @@
+		<ul class="side-nav">
+			{% for post in site.posts reversed %}
+				{% if post.categories contains include.list-category %}
+				<li><a href="{{ site.url }}{{ post.url }}">{% if post.chapter != nil %}{{ post.chapter }}. {% endif %}{{ post.title }}</a></li>
+				{% endif %}
+			{% endfor %}
+				<li>&nbsp;</li>
+		</ul>

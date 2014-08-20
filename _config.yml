@@ -14,8 +14,8 @@ baseurl: ""
 paginate: 5
 paginate_path: "blog/page:num"
 
-url: "http://localhost:4000"
-# - url: "http://phlow.github.io/feeling-responsive"
+# - url: "http://localhost:4000"
+url: "http://phlow.github.io/feeling-responsive"
 
 
 

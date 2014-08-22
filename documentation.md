@@ -1,21 +1,13 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Theme Documentation"
 subtitle: "How to use Feeling Responsive"
 description: "The documentation is a work in progress..."
 image_header: "no"
 permalink: "/documentation/"
 ---
-
-<div class="panel radius" markdown="1">
-## Table of Contents   {#toc}
-{: .sans }
-
-- [Page/Posts Formats](#formats)
-- [How to use images](#images)
-- [Possibilites to style your Post](#styling)
-
-</div>
+<div class="row">
+<div class="medium-8 columns" markdown="1">
 
 ## Different Page/Posts Formats   {#formats}
 
@@ -76,3 +68,53 @@ You can style your content in different ways. There are elements like subtitles,
 You can choose to show a special full-width header image or not.
 
 ## Meta-Data
+
+
+
+## Create a Table of Contents via Kramdown
+
+With the Kramdown parser for Markdown you can render a table of contents for your documents. Just insert the following HTML in your post before the actual content. More information on [»Automatic ›Table of Contents‹ Generation«][1].
+
+### Bare Bones Version
+{% highlight html %}
+### Table of Contents
+*  Auto generated table of contents
+{:toc}
+{% endhighlight %}
+
+### Foundation panel version
+
+{% highlight html %}
+<div class="panel radius" markdown="1">
+### Table of Contents
+*  Auto generated table of contents
+{:toc}
+</div>
+{% endhighlight %}
+
+
+
+</div><!-- /.medium-8.columns -->
+
+<div class="medium-4 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+</div><!-- /.row -->
+
+
+
+ [1]: http://kramdown.gettalong.org/converter/html.html#toc
+ [2]: #
+ [3]: #
+ [4]: #
+ [5]: #
+ [6]: #
+ [7]: #
+ [8]: #
+ [9]: #
+ [10]: #

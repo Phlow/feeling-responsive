@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-{% if page.image_title %}
+{% if page.image.title %}
 <div class="row top-30">
 	<div class="small-12 columns">
-		<img src="{{ site.url }}/assets/img/{{ page.image_title }}" width="970" alt="{{ page.title escape_once }}">
+		<img src="{{ site.url }}/assets/img/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
 	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
 {% endif %}

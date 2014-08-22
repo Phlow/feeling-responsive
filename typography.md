@@ -3,7 +3,8 @@ layout: page
 title: "Wonderful   Typography"
 subtitle: "Reading Experience"
 description: "<em>Feeling Responsive</em> uses Volkhov for headlines, Source Sans Pro for everything else and if you are in need to show some code, it will be in Lucida Console."
-image_header: "no"
+image:
+    header: "no"
 permalink: "/design/typography/"
 ---
 Noch mehr Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

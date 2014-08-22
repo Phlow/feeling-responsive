@@ -6,7 +6,7 @@ layout: default
 		<article>
 			<header>
 				{% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
-				{% if page.image_title %}<img src="{{ site.url }}/assets/img/{{ page.image_title }}" width="970" alt="{{ page.title escape_once }}">{% endif %}
+				{% if page.image.title %}<img src="{{ site.url }}/assets/img/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">{% endif %}
 				<h1>{{ page.title }}</h1>
 			</header>
 			{% if page.description %}

@@ -3,7 +3,8 @@ layout: page-fullwidth
 title: "Theme Documentation"
 subtitle: "How to use Feeling Responsive"
 description: "The documentation is a work in progress..."
-image_header: "no"
+image:
+    header: "no"
 permalink: "/documentation/"
 ---
 <div class="row">
@@ -42,36 +43,63 @@ permalink: "/documentation/"
 
 
 
+
+
+## Possibilites to style your content   {#styling}
+
+You can style your content in different ways. There are elements like subtitles, feature images, header images, meta data like categories and tags and many more. This article shows the different possibilites.
+
+## Subtitles
+If you need a subheadline for an article, just define a subheadline in front matter like this:
+
+`subtitle:  "Subheadline"`
+
+
+
 ## How to use images   {#images}
 
-There are three types of images you can define via frontmatter:
+There are four types of images you can define via frontmatter: thumbnails, header images, title images and images in your article.
 
- - thumbnails
- - header images
- - title images
+### Thumbnails
+
+Thumbnails are used on archive pages like the [blog index][2]. Define them in front matter like this:
+
+~~~
+image:
+   thumb: thumbnail_image.jpg
+~~~
+
+### Header Images
+
+~~~
+image:
+   header: thumbnail_image.jpg
+~~~
+
+### Title Images
+
+~~~
+image:
+   title: thumbnail_image.jpg
+~~~
+
+You can choose to show a special full-width header image or not.
+
+### Define all three images
+
+~~~
+image:
+   header: thumbnail_image.jpg
+   title: thumbnail_image.jpg
+   thumb: thumbnail_image.jpg
+~~~
+
 
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
 
 
-
-## Possibilites to style your Post   {#styling}
-
-You can style your content in different ways. There are elements like subtitles, feature images, header images, meta data like categories and tags and many more. This article shows the different possibilites.
-
-## Subtitles
-
-## Feature Images
-
-## Header Images
-
-You can choose to show a special full-width header image or not.
-
-## Meta-Data
-
-
-
-## Create a Table of Contents via Kramdown
+## Create a Table of Content
 
 With the Kramdown parser for Markdown you can render a table of contents for your documents. Just insert the following HTML in your post before the actual content. More information on [»Automatic ›Table of Contents‹ Generation«][1].
 
@@ -91,6 +119,8 @@ With the Kramdown parser for Markdown you can render a table of contents for you
 {:toc}
 </div>
 {% endhighlight %}
+<small markdown="1">[Up to table of contents](#toc)</small>
+{: .text-right }
 
 
 
@@ -99,7 +129,7 @@ With the Kramdown parser for Markdown you can render a table of contents for you
 <div class="medium-4 columns" markdown="1">
 <div class="panel radius" markdown="1">
 **Table of Contents**
-
+{: #toc }
 *  TOC
 {:toc}
 </div>
@@ -109,7 +139,7 @@ With the Kramdown parser for Markdown you can render a table of contents for you
 
 
  [1]: http://kramdown.gettalong.org/converter/html.html#toc
- [2]: #
+ [2]: {{ site.url }}/blog/
  [3]: #
  [4]: #
  [5]: #

@@ -3,7 +3,8 @@ layout: page
 title: "Change is good!"
 subtitle: "Feeling Responsive Theme Changelog"
 description: "History and changelog of Feeling Responsive Theme by Phlow Media."
-image_header: "header_unsplash_7.jpg"
+image:
+    header: "header_unsplash_7.jpg"
 permalink: "/changelog/"
 ---
 2014-08-22 // Version 0.5

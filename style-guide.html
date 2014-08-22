@@ -2,11 +2,12 @@
 layout: page
 title: "Style your content!"
 subtitle: "Layouts of Feeling Responsive"
-image_header: "header_unsplash_5.jpg"
+image:
+   header: "header_unsplash_5.jpg"
 permalink: "/design/style-guide/"
 ---
 <ul>
-	{% for post in site.categories.design %}
-	<li><a href="{{ site.url }}/{{ post.permalink }}">{{ post.title }}</a></li>
-	{% endfor %}
+    {% for post in site.categories.design %}
+    <li><a href="{{ site.url }}/{{ post.permalink }}">{{ post.title }}</a></li>
+    {% endfor %}
 </ul>

@@ -8,7 +8,7 @@ categories:
     - design
 image:
     thumb: "unsplash_2_thumb.jpg"
-image_title: "unsplash_2.jpg"
+    title: "unsplash_2.jpg"
 permalink: "/design/post-right-sidebar/"
 ---
 ## Have a look at the sidebar

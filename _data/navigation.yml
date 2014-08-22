@@ -18,6 +18,8 @@
     url: "/design/post-left-sidebar/"
   - title: "Post-Right-Sidebar"
     url: "/design/post-right-sidebar/"
+  - title: "Full-Width Page"
+    url: "/design/page-full-width/"
   - title: "Typography"
     url: "/design/typography/"
 #  - title: "Fullwidth Layout"

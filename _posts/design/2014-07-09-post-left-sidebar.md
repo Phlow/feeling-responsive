@@ -6,7 +6,8 @@ date:  2014-03-28 00:00:00
 categories:
     - layout
     - design
-image_title: "unsplash_1.jpg"
+image:
+    title: "unsplash_1.jpg"
 permalink: "/design/post-left-sidebar/"
 ---
 ## Have a look at the sidebar

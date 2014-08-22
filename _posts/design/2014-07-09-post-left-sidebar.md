@@ -3,7 +3,9 @@ layout: post-left-sidebar
 title:  "Post With Left Sidebar"
 description: "This is a example of Post with a Sidebar on the left."
 date:  2014-03-28 00:00:00
-categories: layout
+categories:
+    - layout
+    - design
 image_title: "unsplash_1.jpg"
 permalink: "/design/post-left-sidebar/"
 ---

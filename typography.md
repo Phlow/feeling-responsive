@@ -61,54 +61,58 @@ Here you'll find the [complete list of HTML5-Tags][1] and this is how they look 
 
 ### &lt;pre&gt; Displaying Code
 ~~~
-    <html>
-        <head>
-            <title>Code Blocks</title>
-        </head>
-        <body></body>
-    </html>
+<html>
+    <head>
+        <title>Code Blocks</title>
+    </head>
+    <body></body>
+</html>
 ~~~
 
 ### &lt;blockquote&gt; Quotation
 <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</blockquote>
 
+
 ### &lt;ol&gt; Ordered Lists
-1. One
-2. Two
-3. Three
-    4. Second Level One
-    4. Second Level Two
-    4. Second Level Three
-        5. And a third level one
-        5. And a third level two
-        5. And a third level three
-4. Four
-5. Five
+
+1. Ordered List
+2. Second List Item
+3. Third List Item
+    4. Second Level First Item
+    4. Second Level Second Item
+    4. Second Level Third Item
+        5. And a third level First Item
+        5. And a third level Second Item
+        5. And a third level Third Item
+4. Fourth List Item
+5. Fifth List Item
+
 
 ### &lt;ul&gt; Unordered Lists
-- One item
-    + Second Level Item One
-    + Second Level Item Two
-    + Second Level Item Three
-        * Third Level One
-        * Third Level Two
-        * Third Level Three
-- Second item
-- Third item
-- Fourth item
-- Fifth item and so on...
+
+- Unordered List
+- Second List Item
+- Third List Item
+    + Second Level First Item
+    + Second Level Second Item
+    + Second Level Third Item
+        * And a third level First Item
+        * And a third level Second Item
+        * And a third level Third Item
+- Fourth List Item
+- Fifth List Item
 
 ### &lt;dl&gt; Definition Lists
 
-<dl>
-    <dt>Definition Lists</dt>
-    <dd>are beautiful</dd>
-    <dd>organize content</dd>
-    <dt>Definition Lists</dt>
-    <dd>Item One</dd>
-    <dt>Definition Lists</dt>
-    <dd>One more Item</dd>
-</dl>
+Definition List
+:   Bacon ipsum dolor sit amet spare ribs brisket ribeye, andouille sirloin bresaola frankfurter corned beef capicola bacon. Salami beef ribs sirloin, short loin hamburger shoulder t-bone.
+
+Beef ribs jowl swine porchetta
+:   Sirloin tenderloin swine frankfurter pork loin pork capicola ham hock strip steak ribeye beef ribs. Hamburger t-bone ribeye ham prosciutto bresaola.
+
+Pancetta flank sirloin pork
+:   short ribs shankle prosciutto landjaeger. Beef ribs turkey shoulder drumstick. Leberkas pork belly ribeye, bresaola jerky strip steak tenderloin bacon landjaeger short ribs beef ribs. Flank pork chop fatback tail kielbasa filet mignon jowl landjaeger bresaola tongue corned beef biltong. Landjaeger spare ribs fatback corned beef tenderloin drumstick, swine chicken beef turkey biltong doner tri-tip filet mignon. 
+
 
 ### &lt;a&gt;
 [Links][2] make the web exceptional.
@@ -145,7 +149,11 @@ Some `code: lucida console` displayed.
 
 ### &lt;kbd&gt;
 
+Copycats enjoy pressing <kbd>CMD</kbd> + <kbd>c</kbd> and <kbd>CMD</kbd> + <kbd>v</kbd>.
+
 ### &lt;sub&gt;
+
+This text <sub>lays low</sub> and chills a bit.
 
 ### &lt;i&gt;
 
@@ -154,8 +162,12 @@ Some `code: lucida console` displayed.
 ### &lt;u&gt;
 
 ### &lt;mark&gt;
+Let's <mark>mark this hint</mark> to give you a clue.
+
 
 ### &lt;br&gt;
+
+Need a break? I give you three!<br><br><br>
 
 ## Tables
 &lt;table&gt;

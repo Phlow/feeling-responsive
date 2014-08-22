@@ -13,6 +13,8 @@ permalink: "/documentation/"
 
 - [Page/Posts Formats](#formats)
 - [How to use images](#images)
+- [Possibilites to style your Post](#styling)
+
 </div>
 
 ## Different Page/Posts Formats   {#formats}
@@ -59,3 +61,18 @@ There are three types of images you can define via frontmatter:
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
 
+
+
+## Possibilites to style your Post   {#styling}
+
+You can style your content in different ways. There are elements like subtitles, feature images, header images, meta data like categories and tags and many more. This article shows the different possibilites.
+
+## Subtitles
+
+## Feature Images
+
+## Header Images
+
+You can choose to show a special full-width header image or not.
+
+## Meta-Data

@@ -3,7 +3,9 @@ layout: post-right-sidebar
 title:  "Post With Right Sidebar"
 description: "This is a example of Post with a Sidebar on the right."
 date:  2014-03-28 00:00:00
-categories: layout
+categories:
+    - layout
+    - design
 image:
     thumb: "unsplash_2_thumb.jpg"
 image_title: "unsplash_2.jpg"

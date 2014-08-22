@@ -6,6 +6,9 @@ description: "History and changelog of Feeling Responsive Theme by Phlow Media."
 image_header: "header_unsplash_7.jpg"
 permalink: "/changelog/"
 ---
+2014-08-22 // Version 0.5
+:   Better typograpyh, extended [documentation]({{ site.url}}/documentation/) and little subtle css-things to make *Feeling Responsive* a little better.
+
 2014-08-17 // Version 0.4
 :   First beta release of »Feeling Responsive« with the current jekyll templates.
 

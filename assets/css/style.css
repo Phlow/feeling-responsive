@@ -55,7 +55,7 @@ html, body {
 /* line 375, ../bower_components/foundation/scss/foundation/components/_global.scss */
 html,
 body {
-  font-size: 100%;
+  font-size: 16px;
 }
 
 /* line 378, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -64,7 +64,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -225,7 +225,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3511,7 +3511,7 @@ dialog[open] {
   padding: 0 0 0 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 70, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -3534,7 +3534,7 @@ dialog[open] {
 .side-nav li.active > a:first-child:not(.button) {
   color: #f8ca00;
   font-weight: normal;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 92, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -3574,7 +3574,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -3896,7 +3896,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.9375rem;
   font-weight: normal;
   text-transform: none;
@@ -5670,7 +5670,7 @@ td {
 
 /* line 31, ../scss/_typography.scss */
 code {
-  line-height: 1.2;
+  font-size: 0.875rem;
 }
 
 /* line 33, ../scss/_typography.scss */
@@ -5787,7 +5787,7 @@ Additional typographical elements
  - - - - - - - - - - - - - - - - - - - - - - - */
 /* line 98, ../scss/_typography.scss */
 .sans {
-  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 /* line 99, ../scss/_typography.scss */
@@ -5812,17 +5812,17 @@ Additional typographical elements
 
 /* line 104, ../scss/_typography.scss */
 .font-size-medium {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 /* line 105, ../scss/_typography.scss */
 .font-size-regular {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 /* line 106, ../scss/_typography.scss */
 .font-size-normal {
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 @font-face {

@@ -41,6 +41,10 @@
   url: "/changelog/"
   side: left
 
+- title: "Roadmap"
+  url: "/roadmap/"
+  side: left
+
 - title: "Contact"
   url: "http://phlow.de/kontakt/"
   side: right

@@ -1,0 +1,38 @@
+<!-- This loops through the paginated posts 
+
+Total posts: {{ paginator.total_posts }}
+Total paginate-pages: {{ paginator.total_pages }}
+
+-->
+
+      {% for post in paginator.posts %}
+      <div class="row">
+        <div class="small-12 columns bottom-60">
+          <p class="subtitle">{% if post.subtitle %}{{ post.subtitle }}{% endif %}<span class="subheader"><small> {{ post.date | date: "%d.%m.%Y" }} &middot; {% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</small></span></p>
+          <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+          <p>
+            {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/assets/img/{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+            {{ post.description }}
+            <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>Read more ›</strong></a>
+          </p>
+        </div><!-- /.small-12.columns -->
+      </div><!-- /.row -->
+    {% endfor %}
+
+
+<nav id="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+      <a class="radius button small" href="{{ site.url }}/blog/" title="Previous Posts">&laquo; Previous Posts</a>
+      {% else %}
+      <a class="radius button small" href="{{ site.url }}/blog/page{{ paginator.previous_page }}/" title="Previous Posts">&laquo; Previous</a>
+      {% endif %}
+    {% endif %}
+
+    <a class="radius button small" href="{{ site.url }}/blog/archive/" title="Blog Archive">Blog Archive</a>
+        
+    {% if paginator.next_page %} 
+    <a class="radius button small" href="{{ site.url }}/blog/page{{ paginator.next_page }}/" title="Next Posts">Next &raquo;</a>
+    {% endif %} 
+  </nav>
+

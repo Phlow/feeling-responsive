@@ -100,8 +100,8 @@ You can choose to show a special full-width header image or not.
 
 ~~~
 image:
-   header: thumbnail_image.jpg
-   title: thumbnail_image.jpg
+   header: header_image.jpg
+   title: title_image.jpg
    thumb: thumbnail_image.jpg
 ~~~
 

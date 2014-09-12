@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Blog Archive"
+description: "Check out all blog posts in my blog archive. Click on a headline to read the teaser."
+image:
+   header: header_unsplash_8.jpg
+permalink: "blog/archive/"
+---
+<div id="blog-index" class="row">
+	<div class="small-12 columns top-30">
+		<h1>{{ page.title }}</h1>
+		{% if page.description %}<p class="teaser">{{ page.description }}</p>{% endif %}
+
+		<dl class="accordion" data-accordion>
+		{% assign counter = 1 %}
+		{% for post in site.posts limit:1000 %}
+		  <dd class="accordion-navigation">
+		    <a href="#panel{{ counter }}"><span class="entypo entypo-16"></span> {% if post.subtitle %}{{ post.subtitle }} › {% endif %}<strong>{{ post.title }}</strong></a>
+		    <div id="panel{{ counter }}" class="content">
+		      {{ post.description }}
+				<a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>Read more ›</strong></a>
+		    </div>
+		  </dd>
+		{% assign counter=counter | plus:1 %}
+		{% endfor %}
+		</dl>
+
+	</div><!-- /.small-12.columns -->
+</div><!-- /.row -->

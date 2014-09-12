@@ -4,9 +4,12 @@ title: "Change is good!"
 subtitle: "Feeling Responsive Theme Changelog"
 description: "History and changelog of Feeling Responsive Theme by Phlow Media."
 image:
-    header: "header_unsplash_7.jpg"
+    header: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2014-09-12 // Version 0.6
+:   Finally the [blogpage][1] has pagination and an [archive for all blog-posts][2] using the [foundation accordion][3].
+
 2014-08-22 // Version 0.5
 :   Better typograpyh, extended [documentation]({{ site.url}}/documentation/) and little subtle css-things to make *Feeling Responsive* a little better.
 
@@ -24,3 +27,18 @@ permalink: "/changelog/"
 
 2014-06-23
 :   First Ideas and scribbles at the beach in Bergen/Netherlands
+
+
+
+
+
+ [1]: {{ site.url }}/blog/
+ [2]: {{ site.url }}/blog/archive/
+ [3]: http://foundation.zurb.com/docs/components/accordion.html
+ [4]: #
+ [5]: #
+ [6]: #
+ [7]: #
+ [8]: #
+ [9]: #
+ [10]: #

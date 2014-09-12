@@ -164,6 +164,80 @@ select {
   width: 100%;
 }
 
+/* 
+  Mixin: accordion-container() 
+
+  Decription: Responsible for the container component of accordions, generating styles relating to a margin of zero and a clearfix
+
+  Explicit Dependencies: a clearfix mixin *is* defined. 
+
+  Implicit Dependencies: None 
+
+*/
+/*
+  Mixin: accordion-navigation( $bg, $hover-bg, $active-bg, $padding, $active_class,  $font-color, $font-size, $font-family){
+  
+    @params $bg-color: [ color or string ]: Specify the background color for the navigation element
+    @params $hover-bg-color [ color or string ]: Specify the background color for the navigation element when hovered
+    @params $active-bg [ color or string ]: Specify the background color for the navigation element when clicked and not released. 
+    @params $active_class [ string ]: Specify the class name used to keep track of which accordion tab should be visible 
+    @params $font-color [ color or string ]: Color of the font for accordion 
+    @params $font-size [ number ]: Specifiy the font-size of the text inside the navigation element 
+    @params $font-family [ string ]: Specify the font family for the text of the navigation of the accorion
+*/
+/*
+
+  Mixin: accordion-content($bg, $padding, $active-class) 
+    @params $padding [ number ]: Padding for the content of the container 
+    @params $bg [ color  ]: Background color for the content when it's visible 
+    @params $active_class [ string ]: Class name used to keep track of which accordion tab should be visible. 
+*/
+/* line 140, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion {
+  margin-bottom: 0;
+}
+/* line 181, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.accordion:before, .accordion:after {
+  content: " ";
+  display: table;
+}
+/* line 182, ../bower_components/foundation/scss/foundation/components/_global.scss */
+.accordion:after {
+  clear: both;
+}
+/* line 142, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion .accordion-navigation, .accordion dd {
+  display: block;
+  margin-bottom: 0 !important;
+}
+/* line 145, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+  background: #f1f1f1;
+}
+/* line 146, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion .accordion-navigation > a, .accordion dd > a {
+  background: white;
+  color: #222222;
+  padding: 0.75rem;
+  display: block;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+/* line 153, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+  background: #f1f1f1;
+}
+/* line 156, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion .accordion-navigation > .content, .accordion dd > .content {
+  display: none;
+  padding: 0.9375rem;
+}
+/* line 159, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
+.accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+  display: block;
+  background: #f1f1f1;
+}
+
 /* line 110, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
 .alert-box {
   border-style: solid;
@@ -5670,29 +5744,59 @@ h4 {
 }
 
 /* line 24, ../scss/_4_typography_theme-fr.scss */
-dl dt {
+article dl dt {
   line-height: 1.3;
 }
 
 /* line 25, ../scss/_4_typography_theme-fr.scss */
-dl dd {
+article dl dd {
   line-height: 1.6;
   margin-bottom: 0.75rem;
   margin-left: 1.5rem;
 }
 
-/* line 27, ../scss/_4_typography_theme-fr.scss */
+/* line 29, ../scss/_4_typography_theme-fr.scss */
+dl.accordion {
+  border-top: 1px solid #cbcbcb;
+}
+
+/* line 30, ../scss/_4_typography_theme-fr.scss */
+.accordion dd {
+  border-bottom: 1px solid #cbcbcb;
+}
+
+/* line 31, ../scss/_4_typography_theme-fr.scss */
+dd.accordion-navigation span {
+  padding-right: 12px;
+}
+
+/* line 32, ../scss/_4_typography_theme-fr.scss */
+dd.accordion-navigation span:before {
+  content: "\E766";
+}
+
+/* line 33, ../scss/_4_typography_theme-fr.scss */
+dd.accordion-navigation.active span:before {
+  content: "\E764";
+}
+
+/* line 34, ../scss/_4_typography_theme-fr.scss */
+dd.accordion-navigation.active span:before {
+  content: "\E764";
+}
+
+/* line 39, ../scss/_4_typography_theme-fr.scss */
 td {
   vertical-align: top;
 }
 
-/* line 29, ../scss/_4_typography_theme-fr.scss */
+/* line 41, ../scss/_4_typography_theme-fr.scss */
 code {
   font-size: 0.875rem;
   line-height: 1.5;
 }
 
-/* line 31, ../scss/_4_typography_theme-fr.scss */
+/* line 43, ../scss/_4_typography_theme-fr.scss */
 blockquote {
   font-style: italic;
   position: relative;
@@ -5701,13 +5805,13 @@ blockquote {
   color: #4b4b4d;
 }
 
-/* line 39, ../scss/_4_typography_theme-fr.scss */
+/* line 51, ../scss/_4_typography_theme-fr.scss */
 blockquote p {
   font-style: italic;
   color: #7e7e7e;
 }
 
-/* line 41, ../scss/_4_typography_theme-fr.scss */
+/* line 53, ../scss/_4_typography_theme-fr.scss */
 blockquote:before {
   display: block;
   content: "\00BB";
@@ -5718,7 +5822,7 @@ blockquote:before {
   color: #4b4b4d;
 }
 
-/* line 49, ../scss/_4_typography_theme-fr.scss */
+/* line 61, ../scss/_4_typography_theme-fr.scss */
 blockquote:after {
   display: block;
   content: "\00AB";
@@ -5729,122 +5833,147 @@ blockquote:after {
   color: #4b4b4d;
 }
 
-/* line 59, ../scss/_4_typography_theme-fr.scss */
+/* line 71, ../scss/_4_typography_theme-fr.scss */
 blockquote cite:before {
   content: "\2014 \0020";
 }
 
-/* line 61, ../scss/_4_typography_theme-fr.scss */
+/* line 73, ../scss/_4_typography_theme-fr.scss */
 blockquote cite a, blockquote cite a:visited {
   color: #555;
 }
 
-/* line 63, ../scss/_4_typography_theme-fr.scss */
+/* line 75, ../scss/_4_typography_theme-fr.scss */
 cite {
   padding-top: 5px;
 }
 
-/* line 65, ../scss/_4_typography_theme-fr.scss */
+/* line 77, ../scss/_4_typography_theme-fr.scss */
 .alert-box {
   font-family: "Volkhov", Georgia;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.9);
 }
 
-/* line 69, ../scss/_4_typography_theme-fr.scss */
+/* line 81, ../scss/_4_typography_theme-fr.scss */
 .alert-box p {
   margin-bottom: 0;
 }
 
-/* line 70, ../scss/_4_typography_theme-fr.scss */
+/* line 82, ../scss/_4_typography_theme-fr.scss */
 .alert-box a {
   text-shadow: 1px 1px 0px black;
   color: #fff;
   border-bottom: 1px dotted #fff;
 }
 
-/* line 75, ../scss/_4_typography_theme-fr.scss */
+/* line 87, ../scss/_4_typography_theme-fr.scss */
 .alert-box a:hover {
   border-bottom: 1px solid #fff;
 }
 
-/* line 79, ../scss/_4_typography_theme-fr.scss */
+/* line 91, ../scss/_4_typography_theme-fr.scss */
 button, .button {
   letter-spacing: 1px;
 }
 
-/* line 81, ../scss/_4_typography_theme-fr.scss */
+/* line 93, ../scss/_4_typography_theme-fr.scss */
 mark {
   background-color: #f393b5;
 }
 
-/* line 83, ../scss/_4_typography_theme-fr.scss */
+/* line 95, ../scss/_4_typography_theme-fr.scss */
 .side-nav li.title {
   text-transform: uppercase;
 }
 
-/* line 84, ../scss/_4_typography_theme-fr.scss */
+/* line 96, ../scss/_4_typography_theme-fr.scss */
 .side-nav li {
   border-top: 1px solid #e4e4e4;
 }
 
-/* line 85, ../scss/_4_typography_theme-fr.scss */
+/* line 97, ../scss/_4_typography_theme-fr.scss */
 .side-nav li a:not(.button) {
   padding: 0.4375rem 0rem;
 }
 
-/* line 87, ../scss/_4_typography_theme-fr.scss */
-.teaser {
-  font-size: 1.25rem;
-}
-
-/* line 88, ../scss/_4_typography_theme-fr.scss */
+/* line 99, ../scss/_4_typography_theme-fr.scss */
 .subtitle {
   font-size: 1rem;
   margin: 0;
   text-transform: uppercase;
 }
 
+/* line 100, ../scss/_4_typography_theme-fr.scss */
+.teaser {
+  font-size: 1.25rem;
+}
+
+/* line 101, ../scss/_4_typography_theme-fr.scss */
+.big-teaser {
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* line 102, ../scss/_4_typography_theme-fr.scss */
+.big-teaser a {
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Bigteaser Schriftgröße auf kleinen Bildschirmen veringern */
+@media only screen {
+  /* line 107, ../scss/_4_typography_theme-fr.scss */
+  .big-teaser {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 112, ../scss/_4_typography_theme-fr.scss */
+  .big-teaser {
+    font-size: 1.8125rem;
+  }
+}
 /* - - - - - - - - - - - - - - - - - - - - - - - 
 
 Additional typographical elements
 
  - - - - - - - - - - - - - - - - - - - - - - - */
-/* line 98, ../scss/_4_typography_theme-fr.scss */
+/* line 125, ../scss/_4_typography_theme-fr.scss */
 .sans {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 99, ../scss/_4_typography_theme-fr.scss */
+/* line 126, ../scss/_4_typography_theme-fr.scss */
 .serif {
   font-family: "Volkhov", Georgia;
 }
 
-/* line 101, ../scss/_4_typography_theme-fr.scss */
+/* line 128, ../scss/_4_typography_theme-fr.scss */
 .font-size-huge {
   font-size: 2.25rem;
 }
 
-/* line 102, ../scss/_4_typography_theme-fr.scss */
+/* line 129, ../scss/_4_typography_theme-fr.scss */
 .font-size-large {
   font-size: 1.5625rem;
 }
 
-/* line 103, ../scss/_4_typography_theme-fr.scss */
+/* line 130, ../scss/_4_typography_theme-fr.scss */
 .font-size-big {
   font-size: 1.375rem;
 }
 
-/* line 104, ../scss/_4_typography_theme-fr.scss */
+/* line 131, ../scss/_4_typography_theme-fr.scss */
 .font-size-medium {
   font-size: 1.125rem;
 }
 
-/* line 105, ../scss/_4_typography_theme-fr.scss */
+/* line 132, ../scss/_4_typography_theme-fr.scss */
 .font-size-regular {
   font-size: 1.125rem;
 }
 
-/* line 106, ../scss/_4_typography_theme-fr.scss */
+/* line 133, ../scss/_4_typography_theme-fr.scss */
 .font-size-normal {
   font-size: 1.125rem;
 }
@@ -5865,27 +5994,27 @@ Additional typographical elements
   font-style: normal;
 }
 
-/* line 131, ../scss/_4_typography_theme-fr.scss */
+/* line 158, ../scss/_4_typography_theme-fr.scss */
 .entypo {
   font-family: 'entypo';
 }
 
-/* line 132, ../scss/_4_typography_theme-fr.scss */
+/* line 159, ../scss/_4_typography_theme-fr.scss */
 .entypo-social {
   font-family: 'entypo-social';
 }
 
-/* line 133, ../scss/_4_typography_theme-fr.scss */
+/* line 160, ../scss/_4_typography_theme-fr.scss */
 .entypo-32 {
   font-size: 2rem;
 }
 
-/* line 134, ../scss/_4_typography_theme-fr.scss */
+/* line 161, ../scss/_4_typography_theme-fr.scss */
 .entypo-48 {
   font-size: 3rem;
 }
 
-/* line 135, ../scss/_4_typography_theme-fr.scss */
+/* line 162, ../scss/_4_typography_theme-fr.scss */
 .entypo-64 {
   font-size: 4rem;
 }
@@ -5995,7 +6124,13 @@ footer li {
   color: #f8ca00;
 }
 
-/* line 56, ../scss/_5_layout_theme-fr.scss */
+/* line 54, ../scss/_5_layout_theme-fr.scss */
+#footer a.entypo:hover {
+  background: #490a3d;
+  border-radius: 3px;
+}
+
+/* line 57, ../scss/_5_layout_theme-fr.scss */
 #footer h4,
 #footer h5 {
   letter-spacing: 1px;
@@ -6003,7 +6138,7 @@ footer li {
   text-transform: uppercase;
 }
 
-/* line 61, ../scss/_5_layout_theme-fr.scss */
+/* line 62, ../scss/_5_layout_theme-fr.scss */
 #footer p.entypo {
   font-size: 80px;
   line-height: 54px;
@@ -6012,7 +6147,7 @@ footer li {
   margin: 0;
 }
 
-/* line 69, ../scss/_5_layout_theme-fr.scss */
+/* line 70, ../scss/_5_layout_theme-fr.scss */
 #subfooter {
   background: #323232;
   color: white;
@@ -6020,12 +6155,12 @@ footer li {
   padding-bottom: 10px;
 }
 
-/* line 75, ../scss/_5_layout_theme-fr.scss */
+/* line 76, ../scss/_5_layout_theme-fr.scss */
 #subfooter-left ul.inline-list {
   float: left;
 }
 
-/* line 79, ../scss/_5_layout_theme-fr.scss */
+/* line 80, ../scss/_5_layout_theme-fr.scss */
 #subfooter .entypo-social,
 #subfooter .entypo {
   font-size: 48px;
@@ -6033,18 +6168,18 @@ footer li {
   color: #323232;
 }
 
-/* line 85, ../scss/_5_layout_theme-fr.scss */
+/* line 86, ../scss/_5_layout_theme-fr.scss */
 #subfooter li a {
   color: #7e7e7e;
   text-transform: uppercase;
 }
 
-/* line 90, ../scss/_5_layout_theme-fr.scss */
+/* line 91, ../scss/_5_layout_theme-fr.scss */
 #subfooter li a:hover {
   color: #e97f02;
 }
 
-/* line 94, ../scss/_5_layout_theme-fr.scss */
+/* line 95, ../scss/_5_layout_theme-fr.scss */
 #subfooter .social-icons li a {
   display: block;
   height: 36px;
@@ -6055,13 +6190,13 @@ footer li {
   vertical-align: center;
 }
 
-/* line 104, ../scss/_5_layout_theme-fr.scss */
+/* line 105, ../scss/_5_layout_theme-fr.scss */
 #subfooter .social-icons li a:hover {
   background: #323232;
   color: white;
 }
 
-/* line 109, ../scss/_5_layout_theme-fr.scss */
+/* line 110, ../scss/_5_layout_theme-fr.scss */
 .ad-space {
   border: 1px solid #fafafa;
   text-align: center;
@@ -6069,37 +6204,37 @@ footer li {
   margin-bottom: 1.25rem;
 }
 
-/* line 116, ../scss/_5_layout_theme-fr.scss */
+/* line 117, ../scss/_5_layout_theme-fr.scss */
 .top-30 {
   margin-top: 30px;
 }
 
-/* line 117, ../scss/_5_layout_theme-fr.scss */
+/* line 118, ../scss/_5_layout_theme-fr.scss */
 .top-60 {
   margin-top: 60px;
 }
 
-/* line 118, ../scss/_5_layout_theme-fr.scss */
+/* line 119, ../scss/_5_layout_theme-fr.scss */
 .bottom-30 {
   margin-bottom: 30px;
 }
 
-/* line 119, ../scss/_5_layout_theme-fr.scss */
+/* line 120, ../scss/_5_layout_theme-fr.scss */
 .bottom-60 {
   margin-bottom: 60px;
 }
 
-/* line 121, ../scss/_5_layout_theme-fr.scss */
+/* line 122, ../scss/_5_layout_theme-fr.scss */
 .side-nav li.title {
   text-transform: uppercase;
 }
 
-/* line 122, ../scss/_5_layout_theme-fr.scss */
+/* line 123, ../scss/_5_layout_theme-fr.scss */
 .side-nav li {
   border-top: 1px solid #e4e4e4;
 }
 
-/* line 123, ../scss/_5_layout_theme-fr.scss */
+/* line 124, ../scss/_5_layout_theme-fr.scss */
 .side-nav li a:not(.button) {
   padding: 0.4375rem 0rem;
 }

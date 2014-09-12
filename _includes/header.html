@@ -10,6 +10,13 @@
 {% if site.google_site_verification %}
 	<meta name="google-site-verification" content="{{ site.google_site_verification}}" />
 {% endif %}
+
+{% if page.meta_description %}
+<meta name="description" content="{{ page.meta_description | strip_html | escape }}"/>
+{% elsif page.description %}
+<meta name="description" content="{{ page.description | strip_html | escape }}"/>
+{% endif %}
+
 {% if site.google_author %}
 	<link rel="author" href="{{ site.google_author }}"/>
 {% endif %}

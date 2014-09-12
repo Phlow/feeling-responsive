@@ -130,6 +130,8 @@ This looks like **bold** text.
 
 ### &lt;s&gt;
 
+It's nice getting things done. Just strike through <s>finished tasks</s>.
+
 ### &lt;cite&gt;
 
 ### &lt;q&gt;

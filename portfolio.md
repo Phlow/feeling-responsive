@@ -1,19 +1,19 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Show your beautiful work!"
-subtitle: "Portfolio Template"
-description: "This is the portfolio template"
-image_header: "no"
-image_title: "unsplash_5.jpg"
+subtitle: "Portfolio"
+description: "You don't need a special portfolio template with this theme. Just check out the great possibilities of the foundation grid and experiment with it."
+image:
+    header: "no"
 permalink: "/portfolio/"
 ---
 
-<div class="row top-30">
-    <div class="medium-6 columns">
+<div class="row">
+    <div class="medium-6 columns bottom-30">
         <img src="{{ site.url }}/assets/img/screenshot_website_moritz-mo-sauer_500x.jpg" alt="">
     </div><!-- /.medium-6.columns -->
 
-    <div class="medium-6 columns">
+    <div class="medium-6 columns bottom-30">
         <img src="{{ site.url }}/assets/img/screenshot_website_jcorneille_500x.jpg" alt="">
     </div><!-- /.medium-6.columns -->
 </div><!-- /.row -->

@@ -9,12 +9,12 @@
     <section class="top-bar-section">
 {% comment %}
 
-    ____            __    __          _   __            _             __  _           
-   / __ \___  _____/ /_  / /____     / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
-  / /_/ / _ \/ ___/ __ \/ __/ _ \   /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
- / _, _/  __/ /__/ / / / /_/  __/  / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-/_/ |_|\___/\___/_/ /_/\__/\___/  /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
-                                                      /____/                          
+    ____  _       __    __     _   __            _             __  _           
+   / __ \(_)___ _/ /_  / /_   / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
+  / /_/ / / __ `/ __ \/ __/  /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
+ / _, _/ / /_/ / / / / /_   / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
+/_/ |_/_/\__, /_/ /_/\__/  /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
+        /____/                                 /____/                          
 
 {% endcomment %}
       <ul class="right">
@@ -26,14 +26,14 @@
                 {% assign domain = site.url %}
               {% endif %}
 
-          {% comment %}   Wenn rechte Seite sonst mach nichts   {% endcomment %}
+          {% comment %}   If there are links for right side begin   {% endcomment %}
           {% if link.side == 'right' %}
-            {% comment %}   Wenn rechte Seite OHNE Dropdown Menu dann   {% endcomment %}
+            {% comment %}   If right side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
               <li class="divider"></li>
               <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
 
-            {% comment %}   Wenn rechte Seite mit Dropdown Menu dann   {% endcomment %}
+            {% comment %}   If right side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
               <li class="divider"></li>
@@ -57,16 +57,16 @@
             {% endif %}
           {% endif %}
         {% endfor %}
-        {% comment %}   Fertig Schleife 1   {% endcomment %}
+        {% comment %}   First loop finished 1   {% endcomment %}
       </ul>
 {% comment %}
 
-    __    _       __           _   __            _             __  _           
-   / /   (_)___  / /_____     / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
-  / /   / / __ \/ //_/ _ \   /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
- / /___/ / / / / ,< /  __/  / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-/_____/_/_/ /_/_/|_|\___/  /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
-                                               /____/                          
+    __         ______     _   __            _             __  _           
+   / /   ___  / __/ /_   / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
+  / /   / _ \/ /_/ __/  /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
+ / /___/  __/ __/ /_   / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
+/_____/\___/_/  \__/  /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
+                                          /____/                          
 
 {% endcomment %}
       <ul class="left">
@@ -78,15 +78,15 @@
                 {% assign domain = site.url %}
               {% endif %}
 
-          {% comment %}   Wenn linke Seite sonst mach nichts   {% endcomment %}
+          {% comment %}   If there are links for left side begin   {% endcomment %}
           {% if link.side == 'left' %}
 
-            {% comment %}   Wenn linke Seite OHNE Dropdown Menu dann   {% endcomment %}
+            {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
               <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
               <li class="divider"></li>
 
-            {% comment %}   Wenn linke Seite mit Dropdown Menu dann   {% endcomment %}
+            {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
@@ -110,7 +110,7 @@
             {% endif %}
           {% endif %}
         {% endfor %}
-        {% comment %}   Fertig Schleife 1   {% endcomment %}
+        {% comment %}   Second loop finished   {% endcomment %}
       </ul>
     </section>
   </nav>

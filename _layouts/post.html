@@ -26,13 +26,8 @@ layout: default
 			
 			{{ content }}
 
-			<div class="page-meta">
-				<ul class="side-nav">
-					<li class="subheader">Date: {{ page.date | date: "%d.%m.%Y" }}</li>
-					<li class="subheader">{% if page.categories %}Archived in {{ page.categories | join: ' · ' | upcase }}{% endif %}</li>
-					<li class="divider"></li>
-				</ul>
-			</div>
+			{% include meta_information.html %}
+
 		</article>
 
 	</div><!-- /.medium-8.columns -->

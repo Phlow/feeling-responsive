@@ -9,7 +9,7 @@ categories:
     - design
 image:
    thumb: "unsplash_7_thumb.jpg"
-permalink: "/design/page-full-width/"
+permalink: "/design/page-fullwidth/"
 ---
 *Feeling Responsive* is built on Foundation. And of course, we make use of the wonderful grid system and so can you. Find out more about [constructing  beautiful layouts][1] in the foundation documentation.
 

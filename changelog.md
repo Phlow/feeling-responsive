@@ -7,6 +7,9 @@ image:
     header: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2014-09-15 // Version 0.7
+:   Added an [example of a gallery][4] to show how to use Clearing Lightbox. Meta information is used in posts via `/include/meta_information.html`. To optimize pages/posts for search engines you have now have an extra front matter-variable called `meta_description`. Also the theme supports facebook open graph information.
+
 2014-09-12 // Version 0.6
 :   Finally the [blogpage][1] has pagination and an [archive for all blog-posts][2] using the [foundation accordion][3].
 
@@ -35,7 +38,7 @@ permalink: "/changelog/"
  [1]: {{ site.url }}/blog/
  [2]: {{ site.url }}/blog/archive/
  [3]: http://foundation.zurb.com/docs/components/accordion.html
- [4]: #
+ [4]: {{ site.url }}/design/gallery/
  [5]: #
  [6]: #
  [7]: #

@@ -1,0 +1,7 @@
+			<div class="page-meta">
+				<ul class="side-nav">
+					<li class="subheader">Published on {{ page.date | date: "%d.%m.%Y" }}</li>
+					<li class="subheader">{% if page.categories %}Archived in {{ page.categories | join: ' · ' | upcase }}{% endif %}</li>
+					<li class="divider"></li>
+				</ul>
+			</div>

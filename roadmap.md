@@ -10,10 +10,13 @@ permalink: "/roadmap/"
 
 ## ToDo
 
-* SEO › Add metadescription to header.html and front matter
+* Produce an introduction video to showcase *Feeling Responsive*
+* Produce some small tutorials to show features and how to customize *Feeling Responsive*
+* Optimize HTML and use Schema.org-Attributes
+* <s>SEO › Add metadescription to header.html and front matter</s>
 * Add draft-templates for new pages/posts
-* Adding [Open Graph for Jekyll](https://gist.github.com/pathawks/1406355)
-* Gallery Post Format
+* [<s>Adding Open Graph for Jekyll</s>](https://gist.github.com/pathawks/1406355)
+* [<s>Gallery Post Example</s>]({{ site.url }}/design/gallery/)
 * Show how to use [Entypo-Icons](http://entypo.com)
 * Step-by-Step-Guide to customize *Feeling Responsive*
 * [<s>Adding pagination</s>](http://jekyllrb.com/docs/pagination/)

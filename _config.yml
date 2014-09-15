@@ -6,21 +6,49 @@
 #    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  ) 
 #   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/  
 #                                                 /____/        
+#
+# Title of your website
 title: "Feeling Responsive"
+
+
+# The slogan describes your website and is used on homepage in <title> and other important places
 slogan: "A Responsive Theme for Jekyll"
+
+
+# The description is used on homepage and important for search engine optimization
 description: "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
+
+
+# Logo size is 600x80 pixels
 logo: "logo.png"
 baseurl: ""
+
+
+# Paginates all X entries
 paginate: 5
+
+
+# Pagination path › Important for blog page in /blog/ to work
 paginate_path: "blog/page:num"
 
+
+# This is a switch to easily change the {{ site.url }}-variable to develop the theme locally
 # - url: "http://localhost:4000"
 url: "http://phlow.github.io/feeling-responsive"
 
 
+# Theme works best with Kramdown (using the table of contents function)
+markdown: kramdown
+permalink: /:categories/:title/
+highlight: pygments
+exclude: []
+include: ['.htaccess']
 
-# Header
+
+# The language setting is used in /includes/header.html for html-settings
 language: "en"
+
+
 
 
 #       _   __            _             __  _           
@@ -41,10 +69,10 @@ language: "en"
 #   ___/ / /___/ /_/ / 
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
-google_author: "https://plus.google.com/u/0/118311555303973066167"
-google_site_verification:   "Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ"
-# bing_webmastertools_id:   ""
-# alexa_verify_id:          ""
+google_author:             "https://plus.google.com/u/0/118311555303973066167"
+google_site_verification:  "Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ"
+bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
+# alexa_verify_id:         ""
 
 
 
@@ -55,12 +83,12 @@ google_site_verification:   "Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ"
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicons, Apple Touch Buttons
 #                                                 More information » http://j.mp/apple-touch-icons
 
-favicon:                         "http://images.phlow.de/phlow/phlow-favicon-32x.png"                    # iOS7 Size 32x32
-apple_touch_icon_iphone:         "http://images.phlow.de/phlow/phlow-touch-icon-iphone-60x.png"          # iOS7 Size 60x60
-apple_touch_icon_iphone_retina:  "http://images.phlow.de/phlow/phlow-touch-icon-iphone-retina-120x.png"  # iOS7 Size 120x120
-apple_touch_icon_ipad:           "http://images.phlow.de/phlow/phlow-touch-icon-ipad-76x.png"            # iOS7 Size 76x76
-apple_touch_icon_ipad_retina:    "http://images.phlow.de/phlow/phlow-touch-icon-ipad-retina-152x.png"    # iOS7 Size 152x152
-apple_touch_icon_precomposed:    "http://images.phlow.de/phlow/phlow-touch-icon-android-152x.png"        # iOS7 Size 152x152
+favicon:                         "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-favicon-32x.png"                    # iOS7 Size 32x32
+apple_touch_icon_iphone:         "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-touch-icon-iphone-60x.png"          # iOS7 Size 60x60
+apple_touch_icon_iphone_retina:  "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-touch-icon-iphone-retina-120x.png"  # iOS7 Size 120x120
+apple_touch_icon_ipad:           "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-touch-icon-ipad-76x.png"            # iOS7 Size 76x76
+apple_touch_icon_ipad_retina:    "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-touch-icon-ipad-retina-152x.png"    # iOS7 Size 152x152
+apple_touch_icon_precomposed:    "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-touch-icon-android-152x.png"        # iOS7 Size 152x152
 
 
 #       ______                __                __  
@@ -70,10 +98,10 @@ apple_touch_icon_precomposed:    "http://images.phlow.de/phlow/phlow-touch-icon-
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
 og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
-# og_locale:                        "de_DE"
-# og_type:                          "website"
-# og_title:                         ""
-# og_description:                   ""
+og_locale:                          "en_EN"
+og_type:                            "website"
+og_title:                           "Feeling Responsive – A Responsive Theme for Jekyll"
+og_description:                     "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
 # og_url:                           ""
 # og_site_name:                     ""
 
@@ -86,19 +114,4 @@ og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-
 #
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
-
-
-
-
-# Social Media
-
-username: phlow
-
-
-# Build settings
-markdown: kramdown
-permalink: /:categories/:title/
-highlight: pygments
-exclude: []
-include: ['.htaccess']
 

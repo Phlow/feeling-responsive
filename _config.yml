@@ -83,12 +83,12 @@ bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicons, Apple Touch Buttons
 #                                                 More information » http://j.mp/apple-touch-icons
 
-favicon:                         "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-favicon-32x.png"                    # iOS7 Size 32x32
-apple_touch_icon_iphone:         "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-touch-icon-iphone-60x.png"          # iOS7 Size 60x60
-apple_touch_icon_iphone_retina:  "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-touch-icon-iphone-retina-120x.png"  # iOS7 Size 120x120
-apple_touch_icon_ipad:           "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-touch-icon-ipad-76x.png"            # iOS7 Size 76x76
-apple_touch_icon_ipad_retina:    "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-touch-icon-ipad-retina-152x.png"    # iOS7 Size 152x152
-apple_touch_icon_precomposed:    "http://phlow.github.io/feeling-responsive/assets/img/feeling-responsive-touch-icon-android-152x.png"        # iOS7 Size 152x152
+favicon:                         "/assets/img/feeling-responsive-favicon-32x.png"                    # iOS7 Size 32x32
+apple_touch_icon_iphone:         "/assets/img/feeling-responsive-touch-icon-iphone-60x.png"          # iOS7 Size 60x60
+apple_touch_icon_iphone_retina:  "/assets/img/feeling-responsive-touch-icon-iphone-retina-120x.png"  # iOS7 Size 120x120
+apple_touch_icon_ipad:           "/assets/img/feeling-responsive-touch-icon-ipad-76x.png"            # iOS7 Size 76x76
+apple_touch_icon_ipad_retina:    "/assets/img/feeling-responsive-touch-icon-ipad-retina-152x.png"    # iOS7 Size 152x152
+apple_touch_icon_precomposed:    "/assets/img/feeling-responsive-touch-icon-android-152x.png"        # iOS7 Size 152x152
 
 
 #       ______                __                __  

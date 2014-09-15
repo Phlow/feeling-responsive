@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Contact"
-subtitle: "Why another Jekyll Theme?"
+subtitle: "Wufoo-powered contact forms"
 description: "Get in touch with me? Use the contact form."
 image_header: "no"
 permalink: "/contact/"

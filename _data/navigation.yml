@@ -50,7 +50,7 @@
   side: left
 
 - title: "Contact"
-  url: "http://phlow.de/kontakt/"
+  url: "/contact/"
   side: right
 
 

@@ -2,7 +2,7 @@
 layout: page
 title: "Wonderful   Typography"
 subtitle: "Reading Experience"
-description: "<em>Feeling Responsive</em> uses Volkhov for headlines, Source Sans Pro for everything else and if you are in need to show some code, it will be in Lucida Console."
+description: "<em>Feeling Responsive</em> uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
 image:
     header: "no"
 permalink: "/design/typography/"

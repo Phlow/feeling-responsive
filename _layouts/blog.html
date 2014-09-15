@@ -14,9 +14,6 @@ layout: default
 
 						{% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elseif post.description %}{{ post.description | strip_html | escape }}{% endif %}
 	
-{{ post.meta_description }}
-
-
 						<a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>Read more ›</strong></a>
 					</p>
 				</div><!-- /.small-12.columns -->

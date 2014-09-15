@@ -12,8 +12,11 @@ layout: default
 					<p>
 						{% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/assets/img/{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
 
-						{% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.description %}{{ post.description | strip_html | escape }}{% endif %}
+						{% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elseif post.description %}{{ post.description | strip_html | escape }}{% endif %}
 	
+{{ post.meta_description }}
+
+
 						<a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>Read more ›</strong></a>
 					</p>
 				</div><!-- /.small-12.columns -->

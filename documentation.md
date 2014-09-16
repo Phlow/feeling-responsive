@@ -77,6 +77,22 @@ Quotes mix it up a little bit, if you write long articles. So use quotes:
 {: .text-right }
 
 
+### Responsive Videos
+
+With foundation responsive videos are easy. [More ›](http://foundation.zurb.com/docs/components/flex_video.html)
+
+<div class="flex-video">
+        <iframe width="1280" height="720" src="//www.youtube.com/embed/WoHxoz_0ykI" frameborder="0" allowfullscreen></iframe>
+</div>
+
+#### Code to use for flexible videos
+
+{% highlight html %}
+<div class="flex-video">
+        <iframe width="1280" height="720" src="//www.youtube.com/embed/WoHxoz_0ykI" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endhighlight %}
+
 
 ## Images: Header, Title, Thumbnails   {#images}
 

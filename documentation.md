@@ -82,7 +82,7 @@ Quotes mix it up a little bit, if you write long articles. So use quotes:
 With foundation responsive videos are easy. [More ›](http://foundation.zurb.com/docs/components/flex_video.html)
 
 <div class="flex-video">
-        <iframe width="1280" height="720" src="//www.youtube.com/embed/WoHxoz_0ykI" frameborder="0" allowfullscreen></iframe>
+        <iframe with video />
 </div>
 
 #### Code to use for flexible videos

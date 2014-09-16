@@ -8,7 +8,7 @@ Total paginate-pages: {{ paginator.total_pages }}
 {% for post in paginator.posts %}
   <div class="row">
     <div class="small-12 columns bottom-60">
-      <p class="subheadline">{% if post.subheadline %}{{ post.subheadline }}{% endif %}<span class="subheader"><small> {{ post.date | date: "%d.%m.%Y" }} &middot; {% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</small></span></p>
+      <p class="subheadline">{% if post.subheadline %}{{ post.subheadline }}{% endif %}<span class="subheader"><small>{% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</small></span></p>
       <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
       <p>
         {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/assets/img/{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}

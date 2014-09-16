@@ -15,7 +15,7 @@ permalink: "/about/"
 
 * Responsive Gallery, Videos, Grid, Typography,...
 * 100% GitHub Pages friendly
-* Easy editable navigation
+* Easy editable navigation and social media links
 * Lots of possibilities to customize it to your needs
 * Various post formats to let your content shine
 * Uses Jekyll 2.0

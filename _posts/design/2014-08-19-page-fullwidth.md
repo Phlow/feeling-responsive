@@ -6,7 +6,7 @@ description: "The full-width page format gives you all the space you need to sho
 categories:
     - design
 image:
-   thumb: "unsplash_7_thumb.jpg"
+  thumb: "unsplash_7_thumb.jpg"
 ---
 *Feeling Responsive* is built on Foundation. And of course, we make use of the wonderful grid system and so can you. Find out more about [constructing  beautiful layouts][1] in the foundation documentation.
 

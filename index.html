@@ -1,5 +1,6 @@
 ---
 layout: default
+format: blog-index
 title: "Feeling Responsive – A Jekyll Theme Based On Foundation"
 image:
     header: "header_unsplash_12.jpg"
@@ -53,15 +54,21 @@ image:
 </div><!-- /.row -->
 
 
-<div class="row top-60 bottom-30">
+<div class="row top-60 bottom-15 homepage">
     <div class="small-12 columns">
         {% for post in site.posts limit:1 %}
-            <p style="padding: 0; margin: 0;" class="text-right">
-                {% if post.image.homepage %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/assets/img/{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
-                {% if post.image.url && post.image.credit %}<a style="border: none;" href="{{ post.image.url }}">{{ post.image.credits }}</a>{% endif %}
-            </p>
+            {% if post.image.homepage %}
+                <p>
+                    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/assets/img/{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
+                </p>
+
+                {% if post.image.url && post.image.credit %}
+                    <p class="text-right caption">
+                        <a href="{{ post.image.url }}">{{ post.image.credit }}</a>
+                    </p>
+                {% endif %}
             {% elsif post.image.homepage == NULL %}
-            <h2>New Blog Articles</h2>
+                <h2>New Blog Articles</h2>
             {% endif %}
         {% endfor %}
     </div><!-- /.small-12.columns -->
@@ -70,7 +77,7 @@ image:
 
 
 
-<div id="blog-index" class="row">
+<div class="row">
     <div class="medium-6 columns">
         {% for post in site.posts limit:1 %}
             <p class="subheadline">{% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>

@@ -8,6 +8,8 @@ categories:
 image:
     thumb: "unsplash_2_thumb.jpg"
     title: "unsplash_2.jpg"
+    credit: Unsplash.com
+    url: http://unsplash.com
 ---
 ## Have a look at the sidebar
 

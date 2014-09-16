@@ -9,6 +9,8 @@ permalink: "/getting-started/"
 ---
 1. Open `_config.yml` and work it through, it's well documented
 2. Add your own `logo.png` to `/assets/img/`.
-2. Open `_data/socialmedia.yml` and add your own social media links
-3. Open `_data/navigation.yml` and add your own social media links
-4. Add your own content.
+3. Open `_data/socialmedia.yml` and add your own social media links
+4. Open `_data/navigation.yml` and add your own social media links
+5. Make it yours and add your own content.
+
+<a class="radius button small" href="{{ site.url }}/documentation/">Check out the documentation for all the tricks ›</a>

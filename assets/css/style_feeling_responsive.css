@@ -212,7 +212,7 @@ select {
 }
 /* line 145, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .accordion-navigation.active > a, .accordion dd.active > a {
-  background: #f1f1f1;
+  background: #e4e4e4;
 }
 /* line 146, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .accordion-navigation > a, .accordion dd > a {
@@ -225,7 +225,7 @@ select {
 }
 /* line 153, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-  background: #f1f1f1;
+  background: #e4e4e4;
 }
 /* line 156, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .accordion-navigation > .content, .accordion dd > .content {
@@ -235,7 +235,7 @@ select {
 /* line 159, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
   display: block;
-  background: #f1f1f1;
+  background: #e4e4e4;
 }
 
 /* line 110, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
@@ -6207,7 +6207,7 @@ h3 {
 }
 
 /* line 22, ../scss/_4_typography_theme-fr.scss */
-#blog-index h2 {
+.blog-index h2 {
   margin-top: 0;
 }
 
@@ -6230,12 +6230,12 @@ article dl dd {
 
 /* line 30, ../scss/_4_typography_theme-fr.scss */
 dl.accordion {
-  border-top: 1px solid #cbcbcb;
+  border-top: 1px solid #d7d7d7;
 }
 
 /* line 31, ../scss/_4_typography_theme-fr.scss */
 .accordion dd {
-  border-bottom: 1px solid #cbcbcb;
+  border-bottom: 1px solid #d7d7d7;
 }
 
 /* line 32, ../scss/_4_typography_theme-fr.scss */
@@ -6281,7 +6281,7 @@ blockquote {
 /* line 52, ../scss/_4_typography_theme-fr.scss */
 blockquote p {
   font-style: italic;
-  color: #7e7e7e;
+  color: #575757;
 }
 
 /* line 54, ../scss/_4_typography_theme-fr.scss */
@@ -6477,19 +6477,55 @@ Additional typographical elements
   font-size: 4rem;
 }
 
-/* line 1, ../scss/_5_layout_theme-fr.scss */
+/* line 2, ../scss/_5_layout_theme-fr.scss */
+body.video,
+body.video #masthead-no-image-header {
+  background: #000;
+}
+
+/* line 3, ../scss/_5_layout_theme-fr.scss */
+body.video #masthead-no-image-header {
+  margin-bottom: 60px;
+}
+
+/* line 14, ../scss/_5_layout_theme-fr.scss */
+body.video h1,
+body.video h2,
+body.video h3,
+body.video h4,
+body.video h5,
+body.video h6,
+body.video p,
+body.video a,
+body.video blockquote:before,
+body.video blockquote:after,
+body.video cite a {
+  color: #fff;
+}
+
+/* line 15, ../scss/_5_layout_theme-fr.scss */
+body.video cite a:visited {
+  color: #fff;
+}
+
+/* line 16, ../scss/_5_layout_theme-fr.scss */
+body.video cite {
+  color: #fff;
+}
+
+/* line 21, ../scss/_5_layout_theme-fr.scss */
 #navigation {
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 5, ../scss/_5_layout_theme-fr.scss */
+/* line 25, ../scss/_5_layout_theme-fr.scss */
 #search {
   padding: 20px 0 0 0;
   background: #bd1550;
 }
 
-/* line 10, ../scss/_5_layout_theme-fr.scss */
+/* line 30, ../scss/_5_layout_theme-fr.scss */
 #breadcrumb {
   background: #f3f3f3;
   border-top: 1px solid #f0f0f0;
@@ -6497,37 +6533,37 @@ Additional typographical elements
 }
 
 /* - - - MASTHEAD - - - - - - - - - - - - - - - - - - - - - - */
-/* line 18, ../scss/_5_layout_theme-fr.scss */
+/* line 38, ../scss/_5_layout_theme-fr.scss */
 #title-image-small {
   height: 240px;
 }
 
-/* line 19, ../scss/_5_layout_theme-fr.scss */
+/* line 39, ../scss/_5_layout_theme-fr.scss */
 #title-image-large {
   height: 520px;
 }
 
-/* line 20, ../scss/_5_layout_theme-fr.scss */
+/* line 40, ../scss/_5_layout_theme-fr.scss */
 #title-image-index-small {
   height: 120px;
 }
 
-/* line 21, ../scss/_5_layout_theme-fr.scss */
+/* line 41, ../scss/_5_layout_theme-fr.scss */
 #title-image-index-large {
   height: 260px;
 }
 
-/* line 24, ../scss/_5_layout_theme-fr.scss */
+/* line 44, ../scss/_5_layout_theme-fr.scss */
 #masthead {
   height: 190px;
 }
 
-/* line 25, ../scss/_5_layout_theme-fr.scss */
+/* line 45, ../scss/_5_layout_theme-fr.scss */
 #logo img {
   margin-top: 30px;
 }
 
-/* line 26, ../scss/_5_layout_theme-fr.scss */
+/* line 46, ../scss/_5_layout_theme-fr.scss */
 #masthead-no-image-header {
   height: 100px;
   background: #490a3d;
@@ -6535,34 +6571,34 @@ Additional typographical elements
 
 /* Masthead auf medium-up Geräten */
 @media only screen and (min-width: 40.063em) {
-  /* line 30, ../scss/_5_layout_theme-fr.scss */
+  /* line 50, ../scss/_5_layout_theme-fr.scss */
   #logo img {
     margin-top: 80px;
   }
 
-  /* line 31, ../scss/_5_layout_theme-fr.scss */
+  /* line 51, ../scss/_5_layout_theme-fr.scss */
   #masthead {
     height: 320px;
   }
 
-  /* line 32, ../scss/_5_layout_theme-fr.scss */
+  /* line 52, ../scss/_5_layout_theme-fr.scss */
   #masthead-no-image-header {
     height: 130px;
     background: #490a3d;
   }
 
-  /* line 33, ../scss/_5_layout_theme-fr.scss */
+  /* line 53, ../scss/_5_layout_theme-fr.scss */
   #masthead-no-image-header #logo img {
     margin-top: 30px;
   }
 }
 /* - - - FOOTER - - - - - - - - - - - - - - - - - - - - - - */
-/* line 40, ../scss/_5_layout_theme-fr.scss */
+/* line 60, ../scss/_5_layout_theme-fr.scss */
 footer {
-  margin-top: 160px;
+  padding-top: 160px;
 }
 
-/* line 41, ../scss/_5_layout_theme-fr.scss */
+/* line 61, ../scss/_5_layout_theme-fr.scss */
 #footer {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -6570,25 +6606,25 @@ footer {
   color: white;
 }
 
-/* line 48, ../scss/_5_layout_theme-fr.scss */
+/* line 68, ../scss/_5_layout_theme-fr.scss */
 footer p,
 footer li {
   font-size: 0.8125rem;
   font-weight: 300;
 }
 
-/* line 53, ../scss/_5_layout_theme-fr.scss */
+/* line 73, ../scss/_5_layout_theme-fr.scss */
 #footer a {
   color: #f8ca00;
 }
 
-/* line 54, ../scss/_5_layout_theme-fr.scss */
+/* line 74, ../scss/_5_layout_theme-fr.scss */
 #footer a.entypo:hover {
   background: #490a3d;
   border-radius: 3px;
 }
 
-/* line 57, ../scss/_5_layout_theme-fr.scss */
+/* line 77, ../scss/_5_layout_theme-fr.scss */
 #footer h4,
 #footer h5 {
   letter-spacing: 1px;
@@ -6596,7 +6632,7 @@ footer li {
   text-transform: uppercase;
 }
 
-/* line 62, ../scss/_5_layout_theme-fr.scss */
+/* line 82, ../scss/_5_layout_theme-fr.scss */
 #footer p.entypo {
   font-size: 80px;
   line-height: 54px;
@@ -6605,56 +6641,57 @@ footer li {
   margin: 0;
 }
 
-/* line 70, ../scss/_5_layout_theme-fr.scss */
+/* line 90, ../scss/_5_layout_theme-fr.scss */
 #subfooter {
-  background: #323232;
-  color: white;
+  background: #313131;
+  color: #7e7e7e;
   padding-top: 30px;
   padding-bottom: 10px;
 }
 
-/* line 76, ../scss/_5_layout_theme-fr.scss */
+/* line 96, ../scss/_5_layout_theme-fr.scss */
 #subfooter-left ul.inline-list {
   float: left;
 }
 
-/* line 80, ../scss/_5_layout_theme-fr.scss */
+/* line 100, ../scss/_5_layout_theme-fr.scss */
 #subfooter .entypo-social,
 #subfooter .entypo {
   font-size: 48px;
   line-height: 36px;
-  color: #323232;
+  color: #7e7e7e;
 }
 
-/* line 86, ../scss/_5_layout_theme-fr.scss */
+/* line 106, ../scss/_5_layout_theme-fr.scss */
 #subfooter li a {
   color: #7e7e7e;
   text-transform: uppercase;
 }
 
-/* line 91, ../scss/_5_layout_theme-fr.scss */
+/* line 111, ../scss/_5_layout_theme-fr.scss */
 #subfooter li a:hover {
-  color: #e97f02;
+  color: #fff;
 }
 
-/* line 95, ../scss/_5_layout_theme-fr.scss */
+/* line 115, ../scss/_5_layout_theme-fr.scss */
 #subfooter .social-icons li a {
   display: block;
   height: 36px;
   width: 36px;
   border-radius: 50%;
+  color: #313131;
   background: #7e7e7e;
   text-align: center;
   vertical-align: center;
 }
 
-/* line 105, ../scss/_5_layout_theme-fr.scss */
+/* line 126, ../scss/_5_layout_theme-fr.scss */
 #subfooter .social-icons li a:hover {
-  background: #323232;
-  color: white;
+  background: #313131;
+  color: #fff;
 }
 
-/* line 110, ../scss/_5_layout_theme-fr.scss */
+/* line 131, ../scss/_5_layout_theme-fr.scss */
 .ad-space {
   border: 1px solid #fafafa;
   text-align: center;
@@ -6662,136 +6699,165 @@ footer li {
   margin-bottom: 1.25rem;
 }
 
-/* line 117, ../scss/_5_layout_theme-fr.scss */
+/* line 138, ../scss/_5_layout_theme-fr.scss */
+.top-15 {
+  margin-top: 15;
+}
+
+/* line 139, ../scss/_5_layout_theme-fr.scss */
 .top-30 {
   margin-top: 30px;
 }
 
-/* line 118, ../scss/_5_layout_theme-fr.scss */
+/* line 140, ../scss/_5_layout_theme-fr.scss */
 .top-60 {
   margin-top: 60px;
 }
 
-/* line 119, ../scss/_5_layout_theme-fr.scss */
+/* line 141, ../scss/_5_layout_theme-fr.scss */
+.bottom-15 {
+  margin-bottom: 15;
+}
+
+/* line 142, ../scss/_5_layout_theme-fr.scss */
 .bottom-30 {
   margin-bottom: 30px;
 }
 
-/* line 120, ../scss/_5_layout_theme-fr.scss */
+/* line 143, ../scss/_5_layout_theme-fr.scss */
 .bottom-60 {
   margin-bottom: 60px;
 }
 
 /* line 1, ../scss/_6_additional_theme-fr.scss */
-.ad-space {
-  border: 1px solid #fafafa;
+.ad-panel {
+  border: 1px solid #d7d7d7;
   text-align: center;
-  padding: 15px 0;
-  margin-bottom: 1.25rem;
+  padding: 15px;
 }
 
-/* line 8, ../scss/_6_additional_theme-fr.scss */
+/* line 6, ../scss/_6_additional_theme-fr.scss */
+.ad-panel p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 11, ../scss/_6_additional_theme-fr.scss */
 .alert-box {
   font-family: "Volkhov", Georgia;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.9);
 }
 
-/* line 9, ../scss/_6_additional_theme-fr.scss */
+/* line 12, ../scss/_6_additional_theme-fr.scss */
 .alert-box.terminal {
-  background: #323232;
+  background: #0b0b0b;
   color: #fff;
-  border-color: #2b2b2b;
+  border-color: #090909;
 }
 
-/* line 11, ../scss/_6_additional_theme-fr.scss */
+/* line 14, ../scss/_6_additional_theme-fr.scss */
 .alert-box p {
   margin-bottom: 0;
 }
 
-/* line 12, ../scss/_6_additional_theme-fr.scss */
+/* line 15, ../scss/_6_additional_theme-fr.scss */
 .alert-box a {
   text-shadow: 1px 1px 0px black;
   color: #fff;
   border-bottom: 1px dotted #fff;
 }
 
-/* line 17, ../scss/_6_additional_theme-fr.scss */
+/* line 20, ../scss/_6_additional_theme-fr.scss */
 .alert-box a:hover {
   border-bottom: 1px solid #fff;
 }
 
-/* line 21, ../scss/_6_additional_theme-fr.scss */
+/* line 24, ../scss/_6_additional_theme-fr.scss */
 button, .button {
   letter-spacing: 1px;
 }
 
-/* line 22, ../scss/_6_additional_theme-fr.scss */
+/* line 25, ../scss/_6_additional_theme-fr.scss */
 button.grey, .button.grey {
-  background: #7e7e7e;
+  background: #575757;
 }
 
-/* line 26, ../scss/_6_additional_theme-fr.scss */
+/* line 29, ../scss/_6_additional_theme-fr.scss */
 button.grey:hover,
 button.grey:focus,
 .button.grey:hover,
 .button.grey:focus {
-  background-color: #323232;
+  background-color: #0b0b0b;
 }
 
-/* line 29, ../scss/_6_additional_theme-fr.scss */
+/* line 32, ../scss/_6_additional_theme-fr.scss */
 .shadow-no {
   text-shadow: rgba(0, 0, 0, 0) 0 0 0;
 }
 
-/* line 30, ../scss/_6_additional_theme-fr.scss */
+/* line 33, ../scss/_6_additional_theme-fr.scss */
 .shadow-black {
   text-shadow: rgba(0, 0, 0, 0.49804) 0px 1px 2px;
 }
 
-/* line 31, ../scss/_6_additional_theme-fr.scss */
+/* line 34, ../scss/_6_additional_theme-fr.scss */
 .shadow-white {
   text-shadow: rgba(255, 255, 255, 0.49804) 0px 1px 2px;
 }
 
-/* line 34, ../scss/_6_additional_theme-fr.scss */
+/* line 37, ../scss/_6_additional_theme-fr.scss */
 .side-nav li.title {
   text-transform: uppercase;
 }
 
-/* line 35, ../scss/_6_additional_theme-fr.scss */
+/* line 38, ../scss/_6_additional_theme-fr.scss */
 .side-nav li {
-  border-top: 1px solid #e4e4e4;
+  border-top: 1px solid #cbcbcb;
 }
 
-/* line 36, ../scss/_6_additional_theme-fr.scss */
+/* line 39, ../scss/_6_additional_theme-fr.scss */
 .side-nav li a:not(.button) {
   padding: 0.4375rem 0rem;
 }
 
-/* line 37, ../scss/_6_additional_theme-fr.scss */
+/* line 40, ../scss/_6_additional_theme-fr.scss */
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
   background: #eee;
 }
 
+/* line 42, ../scss/_6_additional_theme-fr.scss */
+.homepage p {
+  margin: 0;
+  padding: 0;
+  color: #575757;
+}
+
 /* line 43, ../scss/_6_additional_theme-fr.scss */
+.caption a {
+  border-bottom: 1px dotted #bebebe;
+  color: #575757;
+  font-size: 0.8125rem;
+}
+
+/* line 46, ../scss/_6_additional_theme-fr.scss */
 .meta-info p {
   font-size: 0.8125rem;
   color: #efefef;
 }
 
-/* line 47, ../scss/_6_additional_theme-fr.scss */
+/* line 50, ../scss/_6_additional_theme-fr.scss */
 .meta-info a {
   text-decoration: underline;
   color: #efefef;
 }
 
-/* line 51, ../scss/_6_additional_theme-fr.scss */
+/* line 54, ../scss/_6_additional_theme-fr.scss */
 .meta-info a:hover {
   text-decoration: none;
   color: #490a3d;
 }
 
-/* line 57, ../scss/_6_additional_theme-fr.scss */
+/* line 60, ../scss/_6_additional_theme-fr.scss */
 #logo-monochrome {
   background: url(../img/phlow-logo-monochrome-100x36.png) no-repeat;
   height: 36px;

@@ -8,7 +8,7 @@ image:
     header:  homepage_typography.jpg
     thumb: unsplash_6_thumb.jpg
     homepage: homepage_typography.jpg
-    credits: Image by Antonio
+    credit: Image by Antonio
     url: "http://www.aisleone.net/"
 categories:
     - design

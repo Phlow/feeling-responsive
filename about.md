@@ -10,7 +10,21 @@ permalink: "/about/"
 
 *Feeling Responsive* is my first theme which I let into the world. It's built on work and knowledge of others. While I am still programming it, you read about whats behind this theme in the – *hopefully* – near future.
 
-I got inspired by...
+
+## Features
+
+* Responsive Gallery, Videos, Grid, Typography,...
+* 100% GitHub Pages friendly
+* Easy editable navigation
+* Lots of possibilities to customize it to your needs
+* Various post formats to let your content shine
+* Uses Jekyll 2.0
+* Multiple possibilities to use images in different ways
+* Fine typography
+
+
+
+## I got inspired by...
 
 [Michael Rose][1] and his fabulous [themes for jekyll][2].  
 Authors of [A List Apart][4] and [Smashing Magazine][5] since 2002.  

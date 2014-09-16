@@ -11,6 +11,7 @@ permalink: "/roadmap/"
 ## ToDo
 
 * Produce an introduction video to showcase *Feeling Responsive*
+* Video-Post-Format to feature videos in a huge way
 * Produce some small tutorials to show features and how to customize *Feeling Responsive*
 * Title and Credit for images
 * Optimize HTML and use Schema.org-Attributes

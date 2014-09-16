@@ -73,7 +73,8 @@ Quotes mix it up a little bit, if you write long articles. So use quotes:
 > Age is an issue of mind over matter. If you don't mind, it doesn't matter.
 <cite>Mark Twain</cite>
 
-
+<small markdown="1">[Up to table of contents](#toc)</small>
+{: .text-right }
 
 
 

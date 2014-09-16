@@ -152,24 +152,25 @@ It's nice getting things done. Just strike through <s>finished tasks</s>.
 
 ### &lt;q&gt;
 
-<q>Text Example</q>
+If you use &lt;q&gt; your text gets <q>automagically quotes around the text passage</q>.
 
 
 
 ### &lt;dfn&gt;
 
-<dfn>Text Example</dfn>
+The &lt;dfn&gt; tag is a phrase tag. It defines a <dfn>definition term</dfn>.
 
 
 
 ### &lt;abbr&gt;
 
-<abbr>Text Example</abbr>
+The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
 
 
 
 ### &lt;time&gt;
 
+The concert took place on <time datetime="2001-05-15 19:00">May 15</time>.
 
 
 ### &lt;code&gt;
@@ -180,13 +181,13 @@ Some `code: lucida console` displayed.
 
 ### &lt;var&gt;
 
-<var>Text example.</var>
+The &lt;var&gt; tag is a phrase tag. It defines a <var>variable</var>.
 
 
 
 ### &lt;samp&gt;
 
-<samp>Text example.</samp>
+Text surrounded by &lt;samp&gt; <samp>looks like this in monospace</samp>.
 
 
 
@@ -204,19 +205,19 @@ This text <sub>lays low</sub> and chills a bit.
 
 ### &lt;i&gt;
 
-<i>Text example.</i>
+This looks <i>italic</i>.
 
 
 
 ### &lt;b&gt;
 
-<b>Text example.</b>
+This looks <b>bold</b>, too.
 
 
 
 ### &lt;u&gt;
 
-<u>Text example.</u>
+<u>Underlining</u> content for emphasize is not the best choice.
 
 
 
@@ -234,7 +235,7 @@ Need a break? I give you three!<br><br><br>
 
 <table>
   <thead>
-  <caption>Cute Animals Per 1,000 People</caption>
+  <caption>Caption For Table</caption>
     <tr>
       <th width="200">Table Header</th>
       <th>Table Header</th>
@@ -265,18 +266,18 @@ Need a break? I give you three!<br><br><br>
 </table>
 
 
+A table can consist of these elements
 
-
-&lt;table&gt;  
-&lt;caption&gt;  
-&lt;colgroup&gt;  
-&lt;col&gt;  
-&lt;tbody&gt;  
-&lt;thead&gt;  Tabellenspalten enthalten.
-&lt;tfoot&gt;  Tabellenspalten enthalten.
-&lt;tr&gt;      Steht für eine Zeile mit Tabellenzellen.
-&lt;td&gt;      Kennzeichnet eine einzelne Tabellenzelle.
-&lt;th&gt;  
+* `&lt;table&gt;
+* `&lt;caption&gt;
+* `&lt;colgroup&gt;
+* `&lt;col&gt;
+* `&lt;tbody&gt;
+* `&lt;thead&gt;
+* `&lt;tfoot&gt;
+* `&lt;tr&gt;
+* `&lt;td&gt;
+* `&lt;th&gt;
 
 
 

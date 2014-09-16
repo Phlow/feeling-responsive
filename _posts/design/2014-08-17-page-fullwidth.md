@@ -5,11 +5,9 @@ subheadline:  "Multi-Device Layouts"
 description: "The full-width page format gives you all the space you need to show your content using the grid."
 date:  2014-07-05 07:00:00
 categories:
-    - layout
     - design
 image:
    thumb: "unsplash_7_thumb.jpg"
-permalink: "/design/page-fullwidth/"
 ---
 *Feeling Responsive* is built on Foundation. And of course, we make use of the wonderful grid system and so can you. Find out more about [constructing  beautiful layouts][1] in the foundation documentation.
 

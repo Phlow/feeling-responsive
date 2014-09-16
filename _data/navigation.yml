@@ -2,6 +2,10 @@
   url: "/index.html"
   side: left
 
+- title: Getting Started
+  url: "/getting-started/"
+  side: left
+
 - title: "Style your content"
   url: "/design/style-guide/"
   side: left
@@ -25,12 +29,14 @@
   - title: "Responsive Gallery"
     url: "/design/gallery/"
   - title: "Portfolio"
-    url: "/portfolio/"
+    url: "/design/portfolio/"
 
 - title: Documentation
   url: "/documentation/"
   side: left
   dropdown:
+  - title: Documentation
+    url: "/documentation/"
   - title: "Changelog"
     url: "/changelog/"
   - title: "Roadmap"

@@ -5,7 +5,8 @@ subheadline: "Portfolio"
 description: "You don't need a special portfolio template with this theme. Just check out the great possibilities of the foundation grid and experiment with it."
 image:
     header: "no"
-permalink: "/portfolio/"
+categories:
+    - design
 ---
 
 <div class="row">

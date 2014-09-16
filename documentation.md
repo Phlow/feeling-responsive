@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 title: "Theme Documentation"
-subtitle: "How to use Feeling Responsive"
+subheadline: "How to use Feeling Responsive"
 description: "The documentation is a work in progress..."
 image:
     header: "no"
@@ -57,14 +57,14 @@ permalink: "/documentation/"
 
 ## Style your content with   {#styling}
 
-Feeling Responsive offers lots of possibilities to style your articles. You can style your content in different ways. There are elements like subtitles, feature images, header images, meta data like categories and tags and many more.
+Feeling Responsive offers lots of possibilities to style your articles. You can style your content in different ways. There are elements like subheadlines, feature images, header images, meta data like categories and tags and many more.
 
 
-### Subtitles
+### subheadlines
 
 If you need a subheadline for an article, just define a subheadline in front matter like this:
 
-`subtitle:  "Subheadline"`
+`subheadline:  "Subheadline"`
 
 ### Quotes
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-subtitle: "Why another Jekyll Theme?"
+subheadline: "Why another Jekyll Theme?"
 description: "Since years I am programming and designing websites. I love to work with open source tools and learn via code from others. This time I want to try to give something back..."
 image_header: "no"
 permalink: "/about/"

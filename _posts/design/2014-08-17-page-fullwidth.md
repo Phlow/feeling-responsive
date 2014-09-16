@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 title:  "Full-Width Page"
-subtitle:  "Multi-Device Layouts"
+subheadline:  "Multi-Device Layouts"
 description: "The full-width page format gives you all the space you need to show your content using the grid."
 date:  2014-07-05 07:00:00
 categories:

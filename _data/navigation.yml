@@ -6,8 +6,6 @@
   url: "/design/style-guide/"
   side: left
   dropdown:
-  - title: "Style Your Posts"
-    url: "/design/elements/"
   - title: "The Grid"
     url: "/design/grid/"
   - title: "Blog-Page"

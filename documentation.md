@@ -55,40 +55,40 @@ permalink: "/documentation/"
 
 
 
-
 ## Style your content with   {#styling}
 
-You can style your content in different ways. There are elements like subtitles, feature images, header images, meta data like categories and tags and many more.
+Feeling Responsive offers lots of possibilities to style your articles. You can style your content in different ways. There are elements like subtitles, feature images, header images, meta data like categories and tags and many more.
 
 
 ### Subtitles
+
 If you need a subheadline for an article, just define a subheadline in front matter like this:
 
 `subtitle:  "Subheadline"`
 
+### Quotes
 
-### Different images: Header, Title, Thumbnails   {#images}
+Quotes mix it up a little bit, if you write long articles. So use quotes:
 
-There are four types of images you can define via frontmatter: thumbnails, header images, title images and images in your article.
+> Age is an issue of mind over matter. If you don't mind, it doesn't matter.
+<cite>Mark Twain</cite>
+
+
+
+
+
+## Images: Header, Title, Thumbnails   {#images}
+
+There are four types of images you can define via frontmatter: thumbnails, header images, title images and images in your article. 
 
 
 ### Header Images
 
-Header images are displayed right under the top navigation. We use Backstretch to expand them from left to right. The width should be 1600 pixel or higher and in a ratio like 16:9 or 21:9 or 2:1.
+Header images are displayed right under the top navigation. We use Backstretch to expand them from left to right. The width should be 1600 pixel or higher and in a ratio like 16:9 or 21:9 or 2:1. <mark>If you don't want any header image just write `image_header: "no"` into front matter.</mark>
 
 ~~~
 image:
    header: thumbnail_image.jpg
-~~~
-
-
-### Thumbnails
-
-Thumbnails are used on archive pages like the [blog index][2]. Define them in front matter like this:
-
-~~~
-image:
-   thumb: thumbnail_image.jpg
 ~~~
 
 
@@ -100,6 +100,16 @@ image:
 ~~~
 
 You can choose to show a special full-width header image or not.
+
+
+### Thumbnails
+
+Thumbnails are used on archive pages like the [blog index][2]. Define them in front matter like this:
+
+~~~
+image:
+   thumb: thumbnail_image.jpg
+~~~
 
 
 ### Define all three images

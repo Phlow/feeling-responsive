@@ -39,7 +39,6 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-
 #### Forth &lt;h4&gt;-Heading
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -54,12 +53,15 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
+
 ## Typographical Elements
 
 Here you'll find the [complete list of HTML5-Tags][1] and this is how they look like.
 
+
 ### &lt;hr&gt; Horizontal Lines
 <hr>
+
 
 ### &lt;pre&gt; Displaying Code
 ~~~
@@ -70,6 +72,7 @@ Here you'll find the [complete list of HTML5-Tags][1] and this is how they look 
     <body></body>
 </html>
 ~~~
+
 
 ### &lt;blockquote&gt; Quotation
 <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</blockquote>
@@ -123,50 +126,104 @@ Pancetta flank sirloin pork
 ### &lt;em&gt;
 Let's *emphasize* how important responsive webdesign is.
 
+
+
 ### &lt;strong&gt;
 This looks like **bold** text.
 
+
+
 ### &lt;small&gt;
 <small>This is small text.</small>
+
+
 
 ### &lt;s&gt;
 
 It's nice getting things done. Just strike through <s>finished tasks</s>.
 
+
+
 ### &lt;cite&gt;
+
+<cite>Albert Einstein</cite>
+
+
 
 ### &lt;q&gt;
 
+<q>Text Example</q>
+
+
+
 ### &lt;dfn&gt;
+
+<dfn>Text Example</dfn>
+
+
 
 ### &lt;abbr&gt;
 
+<abbr>Text Example</abbr>
+
+
+
 ### &lt;time&gt;
+
+
 
 ### &lt;code&gt;
 
 Some `code: lucida console` displayed.
 
+
+
 ### &lt;var&gt;
 
+<var>Text example.</var>
+
+
+
 ### &lt;samp&gt;
+
+<samp>Text example.</samp>
+
+
 
 ### &lt;kbd&gt;
 
 Copycats enjoy pressing <kbd>CMD</kbd> + <kbd>c</kbd> and <kbd>CMD</kbd> + <kbd>v</kbd>.
 
+
+
 ### &lt;sub&gt;
 
 This text <sub>lays low</sub> and chills a bit.
 
+
+
 ### &lt;i&gt;
+
+<i>Text example.</i>
+
+
 
 ### &lt;b&gt;
 
+<b>Text example.</b>
+
+
+
 ### &lt;u&gt;
+
+<u>Text example.</u>
+
+
 
 ### &lt;mark&gt;
 Let's <mark>mark this hint</mark> to give you a clue.
+
+
 
 
 ### &lt;br&gt;
@@ -174,16 +231,52 @@ Let's <mark>mark this hint</mark> to give you a clue.
 Need a break? I give you three!<br><br><br>
 
 ## Tables
-&lt;table&gt;
-&lt;caption&gt;
-&lt;colgroup&gt;
-&lt;col&gt;
-&lt;tbody&gt;
-&lt;thead&gt;Tabellenspalten enthalten.
-&lt;tfoot&gt;Tabellenspalten enthalten.
-&lt;tr&gt;    Steht für eine Zeile mit Tabellenzellen.
-&lt;td&gt;    Kennzeichnet eine einzelne Tabellenzelle.
-&lt;th&gt;
+
+<table>
+  <thead>
+  <caption>Cute Animals Per 1,000 People</caption>
+    <tr>
+      <th width="200">Table Header</th>
+      <th>Table Header</th>
+      <th width="150">Table Header</th>
+      <th width="150">Table Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Content Goes Here</td>
+      <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+      <td>Content Goes Here</td>
+      <td>Content Goes Here</td>
+    </tr>
+    <tr>
+      <td>Content Goes Here</td>
+      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+      <td>Content Goes Here</td>
+      <td>Content Goes Here</td>
+    </tr>
+    <tr>
+      <td>Content Goes Here</td>
+      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+      <td>Content Goes Here</td>
+      <td>Content Goes Here</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+&lt;table&gt;  
+&lt;caption&gt;  
+&lt;colgroup&gt;  
+&lt;col&gt;  
+&lt;tbody&gt;  
+&lt;thead&gt;  Tabellenspalten enthalten.
+&lt;tfoot&gt;  Tabellenspalten enthalten.
+&lt;tr&gt;      Steht für eine Zeile mit Tabellenzellen.
+&lt;td&gt;      Kennzeichnet eine einzelne Tabellenzelle.
+&lt;th&gt;  
 
 
 

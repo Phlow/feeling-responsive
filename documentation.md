@@ -56,20 +56,31 @@ permalink: "/documentation/"
 
 
 
-## Possibilites to style your content   {#styling}
+## Style your content with   {#styling}
 
-You can style your content in different ways. There are elements like subtitles, feature images, header images, meta data like categories and tags and many more. This article shows the different possibilites.
+You can style your content in different ways. There are elements like subtitles, feature images, header images, meta data like categories and tags and many more.
 
-## Subtitles
+
+### Subtitles
 If you need a subheadline for an article, just define a subheadline in front matter like this:
 
 `subtitle:  "Subheadline"`
 
 
-
-## How to use images   {#images}
+### Different images: Header, Title, Thumbnails   {#images}
 
 There are four types of images you can define via frontmatter: thumbnails, header images, title images and images in your article.
+
+
+### Header Images
+
+Header images are displayed right under the top navigation. We use Backstretch to expand them from left to right. The width should be 1600 pixel or higher and in a ratio like 16:9 or 21:9 or 2:1.
+
+~~~
+image:
+   header: thumbnail_image.jpg
+~~~
+
 
 ### Thumbnails
 
@@ -80,12 +91,6 @@ image:
    thumb: thumbnail_image.jpg
 ~~~
 
-### Header Images
-
-~~~
-image:
-   header: thumbnail_image.jpg
-~~~
 
 ### Title Images
 
@@ -95,6 +100,7 @@ image:
 ~~~
 
 You can choose to show a special full-width header image or not.
+
 
 ### Define all three images
 

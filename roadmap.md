@@ -12,6 +12,7 @@ permalink: "/roadmap/"
 
 * Produce an introduction video to showcase *Feeling Responsive*
 * Produce some small tutorials to show features and how to customize *Feeling Responsive*
+* Title and Credit for images
 * Optimize HTML and use Schema.org-Attributes
 * <s>SEO › Add metadescription to header.html and front matter</s>
 * Add draft-templates for new pages/posts

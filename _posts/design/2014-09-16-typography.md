@@ -268,16 +268,16 @@ Need a break? I give you three!<br><br><br>
 
 A table can consist of these elements
 
-* `&lt;table&gt;`
-* `&lt;caption&gt;`
-* `&lt;colgroup&gt;`
-* `&lt;col&gt;`
-* `&lt;tbody&gt;`
-* `&lt;thead&gt;`
-* `&lt;tfoot&gt;`
-* `&lt;tr&gt;`
-* `&lt;td&gt;`
-* `&lt;th&gt;`
+* `&lt;table&gt;
+* `&lt;caption&gt;
+* `&lt;colgroup&gt;
+* `&lt;col&gt;
+* `&lt;tbody&gt;
+* `&lt;thead&gt;
+* `&lt;tfoot&gt;
+* `&lt;tr&gt;
+* `&lt;td&gt;
+* `&lt;th&gt;
 
 
 

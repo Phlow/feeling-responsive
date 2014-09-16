@@ -72,7 +72,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Here you'll find the [complete list of HTML5-Tags][1] and this is how they look like.
 
 
-### &lt;hr&gt; Horizontal Lines
+### &lt;hr&gt; Horizontal Line
 <hr>
 
 
@@ -88,7 +88,12 @@ Here you'll find the [complete list of HTML5-Tags][1] and this is how they look 
 
 
 ### &lt;blockquote&gt; Quotation
-<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</blockquote>
+<blockquote>Everything happens for a reason. (Britney Spears)</blockquote>
+
+### &lt;blockquote&gt; and &lt;cite&gt;  together
+
+> Age is an issue of mind over matter. If you don't mind, it doesn't matter.
+<cite>Mark Twain</cite>
 
 
 ### &lt;ol&gt; Ordered Lists

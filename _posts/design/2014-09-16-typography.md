@@ -5,8 +5,11 @@ subheadline: "Reading Experience"
 meta_description: "Feeling Responsive uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
 description: "<em>Feeling Responsive</em> uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
 image:
-    header: "no"
-    thumb: "unsplash_7_thumb.jpg"
+    header:  homepage_typography.jpg
+    thumb: unsplash_6_thumb.jpg
+    homepage: homepage_typography.jpg
+    credits: Image by Antonio
+    url: "http://www.aisleone.net/"
 categories:
     - design
 ---
@@ -23,7 +26,8 @@ categories:
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
-Noch mehr Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

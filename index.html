@@ -16,7 +16,7 @@ image:
 
     <div class="medium-4 columns">
     	<a href="{{ site.url }}/design/portfolio/"><img src="{{ site.url }}/assets/img/unsplash_1-303x182.jpg" alt=""></a>
-        <h2>Portfolio</h2>
+        <h2>Showcase Your Work</h2>
     	<p>
     		<em>Feeling Responsive</em> supports you with layouts to present your favorite and actual work. With the gallery- and portfolio-template you can show off your work as a designer, programmer, photographer or artist.
     	</p>
@@ -53,13 +53,19 @@ image:
 </div><!-- /.row -->
 
 
-<div class="row top-60">
+<div class="row top-60 bottom-30">
     <div class="small-12 columns">
-        <h2>New Blog Articles</h2>
+        {% for post in site.posts limit:1 %}
+            <p style="padding: 0; margin: 0;" class="text-right">
+                {% if post.image.homepage %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/assets/img/{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
+                {% if post.image.url && post.image.credit %}<a style="border: none;" href="{{ post.image.url }}">{{ post.image.credits }}</a>{% endif %}
+            </p>
+            {% elsif post.image.homepage == NULL %}
+            <h2>New Blog Articles</h2>
+            {% endif %}
+        {% endfor %}
     </div><!-- /.small-12.columns -->
 </div><!-- /.row -->
-
-
 
 
 
@@ -67,17 +73,13 @@ image:
 <div id="blog-index" class="row">
     <div class="medium-6 columns">
         {% for post in site.posts limit:1 %}
-            <p class="subheadline">{% if post.subheadline %}{{ post.subheadline }}{% endif %}<span class="subheader"><small> {% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</small></span></p>
+            <p class="subheadline">{% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>
             <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
 
             <p>
-            {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/assets/img/{{ post.image.thumb }}" class="alignleft" width="120" height="120" alt="{{ page.title escape_once }}"></a>{% endif %}
-
             {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.description %}{{ post.description | strip_html | escape }}{% endif %}
-
             <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>Read more ›</strong></a>
             </p>
-            
         {% endfor %}
     </div><!-- /.medium-5.columns -->
 

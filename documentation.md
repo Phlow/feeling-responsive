@@ -57,7 +57,7 @@ permalink: "/documentation/"
 
 ## Style your content with   {#styling}
 
-Feeling Responsive offers lots of possibilities to style your articles. You can style your content in different ways. There are elements like subheadlines, feature images, header images, meta data like categories and tags and many more.
+Feeling Responsive offers lots of possibilities to style your articles. You can style your content in different ways. There are elements like subheadlines, feature images, header images, homepage images, meta data like categories and tags and many more.
 
 
 ### subheadlines
@@ -121,7 +121,7 @@ You can choose to show a special full-width header image or not.
 
 ### Thumbnails
 
-Thumbnails are used on archive pages like the [blog index][2]. Define them in front matter like this:
+Thumbnails are used on archive pages like the [blog index][2]. They have a size of 150x150 pixels. Define them in front matter like this:
 
 ~~~
 image:
@@ -129,13 +129,24 @@ image:
 ~~~
 
 
-### Define all three images
+### Homepage Image
+
+If you want to feature an article on the homepage with a huge image, than use the homepage image with a width of 970 pixels. If no homepage image is defined *Feeling Responsive* writes over the blog entries *New Blog Articles*. Define the homepage image like this:
+
+~~~
+image:
+   homepage: "header_homepage_13.jpg"
+~~~
+
+
+### Define all images for an article
 
 ~~~
 image:
    header: header_image.jpg
    title: title_image.jpg
    thumb: thumbnail_image.jpg
+   homepage: header_homepage_13.jpg
 ~~~
 
 

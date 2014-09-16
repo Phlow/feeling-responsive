@@ -1,6 +1,40 @@
-		<ul class="side-nav">
-			{% for post in site.posts limit:include.entries offset:include.offset %}
-				<li><a href="{{ site.url }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
-			{% endfor %}
-				<li class="text-right"><a href="{{ site.url }}/blog/"><strong>More ›</strong></a></li>
-		</ul>
+{% comment %}
+
+Possible parameter for this loop:
+
+ › entries
+ › offset
+ › category 
+
+Example: {% include blog-entries.html entries='3' offset='1' category='design' %}
+
+
+This loop works like this:
+
+1. First we check if there was given a category for filtering › if include.categories == NULL 
+
+2. If no category is given for filtering do a general loop.
+
+3. If a category was given, assign category the given category to the variable category  › assign category = include.categories 
+
+{% endcomment %}
+<ul class="side-nav">
+
+	{% if include.categories == NULL %}
+
+		{% for post in site.posts limit:include.entries offset:include.offset %}
+			<li><a href="{{ site.url }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
+		{% endfor %}
+			<li class="text-right"><a href="{{ site.url }}/blog/archive/"><strong>More ›</strong></a></li>
+
+
+	{% elsif include.categories != empty %}
+	{% assign category = include.categories %}
+		
+		{% for post in site.categories.[category] limit:include.entries offset:include.offset %}
+			<li><a href="{{ site.url }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
+		{% endfor %}
+			<li class="text-right"><a href="{{ site.url }}/blog/archive/"><strong>More ›</strong></a></li>
+	{% endif %}
+
+</ul>

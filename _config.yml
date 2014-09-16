@@ -15,13 +15,18 @@ title: "Feeling Responsive"
 slogan: "A Responsive Theme for Jekyll"
 
 
-# The description is used on homepage and important for search engine optimization
-description: "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
+# The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
+description: "»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette."
+
+
+# This is a switch to easily change the {{ site.url }}-variable to develop the theme locally
+# - url: "http://localhost:4000"
+url: "http://phlow.github.io/feeling-responsive"
+baseurl: ""
 
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
-baseurl: ""
 
 
 # Paginates all X entries
@@ -30,11 +35,6 @@ paginate: 5
 
 # Pagination path › Important for blog page in /blog/ to work
 paginate_path: "blog/page:num"
-
-
-# This is a switch to easily change the {{ site.url }}-variable to develop the theme locally
-# - url: "http://localhost:4000"
-url: "http://phlow.github.io/feeling-responsive"
 
 
 # Theme works best with Kramdown (using the table of contents function)

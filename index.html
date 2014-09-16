@@ -12,17 +12,16 @@ image:
 </div><!-- /#header-home -->
 
 
-
 <div class="row top-30">
 
     <div class="medium-4 columns">
-    	<a href="{{ site.url }}/portfolio/"><img src="{{ site.url }}/assets/img/unsplash_1-303x182.jpg" alt=""></a>
+    	<a href="{{ site.url }}/design/portfolio/"><img src="{{ site.url }}/assets/img/unsplash_1-303x182.jpg" alt=""></a>
         <h2>Portfolio</h2>
     	<p>
     		<em>Feeling Responsive</em> supports you with layouts to present your favorite and actual work. With the gallery- and portfolio-template you can show off your work as a designer, programmer, photographer or artist.
     	</p>
 
-        <p><a class="button tiny radius" href="{{ site.url }}/portfolio/">More ›</a></p>
+        <p><a class="button tiny radius" href="{{ site.url }}/design/portfolio/">More ›</a></p>
 
     </div><!-- /.medium-4.columns -->
 
@@ -30,7 +29,11 @@ image:
     <div class="medium-4 columns">
     	<a href="{{ site.url }}/about/"><img src="{{ site.url }}/assets/img/unsplash_8-303x182.jpg" alt=""></a>
         
-        {% include _about.html %}
+        <h2>Why use this theme?</h2>
+
+        <p>
+            <em>Feeling Responsive</em> is heavily built on <a href="http://foundation.zurb.com/">Foundation</a>, the fabulous responsive webdesign framework by Zurb. It supports a 12-column grid, persuades you with beautiful <a href="{{ site.url }}/design/typography/">typography</a> and is heavily optimized for speed.
+        </p>
 
         <p><a class="button tiny radius" href="{{ site.url }}/about/">More ›</a></p>
     </div><!-- /.medium-4.columns -->
@@ -48,3 +51,40 @@ image:
     </div><!-- /.medium-4.columns -->
 
 </div><!-- /.row -->
+
+
+<div class="row top-60">
+    <div class="small-12 columns">
+        <h2>New Blog Articles</h2>
+    </div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+
+
+
+
+
+
+<div id="blog-index" class="row">
+    <div class="medium-6 columns">
+        {% for post in site.posts limit:1 %}
+            <p class="subheadline">{% if post.subheadline %}{{ post.subheadline }}{% endif %}<span class="subheader"><small> {% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</small></span></p>
+            <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+
+            <p>
+            {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/assets/img/{{ post.image.thumb }}" class="alignleft" width="120" height="120" alt="{{ page.title escape_once }}"></a>{% endif %}
+
+            {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.description %}{{ post.description | strip_html | escape }}{% endif %}
+
+            <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>Read more ›</strong></a>
+            </p>
+            
+        {% endfor %}
+    </div><!-- /.medium-5.columns -->
+
+
+    <div class="medium-6 columns">
+        <p><strong>More Articles</strong></p>
+        {% include blog-entries.html entries='3' offset='1' %}
+    </div><!-- /.medium-7.columns -->
+</div><!-- /.row -->
+

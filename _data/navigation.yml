@@ -24,31 +24,25 @@
     url: "/design/typography/"
   - title: "Responsive Gallery"
     url: "/design/gallery/"
-#  - title: "Fullwidth Layout"
-#    url: "/design/full-width/"
-
-# - title: "Portfolio"
-#   url: "/portfolio/"
-#   side: left
+  - title: "Portfolio"
+    url: "/portfolio/"
 
 - title: Documentation
   url: "/documentation/"
   side: left
+  dropdown:
+  - title: "Changelog"
+    url: "/changelog/"
+  - title: "Roadmap"
+    url: "/roadmap/"
 
 - title: Blog
   url: "/blog/"
   side: left
-
-- title: "Changelog"
-  url: "/changelog/"
-  side: left
-
-- title: "Roadmap"
-  url: "/roadmap/"
-  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
 
 - title: "Contact"
   url: "/contact/"
   side: right
-
-

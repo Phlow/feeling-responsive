@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Wonderful   Typography"
 subheadline: "Reading Experience"
 meta_description: "Feeling Responsive uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
@@ -8,6 +8,19 @@ image:
     header: "no"
 permalink: "/design/typography/"
 ---
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Table of Contents**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
+
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">
 Noch mehr Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -217,7 +230,7 @@ This looks <b>bold</b>, too.
 
 ### &lt;u&gt;
 
-<div><p><u>Underlining</u> content for emphasize is not the best choice.</p></div>
+<div><p><u>Underlining</u> content for emphasize is not the best choice. You can't read it so well.</p></div>
 
 
 
@@ -235,7 +248,7 @@ Need a break? I give you three!<br><br><br>
 
 <table>
   <thead>
-  <caption>Caption For Table</caption>
+  <caption>Table Caption</caption>
     <tr>
       <th width="200">Table Header</th>
       <th>Table Header</th>
@@ -279,7 +292,11 @@ A table can consist of these elements
 * `<td>`
 * `<th>`
 
+</div><!-- /.medium-8.columns -->
 
+
+
+</div><!-- /.row -->
 
 
 

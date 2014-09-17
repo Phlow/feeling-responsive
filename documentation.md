@@ -169,8 +169,9 @@ With the Kramdown parser for Markdown you can render a table of contents for you
 
 {% highlight html %}
 <div class="panel radius" markdown="1">
-### Table of Contents
-*  Auto generated table of contents
+**Table of Contents**
+{: #toc }
+*  TOC
 {:toc}
 </div>
 {% endhighlight %}

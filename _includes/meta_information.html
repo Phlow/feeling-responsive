@@ -1,7 +1,21 @@
+
 			<div class="page-meta">
 				<ul class="side-nav">
 					<li class="subheader">Published on {{ page.date | date: "%d.%m.%Y" }}</li>
 					<li class="subheader">{% if page.categories %}Archived in {{ page.categories | join: ' · ' | upcase }}{% endif %}</li>
+					<li class="subheader">Tagged: {% for tag in page.tags %}{{tag}} &middot; {% endfor %}</li>
 					<li class="divider"></li>
 				</ul>
+			</div>
+
+
+			<div id="post-nav" class="row">
+			
+			{% if page.previous.url %} 
+				<div class="small-5 columns top-30"><a class="button small radius prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div><!-- /.small-4.columns -->
+			{% endif %} 
+				<div class="small-2 columns top-30 text-center"><a class="radius button small" href="{{ site.url }}/blog/archive/" title="Blog Archive">Archive</a></div><!-- /.small-4.columns -->
+			{% if page.next.url %} 
+				<div class="small-5 columns top-30 text-right"><a class="button small radius next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></div><!-- /.small-4.columns -->
+			{% endif %} 
 			</div>

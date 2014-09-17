@@ -6208,7 +6208,7 @@ h3 {
 
 /* line 22, ../scss/_4_typography_theme-fr.scss */
 .blog-index h2 {
-  margin-top: 0;
+  margin-top: 0.625rem;
 }
 
 /* line 23, ../scss/_4_typography_theme-fr.scss */
@@ -6705,26 +6705,36 @@ footer li {
 }
 
 /* line 139, ../scss/_5_layout_theme-fr.scss */
+.top-20 {
+  margin-top: 20px;
+}
+
+/* line 140, ../scss/_5_layout_theme-fr.scss */
 .top-30 {
   margin-top: 30px;
 }
 
-/* line 140, ../scss/_5_layout_theme-fr.scss */
+/* line 141, ../scss/_5_layout_theme-fr.scss */
 .top-60 {
   margin-top: 60px;
 }
 
-/* line 141, ../scss/_5_layout_theme-fr.scss */
+/* line 142, ../scss/_5_layout_theme-fr.scss */
 .bottom-15 {
   margin-bottom: 15;
 }
 
-/* line 142, ../scss/_5_layout_theme-fr.scss */
+/* line 143, ../scss/_5_layout_theme-fr.scss */
 .bottom-30 {
   margin-bottom: 30px;
 }
 
-/* line 143, ../scss/_5_layout_theme-fr.scss */
+/* line 144, ../scss/_5_layout_theme-fr.scss */
+.bottom-20 {
+  margin-bottom: 20px;
+}
+
+/* line 145, ../scss/_5_layout_theme-fr.scss */
 .bottom-60 {
   margin-bottom: 60px;
 }

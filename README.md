@@ -1,17 +1,27 @@
-## Theme: Feeling Responsive
+## A Responsive Jekyll Theme: *Feeling Responsive*
 
-**Repository for Feeling Responsive Theme for Jekyll**
+Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.
 
-Currently in development, but you can have a look at it at <http://phlow.github.io/feeling-responsive/>
+To get to know *Feeling Responsive* check out all the features explained in the [documentation][1].
 
-Have a look at the [documentation][1] to get to know *Feeling Responsive*.
+And what license is *Feeling Responsive* released under? [This one][2].
 
 
+## Some Features
+
+* Responsive Gallery, Videos, Grid, Typography,...
+* 100% GitHub Pages friendly
+* Easy editable navigation and social media links
+* Lots of possibilities to customize it to your needs
+* Various post formats to let your content shine
+* Uses Jekyll 2.0
+* Multiple possibilities to use images in different ways
+* Fine typography
 
 
 
  [1]: http://phlow.github.io/feeling-responsive/documentation/
- [2]: #
+ [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE
  [3]: #
  [4]: #
  [5]: #

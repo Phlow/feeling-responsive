@@ -15,7 +15,7 @@ permalink: "/roadmap/"
 * Optimize HTML and use Schema.org-Attributes
 * Add draft-templates for new pages/posts
 * Show how to use [Entypo-Icons](http://entypo.com)
-* Step-by-Step-Guide to customize *Feeling Responsive*
+* [<s>Step-by-Step-Guide to customize *Feeling Responsive*</s>]({{ site.url }}/getting-started/)
 * [<s>Video-Post-Format to feature videos in a huge way</s>]({{ site.url }}/design/video/)
 * <s>Title and Credit for images</s>
 * <s>SEO › Add metadescription to header.html and front matter</s>

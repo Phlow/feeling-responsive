@@ -3,8 +3,6 @@ layout: page-fullwidth
 title: "Theme Documentation"
 subheadline: "How to use Feeling Responsive"
 description: "The documentation is a work in progress..."
-image:
-    header: "no"
 permalink: "/documentation/"
 ---
 <div class="row">
@@ -25,29 +23,40 @@ permalink: "/documentation/"
 
 *Feeling Responsive* supports you with different templates for your content. These are the actual page/post formats:
 
-[Post]({{ site.url }}/design/post/)
-:   The *post* format has no sidebar, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
-:   use in front matter via: `layout: post`
+### Post
+The [post format]({{ site.url }}/design/post/) has no sidebar, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
+
+use in front matter via: `layout: post`
 
 
-[Page]({{ site.url }}/design/page/)
-:   Shows the content in the same way as the *post* format without listing the metadata at the end of the page.
-:   use in front matter via: `layout: page`
+### Page
+The [page template]({{ site.url }}/design/page/) shows the content in the same way as the *post* format without listing the metadata at the end of the page.
+
+use in front matter via: `layout: page`
 
 
-[Post with left sidebar]({{ site.url }}/design/post-left-sidebar/)
-:   Displays a left sidebar besides the content. To customize the content of the sidebar, open `_includes/sidebar.html`.
-:   use in front matter via: `layout: post-left-sidebar`
+### Post with left sidebar
+This template displays a [post left sidebar]({{ site.url }}/design/post-left-sidebar/) besides the content. To customize the content of the sidebar, open `_includes/sidebar.html`.
+
+use in front matter via: `layout: post-left-sidebar`
 
 
-[Post with right sidebar]({{ site.url }}/design/post-right-sidebar/)
-:   Displays a right sidebar besides the content. To customize the content of the sidebar, open `_includes/sidebar.html`.
-:   use in front matter via: `layout: post-right-sidebar`
+### Post with right sidebar
+This template displays a [post with right sidebar]({{ site.url }}/design/post-right-sidebar/) besides the content. To customize the content of the sidebar, open `_includes/sidebar.html`.
+
+use in front matter via: `layout: post-right-sidebar`
 
 
-[Page Full Width]({{ site.url }}/design/page-full-width/)
-:   If you want full control of styling a page, than use the full-width template. To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
-:   use in front matter via: `layout: page-full-width`
+### Page Full Width
+If you want full control of styling a page, than use the [page full-width template]({{ site.url }}/design/page-full-width/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
+
+use in front matter via: `layout: page-full-width`
+
+
+### Video
+If you're a video producer or cineast, you'll like the [video template]({{ site.url }}/design/video/). It darkens the layout to black and lets the video stand out full-width.
+
+use in front matter via: `layout: video`
 
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
@@ -77,7 +86,7 @@ Quotes mix it up a little bit, if you write long articles. So use quotes:
 {: .text-right }
 
 
-### Responsive Videos
+## Responsive Videos
 
 With foundation responsive videos are easy. [More ›](http://foundation.zurb.com/docs/components/flex_video.html)
 
@@ -85,7 +94,7 @@ With foundation responsive videos are easy. [More ›](http://foundation.zurb.co
         <iframe width="1280" height="720" src="//www.youtube.com/embed/WoHxoz_0ykI" frameborder="0" allowfullscreen></iframe>
 </div>
 
-#### Code to use for flexible videos
+### Code to use for flexible videos
 
 {% highlight html %}
 <div class="flex-video">
@@ -94,18 +103,20 @@ With foundation responsive videos are easy. [More ›](http://foundation.zurb.co
 {% endhighlight %}
 
 
-## Images: Header, Title, Thumbnails   {#images}
+<img class="t60" src="{{ site.url }}/assets/img/header_homepage_13.jpg">
+
+## Images: Header, Title, Thumbnails, Homepage   {#images}
 
 There are four types of images you can define via frontmatter: thumbnails, header images, title images and images in your article. 
 
 
 ### Header Images
 
-Header images are displayed right under the top navigation. We use Backstretch to expand them from left to right. The width should be 1600 pixel or higher and in a ratio like 16:9 or 21:9 or 2:1. <mark>If you don't want any header image just write `image_header: "no"` into front matter.</mark>
+Header images are displayed right under the top navigation. We use Backstretch to expand them from left to right. The width should be 1600 pixel or higher and in a ratio like 16:9 or 21:9 or 2:1.
 
 ~~~
 image:
-   header: thumbnail_image.jpg
+    header: thumbnail_image.jpg
 ~~~
 
 
@@ -113,7 +124,7 @@ image:
 
 ~~~
 image:
-   title: thumbnail_image.jpg
+    title: thumbnail_image.jpg
 ~~~
 
 You can choose to show a special full-width header image or not.
@@ -125,7 +136,7 @@ Thumbnails are used on archive pages like the [blog index][2]. They have a size 
 
 ~~~
 image:
-   thumb: thumbnail_image.jpg
+    thumb: thumbnail_image.jpg
 ~~~
 
 
@@ -135,18 +146,32 @@ If you want to feature an article on the homepage with a huge image, than use th
 
 ~~~
 image:
-   homepage: "header_homepage_13.jpg"
+    homepage: "header_homepage_13.jpg"
 ~~~
 
+
+
+### Credits with URL
+
+Sometimes you want to give credit to the creator of your images, maybe with a link. Especially when you use Creative Commons-images like I do for this website. Just add the following front matter and *Feeling Responsive* does the rest:
+
+~~~
+image:
+    header: header_image.jpg
+    credit: Image by Phlow
+    url: "http://phlow.de/"
+~~~
 
 ### Define all images for an article
 
 ~~~
 image:
-   header: header_image.jpg
-   title: title_image.jpg
-   thumb: thumbnail_image.jpg
-   homepage: header_homepage_13.jpg
+    header: header_image.jpg
+    title: title_image.jpg
+    thumb: thumbnail_image.jpg
+    homepage: header_homepage_13.jpg
+    credit: Image by Phlow
+    url: "http://phlow.de/"
 ~~~
 
 
@@ -155,6 +180,7 @@ image:
 
 
 ## Create a Table of Content
+{: .t60}
 
 With the Kramdown parser for Markdown you can render a table of contents for your documents. Just insert the following HTML in your post before the actual content. More information on [»Automatic ›Table of Contents‹ Generation«][1].
 
@@ -178,10 +204,37 @@ With the Kramdown parser for Markdown you can render a table of contents for you
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
 
+
+## Includes
+
+Includes can be very helpful to spice up your content. You can use includes in your Markdown-files with ease: Just call them with some Liquid code.
+
+### list-posts.html
+
+The `list-posts.html`-include is a loop to list posts. It's a helper to add some additional content fast and easy. You can use it in individual posts for example. Which parameters you use, depends on you.
+
+Possible parameter for the loop:
+
+- entries › define the number of entries to show
+- offset › define the offset (number of entries to skip before displaying the first one)
+- category › define **only one** category to display according entries
+
+The loop looks when you use all parameters. Single parameters are possible of course.
+
+~~~
+{% raw %}
+{% include list-posts.html entries='3' offset='1' category='design' %}
+{% endraw %}
+~~~
+
+
+<small markdown="1">[Up to table of contents](#toc)</small>
+{: .text-right }
+
+
+
+
 </div><!-- /.medium-8.columns -->
-
-
-
 </div><!-- /.row -->
 
  [1]: http://kramdown.gettalong.org/converter/html.html#toc

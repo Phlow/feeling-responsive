@@ -13,7 +13,7 @@ image:
 </div><!-- /#header-home -->
 
 
-<div class="row top-60">
+<div class="row t60">
 
     <div class="medium-4 columns">
     	<a href="{{ site.url }}/blog/"><img src="{{ site.url }}/assets/img/unsplash_4-303x182.jpg" alt=""></a>
@@ -54,7 +54,7 @@ image:
 </div><!-- /.row -->
 
 
-<div class="row top-60 bottom-20 homepage">
+<div class="row t50 b20 homepage">
     <div class="small-12 columns">
         {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
@@ -93,7 +93,7 @@ image:
 
     <div class="medium-6 columns">
         <p><strong>More Articles</strong></p>
-        {% include blog-entries.html entries='3' offset='1' %}
+        {% include list-posts.html entries='3' offset='1' %}
     </div><!-- /.medium-7.columns -->
 </div><!-- /.row -->
 

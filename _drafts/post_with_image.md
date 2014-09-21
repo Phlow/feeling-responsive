@@ -8,8 +8,13 @@ categories:
     - 
 tags:
     - 
+image:
+    header:  ""
+    thumb:  ""
+    homepage: ""
+    credit: ""
+    url: ""
 ---
-
 
 
 

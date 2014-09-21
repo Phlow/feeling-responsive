@@ -6,7 +6,7 @@ meta_description: "Feeling Responsive uses Volkhov for headlines, Lato for every
 description: "<em>Feeling Responsive</em> uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
 image:
     header:  homepage_typography.jpg
-    thumb: unsplash_6_thumb.jpg
+    thumb:  homepage_typography_thumb.jpg
     homepage: homepage_typography.jpg
     credit: Image by Antonio
     url: "http://www.aisleone.net/"

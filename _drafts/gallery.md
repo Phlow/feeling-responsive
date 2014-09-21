@@ -10,7 +10,6 @@ tags:
     - photos
     - gallery
 image:
-   header: "no"
    thumb: "gallery_thumb.jpg"
 ---
 

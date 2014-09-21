@@ -7,8 +7,11 @@ image:
     header: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2014-09-21 // Version 0.9
+:   Optimized code, tweaked CSS, added images, deleted `header: "no"` from front matter (because it not necessary), added drafts to the new `_drafts`-folder to begin posts and pages faster and enhanced the documentation. Huh, 1.0 I am coming.
+
 2014-09-16 // Version 0.8
-:   Added [video post format][5] for that cinematic flavor. Added URL- and Credit-feature to images and revamped the homepage a little bit to give blog-content more exposure. Optimized some includes, especially the `_include/blog-entries.html`-Include which support some nifty parameters.
+:   Added [video post format][5] for that cinematic flavor. Added URL- and Credit-feature to images and revamped the homepage a little bit to give blog-content more exposure. Optimized some includes, especially the `_include/list-posts.html`-Include which support some nifty parameters.
 
 2014-09-15 // Version 0.7
 :   Added an [example of a gallery][4] to show how to use Clearing Lightbox. Meta information is used in posts via `/include/meta_information.html`. To optimize pages/posts for search engines you have now have an extra front matter-variable called `meta_description`. Also the theme supports facebook open graph information.
@@ -29,10 +32,10 @@ permalink: "/changelog/"
 :   Updated Navigation & Social Media-Configuration via custom data in `_data`
 
 2014-07-07 // Version 0.1
-:   Technical Theme Development Start
+:   Start of theme coding and development.
 
 2014-06-23
-:   First Ideas and scribbles at the beach in Bergen/Netherlands
+:   First Ideas and scribbles at the beach in [Bergen/Netherlands][6].
 
 
 
@@ -43,7 +46,7 @@ permalink: "/changelog/"
  [3]: http://foundation.zurb.com/docs/components/accordion.html
  [4]: {{ site.url }}/design/gallery/
  [5]: {{ site.url }}/design/video/
- [6]: #
+ [6]: https://www.google.de/maps/place/Strandpaviljoen+Joep+B.V./@51.9960733,5.830135,6z/data=!4m2!3m1!1s0x47cf5918df69093b:0x7c11ab31102c1c8a
  [7]: #
  [8]: #
  [9]: #

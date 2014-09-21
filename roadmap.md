@@ -11,6 +11,8 @@ permalink: "/roadmap/"
 ## ToDo
 
 * Produce an introduction video to showcase *Feeling Responsive*
+* Clean up color scheme
+* [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
 * Produce some small tutorials to show features and how to customize *Feeling Responsive*
 * Optimize HTML and use Schema.org-Attributes
 * Add draft-templates for new pages/posts

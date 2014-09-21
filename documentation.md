@@ -232,6 +232,23 @@ The loop looks when you use all parameters. Single parameters are possible of co
 {: .text-right }
 
 
+## Javascript/Foundation modules
+
+*Feeling Responsive* uses the foundation framework and some of its javascript components. I reduced the modules, to decrease page load and make the theme faster.
+
+I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. These modules are currently used by the theme and included in `javascript.min.js`. There is also a non-minified version, if you want to take a closer look: `javasript.js`.
+
+~~~
+/foundation/bower_components/foundation/js/vendor/jquery.js'
+/foundation/bower_components/foundation/js/vendor/fastclick.js'
+/foundation/bower_components/foundation/js/foundation.accordion.js'
+/foundation/bower_components/foundation/js/foundation.clearing.js'
+/foundation/bower_components/foundation/js/foundation.dropdown.js'
+/foundation/bower_components/foundation/js/foundation.equalizer.js'
+/foundation/bower_components/foundation/js/foundation.magellan.js'
+/foundation/bower_components/foundation/js/foundation.topbar.js'
+/foundation/js/jquery.backstretch.js'
+~~~
 
 
 </div><!-- /.medium-8.columns -->
@@ -239,7 +256,7 @@ The loop looks when you use all parameters. Single parameters are possible of co
 
  [1]: http://kramdown.gettalong.org/converter/html.html#toc
  [2]: {{ site.url }}/blog/
- [3]: #
+ [3]: http://srobbin.com/jquery-plugins/backstretch/
  [4]: #
  [5]: #
  [6]: #

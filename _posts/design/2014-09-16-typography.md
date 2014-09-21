@@ -3,7 +3,7 @@ layout: page-fullwidth
 title: "Wonderful   Typography"
 subheadline: "Reading Experience"
 meta_description: "Feeling Responsive uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
-description: "<em>Feeling Responsive</em> uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
+description: "<em>Feeling Responsive</em> uses <a href='https://www.google.com/fonts/specimen/Volkhov'>Volkhov</a> for headlines, <a href='https://www.google.com/fonts/specimen/Lato'>Lato</a> for everything else and if you are in need to show some code, it will be in Lucida Console."
 image:
     header:  homepage_typography.jpg
     thumb:  homepage_typography_thumb.jpg

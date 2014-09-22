@@ -27,7 +27,7 @@ categories:
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-## About Lato – A Sans Serif Typeface Family
+## Lato – A Sans Serif Typeface Family
 
 [Lato][4] is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic (“Lato” means “Summer” in Polish). In December 2010 the Lato family was published under the Open Font License by his foundry tyPoland, with support from Google. 
 

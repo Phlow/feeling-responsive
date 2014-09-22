@@ -256,61 +256,6 @@ Let's <mark>mark this hint</mark> to give you a clue.
 
 Need a break? I give you three!<br><br><br>
 
-## Tables
-
-<table>
-  <caption>Table Caption</caption>
-  <thead>
-    <tr>
-      <th width="200">Table Header</th>
-      <th width="150">Table Header</th>
-      <th width="150">Table Header</th>
-      <th width="150">Table Header</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Content Goes Here</td>
-      <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
-      <td>Content Goes Here</td>
-      <td>Content Goes Here</td>
-    </tr>
-    <tr>
-      <td>Content Goes Here</td>
-      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
-      <td>Content Goes Here</td>
-      <td>Content Goes Here</td>
-    </tr>
-    <tr>
-      <td>Content Goes Here</td>
-      <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
-      <td>Content Goes Here</td>
-      <td>Content Goes Here</td>
-    </tr>
-  </tbody>
-</table>
-
-
-A table can consist of these elements
-
-* `<table>`
-* `<caption>`
-* `<colgroup>`
-* `<col>`
-* `<tbody>`
-* `<thead>`
-* `<tfoot>`
-* `<tr>`
-* `<td>`
-* `<th>`
-
-</div><!-- /.medium-8.columns -->
-
-
-
-</div><!-- /.row -->
-
-
 
  [1]: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list
  [2]: http://phlow.de/
@@ -322,3 +267,82 @@ A table can consist of these elements
  [8]: #
  [9]: #
  [10]: #
+
+## Tables
+
+Even tables are responsive thanks to foundation. A table can consist of these elements.
+
+<table>
+  <caption>&lt;table&gt; defines an HTML table</caption>
+  <colgroup>
+    <col span="1" style="width: 15%;"></col>
+    <col span="1" style="width: 50%;"></col>
+    <col span="1" style="width: 35%;"></col>
+  </colgroup>
+  <thead>
+    <tr>
+      <th>HTML Tag</th>
+      <th>Defintion</th>
+      <th>Style</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>&lt;caption&gt;</td>
+      <td>defines a table caption</td>
+      <td><code>font-weight: bold;</code></td>
+    </tr>
+    <tr>
+      <td>&lt;colgroup&gt;</td>
+      <td>specifies a group of one or more columns in a table for 
+formatting. The &lt;colgroup&gt; tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</td>
+      <td>no styling needed</td>
+    </tr>
+    <tr>
+      <td>&lt;col&gt;</td>
+      <td>specifies column properties for each column within a `&lt;colgroup&gt;` 
+element</td>
+      <td>no styling needed</td>
+    </tr>
+    <tr>
+      <td>&lt;thead&gt;</td>
+      <td>is used to group header content in an HTML table</td>
+      <td><code>font-weight: bold;</code></td>
+    </tr>
+    <tr>
+      <td>&lt;tbody&gt;</td>
+      <td>is used to group the body content in an HTML table</td>
+      <td>no styling needed</td>
+    </tr>
+    <tr>
+      <td>&lt;tr&gt;</td>
+      <td>defines a row in an HTML table</td>
+      <td>no styling needed</td>
+    </tr>
+    <tr>
+      <td>&lt;th&gt;</td>
+      <td>defines a header cell in an HTML table</td>
+      <td><code>font-weight: bold;</code></td>
+    </tr>
+    <tr>
+      <td>&lt;td&gt;</td>
+      <td>defines a standard cell in an HTML table</td>
+      <td><code>font-weight: normal;</code></td>
+    </tr>
+    <tr>
+      <td>&lt;tfoot&gt;</td>
+      <td>is used to group footer content in an HTML table</td>
+      <td>no styling needed</td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+</div><!-- /.medium-8.columns -->
+</div><!-- /.row -->
+
+

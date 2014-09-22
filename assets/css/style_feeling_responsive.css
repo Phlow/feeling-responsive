@@ -5247,27 +5247,27 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 264, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1 {
-  font-size: 2.375rem;
+  font-size: 2.125rem;
 }
 
 /* line 265, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h2 {
-  font-size: 0.9375rem;
+  font-size: 1.625rem;
 }
 
 /* line 266, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h3 {
-  font-size: 1.0625rem;
+  font-size: 1.5rem;
 }
 
 /* line 267, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h4 {
-  font-size: 0.6875rem;
+  font-size: 1.1875rem;
 }
 
 /* line 268, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h5 {
-  font-size: 1rem;
+  font-size: 1.1875rem;
 }
 
 /* line 269, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -5489,27 +5489,27 @@ blockquote p {
 
   /* line 444, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1 {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
 
   /* line 445, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h2 {
-    font-size: 1.5625rem;
+    font-size: 2.25rem;
   }
 
   /* line 446, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
-    font-size: 1.375rem;
+    font-size: 1.8125rem;
   }
 
   /* line 447, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h4 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   /* line 448, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h5 {
-    font-size: 1rem;
+    font-size: 1.1875rem;
   }
 
   /* line 449, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -6202,50 +6202,50 @@ h2 {
 }
 
 /* line 21, ../scss/_4_typography_theme-fr.scss */
+.blog-index h2 {
+  margin-top: 0;
+}
+
+/* line 22, ../scss/_4_typography_theme-fr.scss */
 h3 {
   margin-top: 1.375rem;
 }
 
-/* line 22, ../scss/_4_typography_theme-fr.scss */
-.blog-index h2 {
-  margin-top: 0.625rem;
-}
-
-/* line 23, ../scss/_4_typography_theme-fr.scss */
-h4 {
-  font-variant: small-caps;
-}
-
-/* line 25, ../scss/_4_typography_theme-fr.scss */
+/* line 24, ../scss/_4_typography_theme-fr.scss */
 article dl dt {
   line-height: 1.3;
 }
 
-/* line 26, ../scss/_4_typography_theme-fr.scss */
+/* line 25, ../scss/_4_typography_theme-fr.scss */
 article dl dd {
   line-height: 1.6;
   margin-bottom: 0.75rem;
   margin-left: 1.5rem;
 }
 
-/* line 30, ../scss/_4_typography_theme-fr.scss */
+/* line 29, ../scss/_4_typography_theme-fr.scss */
 dl.accordion {
   border-top: 1px solid #d7d7d7;
 }
 
-/* line 31, ../scss/_4_typography_theme-fr.scss */
+/* line 30, ../scss/_4_typography_theme-fr.scss */
 .accordion dd {
   border-bottom: 1px solid #d7d7d7;
 }
 
-/* line 32, ../scss/_4_typography_theme-fr.scss */
+/* line 31, ../scss/_4_typography_theme-fr.scss */
 dd.accordion-navigation span {
   padding-right: 12px;
 }
 
-/* line 33, ../scss/_4_typography_theme-fr.scss */
+/* line 32, ../scss/_4_typography_theme-fr.scss */
 dd.accordion-navigation span:before {
   content: "\E766";
+}
+
+/* line 33, ../scss/_4_typography_theme-fr.scss */
+dd.accordion-navigation.active span:before {
+  content: "\E764";
 }
 
 /* line 34, ../scss/_4_typography_theme-fr.scss */
@@ -6253,28 +6253,23 @@ dd.accordion-navigation.active span:before {
   content: "\E764";
 }
 
-/* line 35, ../scss/_4_typography_theme-fr.scss */
-dd.accordion-navigation.active span:before {
-  content: "\E764";
-}
-
-/* line 40, ../scss/_4_typography_theme-fr.scss */
+/* line 39, ../scss/_4_typography_theme-fr.scss */
 td {
   vertical-align: top;
 }
 
-/* line 42, ../scss/_4_typography_theme-fr.scss */
+/* line 41, ../scss/_4_typography_theme-fr.scss */
 pre {
   overflow: auto;
 }
 
-/* line 43, ../scss/_4_typography_theme-fr.scss */
+/* line 42, ../scss/_4_typography_theme-fr.scss */
 code {
   font-size: 0.875rem;
   line-height: 1.5;
 }
 
-/* line 45, ../scss/_4_typography_theme-fr.scss */
+/* line 44, ../scss/_4_typography_theme-fr.scss */
 blockquote {
   font-style: italic;
   position: relative;
@@ -6283,13 +6278,13 @@ blockquote {
   color: #4b4b4d;
 }
 
-/* line 53, ../scss/_4_typography_theme-fr.scss */
+/* line 52, ../scss/_4_typography_theme-fr.scss */
 blockquote p {
   font-style: italic;
   color: #575757;
 }
 
-/* line 55, ../scss/_4_typography_theme-fr.scss */
+/* line 54, ../scss/_4_typography_theme-fr.scss */
 blockquote:before {
   display: block;
   content: "\00BB";
@@ -6300,7 +6295,7 @@ blockquote:before {
   color: #4b4b4d;
 }
 
-/* line 63, ../scss/_4_typography_theme-fr.scss */
+/* line 62, ../scss/_4_typography_theme-fr.scss */
 blockquote:after {
   display: block;
   content: "\00AB";
@@ -6311,73 +6306,73 @@ blockquote:after {
   color: #4b4b4d;
 }
 
-/* line 73, ../scss/_4_typography_theme-fr.scss */
+/* line 72, ../scss/_4_typography_theme-fr.scss */
 blockquote cite:before {
   content: "\2014 \0020";
 }
 
-/* line 75, ../scss/_4_typography_theme-fr.scss */
+/* line 74, ../scss/_4_typography_theme-fr.scss */
 blockquote cite a, blockquote cite a:visited {
   color: #555;
 }
 
-/* line 77, ../scss/_4_typography_theme-fr.scss */
+/* line 76, ../scss/_4_typography_theme-fr.scss */
 cite {
   padding-top: 5px;
 }
 
-/* line 79, ../scss/_4_typography_theme-fr.scss */
+/* line 78, ../scss/_4_typography_theme-fr.scss */
 .alert-box {
   font-family: "Volkhov", Georgia;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.9);
 }
 
-/* line 83, ../scss/_4_typography_theme-fr.scss */
+/* line 82, ../scss/_4_typography_theme-fr.scss */
 .alert-box p {
   margin-bottom: 0;
 }
 
-/* line 84, ../scss/_4_typography_theme-fr.scss */
+/* line 83, ../scss/_4_typography_theme-fr.scss */
 .alert-box a {
   text-shadow: 1px 1px 0px black;
   color: #fff;
   border-bottom: 1px dotted #fff;
 }
 
-/* line 89, ../scss/_4_typography_theme-fr.scss */
+/* line 88, ../scss/_4_typography_theme-fr.scss */
 .alert-box a:hover {
   border-bottom: 1px solid #fff;
 }
 
-/* line 93, ../scss/_4_typography_theme-fr.scss */
+/* line 92, ../scss/_4_typography_theme-fr.scss */
 button, .button {
   letter-spacing: 1px;
 }
 
-/* line 95, ../scss/_4_typography_theme-fr.scss */
+/* line 94, ../scss/_4_typography_theme-fr.scss */
 mark {
   background-color: #f393b5;
 }
 
-/* line 97, ../scss/_4_typography_theme-fr.scss */
+/* line 96, ../scss/_4_typography_theme-fr.scss */
 .subheadline {
   font-size: 1rem;
   margin: 0;
   text-transform: uppercase;
 }
 
-/* line 98, ../scss/_4_typography_theme-fr.scss */
+/* line 97, ../scss/_4_typography_theme-fr.scss */
 .teaser {
   font-size: 1.25rem;
 }
 
-/* line 99, ../scss/_4_typography_theme-fr.scss */
+/* line 98, ../scss/_4_typography_theme-fr.scss */
 .big-teaser {
   font-style: italic;
   font-weight: 300;
 }
 
-/* line 100, ../scss/_4_typography_theme-fr.scss */
+/* line 99, ../scss/_4_typography_theme-fr.scss */
 .big-teaser a {
   font-style: italic;
   font-weight: 400;
@@ -6385,13 +6380,13 @@ mark {
 
 /* Bigteaser Schriftgröße auf kleinen Bildschirmen veringern */
 @media only screen {
-  /* line 105, ../scss/_4_typography_theme-fr.scss */
+  /* line 104, ../scss/_4_typography_theme-fr.scss */
   .big-teaser {
     font-size: 1.25rem;
   }
 }
 @media only screen and (min-width: 40.063em) {
-  /* line 110, ../scss/_4_typography_theme-fr.scss */
+  /* line 109, ../scss/_4_typography_theme-fr.scss */
   .big-teaser {
     font-size: 1.8125rem;
   }
@@ -6401,44 +6396,44 @@ mark {
 Additional typographical elements
 
  - - - - - - - - - - - - - - - - - - - - - - - */
-/* line 123, ../scss/_4_typography_theme-fr.scss */
+/* line 122, ../scss/_4_typography_theme-fr.scss */
 .sans {
   font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-/* line 124, ../scss/_4_typography_theme-fr.scss */
+/* line 123, ../scss/_4_typography_theme-fr.scss */
 .serif {
   font-family: "Volkhov", Georgia;
 }
 
+/* line 125, ../scss/_4_typography_theme-fr.scss */
+.font-size-h1 {
+  font-size: rem-calc(44);
+}
+
 /* line 126, ../scss/_4_typography_theme-fr.scss */
-.font-size-huge {
-  font-size: 2.25rem;
+.font-size-h2 {
+  font-size: rem-calc(36);
 }
 
 /* line 127, ../scss/_4_typography_theme-fr.scss */
-.font-size-large {
-  font-size: 1.5625rem;
+.font-size-h3 {
+  font-size: rem-calc(29);
 }
 
 /* line 128, ../scss/_4_typography_theme-fr.scss */
-.font-size-big {
-  font-size: 1.375rem;
+.font-size-h4 {
+  font-size: rem-calc(24);
 }
 
 /* line 129, ../scss/_4_typography_theme-fr.scss */
-.font-size-medium {
-  font-size: 1.125rem;
+.font-size-h5 {
+  font-size: rem-calc(19);
 }
 
 /* line 130, ../scss/_4_typography_theme-fr.scss */
-.font-size-regular {
-  font-size: 1.125rem;
-}
-
-/* line 131, ../scss/_4_typography_theme-fr.scss */
-.font-size-normal {
-  font-size: 1.125rem;
+.font-size-p {
+  font-size: rem-calc(16);
 }
 
 @font-face {
@@ -6457,32 +6452,32 @@ Additional typographical elements
   font-style: normal;
 }
 
-/* line 156, ../scss/_4_typography_theme-fr.scss */
+/* line 159, ../scss/_4_typography_theme-fr.scss */
 .entypo {
   font-family: 'entypo';
 }
 
-/* line 157, ../scss/_4_typography_theme-fr.scss */
+/* line 160, ../scss/_4_typography_theme-fr.scss */
 .entypo-social {
   font-family: 'entypo-social';
 }
 
-/* line 158, ../scss/_4_typography_theme-fr.scss */
+/* line 161, ../scss/_4_typography_theme-fr.scss */
 .entypo-32 {
   font-size: 2rem;
 }
 
-/* line 159, ../scss/_4_typography_theme-fr.scss */
+/* line 162, ../scss/_4_typography_theme-fr.scss */
 .entypo-29 {
   font-size: 1.8125rem;
 }
 
-/* line 160, ../scss/_4_typography_theme-fr.scss */
+/* line 163, ../scss/_4_typography_theme-fr.scss */
 .entypo-48 {
   font-size: 3rem;
 }
 
-/* line 161, ../scss/_4_typography_theme-fr.scss */
+/* line 164, ../scss/_4_typography_theme-fr.scss */
 .entypo-64 {
   font-size: 4rem;
 }

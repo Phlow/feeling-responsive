@@ -4186,7 +4186,7 @@ table caption {
 }
 /* line 72, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead {
-  background: whitesmoke;
+  background: #e4e4e4;
 }
 /* line 77, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead tr th,
@@ -4198,7 +4198,7 @@ table thead tr td {
 }
 /* line 86, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tfoot {
-  background: whitesmoke;
+  background: #e4e4e4;
 }
 /* line 91, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tfoot tr th,

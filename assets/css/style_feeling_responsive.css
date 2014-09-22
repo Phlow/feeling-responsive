@@ -6408,32 +6408,32 @@ Additional typographical elements
 
 /* line 125, ../scss/_4_typography_theme-fr.scss */
 .font-size-h1 {
-  font-size: rem-calc(44);
+  font-size: 2.75rem;
 }
 
 /* line 126, ../scss/_4_typography_theme-fr.scss */
 .font-size-h2 {
-  font-size: rem-calc(36);
+  font-size: 2.25rem;
 }
 
 /* line 127, ../scss/_4_typography_theme-fr.scss */
 .font-size-h3 {
-  font-size: rem-calc(29);
+  font-size: 1.8125rem;
 }
 
 /* line 128, ../scss/_4_typography_theme-fr.scss */
 .font-size-h4 {
-  font-size: rem-calc(24);
+  font-size: 1.5rem;
 }
 
 /* line 129, ../scss/_4_typography_theme-fr.scss */
 .font-size-h5 {
-  font-size: rem-calc(19);
+  font-size: 1.1875rem;
 }
 
 /* line 130, ../scss/_4_typography_theme-fr.scss */
 .font-size-p {
-  font-size: rem-calc(16);
+  font-size: 1rem;
 }
 
 @font-face {

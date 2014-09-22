@@ -259,11 +259,11 @@ Need a break? I give you three!<br><br><br>
 ## Tables
 
 <table>
-  <thead>
   <caption>Table Caption</caption>
+  <thead>
     <tr>
       <th width="200">Table Header</th>
-      <th>Table Header</th>
+      <th width="150">Table Header</th>
       <th width="150">Table Header</th>
       <th width="150">Table Header</th>
     </tr>

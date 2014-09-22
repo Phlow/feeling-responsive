@@ -48,6 +48,8 @@
   url: "/blog/"
   side: left
   dropdown:
+  - title: Blog
+    url: "/blog/"
   - title: "Blog Archive"
     url: "/blog/archive/"
 

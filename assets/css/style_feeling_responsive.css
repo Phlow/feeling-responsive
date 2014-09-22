@@ -4218,7 +4218,7 @@ table tr td {
 }
 /* line 111, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
-  background: #f9f9f9;
+  background: #e4e4e4;
 }
 /* line 119, ../bower_components/foundation/scss/foundation/components/_tables.scss */
 table thead tr th,

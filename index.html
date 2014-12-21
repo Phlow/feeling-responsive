@@ -16,19 +16,19 @@ image:
 <div class="row t60">
 
     <div class="medium-4 columns">
-    	<a href="{{ site.url }}/blog/"><img src="{{ site.url }}/assets/img/unsplash_4-303x182.jpg" alt=""></a>
-        <h2 class="font-size-h3">Blog</h2>
+    	<a href="{{ site.url }}/blog/"><img src="{{ site.url }}/images/unsplash_9-302x182.jpg" alt=""></a>
+        <h2 class="font-size-h3">{{ site.data.language.blog }}</h2>
     	<p>
     		Every good portfolio website has a blog with fresh news, thoughts and developments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog, too. With an <a href="{{ site.url }}/blog/archive/">archive page</a> to give readers a quick overview of all your posts.
     	</p>
         
-        <p><a class="button tiny radius" href="{{ site.url }}/blog/">More ›</a></p>
+        <p><a class="button tiny radius" href="{{ site.url }}/blog/">{{ site.data.language.more }}</a></p>
 
     </div><!-- /.medium-4.columns -->
 
 
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/about/"><img src="{{ site.url }}/assets/img/unsplash_8-303x182.jpg" alt=""></a>
+        <a href="{{ site.url }}/about/"><img src="{{ site.url }}/images/unsplash_8-302x182.jpg" alt=""></a>
         
         <h2 class="font-size-h3">Why use this theme?</h2>
 
@@ -36,12 +36,12 @@ image:
             <em>Feeling Responsive</em> is heavily built on <a href="http://foundation.zurb.com/">Foundation</a>, the fabulous responsive webdesign framework by Zurb. It supports a 12-column grid, persuades you with beautiful <a href="{{ site.url }}/design/typography/">typography</a> and is heavily optimized for speed.
         </p>
 
-        <p><a class="button tiny radius" href="{{ site.url }}/about/">More ›</a></p>
+        <p><a class="button tiny radius" href="{{ site.url }}/about/">{{ site.data.language.more }}</a></p>
     </div><!-- /.medium-4.columns -->
 
 
     <div class="medium-4 columns">
-        <a href="{{ site.url }}/design/portfolio/"><img src="{{ site.url }}/assets/img/github-303x182.jpg" alt=""></a>
+        <a href="{{ site.url }}/design/portfolio/"><img src="{{ site.url }}/images/github-303x182.jpg" alt=""></a>
         <h2 class="font-size-h3">Download Theme</h2>
         <p>
             <em>Feeling Responsive</em> is totally free and licensed under the MIT License. You can make it your own and do with it what you want. Grab your copy or clone it at GitHub and start your website with it. Then tell me via <a href="http://twitter.com/phlow">Twitter @phlow</a>.
@@ -59,7 +59,7 @@ image:
         {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
                 <p>
-                    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/assets/img/{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
+                    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
                 </p>
 
                 {% if post.image.url && post.image.credit %}
@@ -68,7 +68,7 @@ image:
                     </p>
                 {% endif %}
             {% elsif post.image.homepage == NULL %}
-                <h2>New Blog Articles</h2>
+                <h2>{{ site.data.language.new_blog_entries }}</h2>
             {% endif %}
         {% endfor %}
     </div><!-- /.small-12.columns -->
@@ -85,14 +85,14 @@ image:
 
             <p>
             {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.description %}{{ post.description | strip_html | escape }}{% endif %}
-            <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>Read more ›</strong></a>
+            <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
         {% endfor %}
     </div><!-- /.medium-5.columns -->
 
 
     <div class="medium-6 columns">
-        <p><strong>More Articles</strong></p>
+        <p><strong>{{ site.data.language.more_articles }}</strong></p>
         {% include list-posts.html entries='3' offset='1' %}
     </div><!-- /.medium-7.columns -->
 </div><!-- /.row -->

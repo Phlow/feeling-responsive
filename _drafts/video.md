@@ -1,9 +1,9 @@
 ---
 layout: video
-title: ""
-subheadline: ""
-meta_description: ""
-description: ""
+title:
+subheadline:
+meta_description:
+description:
 image:
 categories:
     - 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  ""
-subheadline:  ""
-meta_description: ""
-description: ""
+title:
+subheadline:
+meta_description:
+description:
 categories:
     - 
 tags:

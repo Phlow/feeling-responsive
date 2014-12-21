@@ -9,30 +9,40 @@
 			<div id="footer">
 				<div class="row">
 					<div class="medium-6 large-5 columns">
-						<h5 class="shadow-black">About this Website</h5>
+						<h5 class="shadow-black">{{ site.data.language.about_website }}</h5>
 
 						<p class="shadow-black">
 							{{ site.description }}
+							<a href="{{ site.url }}/about/">{{ site.data.language.more }}</a>
 						</p>
 					</div><!-- /.large-6.columns -->
 
 
 					<div class="small-6 medium-3 large-3 large-offset-1 columns">
-						<aside>
-							<div class="textwidget">
-								<h5 class="shadow-black">Services</h5>
-								<ul class="no-bullet shadow-black">
-									<li><a href="{{ site.url }}/contact/">Contact</a></li>
-									<li class="rss-link"><a href="{{ site.url }}/feed.xml">RSS</a></li>
-									<li class="sitemap-link"><a href="{{ site.url }}/sitemap.xml">Sitemap.xml</a></li>
-								</ul>
-							</div>
-						</aside>
+						<nav>
+							<ul class="no-bullet shadow-black sans">
+							{% for service_item in site.data.services %}
+								{% if service_item.url contains 'http' %}
+									{% assign domain = '' %}
+									{% else %}
+									{% assign domain = site.url %}
+								{% endif %}
+
+								{% if forloop.first == true %}
+									<li class="shadow-black font-size-h5 sans">{{ service_item.menu_name }}</li>
+								{% else %}
+									<li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
+										<a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
+									</li>
+								{% endif %}
+							{% endfor %}
+							</ul>
+						</nav>
 					</div><!-- /.large-4.columns -->
 
 
 					<div class="small-6 medium-3 large-3 columns">
-								<h5 class="shadow-black">Thank You!</h5>
+								<h5 class="shadow-black">{{ site.data.language.thank_you }}</h5>
 								<ul class="no-bullet shadow-black">
 									<li><a href="http://entypo.com/">Icons by Daniel Bruce</a></li>
 									<li><a href="http://foundation.zurb.com/">Built on Foundation</a></li>
@@ -49,7 +59,6 @@
 				<nav class="row">
 					<section id="subfooter-left" class="b30 small-12 medium-6 columns">
 						<ul class="inline-list">
-							<li><a href="{{ site.url }}/about/">About</a></li>
 							<li>We &hearts; <a style="display:inline;" href="http://jekyllrb.com/" target="_blank">Jekyll</a> &amp; <a style="display:inline;" href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> </li>
 						</ul>
 					</section>

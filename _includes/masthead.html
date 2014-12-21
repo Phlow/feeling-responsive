@@ -1,23 +1,45 @@
-{% if page.image.header == NULL %}
+{% if page.image.header == NULL and page.header.pattern == NULL and page.header.background-color == NULL %}
 
 	<div id="masthead-no-image-header">
 		<div class="row">
 			<div class="small-12 columns">
-				<a id="logo" href="{{ site.url }}" title="{{ site.title }}">
-					<img src="{{ site.url }}/assets/img/{{ site.logo }}" alt="{{ site.title }}">
+				<a id="logo" href="{{ site.url }}" title="{{ site.title }} – {{ site.slogan }}">
+					<img src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
 				</a>
 	 		</div><!-- /.small-12.columns -->
 		</div><!-- /.row -->
 	</div><!-- /#masthead -->
 
-{% else %}
+{% elsif page.image.header %}
 
 	<div id="masthead">
 		<div class="row">
 			<div class="small-12 columns">
-				<a id="logo" href="{{ site.url }}" title="{{ site.title }}">
-					<img src="{{ site.url }}/assets/img/{{ site.logo }}" alt="{{ site.title }}">
+				<a id="logo" href="{{ site.url }}" title="{{ site.title }} – {{ site.slogan }}">
+					<img src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
 				</a>
+	 		</div><!-- /.small-12.columns -->
+		</div><!-- /.row -->
+	</div><!-- /#masthead -->
+
+
+{% elsif page.header.pattern %}
+
+	<div id="masthead-with-pattern" style="background: url('{{ site.url }}/images/{{ page.header.pattern }}')">
+		<div class="row">
+			<div class="small-12 columns">
+				<img src="{{ site.url }}/images/{{ page.header.image }}" alt="{{ site.title }}">
+	 		</div><!-- /.small-12.columns -->
+		</div><!-- /.row -->
+	</div><!-- /#masthead -->
+
+
+{% elsif page.header.background-color %}
+
+	<div id="masthead-with-background-color" style="background: {{ page.header.background-color }};">
+		<div class="row">
+			<div class="small-12 columns">
+				<img src="{{ site.url }}/images/{{ page.header.image }}" alt="{{ site.title }}">
 	 		</div><!-- /.small-12.columns -->
 		</div><!-- /.row -->
 	</div><!-- /#masthead -->

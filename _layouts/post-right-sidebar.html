@@ -7,7 +7,7 @@ format: post-right-sidebar
 		<article>
 			<header>
 				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-				{% if page.image.title %}<img src="{{ site.url }}/assets/img/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">{% endif %}
+				{% if page.image.title %}<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">{% endif %}
 				{% if page.image.url && page.image.credit %}
                     <p class="text-right caption">
                         <a href="{{ page.image.url }}">{{ page.image.credit }}</a>

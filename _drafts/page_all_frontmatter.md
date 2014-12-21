@@ -1,17 +1,20 @@
 ---
 layout: page
-title:  ""
-subheadline:  ""
-meta_description: ""
-description: ""
+title:
+subheadline:
+meta_description:
+description:
 date:  2014-03-28 00:00:00
 categories:
     - 
 tags:
     - 
+header:
+    image:  ""
+    pattern:  ""
+    color:  ""
 image:
     homepage: ""
-    header:  ""
     thumb:  ""
     credit: ""
     url: ""

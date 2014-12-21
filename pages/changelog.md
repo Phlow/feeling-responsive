@@ -7,6 +7,12 @@ image:
     header: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2014-12-21 // Version 0.92
+:   A new polished version, with a stronger and better color scheme. [Have a look ›]({{ site.url }}/design/grid/#color-scheme-and-colors-codes). Added foundation `.scss-files` to `assets/scss/` for savety.
+
+2014-10-08 // Version 0.91
+:   Moved images folder from `assets/img/` to `images` to fasten access to folder. Moved all pages to `pages/`-folder for better organization. Added language-functionality. *Feeling Responsive* is now translation ready.
+
 2014-09-21 // Version 0.9
 :   Optimized code, tweaked CSS, added images, deleted `header: "no"` from front matter (because it not necessary), added drafts to the new `_drafts`-folder to begin posts and pages faster and enhanced the documentation. Huh, 1.0 I am coming.
 

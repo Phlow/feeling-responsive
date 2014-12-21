@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  ""
-subheadline:  ""
-meta_description: ""
-description: ""
+title:
+subheadline: 
+meta_description:
+description:
 categories:
     - 
 tags:
@@ -14,12 +14,12 @@ image:
 ---
 
 <ul class="clearing-thumbs small-block-grid-3" data-clearing>
-  <li><a href="{{ site.url }}/assets/img/_1.jpg"><img  data-caption="" class="th" src="{{ site.url }}/assets/img/thumb.jpg"></a></li>
-  <li><a href="{{ site.url }}/assets/img/_2.jpg"><img  data-caption="" class="th" src="{{ site.url }}/assets/img/thumb.jpg"></a></li>
-  <li><a href="{{ site.url }}/assets/img/_3.jpg"><img  data-caption="" class="th" src="{{ site.url }}/assets/img/thumb.jpg"></a></li>
-  <li><a href="{{ site.url }}/assets/img/_4.jpg"><img  data-caption="" class="th" src="{{ site.url }}/assets/img/thumb.jpg"></a></li>
-  <li><a href="{{ site.url }}/assets/img/_5.jpg"><img  data-caption="" class="th" src="{{ site.url }}/assets/img/thumb.jpg"></a></li>
-  <li><a href="{{ site.url }}/assets/img/_6.jpg"><img  data-caption="" class="th" src="{{ site.url }}/assets/img/thumb.jpg"></a></li>
+  <li><a href="{{ site.url }}/images/_1.jpg"><img  data-caption="" class="th" src="{{ site.url }}/images/thumb.jpg"></a></li>
+  <li><a href="{{ site.url }}/images/_2.jpg"><img  data-caption="" class="th" src="{{ site.url }}/images/thumb.jpg"></a></li>
+  <li><a href="{{ site.url }}/images/_3.jpg"><img  data-caption="" class="th" src="{{ site.url }}/images/thumb.jpg"></a></li>
+  <li><a href="{{ site.url }}/images/_4.jpg"><img  data-caption="" class="th" src="{{ site.url }}/images/thumb.jpg"></a></li>
+  <li><a href="{{ site.url }}/images/_5.jpg"><img  data-caption="" class="th" src="{{ site.url }}/images/thumb.jpg"></a></li>
+  <li><a href="{{ site.url }}/images/_6.jpg"><img  data-caption="" class="th" src="{{ site.url }}/images/thumb.jpg"></a></li>
 </ul>
 
 

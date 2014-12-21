@@ -5,7 +5,7 @@ format: post
 {% if page.image.title %}
 <div class="row t30">
 	<div class="small-12 columns">
-		<img src="{{ site.url }}/assets/img/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
+		<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
 		{% if page.image.url && page.image.credit %}
             <p class="text-right caption">
                 <a href="{{ page.image.url }}">{{ page.image.credit }}</a>

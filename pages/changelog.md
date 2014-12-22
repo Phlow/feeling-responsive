@@ -7,6 +7,9 @@ image:
     header: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2014-12-22 // Version 0.93
+:   Improved speed through the use of [webfontloader](https://github.com/typekit/webfontloader). Reduced Volkhov font and only embedded normal weight. Now fonts load asynchronous and the package is 53kb lighter.
+
 2014-12-21 // Version 0.92
 :   A new polished version, with a stronger and better color scheme. [Have a look ›]({{ site.url }}/design/grid/#color-scheme-and-colors-codes). Added foundation `.scss-files` to `assets/scss/` for savety.
 

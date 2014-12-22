@@ -6,8 +6,28 @@
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<link rel="stylesheet" href="{{ site.url }}/assets/css/styles-responsive.min.css">	
 	<script src="{{ site.url }}/assets/js/modernizr.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7cVolkhov:400,700' rel='stylesheet' type='text/css'>
-	{% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification}}" />{% endif %}
+	
+  <script>
+    WebFontConfig = {
+      google: { families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ] }
+    };
+
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+
+  <noscript>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Volkhov' rel='stylesheet' type='text/css'>
+  </noscript>
+
+  {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification}}" />{% endif %}
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
 	{% if page.meta_description %}<meta name="description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.description %}<meta name="description" content="{{ page.description | strip_html | escape }}"/>{% elsif site.description %}<meta name="description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
 	

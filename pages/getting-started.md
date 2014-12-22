@@ -9,8 +9,13 @@ permalink: "/getting-started/"
 ---
 1. Open `_config.yml` and work it through, it's well documented
 2. Add your own `logo.png` to `/images/`.
-3. Open `_data/socialmedia.yml` and add your own social media links
-4. Open `_data/navigation.yml` and add your own social media links
-5. Make it yours and add your own content.
+3. Open `_data/socialmedia.yml` and add your own social media links.
+4. Open `_data/navigation.yml` and customize your navigation.
+5. Open `_data/language.yml` and translate the theme if necessary.
+6. [Read the documentation][1] to check out all features of *Feeling Responsive*.
+7. Make it yours and add your own content.
 
 <a class="radius button small" href="{{ site.url }}/documentation/">Check out the documentation for all the tricks ›</a>
+
+
+ [1]: {{ site.url }}/documentation/

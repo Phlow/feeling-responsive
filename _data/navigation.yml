@@ -53,6 +53,10 @@
   - title: "Blog Archive"
     url: "/blog/archive/"
 
+- title: "<span class='entypo entypo-32'>&#128269;</span>"
+  url: "/search/"
+  side: right
+
 - title: "Contact"
   url: "/contact/"
   side: right

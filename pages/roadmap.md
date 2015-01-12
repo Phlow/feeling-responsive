@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Roadmap"
-subheadline: "ToDo-List and Ideas"
+subheadline: "ToDo-List &amp; Ideas"
 description: "Here are some ideas and features I want to implement in the future."
 image:
    header: "header_unsplash_3.jpg"

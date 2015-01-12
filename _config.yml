@@ -19,10 +19,18 @@ slogan: "A Responsive Theme for Jekyll"
 description: "»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette."
 
 
-# This is a switch to easily change the {{ site.url }}-variable to develop the theme locally
-# - url: "http://localhost:4000"
+# This URL is the main adresse. Don't include a slash at the end.
+#
 url: "http://phlow.github.io/feeling-responsive"
 baseurl: ""
+
+# This URL points directly to the images directory making
+# things easier to link to images in posts and templates. It needs a slash.
+#
+# Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
+# Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
+#
+urlimg: "http://phlow.github.io/feeling-responsive/images/"
 
 
 # Logo size is 600x80 pixels
@@ -89,6 +97,8 @@ apple_touch_icon_iphone_retina:  "/images/touch-icon-iphone-retina-120x.png"  # 
 apple_touch_icon_ipad:           "/images/touch-icon-ipad-76x.png"            # iOS7 Size 76x76
 apple_touch_icon_ipad_retina:    "/images/touch-icon-ipad-retina-152x.png"    # iOS7 Size 152x152
 apple_touch_icon_precomposed:    "/images/touch-icon-android-152x.png"        # iOS7 Size 152x152
+msapplication_tileimage:         "/images/windows-8-tile-icon-144x.png"       # Windows 8 Tile 144x144
+msapplication_tilecolor:         "#334D5C"                                    # Windows 8 Tile Backgroundcolor
 
 
 #       ______                __                __  

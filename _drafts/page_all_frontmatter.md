@@ -1,10 +1,8 @@
 ---
 layout: page
-title:
-subheadline:
-meta_description:
-description:
-date:  2014-03-28 00:00:00
+subheadline: 
+title: 
+description: 
 categories:
     - 
 tags:

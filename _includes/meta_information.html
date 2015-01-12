@@ -10,11 +10,11 @@
 				<div id="post-nav" class="row">
 				
 				{% if page.previous.url %} 
-					<div class="small-5 columns"><a class="button small radius prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div><!-- /.small-4.columns -->
+					<div class="small-5 columns"><a class="button small radius prev" href="{{ site.url }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div><!-- /.small-4.columns -->
 				{% endif %} 
 					<div class="small-2 columns text-center"><a class="radius button small" href="{{ site.url }}/blog/archive/" title="Blog Archive">{{ site.data.language.archive }}</a></div><!-- /.small-4.columns -->
 				{% if page.next.url %} 
-					<div class="small-5 columns text-right"><a class="button small radius next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></div><!-- /.small-4.columns -->
+					<div class="small-5 columns text-right"><a class="button small radius next" href="{{ site.url }}{{page.next.url}}">{{page.next.title}} &raquo;</a></div><!-- /.small-4.columns -->
 				{% endif %} 
 				</div>
 			</div><!--  /.page-meta -->

@@ -14,8 +14,6 @@ permalink: "/roadmap/"
 * Convert Foundation Sass to use native Jekyll Sass support
 * Create custom 404.html-webpage <https://help.github.com/articles/custom-404-pages/>
 * More post-formats for blogging like special post formats for links, audio, tweets,...
-* Patterns for header
-* Alternative non-landscape header
 * [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
 * Produce some small tutorials to show features and how to customize *Feeling Responsive*
 * Optimize HTML and use Schema.org-Attributes › <http://schema.org/Article>
@@ -24,6 +22,8 @@ permalink: "/roadmap/"
 
 ## Done
 
+* <s>Alternative non-landscape header</s>
+* <s>Patterns for header</s>
 * <s>Clean up color scheme and highlighting colors</s>
 * <s>Make theme translation ready</s>
 * [<s>Add draft-templates for new pages/posts</s>](https://github.com/Phlow/feeling-responsive/tree/gh-pages/_drafts)

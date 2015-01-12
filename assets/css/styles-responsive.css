@@ -7224,58 +7224,63 @@ body.video cite {
   padding: 30px 0;
 }
 
+/* line 49, ../scss/_5_layout_theme-fr.scss */
+.backstretch {
+  background: #334d5c;
+}
+
 /* Masthead auf medium-up Geräten */
 @media only screen and (min-width: 40.063em) {
-  /* line 52, ../scss/_5_layout_theme-fr.scss */
+  /* line 53, ../scss/_5_layout_theme-fr.scss */
   #logo img {
     margin-top: 80px;
   }
 
-  /* line 53, ../scss/_5_layout_theme-fr.scss */
+  /* line 54, ../scss/_5_layout_theme-fr.scss */
   #masthead {
     height: 320px;
     background: #334d5c;
   }
 
-  /* line 54, ../scss/_5_layout_theme-fr.scss */
+  /* line 55, ../scss/_5_layout_theme-fr.scss */
   #masthead-no-image-header {
     height: 175px;
     background: #334d5c;
   }
 
-  /* line 55, ../scss/_5_layout_theme-fr.scss */
+  /* line 56, ../scss/_5_layout_theme-fr.scss */
   #masthead-no-image-header #logo img {
     margin-top: 45px;
   }
 }
-/* line 58, ../scss/_5_layout_theme-fr.scss */
+/* line 59, ../scss/_5_layout_theme-fr.scss */
 #page-meta {
   color: #a4a4a4;
 }
 
-/* line 62, ../scss/_5_layout_theme-fr.scss */
+/* line 63, ../scss/_5_layout_theme-fr.scss */
 #page-meta .button {
   background: #a4a4a4;
 }
 
-/* line 65, ../scss/_5_layout_theme-fr.scss */
+/* line 66, ../scss/_5_layout_theme-fr.scss */
 #page-meta .button:hover {
   background: #334d5c;
 }
 
 /* - - - FOOTER - - - - - - - - - - - - - - - - - - - - - - */
-/* line 73, ../scss/_5_layout_theme-fr.scss */
+/* line 74, ../scss/_5_layout_theme-fr.scss */
 #up-to-top a.entypo:hover {
   background: #d7d7d7;
   border-radius: 3px;
 }
 
-/* line 74, ../scss/_5_layout_theme-fr.scss */
+/* line 75, ../scss/_5_layout_theme-fr.scss */
 #up-to-top {
   padding: 160px 0 10px 0;
 }
 
-/* line 77, ../scss/_5_layout_theme-fr.scss */
+/* line 78, ../scss/_5_layout_theme-fr.scss */
 #footer {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -7283,25 +7288,25 @@ body.video cite {
   color: white;
 }
 
-/* line 83, ../scss/_5_layout_theme-fr.scss */
+/* line 84, ../scss/_5_layout_theme-fr.scss */
 footer p,
 footer li {
   font-size: 0.8125rem;
   font-weight: 300;
 }
 
-/* line 89, ../scss/_5_layout_theme-fr.scss */
+/* line 90, ../scss/_5_layout_theme-fr.scss */
 #footer a {
   color: #a1d044;
 }
 
-/* line 90, ../scss/_5_layout_theme-fr.scss */
+/* line 91, ../scss/_5_layout_theme-fr.scss */
 #footer a.entypo:hover {
   background: #45b29d;
   border-radius: 3px;
 }
 
-/* line 92, ../scss/_5_layout_theme-fr.scss */
+/* line 93, ../scss/_5_layout_theme-fr.scss */
 #footer h4,
 #footer h5 {
   letter-spacing: 1px;
@@ -7309,7 +7314,7 @@ footer li {
   text-transform: uppercase;
 }
 
-/* line 98, ../scss/_5_layout_theme-fr.scss */
+/* line 99, ../scss/_5_layout_theme-fr.scss */
 #footer p.entypo {
   font-size: 80px;
   line-height: 54px;
@@ -7318,7 +7323,7 @@ footer li {
   margin: 0;
 }
 
-/* line 106, ../scss/_5_layout_theme-fr.scss */
+/* line 107, ../scss/_5_layout_theme-fr.scss */
 #subfooter {
   background: #313131;
   color: #7e7e7e;
@@ -7326,12 +7331,12 @@ footer li {
   padding-bottom: 10px;
 }
 
-/* line 112, ../scss/_5_layout_theme-fr.scss */
+/* line 113, ../scss/_5_layout_theme-fr.scss */
 #subfooter-left ul.inline-list {
   float: left;
 }
 
-/* line 115, ../scss/_5_layout_theme-fr.scss */
+/* line 116, ../scss/_5_layout_theme-fr.scss */
 #subfooter .entypo-social,
 #subfooter .entypo {
   font-size: 48px;
@@ -7339,18 +7344,18 @@ footer li {
   color: #7e7e7e;
 }
 
-/* line 122, ../scss/_5_layout_theme-fr.scss */
+/* line 123, ../scss/_5_layout_theme-fr.scss */
 #subfooter li a {
   color: #7e7e7e;
   text-transform: uppercase;
 }
 
-/* line 127, ../scss/_5_layout_theme-fr.scss */
+/* line 128, ../scss/_5_layout_theme-fr.scss */
 #subfooter li a:hover {
   color: #fff;
 }
 
-/* line 131, ../scss/_5_layout_theme-fr.scss */
+/* line 132, ../scss/_5_layout_theme-fr.scss */
 #subfooter .social-icons li a {
   display: block;
   height: 36px;
@@ -7362,13 +7367,13 @@ footer li {
   vertical-align: center;
 }
 
-/* line 142, ../scss/_5_layout_theme-fr.scss */
+/* line 143, ../scss/_5_layout_theme-fr.scss */
 #subfooter .social-icons li a:hover {
   background: #313131;
   color: #fff;
 }
 
-/* line 147, ../scss/_5_layout_theme-fr.scss */
+/* line 148, ../scss/_5_layout_theme-fr.scss */
 .ad-space {
   border: 1px solid #fafafa;
   text-align: center;
@@ -7381,72 +7386,72 @@ footer li {
 CSS-Classes to add margin at the top or bottom
 
 */
-/* line 160, ../scss/_5_layout_theme-fr.scss */
+/* line 161, ../scss/_5_layout_theme-fr.scss */
 .t15 {
   margin-top: 15px;
 }
 
-/* line 161, ../scss/_5_layout_theme-fr.scss */
+/* line 162, ../scss/_5_layout_theme-fr.scss */
 .t20 {
   margin-top: 20px;
 }
 
-/* line 162, ../scss/_5_layout_theme-fr.scss */
+/* line 163, ../scss/_5_layout_theme-fr.scss */
 .t30 {
   margin-top: 30px;
 }
 
-/* line 163, ../scss/_5_layout_theme-fr.scss */
+/* line 164, ../scss/_5_layout_theme-fr.scss */
 .t50 {
   margin-top: 50px;
 }
 
-/* line 164, ../scss/_5_layout_theme-fr.scss */
+/* line 165, ../scss/_5_layout_theme-fr.scss */
 .t60 {
   margin-top: 60px;
 }
 
-/* line 165, ../scss/_5_layout_theme-fr.scss */
+/* line 166, ../scss/_5_layout_theme-fr.scss */
 .t90 {
   margin-top: 90px;
 }
 
-/* line 167, ../scss/_5_layout_theme-fr.scss */
+/* line 168, ../scss/_5_layout_theme-fr.scss */
 .b15 {
   margin-bottom: 15px;
 }
 
-/* line 168, ../scss/_5_layout_theme-fr.scss */
+/* line 169, ../scss/_5_layout_theme-fr.scss */
 .b20 {
   margin-bottom: 20px;
 }
 
-/* line 169, ../scss/_5_layout_theme-fr.scss */
+/* line 170, ../scss/_5_layout_theme-fr.scss */
 .b30 {
   margin-bottom: 30px;
 }
 
-/* line 170, ../scss/_5_layout_theme-fr.scss */
+/* line 171, ../scss/_5_layout_theme-fr.scss */
 .b60 {
   margin-bottom: 60px;
 }
 
-/* line 172, ../scss/_5_layout_theme-fr.scss */
+/* line 173, ../scss/_5_layout_theme-fr.scss */
 .pl20 {
   padding-left: 20px;
 }
 
-/* line 174, ../scss/_5_layout_theme-fr.scss */
+/* line 175, ../scss/_5_layout_theme-fr.scss */
 .pr5 {
   padding-right: 5px;
 }
 
-/* line 175, ../scss/_5_layout_theme-fr.scss */
+/* line 176, ../scss/_5_layout_theme-fr.scss */
 .pr10 {
   padding-right: 10px;
 }
 
-/* line 176, ../scss/_5_layout_theme-fr.scss */
+/* line 177, ../scss/_5_layout_theme-fr.scss */
 .pr20 {
   padding-right: 20px;
 }

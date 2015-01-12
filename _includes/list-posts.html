@@ -6,7 +6,8 @@ Possible parameter for this loop:
  › offset
  › category 
 
-Example: {% include list-posts.html entries='3' offset='1' category='design' %}
+Example for Category: {% include list-posts.html entries='3' offset='1' category='design' %}
+Example for Tag: {% include list-posts.html entries='5' tag='terminal' %}
 
 
 This loop works like this:
@@ -18,23 +19,36 @@ This loop works like this:
 3. If a category was given, assign category the given category to the variable category  › assign category = include.categories 
 
 {% endcomment %}
+
+{% assign category = include.category %}
+{% assign tag = include.tag %}
+
+
 <ul class="side-nav">
 
-	{% if include.categories == NULL %}
+  {% if category == NULL and tag == NULL %}
 
-		{% for post in site.posts limit:include.entries offset:include.offset %}
-			<li><a href="{{ site.url }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
-		{% endfor %}
-			<li class="text-right"><a href="{{ site.url }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></li>
+    {% for post in site.posts limit:include.entries offset:include.offset %}
+      <li><a href="{{ site.url }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
+    {% endfor %}
+      <li class="text-right"><a href="{{ site.url }}/archiv/"><strong>Mehr ›</strong></a></li>
 
 
-	{% elsif include.categories != empty %}
-	{% assign category = include.categories %}
-		
-		{% for post in site.categories.[category] limit:include.entries offset:include.offset %}
-			<li><a href="{{ site.url }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
-		{% endfor %}
-			<li class="text-right"><a href="{{ site.url }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></li>
-	{% endif %}
 
+  {% elsif category %}
+    
+    {% for post in site.categories.[category] limit:include.entries offset:include.offset %}
+      <li><a href="{{ site.url }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
+    {% endfor %}
+      <li class="text-right"><a href="{{ site.url }}/archiv/"><strong>Mehr ›</strong></a></li>
+
+
+  {% elsif tag %}
+
+    {% for post in site.tags.[tag] limit:include.entries %}
+      <li><a href="{{ site.url }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
+    {% endfor %}
+
+  {% endif %}
 </ul>
+

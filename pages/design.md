@@ -4,10 +4,10 @@ title: "Style your content!"
 subheadline: "Layouts of Feeling Responsive"
 image:
    header: "header_unsplash_5.jpg"
-permalink: "/design/style-guide/"
+permalink: "/design/"
 ---
 <ul>
     {% for post in site.categories.design %}
-    <li><a href="{{ site.url }}/{{ post.permalink }}">{{ post.title }}</a></li>
+    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>

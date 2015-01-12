@@ -1,11 +1,15 @@
 ---
-layout: compress
+# layout: compress
 ---
 {% include header.html %}
 <body id="top-of-page" class="{{ page.format }}">
 	{% include navigation.html %}
 
-	{% include masthead.html %}
+  {% include masthead.html %}
+
+  {% if page.breadcrumb == true %}
+    {% include breadcrumb.html %}
+  {% endif %}
 
 	{{ content }}
 

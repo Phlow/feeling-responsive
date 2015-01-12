@@ -7,7 +7,7 @@
   side: left
 
 - title: "Style your content"
-  url: "/design/style-guide/"
+  url: "/design/"
   side: left
   dropdown:
   - title: "Grid & Colors"
@@ -32,6 +32,21 @@
     url: "/design/gallery/"
   - title: "Portfolio"
     url: "/design/portfolio/"
+
+- title: "Style your Header"
+  url: "/headers/"
+  side: left
+  dropdown:
+  - title: "Header with Full-Width-Image"
+    url: "/design/header-full-width-image/"
+  - title: "Header with Image and Pattern"
+    url: "/design/header-image-pattern/"
+  - title: "Header with image and color"
+    url: "/design/header-image-color/"
+  - title: "Header Only With Logo"
+    url: "/design/header-logo-only/"
+  - title: "No Header"
+    url: "/design/no-header/"
 
 - title: Documentation
   url: "/documentation/"

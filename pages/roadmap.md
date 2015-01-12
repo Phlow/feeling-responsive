@@ -10,12 +10,12 @@ permalink: "/roadmap/"
 
 ## ToDo
 
+* Produce an introduction video to showcase *Feeling Responsive*
+* [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
+* Optimize HTML and use Schema.org-Attributes › <http://schema.org/Article>
 * Convert Foundation Sass to use native Jekyll Sass support
 * More post-formats for blogging like special post formats for links, audio, tweets,...
-* [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
 * Produce some small tutorials to show features and how to customize *Feeling Responsive*
-* Optimize HTML and use Schema.org-Attributes › <http://schema.org/Article>
-* Produce an introduction video to showcase *Feeling Responsive*
 * Show how to use [Entypo-Icons](http://entypo.com)
 
 ## Done

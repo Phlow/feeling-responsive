@@ -10,9 +10,7 @@ permalink: "/roadmap/"
 
 ## ToDo
 
-* Add [simple search box with Google](http://truongtx.me/2012/12/28/jekyll-create-simple-search-box/)
 * Convert Foundation Sass to use native Jekyll Sass support
-* Create custom 404.html-webpage <https://help.github.com/articles/custom-404-pages/>
 * More post-formats for blogging like special post formats for links, audio, tweets,...
 * [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
 * Produce some small tutorials to show features and how to customize *Feeling Responsive*
@@ -22,6 +20,8 @@ permalink: "/roadmap/"
 
 ## Done
 
+* <s>Create custom 404.html-webpage <https://help.github.com/articles/custom-404-pages/></s>
+* <s>Add [simple search box with Google](http://truongtx.me/2012/12/28/jekyll-create-simple-search-box/)</s>
 * <s>Alternative non-landscape header</s>
 * <s>Patterns for header</s>
 * <s>Clean up color scheme and highlighting colors</s>

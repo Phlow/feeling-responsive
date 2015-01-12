@@ -8,7 +8,7 @@ image:
 permalink: "/changelog/"
 ---
 2015-01-12 // Version 0.94
-:   Added Windows 8-Tile in `config.yml` and `header.html`. Added `_config_dev.yml` for easier local development. Use `jekyll serve --config _config.yml,_config_dev.yml` to overwrite `url`-settings of the main configuration. Added `_data/network.yml` to customize links in the footer-area.
+:   Added Windows 8-Tile in `config.yml` and `header.html`. Added `_config_dev.yml` for easier local development. Use `jekyll serve --config _config.yml,_config_dev.yml` to overwrite `url`-settings of the main configuration. Added `_data/network.yml` to customize links in the footer-area. Now with 404-page and a google-powered search.
 
 2014-12-22 // Version 0.93
 :   Improved speed through the use of [webfontloader](https://github.com/typekit/webfontloader). Reduced Volkhov font and only embedded normal weight. Now fonts load asynchronous and the package is 53kb lighter.

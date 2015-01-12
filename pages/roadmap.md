@@ -11,6 +11,7 @@ permalink: "/roadmap/"
 ## ToDo
 
 * Produce an introduction video to showcase *Feeling Responsive*
+* Rework `list-entries.html` › english translation and links
 * [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
 * Optimize HTML and use Schema.org-Attributes › <http://schema.org/Article>
 * Convert Foundation Sass to use native Jekyll Sass support

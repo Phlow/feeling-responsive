@@ -2,7 +2,7 @@
 layout: post
 title:  "Header Image With Background Color"
 subheadline:  "Headers With Style"
-description: "Feeling Responsive allows you to use all different kinds of headers. This example shows a header image with a defined background color via front matter."
+description: "Feeling Responsive allows you to use all kinds of headers. This example shows a header image with a defined background color via front matter."
 categories:
     - design
 tags:
@@ -27,6 +27,6 @@ header:
 
 
 
-## All Header-Styles 
+### All Header-Styles 
 
 {% include list-posts.html tag='header' %}

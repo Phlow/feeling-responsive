@@ -105,19 +105,9 @@ With foundation responsive videos are easy. [More ›](http://foundation.zurb.co
 
 <img class="t60" src="{{ site.url }}/images/header_homepage_13.jpg">
 
-## Images: Header, Title, Thumbnails, Homepage   {#images}
+## Images: Title, Thumbnails, Homepage   {#images}
 
-There are four types of images you can define via frontmatter: thumbnails, header images, title images and images in your article. 
-
-
-### Header Images
-
-Header images are displayed right under the top navigation. We use Backstretch to expand them from left to right. The width should be 1600 pixel or higher and in a ratio like 16:9 or 21:9 or 2:1.
-
-~~~
-image:
-    header: thumbnail_image.jpg
-~~~
+There are several types of images you can define via front matter. If you want to change the images used in the header have a look at [Style your Header]({{ site.url }}/headers/). 
 
 
 ### Title Images
@@ -126,8 +116,6 @@ image:
 image:
     title: thumbnail_image.jpg
 ~~~
-
-You can choose to show a special full-width header image or not.
 
 
 ### Thumbnails
@@ -142,7 +130,7 @@ image:
 
 ### Homepage Image
 
-If you want to feature an article on the homepage with a huge image, than use the homepage image with a width of 970 pixels. If no homepage image is defined *Feeling Responsive* writes over the blog entries *New Blog Articles*. Define the homepage image like this:
+If you want to feature an article on the homepage with a huge image, than use the homepage image with a width of 970 pixels. If no homepage image is defined *Feeling Responsive* writes instead *New Blog Articles* over the blog entries. Define the homepage image like this:
 
 ~~~
 image:
@@ -157,7 +145,7 @@ Sometimes you want to give credit to the creator of your images, maybe with a li
 
 ~~~
 image:
-    header: header_image.jpg
+    title: header_image.jpg
     credit: Image by Phlow
     url: "http://phlow.de/"
 ~~~
@@ -166,7 +154,6 @@ image:
 
 ~~~
 image:
-    header: header_image.jpg
     title: title_image.jpg
     thumb: thumbnail_image.jpg
     homepage: header_homepage_13.jpg

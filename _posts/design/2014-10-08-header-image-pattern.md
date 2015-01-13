@@ -2,7 +2,7 @@
 layout: post
 title:  "Header Image With Pattern"
 subheadline:  "Headers With Style"
-description: "Feeling Responsive allows you to use all different kinds of headers. This example shows a header image in front of a pattern."
+description: "Feeling Responsive allows you to use all kinds of headers. This example shows a header image in front of a pattern."
 categories:
     - design
 tags:
@@ -26,6 +26,6 @@ header:
 
 
 
-## All Header-Styles 
+### All Header-Styles 
 
 {% include list-posts.html tag='header' %}

@@ -9,7 +9,7 @@
       <div id="footer">
         <div class="row">
           <div class="medium-6 large-5 columns">
-            <h5 class="shadow-black sans">{{ site.data.language.about_website }}</h5>
+            <h5 class="shadow-black">{{ site.data.language.about_website }}</h5>
 
             <p class="shadow-black">
               {{ site.description }}
@@ -21,11 +21,11 @@
           <div class="small-6 medium-3 large-3 large-offset-1 columns">
             {% for service_item in site.data.services %}
               {% if forloop.first == true %}
-                <h5 class="shadow-black sans">{{ service_item.menu_name }}</h5>
+                <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
               
-              <ul class="no-bullet shadow-black sans">
+              <ul class="no-bullet shadow-black">
               {% for service_item in site.data.services %}
                 {% if service_item.url contains 'http' %}
                   {% assign domain = '' %}
@@ -43,11 +43,11 @@
           <div class="small-6 medium-3 large-3 columns">
             {% for network_item in site.data.network %}
               {% if forloop.first == true %}
-                <h5 class="shadow-black sans">{{ network_item.menu_name }}</h5>
+                <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
               
-            <ul class="no-bullet shadow-black sans">
+            <ul class="no-bullet shadow-black">
             {% for network_item in site.data.network %}
               {% if network_item.url contains 'http' %}
                 {% assign domain = '' %}

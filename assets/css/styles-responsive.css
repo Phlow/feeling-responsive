@@ -4450,10 +4450,10 @@ kbd {
 .panel {
   border-style: solid;
   border-width: 1px;
-  border-color: #d8d8d8;
+  border-color: #cbcbcb;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f2f2f2;
+  background: #e4e4e4;
   color: #333333;
 }
 /* line 55, ../bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -7516,64 +7516,58 @@ CSS-Classes to add margin at the top or bottom
 }
 
 /* line 1, ../scss/_6_additional_theme-fr.scss */
-.ad-panel {
-  border: 1px solid #d7d7d7;
-  text-align: center;
-  padding: 15px;
+.border-dotted {
+  border: 1px dotted #a4a4a4;
+  padding: 1.25rem;
+  border-radius: 3px;
 }
 
-/* line 6, ../scss/_6_additional_theme-fr.scss */
-.ad-panel p {
-  padding: 0;
-  margin: 0;
-}
-
-/* line 12, ../scss/_6_additional_theme-fr.scss */
+/* line 7, ../scss/_6_additional_theme-fr.scss */
 .alert-box {
   font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.9);
 }
 
-/* line 16, ../scss/_6_additional_theme-fr.scss */
+/* line 11, ../scss/_6_additional_theme-fr.scss */
 .alert-box p {
   margin-bottom: 0;
 }
 
-/* line 19, ../scss/_6_additional_theme-fr.scss */
+/* line 14, ../scss/_6_additional_theme-fr.scss */
 .alert-box a {
   text-shadow: 1px 1px 0px black;
   color: #fff;
   border-bottom: 1px dotted #fff;
 }
 
-/* line 24, ../scss/_6_additional_theme-fr.scss */
+/* line 19, ../scss/_6_additional_theme-fr.scss */
 .alert-box a:hover {
   border-bottom: 1px solid #fff;
 }
 
-/* line 27, ../scss/_6_additional_theme-fr.scss */
+/* line 22, ../scss/_6_additional_theme-fr.scss */
 .alert-box.terminal {
   background: #0b0b0b;
   color: #fff;
   border-color: #090909;
 }
 
-/* line 33, ../scss/_6_additional_theme-fr.scss */
+/* line 28, ../scss/_6_additional_theme-fr.scss */
 .breadcrumbs > .current {
   font-weight: bold;
 }
 
-/* line 37, ../scss/_6_additional_theme-fr.scss */
+/* line 32, ../scss/_6_additional_theme-fr.scss */
 button, .button {
   letter-spacing: 1px;
 }
 
-/* line 38, ../scss/_6_additional_theme-fr.scss */
+/* line 33, ../scss/_6_additional_theme-fr.scss */
 button.grey, .button.grey {
   background: #575757;
 }
 
-/* line 39, ../scss/_6_additional_theme-fr.scss */
+/* line 34, ../scss/_6_additional_theme-fr.scss */
 button.grey:hover,
 button.grey:focus,
 .button.grey:hover,
@@ -7581,75 +7575,75 @@ button.grey:focus,
   background-color: #0b0b0b;
 }
 
-/* line 45, ../scss/_6_additional_theme-fr.scss */
+/* line 40, ../scss/_6_additional_theme-fr.scss */
 .shadow-no {
   text-shadow: transparent 0 0 0;
 }
 
-/* line 46, ../scss/_6_additional_theme-fr.scss */
+/* line 41, ../scss/_6_additional_theme-fr.scss */
 .shadow-black {
   text-shadow: rgba(0, 0, 0, 0.49804) 0px 1px 2px;
 }
 
-/* line 47, ../scss/_6_additional_theme-fr.scss */
+/* line 42, ../scss/_6_additional_theme-fr.scss */
 .shadow-white {
   text-shadow: rgba(255, 255, 255, 0.49804) 0px 1px 2px;
 }
 
-/* line 50, ../scss/_6_additional_theme-fr.scss */
+/* line 45, ../scss/_6_additional_theme-fr.scss */
 .side-nav li.title {
   text-transform: uppercase;
 }
 
-/* line 51, ../scss/_6_additional_theme-fr.scss */
+/* line 46, ../scss/_6_additional_theme-fr.scss */
 .side-nav li {
   border-top: 1px solid #cbcbcb;
 }
 
-/* line 52, ../scss/_6_additional_theme-fr.scss */
+/* line 47, ../scss/_6_additional_theme-fr.scss */
 .side-nav li a:not(.button) {
   border-bottom: 0;
   padding: 0.4375rem 0rem;
 }
 
-/* line 53, ../scss/_6_additional_theme-fr.scss */
+/* line 48, ../scss/_6_additional_theme-fr.scss */
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
   background: #eee;
 }
 
-/* line 55, ../scss/_6_additional_theme-fr.scss */
+/* line 50, ../scss/_6_additional_theme-fr.scss */
 .homepage p {
   margin: 0;
   padding: 0;
   color: #575757;
 }
 
-/* line 56, ../scss/_6_additional_theme-fr.scss */
+/* line 51, ../scss/_6_additional_theme-fr.scss */
 .caption a {
   border-bottom: 1px dotted #bebebe;
   color: #575757;
   font-size: 0.8125rem;
 }
 
-/* line 59, ../scss/_6_additional_theme-fr.scss */
+/* line 54, ../scss/_6_additional_theme-fr.scss */
 .meta-info p {
   font-size: 0.8125rem;
   color: #efefef;
 }
 
-/* line 63, ../scss/_6_additional_theme-fr.scss */
+/* line 58, ../scss/_6_additional_theme-fr.scss */
 .meta-info a {
   text-decoration: underline;
   color: #efefef;
 }
 
-/* line 67, ../scss/_6_additional_theme-fr.scss */
+/* line 62, ../scss/_6_additional_theme-fr.scss */
 .meta-info a:hover {
   text-decoration: none;
   color: #a1d044;
 }
 
-/* line 73, ../scss/_6_additional_theme-fr.scss */
+/* line 68, ../scss/_6_additional_theme-fr.scss */
 #logo-monochrome {
   background: url(../img/phlow-logo-monochrome-100x36.png) no-repeat;
   height: 36px;

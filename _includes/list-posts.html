@@ -4,26 +4,26 @@ Possible parameter for this loop:
 
  › entries
  › offset
- › category 
+ › category
+ › tag
 
 Example for Category: {% include list-posts.html entries='3' offset='1' category='design' %}
+
 Example for Tag: {% include list-posts.html entries='5' tag='terminal' %}
 
 
 This loop works like this:
 
 1. First we check if there was given a category for filtering › if include.categories == NULL 
-
 2. If no category is given for filtering do a general loop.
-
-3. If a category was given, assign category the given category to the variable category  › assign category = include.categories 
+3. If a category/tag was given, assign category/tag to the variable category/tag › assign category = include.categories 
 
 {% endcomment %}
 
+
+
 {% assign category = include.category %}
 {% assign tag = include.tag %}
-
-
 <ul class="side-nav">
 
   {% if category == NULL and tag == NULL %}

@@ -7136,48 +7136,357 @@ Additional typographical elements
   font-size: 1rem;
 }
 
+/*
+  Icon Font: iconfont
+*/
 @font-face {
-  font-family: 'entypo';
-  src: url("../fonts/entypo.eot");
-  src: url("../fonts/entypo.eot?#iefix") format("embedded-opentype"), url("../fonts/entypo.woff") format("woff"), url("../fonts/entypo.ttf") format("truetype"), url("../fonts/entypo.svg#entypo") format("svg");
-  font-weight: normal;
+  font-family: 'iconfont';
+  src: url("../fonts/iconfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/iconfont.woff") format("woff"), url("../fonts/iconfont.ttf") format("truetype"), url("../fonts/iconfont.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+/* line 142, ../scss/_4_typography_theme-fr.scss */
+.iconfont {
+  font-family: iconfont;
+}
+
+/* line 143, ../scss/_4_typography_theme-fr.scss */
+.iconfont-48 {
+  font-size: 48px;
+}
+
+/* line 146, ../scss/_4_typography_theme-fr.scss */
+[data-icon]:before {
+  content: attr(data-icon);
+}
+
+/* line 148, ../scss/_4_typography_theme-fr.scss */
+[data-icon]:before,
+.icon-archive:before,
+.icon-browser:before,
+.icon-calendar:before,
+.icon-camera:before,
+.icon-chat:before,
+.icon-check:before,
+.icon-chevron-down:before,
+.icon-chevron-left:before,
+.icon-chevron-right:before,
+.icon-chevron-up:before,
+.icon-circle-with-cross:before,
+.icon-circle-with-minus:before,
+.icon-circle-with-plus:before,
+.icon-cloud:before,
+.icon-code:before,
+.icon-cog:before,
+.icon-dropbox:before,
+.icon-edit:before,
+.icon-export:before,
+.icon-eye:before,
+.icon-facebook:before,
+.icon-feather:before,
+.icon-github:before,
+.icon-globe:before,
+.icon-heart:before,
+.icon-heart-outlined:before,
+.icon-home:before,
+.icon-instagram:before,
+.icon-lab-flask:before,
+.icon-leaf:before,
+.icon-linkedin:before,
+.icon-mail:before,
+.icon-message:before,
+.icon-mic:before,
+.icon-network:before,
+.icon-paper-plane:before,
+.icon-pinterest:before,
+.icon-price-tag:before,
+.icon-rocket:before,
+.icon-rss:before,
+.icon-soundcloud:before,
+.icon-star:before,
+.icon-star-outlined:before,
+.icon-thumbs-down:before,
+.icon-thumbs-up:before,
+.icon-tumblr:before,
+.icon-twitter:before,
+.icon-upload-to-cloud:before,
+.icon-video:before,
+.icon-vimeo:before,
+.icon-warning:before,
+.icon-youtube:before {
+  display: inline-block;
+  font-family: "iconfont";
   font-style: normal;
-}
-@font-face {
-  font-family: 'entypo-social';
-  src: url("../fonts/entypo-social.eot");
-  src: url("../fonts/entypo-social.eot?#iefix") format("embedded-opentype"), url("../fonts/entypo-social.woff") format("woff"), url("../fonts/entypo-social.ttf") format("truetype"), url("../fonts/entypo-social.svg#entypo-social") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
-/* line 149, ../scss/_4_typography_theme-fr.scss */
-.entypo {
-  font-family: 'entypo';
-}
-
-/* line 150, ../scss/_4_typography_theme-fr.scss */
-.entypo-social {
-  font-family: 'entypo-social';
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 
-/* line 151, ../scss/_4_typography_theme-fr.scss */
-.entypo-32 {
-  font-size: 2rem;
+/* line 215, ../scss/_4_typography_theme-fr.scss */
+.icon-archive:before {
+  content: "\f100";
 }
 
-/* line 152, ../scss/_4_typography_theme-fr.scss */
-.entypo-29 {
-  font-size: 1.8125rem;
+/* line 216, ../scss/_4_typography_theme-fr.scss */
+.icon-browser:before {
+  content: "\f101";
 }
 
-/* line 153, ../scss/_4_typography_theme-fr.scss */
-.entypo-48 {
-  font-size: 3rem;
+/* line 217, ../scss/_4_typography_theme-fr.scss */
+.icon-calendar:before {
+  content: "\f133";
 }
 
-/* line 154, ../scss/_4_typography_theme-fr.scss */
-.entypo-64 {
-  font-size: 4rem;
+/* line 218, ../scss/_4_typography_theme-fr.scss */
+.icon-camera:before {
+  content: "\f102";
+}
+
+/* line 219, ../scss/_4_typography_theme-fr.scss */
+.icon-chat:before {
+  content: "\f103";
+}
+
+/* line 220, ../scss/_4_typography_theme-fr.scss */
+.icon-check:before {
+  content: "\f104";
+}
+
+/* line 221, ../scss/_4_typography_theme-fr.scss */
+.icon-chevron-down:before {
+  content: "\f105";
+}
+
+/* line 222, ../scss/_4_typography_theme-fr.scss */
+.icon-chevron-left:before {
+  content: "\f106";
+}
+
+/* line 223, ../scss/_4_typography_theme-fr.scss */
+.icon-chevron-right:before {
+  content: "\f107";
+}
+
+/* line 224, ../scss/_4_typography_theme-fr.scss */
+.icon-chevron-up:before {
+  content: "\f108";
+}
+
+/* line 225, ../scss/_4_typography_theme-fr.scss */
+.icon-circle-with-cross:before {
+  content: "\f109";
+}
+
+/* line 226, ../scss/_4_typography_theme-fr.scss */
+.icon-circle-with-minus:before {
+  content: "\f10a";
+}
+
+/* line 227, ../scss/_4_typography_theme-fr.scss */
+.icon-circle-with-plus:before {
+  content: "\f10b";
+}
+
+/* line 228, ../scss/_4_typography_theme-fr.scss */
+.icon-cloud:before {
+  content: "\f10c";
+}
+
+/* line 229, ../scss/_4_typography_theme-fr.scss */
+.icon-code:before {
+  content: "\f10d";
+}
+
+/* line 230, ../scss/_4_typography_theme-fr.scss */
+.icon-cog:before {
+  content: "\f10e";
+}
+
+/* line 231, ../scss/_4_typography_theme-fr.scss */
+.icon-dropbox:before {
+  content: "\f10f";
+}
+
+/* line 232, ../scss/_4_typography_theme-fr.scss */
+.icon-edit:before {
+  content: "\f110";
+}
+
+/* line 233, ../scss/_4_typography_theme-fr.scss */
+.icon-export:before {
+  content: "\f111";
+}
+
+/* line 234, ../scss/_4_typography_theme-fr.scss */
+.icon-eye:before {
+  content: "\f112";
+}
+
+/* line 235, ../scss/_4_typography_theme-fr.scss */
+.icon-facebook:before {
+  content: "\f113";
+}
+
+/* line 236, ../scss/_4_typography_theme-fr.scss */
+.icon-feather:before {
+  content: "\f114";
+}
+
+/* line 237, ../scss/_4_typography_theme-fr.scss */
+.icon-github:before {
+  content: "\f115";
+}
+
+/* line 238, ../scss/_4_typography_theme-fr.scss */
+.icon-globe:before {
+  content: "\f116";
+}
+
+/* line 239, ../scss/_4_typography_theme-fr.scss */
+.icon-heart:before {
+  content: "\f117";
+}
+
+/* line 240, ../scss/_4_typography_theme-fr.scss */
+.icon-heart-outlined:before {
+  content: "\f118";
+}
+
+/* line 241, ../scss/_4_typography_theme-fr.scss */
+.icon-home:before {
+  content: "\f119";
+}
+
+/* line 242, ../scss/_4_typography_theme-fr.scss */
+.icon-instagram:before {
+  content: "\f11a";
+}
+
+/* line 243, ../scss/_4_typography_theme-fr.scss */
+.icon-lab-flask:before {
+  content: "\f11b";
+}
+
+/* line 244, ../scss/_4_typography_theme-fr.scss */
+.icon-leaf:before {
+  content: "\f11c";
+}
+
+/* line 245, ../scss/_4_typography_theme-fr.scss */
+.icon-linkedin:before {
+  content: "\f11d";
+}
+
+/* line 246, ../scss/_4_typography_theme-fr.scss */
+.icon-mail:before {
+  content: "\f11e";
+}
+
+/* line 247, ../scss/_4_typography_theme-fr.scss */
+.icon-message:before {
+  content: "\f11f";
+}
+
+/* line 248, ../scss/_4_typography_theme-fr.scss */
+.icon-mic:before {
+  content: "\f120";
+}
+
+/* line 249, ../scss/_4_typography_theme-fr.scss */
+.icon-network:before {
+  content: "\f121";
+}
+
+/* line 250, ../scss/_4_typography_theme-fr.scss */
+.icon-paper-plane:before {
+  content: "\f122";
+}
+
+/* line 251, ../scss/_4_typography_theme-fr.scss */
+.icon-pinterest:before {
+  content: "\f123";
+}
+
+/* line 252, ../scss/_4_typography_theme-fr.scss */
+.icon-price-tag:before {
+  content: "\f124";
+}
+
+/* line 253, ../scss/_4_typography_theme-fr.scss */
+.icon-rocket:before {
+  content: "\f125";
+}
+
+/* line 254, ../scss/_4_typography_theme-fr.scss */
+.icon-rss:before {
+  content: "\f126";
+}
+
+/* line 255, ../scss/_4_typography_theme-fr.scss */
+.icon-soundcloud:before {
+  content: "\f127";
+}
+
+/* line 256, ../scss/_4_typography_theme-fr.scss */
+.icon-star:before {
+  content: "\f128";
+}
+
+/* line 257, ../scss/_4_typography_theme-fr.scss */
+.icon-star-outlined:before {
+  content: "\f129";
+}
+
+/* line 258, ../scss/_4_typography_theme-fr.scss */
+.icon-thumbs-down:before {
+  content: "\f12a";
+}
+
+/* line 259, ../scss/_4_typography_theme-fr.scss */
+.icon-thumbs-up:before {
+  content: "\f12b";
+}
+
+/* line 260, ../scss/_4_typography_theme-fr.scss */
+.icon-tumblr:before {
+  content: "\f12c";
+}
+
+/* line 261, ../scss/_4_typography_theme-fr.scss */
+.icon-twitter:before {
+  content: "\f12d";
+}
+
+/* line 262, ../scss/_4_typography_theme-fr.scss */
+.icon-upload-to-cloud:before {
+  content: "\f12e";
+}
+
+/* line 263, ../scss/_4_typography_theme-fr.scss */
+.icon-video:before {
+  content: "\f12f";
+}
+
+/* line 264, ../scss/_4_typography_theme-fr.scss */
+.icon-vimeo:before {
+  content: "\f130";
+}
+
+/* line 265, ../scss/_4_typography_theme-fr.scss */
+.icon-warning:before {
+  content: "\f131";
+}
+
+/* line 266, ../scss/_4_typography_theme-fr.scss */
+.icon-youtube:before {
+  content: "\f132";
 }
 
 /* line 1, ../scss/_5_layout_theme-fr.scss */
@@ -7329,17 +7638,23 @@ body.video cite {
 
 /* - - - FOOTER - - - - - - - - - - - - - - - - - - - - - - */
 /* line 74, ../scss/_5_layout_theme-fr.scss */
-#up-to-top a.entypo:hover {
+#up-to-top a {
+  font-size: 24px;
+  padding: 5px;
+}
+
+/* line 75, ../scss/_5_layout_theme-fr.scss */
+#up-to-top a:hover {
   background: #d7d7d7;
   border-radius: 3px;
 }
 
-/* line 75, ../scss/_5_layout_theme-fr.scss */
+/* line 76, ../scss/_5_layout_theme-fr.scss */
 #up-to-top {
   padding: 160px 0 10px 0;
 }
 
-/* line 78, ../scss/_5_layout_theme-fr.scss */
+/* line 79, ../scss/_5_layout_theme-fr.scss */
 #footer {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -7347,22 +7662,16 @@ body.video cite {
   color: white;
 }
 
-/* line 84, ../scss/_5_layout_theme-fr.scss */
+/* line 85, ../scss/_5_layout_theme-fr.scss */
 footer p,
 footer li {
   font-size: 0.8125rem;
   font-weight: 300;
 }
 
-/* line 90, ../scss/_5_layout_theme-fr.scss */
+/* line 91, ../scss/_5_layout_theme-fr.scss */
 #footer a {
   color: #a1d044;
-}
-
-/* line 91, ../scss/_5_layout_theme-fr.scss */
-#footer a.entypo:hover {
-  background: #45b29d;
-  border-radius: 3px;
 }
 
 /* line 93, ../scss/_5_layout_theme-fr.scss */
@@ -7373,16 +7682,7 @@ footer li {
   text-transform: uppercase;
 }
 
-/* line 99, ../scss/_5_layout_theme-fr.scss */
-#footer p.entypo {
-  font-size: 80px;
-  line-height: 54px;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-
-/* line 107, ../scss/_5_layout_theme-fr.scss */
+/* line 100, ../scss/_5_layout_theme-fr.scss */
 #subfooter {
   background: #313131;
   color: #7e7e7e;
@@ -7390,49 +7690,40 @@ footer li {
   padding-bottom: 10px;
 }
 
-/* line 113, ../scss/_5_layout_theme-fr.scss */
+/* line 106, ../scss/_5_layout_theme-fr.scss */
 #subfooter-left ul.inline-list {
   float: left;
 }
 
-/* line 116, ../scss/_5_layout_theme-fr.scss */
-#subfooter .entypo-social,
-#subfooter .entypo {
-  font-size: 48px;
-  line-height: 36px;
-  color: #7e7e7e;
-}
-
-/* line 123, ../scss/_5_layout_theme-fr.scss */
+/* line 109, ../scss/_5_layout_theme-fr.scss */
 #subfooter li a {
   color: #7e7e7e;
   text-transform: uppercase;
 }
 
-/* line 128, ../scss/_5_layout_theme-fr.scss */
+/* line 113, ../scss/_5_layout_theme-fr.scss */
 #subfooter li a:hover {
   color: #fff;
 }
 
-/* line 132, ../scss/_5_layout_theme-fr.scss */
+/* line 116, ../scss/_5_layout_theme-fr.scss */
 #subfooter .social-icons li a {
+  font-size: 1.4375rem;
   display: block;
-  height: 36px;
   width: 36px;
   border-radius: 50%;
   color: #313131;
   background: #7e7e7e;
   text-align: center;
-  vertical-align: center;
 }
 
-/* line 143, ../scss/_5_layout_theme-fr.scss */
+/* line 125, ../scss/_5_layout_theme-fr.scss */
 #subfooter .social-icons li a:hover {
   background: #313131;
   color: #fff;
 }
 
-/* line 148, ../scss/_5_layout_theme-fr.scss */
+/* line 130, ../scss/_5_layout_theme-fr.scss */
 .ad-space {
   border: 1px solid #fafafa;
   text-align: center;
@@ -7445,72 +7736,72 @@ footer li {
 CSS-Classes to add margin at the top or bottom
 
 */
-/* line 161, ../scss/_5_layout_theme-fr.scss */
+/* line 143, ../scss/_5_layout_theme-fr.scss */
 .t15 {
   margin-top: 15px !important;
 }
 
-/* line 162, ../scss/_5_layout_theme-fr.scss */
+/* line 144, ../scss/_5_layout_theme-fr.scss */
 .t20 {
   margin-top: 20px !important;
 }
 
-/* line 163, ../scss/_5_layout_theme-fr.scss */
+/* line 145, ../scss/_5_layout_theme-fr.scss */
 .t30 {
   margin-top: 30px !important;
 }
 
-/* line 164, ../scss/_5_layout_theme-fr.scss */
+/* line 146, ../scss/_5_layout_theme-fr.scss */
 .t50 {
   margin-top: 50px !important;
 }
 
-/* line 165, ../scss/_5_layout_theme-fr.scss */
+/* line 147, ../scss/_5_layout_theme-fr.scss */
 .t60 {
   margin-top: 60px !important;
 }
 
-/* line 166, ../scss/_5_layout_theme-fr.scss */
+/* line 148, ../scss/_5_layout_theme-fr.scss */
 .t90 {
   margin-top: 90px !important;
 }
 
-/* line 168, ../scss/_5_layout_theme-fr.scss */
+/* line 150, ../scss/_5_layout_theme-fr.scss */
 .b15 {
   margin-bottom: 15px !important;
 }
 
-/* line 169, ../scss/_5_layout_theme-fr.scss */
+/* line 151, ../scss/_5_layout_theme-fr.scss */
 .b20 {
   margin-bottom: 20px !important;
 }
 
-/* line 170, ../scss/_5_layout_theme-fr.scss */
+/* line 152, ../scss/_5_layout_theme-fr.scss */
 .b30 {
   margin-bottom: 30px !important;
 }
 
-/* line 171, ../scss/_5_layout_theme-fr.scss */
+/* line 153, ../scss/_5_layout_theme-fr.scss */
 .b60 {
   margin-bottom: 60px !important;
 }
 
-/* line 173, ../scss/_5_layout_theme-fr.scss */
+/* line 155, ../scss/_5_layout_theme-fr.scss */
 .pl20 {
   padding-left: 20px !important;
 }
 
-/* line 175, ../scss/_5_layout_theme-fr.scss */
+/* line 157, ../scss/_5_layout_theme-fr.scss */
 .pr5 {
   padding-right: 5px !important;
 }
 
-/* line 176, ../scss/_5_layout_theme-fr.scss */
+/* line 158, ../scss/_5_layout_theme-fr.scss */
 .pr10 {
   padding-right: 10px !important;
 }
 
-/* line 177, ../scss/_5_layout_theme-fr.scss */
+/* line 159, ../scss/_5_layout_theme-fr.scss */
 .pr20 {
   padding-right: 20px !important;
 }

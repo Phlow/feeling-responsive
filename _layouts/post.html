@@ -7,10 +7,10 @@ format: post
 	<div class="small-12 columns">
 		<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">
 		{% if page.image.url && page.image.credit %}
-            <p class="text-right caption">
-                <a href="{{ page.image.url }}">{{ page.image.credit }}</a>
-            </p>
-        {% endif %}
+		<p class="text-right caption">
+			<a href="{{ page.image.url }}">{{ page.image.credit }}</a>
+		</p>
+		{% endif %}
 	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
 {% endif %}
@@ -25,9 +25,9 @@ format: post
 			</header>
 
 			{% if page.description %}
-				<p class="teaser">
-					{{ page.description }}
-				</p>
+			<p class="teaser">
+				{{ page.description }}
+			</p>
 			{% endif %}
 			
 			{{ content }}

@@ -1,55 +1,39 @@
 - name: YouTube
   url: http://www.youtube.com/PhlowMedia
-  id: social-youtube
-  class: entypo
+  class: icon-youtube
   title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
-  entypo: "&#9654;"
 
 - name: Twitter
   url: http://twitter.com/phlow
-  id: social-twitter
-  class: entypo-social
+  class: icon-twitter
   title: "Immer das Neuste von Phlow gibt es auf Twitter"
-  entypo: "&#62217;"
 
 - name: Facebook
   url: http://www.facebook.com/phlow.media
-  id: social-facebook
-  class: entypo-social
+  class: icon-facebook
   title: "Lass uns Freunde sein!"
-  entypo: "&#62220;"
 
 - name: Soundcloud
   url: http://soundcloud.com/phlow
-  id: social-soundcloud
-  class: entypo-social
+  class: icon-soundcloud
   title: "Sounds und Downloads und mehr"
-  entypo: "&#62280;"
 
 - name: GitHub
   url: http://github.com/phlow
-  id: social-github
-  class: entypo-social
+  class: icon-github
   title: Code und mehr...
-  entypo: "&#62208;"
 
 - name: Instagram
   url: http://instagram.com/phlowmedia
-  id: social-instagram
-  class: entypo-social
+  class: icon-instagram
   title: "Bilder und Impressionen mit und ohne Filter..."
-  entypo: "&#62253;"
 
 - name: Pinterst
   url: http://www.pinterest.com/phlowmedia/
-  id: social-pinterest
-  class: entypo-social
+  class: icon-pinterest
   title: "Bilder, Fotos, Illustrationen, Grafiken sammeln..."
-  entypo: "&#62227;"
 
 - name: Mixcloud
   url: http://www.mixcloud.com/phlow/
-  id: social-mixcloud
-  class: entypo
+  class: icon-cloud
   title: "Mixe, was sonst?"
-  entypo: "&#9729;"

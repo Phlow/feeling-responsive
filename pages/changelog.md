@@ -2,11 +2,14 @@
 layout: page
 title: "Change is good!"
 subheadline: "Feeling Responsive Theme Changelog"
-description: "History and changelog of Feeling Responsive Theme by Phlow Media."
+description: "History and changelog of Feeling Responsive Theme"
 header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2015-02-09 // Version 0.95
+:   Now with custom icon font using only entypo icons necessary. Eliminated one one request and reduced the font-file to 9kb. You can easily customize the font yourself using [Font Custom][7] and the included `fontcustom.yml` in `assets/fonts/`.
+
 2015-01-12 // Version 0.94
 :   Added Windows 8-Tile in `config.yml` and `header.html`. Added `_config_dev.yml` for easier local development. Use `jekyll serve --config _config.yml,_config_dev.yml` to overwrite `url`-settings of the main configuration. Added `_data/network.yml` to customize links in the footer-area. Now with 404-page and a google-powered search.
 
@@ -59,7 +62,7 @@ permalink: "/changelog/"
  [4]: {{ site.url }}/design/gallery/
  [5]: {{ site.url }}/design/video/
  [6]: https://www.google.de/maps/place/Strandpaviljoen+Joep+B.V./@51.9960733,5.830135,6z/data=!4m2!3m1!1s0x47cf5918df69093b:0x7c11ab31102c1c8a
- [7]: #
+ [7]: fontcustom.com
  [8]: #
  [9]: #
  [10]: #

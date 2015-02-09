@@ -10,17 +10,17 @@ permalink: "/roadmap/"
 
 ## ToDo
 
+* Additional [header]({{ site.url }}/headers/) with text
 * Produce an introduction video to showcase *Feeling Responsive*
-* Rework `list-entries.html` › english translation and links
 * [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
 * Optimize HTML and use Schema.org-Attributes › <http://schema.org/Article>
 * Convert Foundation Sass to use native Jekyll Sass support
 * More post-formats for blogging like special post formats for links, audio, tweets,...
 * Produce some small tutorials to show features and how to customize *Feeling Responsive*
-* Show how to use [Entypo-Icons](http://entypo.com)
 
 ## Done
 
+* <s>Rework `list-entries.html` › now language ready</s>
 * [<s>Create custom 404.html-webpage</s>](https://help.github.com/articles/custom-404-pages/)
 * [<s>Add simple search box with Google</s>](http://truongtx.me/2012/12/28/jekyll-create-simple-search-box/)
 * <s>Alternative non-landscape header</s>

@@ -1,6 +1,6 @@
     <div id="up-to-top" class="row">
       <div class="small-12 columns" style="text-align: right;">
-        <a class="entypo entypo-48" href="#top-of-page">&nbsp;&#59231;&nbsp;</a>
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
       </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
@@ -9,11 +9,11 @@
       <div id="footer">
         <div class="row">
           <div class="medium-6 large-5 columns">
-            <h5 class="shadow-black">{{ site.data.language.about_website }}</h5>
+            <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
 
             <p class="shadow-black">
               {{ site.description }}
-              <a href="{{ site.url }}/about/">{{ site.data.language.more }}</a>
+              <a href="{{ site.url }}/info/">{{ site.data.language.more }}</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -76,7 +76,7 @@
           <section id="subfooter-right" class="small-12 medium-6 columns social-icons">
             <ul class="inline-list">
             {% for social_item in site.data.socialmedia %}
-              <li><a href="{{ social_item.url }}" target="_blank" id="{{ social_item.id }}" class="{{ social_item.class }}" title="{{ social_item.title }}">{{ social_item.entypo }}</a></li>
+              <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
             {% endfor %}
             </ul>
           </section>

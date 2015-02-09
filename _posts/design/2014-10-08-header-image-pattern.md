@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Header Image With Pattern"
 subheadline:  "Headers With Style"
 description: "Feeling Responsive allows you to use all kinds of headers. This example shows a header image in front of a pattern."

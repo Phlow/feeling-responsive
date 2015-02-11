@@ -236,6 +236,11 @@ Copycats enjoy pressing <kbd>CMD</kbd> + <kbd>c</kbd> and <kbd>CMD</kbd> + <kbd>
 This text <sub>lays low</sub> and chills a bit.
 
 
+### &lt;sup&gt;
+
+This text <sup>get high</sup> above the clouds.
+
+
 
 ### &lt;i&gt;
 

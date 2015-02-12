@@ -7,6 +7,9 @@ header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2015-02-12 // Version 0.96
+:   Added `frontpage`-layout with three widgets-areas. The layout simplifies the process to change content on the frontpage.
+
 2015-02-09 // Version 0.95
 :   Now with custom icon font using only entypo icons necessary. Eliminated one one request and reduced the font-file to 9kb. You can easily customize the font yourself using [Font Custom][7] and the included `fontcustom.yml` in `assets/fonts/`.
 

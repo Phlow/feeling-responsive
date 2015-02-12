@@ -238,7 +238,7 @@ This text <sub>lays low</sub> and chills a bit.
 
 ### &lt;sup&gt;
 
-This text <sup>get high</sup> above the clouds.
+This text <sup>gets high</sup> above the clouds.
 
 
 

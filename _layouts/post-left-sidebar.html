@@ -11,7 +11,6 @@ format: post-left-sidebar
 	<div class="medium-8 columns">
 		<article>
 			<header>
-				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
 				{% if page.image.title %}<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">{% endif %}
 				{% if page.image.url && page.image.credit %}
 				<p class="text-right caption">
@@ -19,6 +18,7 @@ format: post-left-sidebar
 				</p>
 				{% endif %}
 
+				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
 				<h1>{{ page.title }}</h1>
 			</header>
 			{% if page.description %}
@@ -30,8 +30,6 @@ format: post-left-sidebar
 			{{ content }}
 
 			{% include meta_information.html %}
-
 		</article>
 	</div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
-

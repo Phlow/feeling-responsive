@@ -1,0 +1,84 @@
+---
+layout: default
+format: blog-index
+---
+<div id="header-home">
+    <div class="row">
+        <div class="small-12 columns">
+        </div><!-- /.medium-4.columns -->
+    </div><!-- /.row -->
+</div><!-- /#header-home -->
+
+
+<div class="row t60">
+    <div class="medium-4 columns">
+        <a href="{{ site.url }}{{ page.widget-1.url }}"><img src="{{ site.urlimg }}/{{ page.widget-1.image }}" width="302" height="182" alt=""></a>
+        <h2 class="font-size-h3">{{ page.widget-1.title }}</h2>
+        <p>{{ page.widget-1.text }}</p>
+        <p><a class="button tiny radius" href="{{ site.url }}{{ page.widget-1.url }}">{{ site.data.language.more }}</a></p>
+    </div><!-- /.medium-4.columns -->
+
+
+    <div class="medium-4 columns">
+        <a href="{{ site.url }}{{ page.widget-2.url }}"><img src="{{ site.urlimg }}/{{ page.widget-2.image }}" width="302" height="182" alt=""></a>
+        <h2 class="font-size-h3">{{ page.widget-2.title }}</h2>
+        <p>{{ page.widget-2.text }}</p>
+        <p><a class="button tiny radius" href="{{ site.url }}{{ page.widget-2.url }}">{{ site.data.language.more }}</a></p>
+    </div><!-- /.medium-4.columns -->
+
+
+    <div class="medium-4 columns">
+    	<a href="{{ site.url }}{{ page.widget-2.url }}"><img src="{{ site.urlimg }}/{{ page.widget-2.image }}" width="302" height="182" alt=""></a>
+        <h2 class="font-size-h3">{{ page.widget-2.title }}</h2>
+        <p>{{ page.widget-2.text }}</p>
+        <p><a class="button tiny radius" href="{{ site.url }}{{ page.widget-2.url }}">Download @ GitHub ›</a></p>
+    </div><!-- /.medium-4.columns -->
+</div><!-- /.row -->
+
+
+
+<div class="row t50 b20 homepage">
+    <div class="small-12 columns">
+        {% for post in site.posts limit:1 %}
+        {% if post.image.homepage %}
+        <p>
+            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img width="970" src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
+        </p>
+
+        {% if post.image.url && post.image.credit %}
+        <p class="text-right caption">
+            <a href="{{ post.image.url }}">{{ post.image.credit }}</a>
+        </p>
+        {% endif %}
+        {% elsif post.image.homepage == NULL %}
+        <h2>{{ site.data.language.new_blog_entries }}</h2>
+        {% endif %}
+        {% endfor %}
+    </div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+
+
+
+<div class="row">
+    <div class="medium-6 columns">
+        {% for post in site.posts limit:1 %}
+        <p class="subheadline">{% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>
+        <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+        <p>
+            {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.description %}{{ post.description | strip_html | escape }}{% endif %}
+            <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+        </p>
+        {% endfor %}
+    </div><!-- /.medium-5.columns -->
+
+
+    <div class="medium-6 columns">
+        <p><strong>{{ site.data.language.more_articles }}</strong></p>
+        {% include list-posts.html entries='3' offset='1' %}
+    </div><!-- /.medium-7.columns -->
+</div><!-- /.row -->
+
+
+<div class="row">
+    {{ content }}
+</div><!-- /.row -->

@@ -48,9 +48,15 @@ use in front matter via: `layout: post-right-sidebar`
 
 
 ### Page Full Width
-If you want full control of styling a page, than use the [page full-width template]({{ site.url }}/design/page-full-width/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
+If you want full control of styling a page, than use the [page fullwidth template]({{ site.url }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
 
-use in front matter via: `layout: page-full-width`
+use in front matter via: `layout: page-fullwidth`
+
+
+### Frontpage
+This template is special. It allows you to define three *widgets* which are displayed with a headline, image, description and a link to the content. It's used for the [homepage]({{ site.url }}) of this website.
+
+use in front matter via: `layout: frontpage`
 
 
 ### Video
@@ -134,7 +140,7 @@ If you want to feature an article on the homepage with a huge image, than use th
 
 ~~~
 image:
-    homepage: "header_homepage_13.jpg"
+    homepage: header_homepage_13.jpg
 ~~~
 
 
@@ -223,7 +229,7 @@ The loop looks when you use all parameters. Single parameters are possible of co
 
 *Feeling Responsive* uses the foundation framework and some of its javascript components. I reduced the modules, to decrease page load and make the theme faster.
 
-I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. These modules are currently used by the theme and included in `javascript.min.js`. There is also a non-minified version, if you want to take a closer look: `javasript.js`.
+I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. These modules are currently used by the theme and included in `javascript.min.js`. There is also a non-minified version, if you want to take a closer look: `javascript.js`.
 
 ~~~
 /foundation/bower_components/foundation/js/vendor/jquery.js'

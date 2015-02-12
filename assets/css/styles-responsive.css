@@ -6965,17 +6965,17 @@ dd.accordion-navigation span {
 
 /* line 46, ../scss/_4_typography_theme-fr.scss */
 dd.accordion-navigation span:before {
-  content: "\E766";
+  content: "\F107";
 }
 
 /* line 47, ../scss/_4_typography_theme-fr.scss */
 dd.accordion-navigation.active span:before {
-  content: "\E764";
+  content: "\F105";
 }
 
 /* line 48, ../scss/_4_typography_theme-fr.scss */
 dd.accordion-navigation.active span:before {
-  content: "\E764";
+  content: "\F105";
 }
 
 /* line 51, ../scss/_4_typography_theme-fr.scss */
@@ -7144,9 +7144,9 @@ Additional typographical elements
   font-size: 1rem;
 }
 
-/*
-  Icon Font: iconfont
-*/
+/* Icon Font: iconfont
+   See the icon-set/preview in /assets/fonts/iconfont-preview.html
+------------------------------------------------------------------- */
 @font-face {
   font-family: 'iconfont';
   src: url("../fonts/iconfont.eot");

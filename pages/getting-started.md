@@ -1,5 +1,6 @@
 ---
 layout: page
+show_metadata: false
 title: "Getting Started"
 subheadline: "A Step-by-Step Guide"
 description: "This step-by-step guide helps you to customize Feeling Responsive to your needs."

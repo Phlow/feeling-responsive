@@ -23,28 +23,18 @@ permalink: "/documentation/"
 
 *Feeling Responsive* supports you with different templates for your content. These are the actual page/post formats:
 
-### Post
-The [post format]({{ site.url }}/design/post/) has no sidebar, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
-
-use in front matter via: `layout: post`
-
-
-### Page
-The [page template]({{ site.url }}/design/page/) shows the content in the same way as the *post* format without listing the metadata at the end of the page.
+### Page/Post
+The [page/post format]({{ site.url }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
 
 use in front matter via: `layout: page`
 
-
-### Post with left sidebar
-This template displays a [post left sidebar]({{ site.url }}/design/post-left-sidebar/) besides the content. To customize the content of the sidebar, open `_includes/sidebar.html`.
-
-use in front matter via: `layout: post-left-sidebar`
+### Page/Post with a left or right sidebar
+If you want to show the sidebar, just enter `sidebar: left` or `sidebar: right` in front matter, and *whoops, there it is*! To customize the content of the sidebar, open `_includes/sidebar.html`.
 
 
-### Post with right sidebar
-This template displays a [post with right sidebar]({{ site.url }}/design/post-right-sidebar/) besides the content. To customize the content of the sidebar, open `_includes/sidebar.html`.
+### Page/Post with or without metadata
+If you want to show metadata like categories, tags and date at the end of the page, just enter `show_metadata: true`. It's on by default. You can change it via `config.yml`. To turn of metadata just enter – *yes, you guessed right* – `show_metadata: false`.
 
-use in front matter via: `layout: post-right-sidebar`
 
 
 ### Page Full Width

@@ -2,14 +2,14 @@
 layout: page-fullwidth
 title: "Show your beautiful work!"
 subheadline: "Portfolio"
-description: "You don't need a special portfolio template with this theme. Just check out the great possibilities of the foundation grid and experiment with it."
+teaser: "You don't need a special portfolio template with this theme. Just check out the great possibilities of the <a href='http://foundation.zurb.com/docs/components/grid.html'>foundation grid</a> and experiment with it."
 image:
     thumb: "unsplash_6_bus_thumb.jpg"
 categories:
     - design
 ---
 
-<div class="row">
+<div class="row t60">
     <div class="medium-6 columns b30">
         <img src="{{ site.url }}/images/webdesign_screenshot_nixdorf.jpg" alt="">
         <p> Website: Nixdorf Internatsberatung &amp; Schulberatung</p>

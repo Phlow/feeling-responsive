@@ -1,9 +1,12 @@
 ---
-layout: post-left-sidebar
-title:  "Post With Left Sidebar"
-description: "This is a example of Post with a Sidebar on the left."
-date:  2014-03-28 00:00:00
+layout: page
+sidebar: left
+subheadline: Templates
+title:  "Page/Post With Left Sidebar"
+teaser: "This is a example of page/post with a sidebar on the left."
 breadcrumb: true
+tags:
+    - post format
 categories:
     - design
 image:
@@ -11,11 +14,19 @@ image:
     credit: Unsplash.com
     url: http://unsplash.com
 ---
-## Have a look at the sidebar
+*Feeling Responsive* shows metadata by default. The default behaviour can be changed via `config.yml`. To show metadata at the end of a page/post just add the following to front matter:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+~~~
+show_metadata: true
+~~~
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+If you don't want to show metadata, it's simple again:
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+~~~
+show_metadata: false
+~~~
 
+
+## Other Post Formats
+{: .t60 }
+{% include list-posts.html tag='post format' %}

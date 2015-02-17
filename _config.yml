@@ -49,6 +49,7 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 permalink: /:categories/:title/
 highlight: pygments
+excerpt_separator: "\n\n"
 exclude: []
 include: ['.htaccess']
 
@@ -56,6 +57,31 @@ include: ['.htaccess']
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
 
+
+#
+#       ____       ____            ____ 
+#      / __ \___  / __/___ ___  __/ / /_
+#     / / / / _ \/ /_/ __ `/ / / / / __/
+#    / /_/ /  __/ __/ /_/ / /_/ / / /_  
+#   /_____/\___/_/  \__,_/\__,_/_/\__/  
+#                                       
+# Default Settings
+
+defaults:
+  -
+    scope:
+      path: "" 				# an empty string here means all files in the project
+      type: "pages"
+    values:
+      show_metadata: true 	# Show metadata beneath all pages
+      sidebar: "" 		# Possible values › left, right › by default there will be no sidebar
+  -
+    scope:
+      path: "" 				
+      type: "posts"
+    values:
+      show_metadata: true 	# Show metadata beneath all posts
+      sidebar: "" 		# Possible values › left, right › by default there will be no sidebar
 
 
 

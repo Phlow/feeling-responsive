@@ -2,7 +2,7 @@
 layout: page
 title:  "Header With Logo Only"
 subheadline:  "Headers With Style"
-description: "Feeling Responsive allows you to use all kinds of headers. This is the default mode. It shows a header just with your logo on the standard background."
+teaser: "Feeling Responsive allows you to use all kinds of headers. This is the default mode. It shows a header just with your logo on the standard background."
 categories:
     - design
 tags:

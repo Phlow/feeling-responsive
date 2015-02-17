@@ -1,5 +1,6 @@
 ---
 layout: page
+show_metadata: false
 title: "Style your content!"
 subheadline: "Layouts of Feeling Responsive"
 header:

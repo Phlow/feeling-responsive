@@ -29,7 +29,7 @@
 
   {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification}}" />{% endif %}
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" />{% endif %}
-	{% if page.meta_description %}<meta name="description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.description %}<meta name="description" content="{{ page.description | strip_html | escape }}"/>{% elsif site.description %}<meta name="description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
+	{% if page.meta_description %}<meta name="description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.teaser %}<meta name="description" content="{{ page.teaser | strip_html | escape }}"/>{% elsif site.description %}<meta name="description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
 	
 	{% if site.google_author %}<link rel="author" href="{{ site.google_author }}"/>{% endif %}
 	{% if site.favicon %}<link rel="shortcut icon" href="{{ site.url }}{{ site.favicon }}" type="image/png" />{% endif %}

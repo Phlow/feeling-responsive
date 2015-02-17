@@ -2,7 +2,7 @@
 layout: page
 title:  "Header with a Full-Width-Image"
 subheadline:  "Headers With Style"
-description: "Feeling Responsive allows you to use all kinds of headers. This example shows a header with a <em>full-width-image</em>."
+teaser: "Feeling Responsive allows you to use all kinds of headers. This example shows a header with a <em>full-width-image</em>."
 categories:
     - design
 tags:

@@ -3,6 +3,7 @@
 {% if page.header.image_fullwidth %}
 <script>
     $("#masthead").backstretch("{{ site.url }}/images/{{ page.header.image_fullwidth }}", {fade: 700});
+    $("#masthead-with-text").backstretch("{{ site.url }}/images/{{ page.header.image_fullwidth }}", {fade: 700});
 </script>
 {% endif %}
 

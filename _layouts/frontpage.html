@@ -65,7 +65,7 @@ format: blog-index
         <p class="subheadline">{% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>
         <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
         <p>
-            {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.description %}{{ post.description | strip_html | escape }}{% endif %}
+            {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
             <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
         </p>
         {% endfor %}

@@ -11,6 +11,8 @@ permalink: "/roadmap/"
 ## ToDo
 
 * Additional [header]({{ site.url }}/headers/) with text
+* Disqus comments
+* Google AdSense ads
 * Produce an introduction video to showcase *Feeling Responsive*
 * [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
 * Optimize HTML and use Schema.org-Attributes › <http://schema.org/Article>

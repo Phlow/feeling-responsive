@@ -8,19 +8,20 @@ header:
 permalink: "/roadmap/"
 ---
 
-## ToDo
+## Ideas and possible new features
 
+* Better responsive typography
 * Additional [header]({{ site.url }}/headers/) with text
 * Google AdSense ads
 * Produce an introduction video to showcase *Feeling Responsive*
 * [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
-* Optimize HTML and use Schema.org-Attributes › <http://schema.org/Article>
 * Convert Foundation Sass to use native Jekyll Sass support
 * More post-formats for blogging like special post formats for links, audio, tweets,...
 * Produce some small tutorials to show features and how to customize *Feeling Responsive*
 
 ## Done
 
+* <s>Optimize HTML and use Schema.org-Attributes › http://schema.org/Article</s>
 * <s>Disqus comments</s>
 * <s>Rework `list-entries.html` › now language ready</s>
 * [<s>Create custom 404.html-webpage</s>](https://help.github.com/articles/custom-404-pages/)

@@ -7773,71 +7773,86 @@ footer li {
 /* CSS-Classes to add margin at the top or bottom
 ------------------------------------------------------------------- */
 /* line 226, ../scss/_5_layout_theme-fr.scss */
+.t10 {
+  margin-top: 10px !important;
+}
+
+/* line 227, ../scss/_5_layout_theme-fr.scss */
 .t15 {
   margin-top: 15px !important;
 }
 
-/* line 227, ../scss/_5_layout_theme-fr.scss */
+/* line 228, ../scss/_5_layout_theme-fr.scss */
 .t20 {
   margin-top: 20px !important;
 }
 
-/* line 228, ../scss/_5_layout_theme-fr.scss */
+/* line 229, ../scss/_5_layout_theme-fr.scss */
 .t30 {
   margin-top: 30px !important;
 }
 
-/* line 229, ../scss/_5_layout_theme-fr.scss */
+/* line 230, ../scss/_5_layout_theme-fr.scss */
 .t50 {
   margin-top: 50px !important;
 }
 
-/* line 230, ../scss/_5_layout_theme-fr.scss */
+/* line 231, ../scss/_5_layout_theme-fr.scss */
 .t60 {
   margin-top: 60px !important;
 }
 
-/* line 231, ../scss/_5_layout_theme-fr.scss */
+/* line 232, ../scss/_5_layout_theme-fr.scss */
+.t70 {
+  margin-top: 70px !important;
+}
+
+/* line 233, ../scss/_5_layout_theme-fr.scss */
+.t80 {
+  margin-top: 80px !important;
+}
+
+/* line 234, ../scss/_5_layout_theme-fr.scss */
 .t90 {
   margin-top: 90px !important;
 }
 
-/* line 233, ../scss/_5_layout_theme-fr.scss */
+/* line 236, ../scss/_5_layout_theme-fr.scss */
 .b15 {
   margin-bottom: 15px !important;
 }
 
-/* line 234, ../scss/_5_layout_theme-fr.scss */
+/* line 237, ../scss/_5_layout_theme-fr.scss */
 .b20 {
   margin-bottom: 20px !important;
 }
 
-/* line 235, ../scss/_5_layout_theme-fr.scss */
+/* line 238, ../scss/_5_layout_theme-fr.scss */
 .b30 {
   margin-bottom: 30px !important;
 }
 
-/* line 236, ../scss/_5_layout_theme-fr.scss */
+/* line 239, ../scss/_5_layout_theme-fr.scss */
 .b60 {
   margin-bottom: 60px !important;
 }
 
-/* line 238, ../scss/_5_layout_theme-fr.scss */
+/* line 241, ../scss/_5_layout_theme-fr.scss */
 .pl20 {
   padding-left: 20px !important;
 }
 
-/* line 240, ../scss/_5_layout_theme-fr.scss */
+/* line 243, ../scss/_5_layout_theme-fr.scss */
 .pr5 {
   padding-right: 5px !important;
 }
 
-/* line 241, ../scss/_5_layout_theme-fr.scss */
+/* line 244, ../scss/_5_layout_theme-fr.scss */
 .pr10 {
   padding-right: 10px !important;
 }
 
-/* line 242, ../scss/_5_layout_theme-fr.scss */
+/* line 245, ../scss/_5_layout_theme-fr.scss */
 .pr20 {
   padding-right: 20px !important;
 }

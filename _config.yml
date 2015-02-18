@@ -73,19 +73,19 @@ defaults:
       path: "" 				# an empty string here means all files in the project
       type: "pages"
     values:
-      show_metadata: true 	# Show metadata beneath all pages
+      show_meta: true 	# Show metadata beneath all pages
       sidebar: "" 		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "mo"
+      author: "your_author_name"
   -
     scope:
       path: ""        
       type: "posts"
     values:
-      show_metadata: true   # Show metadata beneath all posts
+      show_meta: true   # Show metadata beneath all posts
       sidebar: ""     # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "mo"
+      author: "your_author_name"
 
 
 

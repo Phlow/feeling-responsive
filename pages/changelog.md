@@ -7,8 +7,11 @@ header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2015-02-18 // Version 0.98
+:   Now with author-support and [Schema.org microdata](http://schema.org). Edit author(s) in `authors.yml` and use it via front matter like `author: your_author_name`. Added [Disqus-comments]({{ site.url}}/design/comments/#comments) to the mix.
+
 2015-02-17 // Version 0.97
-:   Simplicity. Reduced templates. Now there is one page/post-template with two switches via front matter to turn on metadata at the end of the page/post via `show_metadata: true/false` and to add a left or right sidebar via `sidebar: left/right`. The defaults are declared in `config.yml`. I also changed the variable `description` to `teaser` because it's more logigally.
+:   Simplicity. Reduced templates. Now there is one page/post-template with two switches via front matter to turn on metadata at the end of the page/post via `show_meta: true/false` and to add a left or right sidebar via `sidebar: left/right`. The defaults are declared in `config.yml`. I also changed the variable `description` to `teaser` because it's more logigally.
 
 2015-02-12 // Version 0.96
 :   Added `frontpage`-layout with three widgets-areas. The layout simplifies the process to change content on the frontpage.

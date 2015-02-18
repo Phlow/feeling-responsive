@@ -76,6 +76,7 @@ defaults:
       show_metadata: true 	# Show metadata beneath all pages
       sidebar: "" 		# Possible values › left, right › by default there will be no sidebar
       comments: false
+      author: "mo"
   -
     scope:
       path: ""        
@@ -84,6 +85,7 @@ defaults:
       show_metadata: true   # Show metadata beneath all posts
       sidebar: ""     # Possible values › left, right › by default there will be no sidebar
       comments: false
+      author: "mo"
 
 
 

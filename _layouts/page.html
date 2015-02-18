@@ -13,25 +13,29 @@ format: post
 	<div class="medium-8 columns{% if page.sidebar == "" %} medium-offset-2 end{% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
 			<header>
-				{% if page.image.title %}<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">{% endif %}
+				{% if page.image.title %}<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}" itemprop="image">{% endif %}
 				{% if page.image.url && page.image.credit %}
 				<p class="text-right caption">
 					<a href="{{ page.image.url }}">{{ page.image.credit }}</a>
 				</p>
 				{% endif %}
 
+				<span itemprop="name">
 				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-				<h1 itemprop="name">{{ page.title }}</h1>
+				<h1>{{ page.title }}</h1>
+				</span>
 			</header>
 
 
 			{% if page.teaser %}
-			<p class="teaser">
+			<p class="teaser" itemprop="description">
 				{{ page.teaser }}
 			</p>
 			{% endif %}
 
+			<span itemprop="articleSection">
 			{{ content }}
+			</span>
 
 			{% if page.show_metadata == true %}
 			{% include meta_information.html %}

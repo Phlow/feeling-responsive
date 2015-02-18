@@ -7660,42 +7660,48 @@ body.video cite {
 /* Meta
 ------------------------------------------------------------------- */
 /* line 131, ../scss/_5_layout_theme-fr.scss */
-#page-meta {
+#page-meta, #page-meta a {
   color: #a4a4a4;
 }
 
 /* line 135, ../scss/_5_layout_theme-fr.scss */
 #page-meta .button {
   background: #a4a4a4;
+  border: 0;
 }
 
-/* line 138, ../scss/_5_layout_theme-fr.scss */
+/* line 139, ../scss/_5_layout_theme-fr.scss */
+#page-meta .button {
+  color: #fff;
+}
+
+/* line 142, ../scss/_5_layout_theme-fr.scss */
 #page-meta .button:hover {
   background: #334d5c;
 }
 
 /* Jump to top
 ------------------------------------------------------------------- */
-/* line 147, ../scss/_5_layout_theme-fr.scss */
+/* line 151, ../scss/_5_layout_theme-fr.scss */
 #up-to-top {
   padding: 160px 0 10px 0;
 }
 
-/* line 150, ../scss/_5_layout_theme-fr.scss */
+/* line 154, ../scss/_5_layout_theme-fr.scss */
 #up-to-top a {
   font-size: 24px;
   padding: 5px;
   border-radius: 3px;
 }
 
-/* line 155, ../scss/_5_layout_theme-fr.scss */
+/* line 159, ../scss/_5_layout_theme-fr.scss */
 #up-to-top a:hover {
   background: #d7d7d7;
 }
 
 /* Footer
 ------------------------------------------------------------------- */
-/* line 164, ../scss/_5_layout_theme-fr.scss */
+/* line 168, ../scss/_5_layout_theme-fr.scss */
 #footer {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -7703,19 +7709,19 @@ body.video cite {
   color: white;
 }
 
-/* line 170, ../scss/_5_layout_theme-fr.scss */
+/* line 174, ../scss/_5_layout_theme-fr.scss */
 footer p,
 footer li {
   font-size: 0.8125rem;
   font-weight: 300;
 }
 
-/* line 176, ../scss/_5_layout_theme-fr.scss */
+/* line 180, ../scss/_5_layout_theme-fr.scss */
 #footer a {
   color: #a1d044;
 }
 
-/* line 179, ../scss/_5_layout_theme-fr.scss */
+/* line 183, ../scss/_5_layout_theme-fr.scss */
 #footer h4,
 #footer h5 {
   letter-spacing: 1px;
@@ -7723,7 +7729,7 @@ footer li {
   text-transform: uppercase;
 }
 
-/* line 187, ../scss/_5_layout_theme-fr.scss */
+/* line 191, ../scss/_5_layout_theme-fr.scss */
 #subfooter {
   background: #313131;
   color: #7e7e7e;
@@ -7731,23 +7737,23 @@ footer li {
   padding-bottom: 10px;
 }
 
-/* line 193, ../scss/_5_layout_theme-fr.scss */
+/* line 197, ../scss/_5_layout_theme-fr.scss */
 #subfooter-left ul.inline-list {
   float: left;
 }
 
-/* line 196, ../scss/_5_layout_theme-fr.scss */
+/* line 200, ../scss/_5_layout_theme-fr.scss */
 #subfooter li a {
   color: #7e7e7e;
   text-transform: uppercase;
 }
 
-/* line 200, ../scss/_5_layout_theme-fr.scss */
+/* line 204, ../scss/_5_layout_theme-fr.scss */
 #subfooter li a:hover {
   color: #fff;
 }
 
-/* line 203, ../scss/_5_layout_theme-fr.scss */
+/* line 207, ../scss/_5_layout_theme-fr.scss */
 #subfooter .social-icons li a {
   font-size: 1.4375rem;
   display: block;
@@ -7758,7 +7764,7 @@ footer li {
   text-align: center;
 }
 
-/* line 212, ../scss/_5_layout_theme-fr.scss */
+/* line 216, ../scss/_5_layout_theme-fr.scss */
 #subfooter .social-icons li a:hover {
   background: #313131;
   color: #fff;
@@ -7766,72 +7772,72 @@ footer li {
 
 /* CSS-Classes to add margin at the top or bottom
 ------------------------------------------------------------------- */
-/* line 222, ../scss/_5_layout_theme-fr.scss */
+/* line 226, ../scss/_5_layout_theme-fr.scss */
 .t15 {
   margin-top: 15px !important;
 }
 
-/* line 223, ../scss/_5_layout_theme-fr.scss */
+/* line 227, ../scss/_5_layout_theme-fr.scss */
 .t20 {
   margin-top: 20px !important;
 }
 
-/* line 224, ../scss/_5_layout_theme-fr.scss */
+/* line 228, ../scss/_5_layout_theme-fr.scss */
 .t30 {
   margin-top: 30px !important;
 }
 
-/* line 225, ../scss/_5_layout_theme-fr.scss */
+/* line 229, ../scss/_5_layout_theme-fr.scss */
 .t50 {
   margin-top: 50px !important;
 }
 
-/* line 226, ../scss/_5_layout_theme-fr.scss */
+/* line 230, ../scss/_5_layout_theme-fr.scss */
 .t60 {
   margin-top: 60px !important;
 }
 
-/* line 227, ../scss/_5_layout_theme-fr.scss */
+/* line 231, ../scss/_5_layout_theme-fr.scss */
 .t90 {
   margin-top: 90px !important;
 }
 
-/* line 229, ../scss/_5_layout_theme-fr.scss */
+/* line 233, ../scss/_5_layout_theme-fr.scss */
 .b15 {
   margin-bottom: 15px !important;
 }
 
-/* line 230, ../scss/_5_layout_theme-fr.scss */
+/* line 234, ../scss/_5_layout_theme-fr.scss */
 .b20 {
   margin-bottom: 20px !important;
 }
 
-/* line 231, ../scss/_5_layout_theme-fr.scss */
+/* line 235, ../scss/_5_layout_theme-fr.scss */
 .b30 {
   margin-bottom: 30px !important;
 }
 
-/* line 232, ../scss/_5_layout_theme-fr.scss */
+/* line 236, ../scss/_5_layout_theme-fr.scss */
 .b60 {
   margin-bottom: 60px !important;
 }
 
-/* line 234, ../scss/_5_layout_theme-fr.scss */
+/* line 238, ../scss/_5_layout_theme-fr.scss */
 .pl20 {
   padding-left: 20px !important;
 }
 
-/* line 236, ../scss/_5_layout_theme-fr.scss */
+/* line 240, ../scss/_5_layout_theme-fr.scss */
 .pr5 {
   padding-right: 5px !important;
 }
 
-/* line 237, ../scss/_5_layout_theme-fr.scss */
+/* line 241, ../scss/_5_layout_theme-fr.scss */
 .pr10 {
   padding-right: 10px !important;
 }
 
-/* line 238, ../scss/_5_layout_theme-fr.scss */
+/* line 242, ../scss/_5_layout_theme-fr.scss */
 .pr20 {
   padding-right: 20px !important;
 }

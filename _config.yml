@@ -75,13 +75,15 @@ defaults:
     values:
       show_metadata: true 	# Show metadata beneath all pages
       sidebar: "" 		# Possible values › left, right › by default there will be no sidebar
+      comments: false
   -
     scope:
-      path: "" 				
+      path: ""        
       type: "posts"
     values:
-      show_metadata: true 	# Show metadata beneath all posts
-      sidebar: "" 		# Possible values › left, right › by default there will be no sidebar
+      show_metadata: true   # Show metadata beneath all posts
+      sidebar: ""     # Possible values › left, right › by default there will be no sidebar
+      comments: false
 
 
 
@@ -151,3 +153,12 @@ og_description:                     "Feeling Responsive is built on the fabulous
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
 
+
+#        ____  _                      
+#       / __ \(_)________ ___  _______
+#      / / / / / ___/ __ `/ / / / ___/
+#     / /_/ / (__  ) /_/ / /_/ (__  ) 
+#    /_____/_/____/\__, /\__,_/____/  
+#                    /_/              
+
+disqus_shortname: feelingresponsive

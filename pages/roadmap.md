@@ -11,7 +11,6 @@ permalink: "/roadmap/"
 ## ToDo
 
 * Additional [header]({{ site.url }}/headers/) with text
-* Disqus comments
 * Google AdSense ads
 * Produce an introduction video to showcase *Feeling Responsive*
 * [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
@@ -22,6 +21,7 @@ permalink: "/roadmap/"
 
 ## Done
 
+* <s>Disqus comments</s>
 * <s>Rework `list-entries.html` › now language ready</s>
 * [<s>Create custom 404.html-webpage</s>](https://help.github.com/articles/custom-404-pages/)
 * [<s>Add simple search box with Google</s>](http://truongtx.me/2012/12/28/jekyll-create-simple-search-box/)

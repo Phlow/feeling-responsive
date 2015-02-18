@@ -36,6 +36,10 @@ format: post
 			{% if page.show_metadata == true %}
 			{% include meta_information.html %}
 			{% endif %}
+
+			{% if page.comments == true %}
+			{% include comments.html %}
+			{% endif %}
 		</article>
 	</div><!-- /.medium-8.columns -->
 

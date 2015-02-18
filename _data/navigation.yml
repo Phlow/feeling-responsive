@@ -6,7 +6,7 @@
   url: "/getting-started/"
   side: left
 
-- title: "Style your content"
+- title: "Templates"
   url: "/design/"
   side: left
   dropdown:
@@ -31,7 +31,7 @@
   - title: "Portfolio"
     url: "/design/portfolio/"
 
-- title: "Style your Header"
+- title: "Header Styles"
   url: "/headers/"
   side: left
   dropdown:

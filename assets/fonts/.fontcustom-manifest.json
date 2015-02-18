@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "49e44fbe7deb4a0f53b89294f21e46fbb35c8da5a5989689c9c69b817d446bde",
-    "current": "49e44fbe7deb4a0f53b89294f21e46fbb35c8da5a5989689c9c69b817d446bde"
+    "previous": "7680fdcdd1d625cdc3b4efee04bcd50aecf11af21345941d72e5f635b1ba9bba",
+    "current": "7680fdcdd1d625cdc3b4efee04bcd50aecf11af21345941d72e5f635b1ba9bba"
   },
   "fonts": [
     "./iconfont.ttf",
@@ -189,6 +189,10 @@
     "thumbs-up": {
       "codepoint": 61739,
       "source": "svg-files-for-custom-font/thumbs-up.svg"
+    },
+    "tree": {
+      "codepoint": 61748,
+      "source": "svg-files-for-custom-font/tree.svg"
     },
     "tumblr": {
       "codepoint": 61740,

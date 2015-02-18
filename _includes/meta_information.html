@@ -1,7 +1,6 @@
 			<div id="page-meta" class="t30">
 				<p>
-					<span class="icon-calendar pr20"> {{ page.date | date: "%d.%m.%Y" }}</span>
-					{% if page.categories %}<span class="icon-archive pr20"> {{ page.categories | join: ' · ' | upcase }}{% endif %}</span>
+					<time class="icon-calendar pr20" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>{% if page.categories %}<span class="icon-archive pr20"> {{ page.categories | join: ' · ' | upcase }}{% endif %}</span>
 					<span class="pr20">{% for tag in page.tags %}<span class="icon-price-tag pr10"> {{tag}}</span> {% endfor %}</span>
 				</p>
 

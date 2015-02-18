@@ -11,7 +11,7 @@ format: post
 
 
 	<div class="medium-8 columns{% if page.sidebar == "" %} medium-offset-2 end{% endif %}">
-		<article>
+		<article itemscope itemtype="http://schema.org/Article">
 			<header>
 				{% if page.image.title %}<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}">{% endif %}
 				{% if page.image.url && page.image.credit %}
@@ -21,7 +21,7 @@ format: post
 				{% endif %}
 
 				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-				<h1>{{ page.title }}</h1>
+				<h1 itemprop="name">{{ page.title }}</h1>
 			</header>
 
 

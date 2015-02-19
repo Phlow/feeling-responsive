@@ -4,6 +4,33 @@
 // Check typography variables › _3_typography_settings.scss
 //
 
+/* Links
+------------------------------------------------------------------- */
+
+a,
+a:link {
+    color: $ci-1;
+}
+
+a:visited {
+        border-bottom: $grey-2;
+}
+
+a:hover {
+        color: darken( $ci-1, 10% ) ;
+        // border-bottom: 3px solid $ci-1;
+}
+
+a:focus {
+        color: lighten( $ci-1, 20% ) ;
+}
+
+a:active {
+        color: darken( $ci-1, 20% ) ;
+}
+
+
+
 /* Additional Typography to complement Foundation
 ------------------------------------------------------------------- */
 
@@ -115,37 +142,6 @@ code {
     font-size: rem-calc(14);
     line-height: 1.5;
 }
-
-
-
-/* Links
-------------------------------------------------------------------- */
-
-a,
-a:link {
-    color: $ci-1;
-}
-
-a:visited {
-        border-bottom: $grey-2;
-}
-
-a:hover {
-        color: darken( $ci-1, 10% ) ;
-        // border-bottom: 3px solid $ci-1;
-}
-
-a:focus {
-        color: lighten( $ci-1, 20% ) ;
-}
-
-a:active {
-        color: darken( $ci-1, 20% ) ;
-}
-
-
-
-
 
 
 

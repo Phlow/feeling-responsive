@@ -4,23 +4,24 @@ title: "Roadmap"
 subheadline: "ToDo-List &amp; Ideas"
 description: "Here are some ideas and features I want to implement in the future."
 header:
-   image_fullwidth: "header_unsplash_3.jpg"
+   image_fullwidth: "header_roadmap_3.jpg"
 permalink: "/roadmap/"
 ---
 
 ## Ideas and possible new features
 
-* Better responsive typography
 * Additional [header]({{ site.url }}/headers/) with text
-* Google AdSense ads
 * Produce an introduction video to showcase *Feeling Responsive*
+* Better responsive typography
+* Google AdSense ads
 * [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
-* Convert Foundation Sass to use native Jekyll Sass support
 * More post-formats for blogging like special post formats for links, audio, tweets,...
-* Produce some small tutorials to show features and how to customize *Feeling Responsive*
+
+
 
 ## Done
 
+* <s>Convert Foundation Sass to use native Jekyll Sass support</s>
 * <s>Optimize HTML and use Schema.org-Attributes › http://schema.org/Article</s>
 * <s>Disqus comments</s>
 * <s>Rework `list-entries.html` › now language ready</s>

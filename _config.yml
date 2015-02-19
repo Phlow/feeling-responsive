@@ -164,3 +164,15 @@ og_description:                     "Feeling Responsive is built on the fabulous
 #                    /_/              
 
 disqus_shortname: feelingresponsive
+
+
+#      _____                
+#     / ___/____ ___________
+#     \__ \/ __ `/ ___/ ___/
+#    ___/ / /_/ (__  |__  ) 
+#   /____/\__,_/____/____/  
+#                           
+
+sass:
+    sass_dir: _sass
+    style: :compressed

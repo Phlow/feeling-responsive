@@ -22,8 +22,8 @@ github-pages/#comment-1870475246)
 
 ## Done
 
-* [<s>Add redirection layout by KanishkKanishk](http://codingtips.kanishkkunal.in/redirects-jekyll-github-pages/)
-* * <s>Convert Foundation Sass to use native Jekyll Sass support</s>
+* [<s>Add redirection layout by KanishkKanishk</s>](http://codingtips.kanishkkunal.in/redirects-jekyll-github-pages/)
+* <s>Convert Foundation Sass to use native Jekyll Sass support</s>
 * <s>Optimize HTML and use Schema.org-Attributes › http://schema.org/Article</s>
 * <s>Disqus comments</s>
 * <s>Rework `list-entries.html` › now language ready</s>

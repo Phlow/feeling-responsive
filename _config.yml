@@ -121,13 +121,13 @@ bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicons, Apple Touch Buttons
 #                                                 More information » http://j.mp/apple-touch-icons
 
-favicon:                         "/images/favicon-32x.png"                    # iOS7 Size 32x32
-apple_touch_icon_iphone:         "/images/touch-icon-iphone-60x.png"          # iOS7 Size 60x60
-apple_touch_icon_iphone_retina:  "/images/touch-icon-iphone-retina-120x.png"  # iOS7 Size 120x120
-apple_touch_icon_ipad:           "/images/touch-icon-ipad-76x.png"            # iOS7 Size 76x76
-apple_touch_icon_ipad_retina:    "/images/touch-icon-ipad-retina-152x.png"    # iOS7 Size 152x152
-apple_touch_icon_precomposed:    "/images/touch-icon-android-152x.png"        # iOS7 Size 152x152
-msapplication_tileimage:         "/images/windows-8-tile-icon-144x.png"       # Windows 8 Tile 144x144
+favicon:                         "/assets/img/favicon-32x.png"                    # iOS7 Size 32x32
+apple_touch_icon_iphone:         "/assets/img/touch-icon-iphone-60x.png"          # iOS7 Size 60x60
+apple_touch_icon_iphone_retina:  "/assets/img/touch-icon-iphone-retina-120x.png"  # iOS7 Size 120x120
+apple_touch_icon_ipad:           "/assets/img/touch-icon-ipad-76x.png"            # iOS7 Size 76x76
+apple_touch_icon_ipad_retina:    "/assets/img/touch-icon-ipad-retina-152x.png"    # iOS7 Size 152x152
+apple_touch_icon_precomposed:    "/assets/img/touch-icon-android-152x.png"        # iOS7 Size 152x152
+msapplication_tileimage:         "/assets/img/windows-8-tile-icon-144x.png"       # Windows 8 Tile 144x144
 msapplication_tilecolor:         "#334D5C"                                    # Windows 8 Tile Backgroundcolor
 
 

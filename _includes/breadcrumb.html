@@ -5,27 +5,15 @@
 *  
 {% endcomment %}
 
-
-{% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
-{% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
-{% assign previous="" %}
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
- {% if num_parts == "0" or num_parts == "-1" %}
-  <a href="{{ site.url }}">Start</a>
- {% else %}
-  <a href="{{ site.url }}">Start</a>
-
-  {% for unused in page.content limit:num_parts %}
-   {% capture first_word %}{{ url_parts | truncatewords:1 | remove:"..."}}{% endcapture %}
-   {% capture previous %}{{ previous }}/{{ first_word }}{% endcapture %}
-
-   <a href="{{previous}}">{{ first_word }}</a>
-
-   {% capture url_parts %}{{ url_parts | remove_first:first_word }}{% endcapture %}
+ <li><a href="/">{{ site.data.language.breadcrumb_start }}</a></li>
+ {% assign crumbs = page.url | split: '/' %}
+ {% assign crumbs_total = crumbs | size | minus: 1 %}
+   {% for crumb in crumbs offset: 1 %}
+    {% if forloop.index == crumbs_total %}
+        <li class="current">{{ page.title }}</li>
+    {% else %}
+        <li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a>
+    {% endif %}
   {% endfor %}
- {% endif %}
-  <a class="current" href="#">{{ page.title }}</a>
 </nav>
-
-    
-

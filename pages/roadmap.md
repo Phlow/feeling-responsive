@@ -9,11 +9,10 @@ permalink: "/roadmap/"
 ---
 
 ## Ideas and possible new features
+{: .t30 }
 
-* Additional [header]({{ site.url }}/headers/) with text
-github-pages/#comment-1870475246)
 * Produce an introduction video to showcase *Feeling Responsive*
-* Better responsive typography
+* Even better responsive typography
 * Google AdSense ads
 * [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
 * More post-formats for blogging like special post formats for links, audio, tweets,...
@@ -22,6 +21,8 @@ github-pages/#comment-1870475246)
 
 ## Done
 
+* [<s>Additional header with text</s>]({{ site.url }}/headers/)
+* <s>Added Google Analtics support</s>
 * [<s>Add redirection layout by KanishkKanishk</s>](http://codingtips.kanishkkunal.in/redirects-jekyll-github-pages/)
 * <s>Convert Foundation Sass to use native Jekyll Sass support</s>
 * <s>Optimize HTML and use Schema.org-Attributes › http://schema.org/Article</s>

@@ -1,23 +1,23 @@
 {% comment %}
-
-Possible parameter for this loop:
-
- › entries
- › offset
- › category
- › tag
-
-Example for Category: {% include list-posts.html entries='3' offset='1' category='design' %}
-
-Example for Tag: {% include list-posts.html entries='5' tag='terminal' %}
-
-
-This loop works like this:
-
-1. First we check if there was given a category for filtering › if include.categories == NULL 
-2. If no category is given for filtering do a general loop.
-3. If a category/tag was given, assign category/tag to the variable category/tag › assign category = include.categories 
-
+*   
+*   Possible parameter for this loop:
+*   
+*    › entries
+*    › offset
+*    › category
+*    › tag
+*   
+*   Example for Category: {% include list-posts.html entries='3' offset='1' category='design' %}
+*   
+*   Example for Tag: {% include list-posts.html entries='5' tag='terminal' %}
+*   
+*   
+*   This loop works like this:
+*   
+*   1. First we check if there was given a category for filtering › if include.categories == NULL 
+*   2. If no category is given for filtering do a general loop.
+*   3. If a category/tag was given, assign category/tag to the variable category/tag › assign category = include.categories 
+*   
 {% endcomment %}
 
 

@@ -14,5 +14,6 @@ No front matter code needed.
 
 
 ### All Header-Styles 
+{: .t60 }
 
 {% include list-posts.html tag='header' %}

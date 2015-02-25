@@ -7,6 +7,9 @@ header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2015-02-25 // Version 0.99.1
+:   Added support for Google Analtics. Added `_include/next-previous-post-in-category.html` to generate links from one post in a category to another post in that same category. Example at the bottom of [Grid & Colors]({{ site.url }}/design/grid/#bottom).
+
 2015-02-19 // Version 0.99
 :   Yes! Now *Feeling Responsive* uses the built-in sass-support by Jekyll. Open `_sass` and dig deeper into customizing this theme using your colors, typography and so on...
 

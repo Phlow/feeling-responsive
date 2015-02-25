@@ -27,5 +27,6 @@ header:
 
 
 ### All Header-Styles 
+{: .t60 }
 
 {% include list-posts.html tag='header' %}

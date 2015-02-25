@@ -18,7 +18,6 @@ a:visited {
 
 a:hover {
         color: darken( $ci-1, 10% ) ;
-        // border-bottom: 3px solid $ci-1;
 }
 
 a:focus {
@@ -49,7 +48,8 @@ p a:hover,
 article a:hover {
     border-bottom: 2px solid;
 }
-p a.button {
+p a.button,
+.button:hover {
     border: 0;
 }
 p.button a {

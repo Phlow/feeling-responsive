@@ -201,8 +201,17 @@ With the Kramdown parser for Markdown you can render a table of contents for you
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
 
+## Breadcrumbs
+
+To turn on breadcrumbs, just use...
+
+{% highlight html %}
+breadcrumb: true
+{% endhighlight %}
+
 
 ## Includes
+{: .t60}
 
 Includes can be very helpful to spice up your content. You can use includes in your Markdown-files with ease: Just call them with some Liquid code.
 
@@ -219,10 +228,18 @@ Possible parameter for the loop:
 The loop looks when you use all parameters. Single parameters are possible of course.
 
 ~~~
-{% raw %}
-{% include list-posts.html entries='3' offset='1' category='design' %}
-{% endraw %}
+{% raw %}{% include list-posts.html entries='3' offset='1' category='design' %}{% endraw %}
 ~~~
+
+### next-previous-post-in-category.html
+
+This include creates a next/previous link to a post of the same category using the first categories-variable in front matter.
+
+~~~
+{% raw %}{% include next-previous-post-in-category.html %}{% endraw %}
+~~~
+
+
 
 
 <small markdown="1">[Up to table of contents](#toc)</small>

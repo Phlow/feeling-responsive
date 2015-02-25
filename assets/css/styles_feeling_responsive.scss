@@ -9,12 +9,7 @@
 @import "04_settings_mixins_media_queries.scss";
 @import "04_settings_global.scss";
 @import "05_settings_top-bar.scss";
-
 @import "05_normalize.scss";    // normalize.css v3.0.2
-@import "06_typography.scss";
-@import "07_layout";
-@import "foundation-components/grid";
-@import "09_elements";
 
 @import "foundation-components/top-bar.scss";
 @import "foundation-components/accordion";
@@ -40,5 +35,10 @@
 @import "foundation-components/top-bar";
 @import "foundation-components/type";
 @import "foundation-components/visibility";
+
+@import "06_typography.scss";
+@import "07_layout";
+@import "foundation-components/grid";
+@import "09_elements";
 
 @import "11_syntax-highlighting";

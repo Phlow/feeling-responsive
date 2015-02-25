@@ -49,8 +49,10 @@ article a:hover {
     border-bottom: 2px solid;
 }
 p a.button,
+.button,
 .button:hover {
     border: 0;
+    color: #fff;
 }
 p.button a {
     border: 0;

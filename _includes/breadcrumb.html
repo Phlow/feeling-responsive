@@ -6,14 +6,14 @@
 {% endcomment %}
 
 <nav class="breadcrumbs" role="menubar" aria-label="breadcrumbs">
- <li><a href="/">{{ site.data.language.breadcrumb_start }}</a></li>
+ <li><a href="{{ site.url }}">{{ site.data.language.breadcrumb_start }}</a></li>
  {% assign crumbs = page.url | split: '/' %}
  {% assign crumbs_total = crumbs | size | minus: 1 %}
    {% for crumb in crumbs offset: 1 %}
     {% if forloop.index == crumbs_total %}
         <li class="current">{{ page.title }}</li>
     {% else %}
-        <li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a>
+        <li><a href="{{ site.url }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a>
     {% endif %}
   {% endfor %}
 </nav>

@@ -8,24 +8,22 @@
 ------------------------------------------------------------------- */
 
 a,
-a:link {
-    color: $ci-1;
-}
+a:link {}
 
 a:visited {
         border-bottom: $grey-2;
 }
 
 a:hover {
-        color: darken( $ci-1, 10% ) ;
+        color: darken( $ci-1, 10% );
 }
 
 a:focus {
-        color: lighten( $ci-1, 20% ) ;
+        color: lighten( $ci-1, 20% );
 }
 
 a:active {
-        color: darken( $ci-1, 20% ) ;
+        color: darken( $ci-1, 20% );
 }
 
 

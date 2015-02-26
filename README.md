@@ -10,22 +10,25 @@ To get to know *Feeling Responsive* check out all the features explained in the 
 And what license is *Feeling Responsive* released under? [This one][2].
 
 
-## Some Features
 
-* Responsive Gallery, Videos, Grid, Typography,...
-* 100% GitHub Pages friendly
-* Easy editable navigation and social media links
-* Lots of possibilities to customize it to your needs
-* Various post formats to let your content shine
-* Uses Jekyll 2.0
-* Multiple possibilities to use images in different ways
-* Fine typography
+## Why use this theme?
+
+Feeling Responsive is heavily customizable.
+
+1. Language-Support :)
+2. Optimized for speed and it's responsive.
+3. Built on Foundation Framework.
+4. Six different Headers.
+5. Customizable navigation, footer,...
+
+**[More ›][3]**
+
 
 
 
  [1]: http://phlow.github.io/feeling-responsive/documentation/
  [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE
- [3]: #
+ [3]: http://phlow.github.io/feeling-responsive/info/
  [4]: #
  [5]: #
  [6]: #

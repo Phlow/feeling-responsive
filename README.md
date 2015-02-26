@@ -1,5 +1,13 @@
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
 
+<video>
+<source src="https://ia600604.us.archive.org/11/items/DeputyDawgInPenguinPanic/DeputyDawg-017-PenguinPanic1962.ogv" type="video/ogg" />
+<source src="https://archive.org/download/DeputyDawgInPenguinPanic/DeputyDawg-017-PenguinPanic1962.mp4" type="video/mp4" />
+</video>
+
+
+
+
 ## A Responsive Jekyll Theme: *Feeling Responsive*
 
 Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.

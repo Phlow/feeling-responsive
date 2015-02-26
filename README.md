@@ -1,12 +1,5 @@
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
 
-<video>
-<source src="https://ia600604.us.archive.org/11/items/DeputyDawgInPenguinPanic/DeputyDawg-017-PenguinPanic1962.ogv" type="video/ogg" />
-<source src="https://archive.org/download/DeputyDawgInPenguinPanic/DeputyDawg-017-PenguinPanic1962.mp4" type="video/mp4" />
-</video>
-
-
-
+[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/promo-video-start.png)](https://www.youtube.com/embed/3b5zCFSmVvU)
 
 ## A Responsive Jekyll Theme: *Feeling Responsive*
 

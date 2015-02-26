@@ -7,9 +7,15 @@ header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+
+2015-02-26 // Version 1.0
+:   OK. Let's try it. Here is *Feeling Responsive* Version 1.0, with a shiny video.
+
+<div class="flex-video"><iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe></div><!-- /.flex-video -->
+
+
 2015-02-25 // Version 0.99.1
 :   Added support for Google Analtics. Added `_include/next-previous-post-in-category.html` to generate links from one post in a category to another post in that same category. Example at the bottom of [Grid & Colors]({{ site.url }}/design/grid/#bottom). Added `noindex`-variable for search engine optimization ([read more](https://support.google.com/webmasters/answer/93710?hl=en)). Changed code for breadcrumb. Added [Improve-Content-Include]({{ site.url }}/documentation/#improvecontenthtml).
-
 
 2015-02-19 // Version 0.99
 :   Yes! Now *Feeling Responsive* uses the built-in sass-support by Jekyll. Open `_sass` and dig deeper into customizing this theme using your colors, typography and so on...

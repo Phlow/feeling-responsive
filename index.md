@@ -17,7 +17,7 @@ widget-2:
     title: "Why use this theme?"
     url: 'http://phlow.github.io/feeling-responsive/info/'
     text: '<em>Feeling Responsive</em> is heavily customizable.<br>1. Language-Support :)<br>2. Optimized for speed and it&#39;s responsive.<br>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br>4. Six different Headers.<br>5. Customizable navigation, footer,...'
-    image: unsplash_8-302x182.jpg
+    video: '<iframe width="100%" height="182" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>'
 widget-3:
     title: "Download Theme"
     url: 'https://github.com/Phlow/feeling-responsive'

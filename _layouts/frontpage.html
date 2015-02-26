@@ -12,7 +12,7 @@ format: blog-index
 
 <div class="row t60">
     <div class="medium-4 columns">
-        <a href="{{ site.url }}{{ page.widget-1.url }}"><img src="{{ site.urlimg }}/{{ page.widget-1.image }}" width="302" height="182" alt=""></a>
+        <a href="{{ page.widget-1.url }}">{% if page.widget-1.image %}<img src="{{ site.urlimg }}/{{ page.widget-1.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-1.video %}{{ page.widget-1.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-1.title }}</h2>
         <p>{{ page.widget-1.text }}</p>
         <p><a class="button tiny radius" href="{{ page.widget-1.url }}">{{ site.data.language.more }}</a></p>
@@ -20,7 +20,7 @@ format: blog-index
 
 
     <div class="medium-4 columns">
-        <a href="{{ page.widget-2.url }}"><img src="{{ site.urlimg }}/{{ page.widget-2.image }}" width="302" height="182" alt=""></a>
+        <a href="{{ page.widget-2.url }}">{% if page.widget-2.image %}<img src="{{ site.urlimg }}/{{ page.widget-2.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-2.video %}{{ page.widget-2.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-2.title }}</h2>
         <p>{{ page.widget-2.text }}</p>
         <p><a class="button tiny radius" href="{{ page.widget-2.url }}">{{ site.data.language.more }}</a></p>
@@ -28,7 +28,7 @@ format: blog-index
 
 
     <div class="medium-4 columns">
-    	<a href="{{ page.widget-3.url }}"><img src="{{ site.urlimg }}/{{ page.widget-3.image }}" width="302" height="182" alt=""></a>
+    	<a href="{{ page.widget-3.url }}">{% if page.widget-3.image %}<img src="{{ site.urlimg }}/{{ page.widget-3.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-3.video %}{{ page.widget-3.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-3.title }}</h2>
         <p>{{ page.widget-3.text }}</p>
         <p><a class="button tiny radius" href="{{ page.widget-3.url }}">Download &#64; GitHub ›</a></p>

@@ -24,7 +24,9 @@
 
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
-                {% else %}
+              {% elsif link.url == '#' %}
+                {% assign domain = '' %}
+              {% else %}
                 {% assign domain = site.url %}
               {% endif %}
 
@@ -76,7 +78,9 @@
 
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
-                {% else %}
+              {% elsif link.url == '#' %}
+                {% assign domain = '' %}
+              {% else %}
                 {% assign domain = site.url %}
               {% endif %}
 

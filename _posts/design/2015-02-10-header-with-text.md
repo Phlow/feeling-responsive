@@ -17,6 +17,13 @@ header:
 ---
 
 
+## Front Matter Code
+
+~~~
+header:
+    title: header with text
+    image_fullwidth: unsplash_brooklyn-bridge_header.jpg
+~~~
 
 ### All Header-Styles 
 {: .t60 }

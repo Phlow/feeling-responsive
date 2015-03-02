@@ -11,7 +11,8 @@ permalink: "/roadmap/"
 ## Ideas and possible new features
 {: .t30 }
 
-* Produce an introduction video to showcase *Feeling Responsive*
+* Clean bare-bones version of *Feeling Responsive*
+* Landingpage
 * Even better responsive typography
 * Google AdSense ads
 * [Submit *Feeling Responsive* to jekyllthemes.org](http://jekyllthemes.org/)
@@ -21,6 +22,7 @@ permalink: "/roadmap/"
 
 ## Done
 
+* [<s>Produce an introduction video to showcase *Feeling Responsive*</s>](https://www.youtube.com/embed/3b5zCFSmVvU)
 * [<s>Additional header with text</s>]({{ site.url }}/headers/)
 * <s>Added Google Analtics support</s>
 * [<s>Add redirection layout by KanishkKanishk</s>](http://codingtips.kanishkkunal.in/redirects-jekyll-github-pages/)

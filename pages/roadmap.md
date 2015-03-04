@@ -11,6 +11,7 @@ permalink: "/roadmap/"
 ## Ideas and possible new features
 {: .t30 }
 
+* Layout/Template for category-archives
 * Clean bare-bones version of *Feeling Responsive*
 * Landingpage
 * Even better responsive typography

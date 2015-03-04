@@ -1,9 +1,10 @@
 ---
 layout: video
-title:
 subheadline:
+title:
+teaser:
 meta_description:
-description:
+permalink:
 image:
 categories:
     - 

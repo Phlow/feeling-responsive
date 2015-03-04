@@ -125,7 +125,7 @@ There are several types of images you can define via front matter. If you want t
 
 ~~~
 image:
-    title: thumbnail_image.jpg
+    title: image.jpg
 ~~~
 
 

@@ -104,6 +104,16 @@ img { border-radius: $global-radius;}
     img.aligncenter,
     img.center      { display: block; margin:0 auto 10px; }
 
+figure {
+    margin: 0 0 rem-calc(30) 0;
+}
+
+figcaption a {
+    border-bottom: 1px dotted $grey-4;
+    color: $grey-10;
+    font-size: rem-calc(13);
+    font-family: $font-family-sans-serif;
+}
 
 
 /* Lists

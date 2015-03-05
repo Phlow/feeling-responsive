@@ -86,8 +86,6 @@ button, .button         { letter-spacing: 1px; }
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus { background: #eee; }
 
 .homepage p { margin: 0; padding: 0; color: $grey-10; }
-.caption a { border-bottom: 1px dotted $grey-4; color: $grey-10; font-size: rem-calc(13); }
-
 
 .meta-info p {
   font-size: rem-calc(13);

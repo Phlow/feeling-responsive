@@ -107,12 +107,15 @@ img { border-radius: $global-radius;}
 figure {
     margin: 0 0 rem-calc(30) 0;
 }
-
+figcaption {
+    color: $grey-10;
+    font-family: $font-family-sans-serif;
+    font-size: rem-calc(13);
+    padding-top: rem-calc(2);
+}
 figcaption a {
     border-bottom: 1px dotted $grey-4;
     color: $grey-10;
-    font-size: rem-calc(13);
-    font-family: $font-family-sans-serif;
 }
 
 

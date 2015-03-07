@@ -10,7 +10,7 @@ categories:
 tags:
     - 
 image:
-    header: 
+    title: 
     thumb: 
     homepage:
     credit:

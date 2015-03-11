@@ -11,6 +11,7 @@ permalink: "/roadmap/"
 ## Ideas and possible new features
 {: .t30 }
 
+* [Add schema.org Markup for Videos](https://support.google.com/webmasters/answer/2413309?hl=en)
 * Layout/Template for category-archives
 * Clean bare-bones version of *Feeling Responsive*
 * Landingpage
@@ -23,6 +24,7 @@ permalink: "/roadmap/"
 
 ## Done
 
+* [<s>Refined humans.txt</s>](http://humanstxt.org/)
 * [<s>Produce an introduction video to showcase *Feeling Responsive*</s>](https://www.youtube.com/embed/3b5zCFSmVvU)
 * [<s>Additional header with text</s>]({{ site.url }}/headers/)
 * <s>Added Google Analtics support</s>

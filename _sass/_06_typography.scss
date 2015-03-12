@@ -107,15 +107,30 @@ img { border-radius: $global-radius;}
 figure {
     margin: 0 0 rem-calc(30) 0;
 }
-figcaption {
+#masthead-with-background-color figure,
+#masthead-with-pattern figure {
+    margin: 0;
+}
+figcaption,
+.masthead-caption {
     color: $grey-10;
     font-family: $font-family-sans-serif;
     font-size: rem-calc(13);
     padding-top: rem-calc(2);
 }
-figcaption a {
+figcaption a,
+.masthead-caption a {
     border-bottom: 1px dotted $grey-4;
     color: $grey-10;
+}
+figcaption a:hover,
+.masthead-caption a:hover {
+    border-bottom: 2px solid $primary-color;
+    color: $primary-color;
+}
+.masthead-caption {
+    padding-right: 10px;
+    text-align: right;
 }
 
 

@@ -22,6 +22,16 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
+{% if page.header.caption_url && page.header.caption %}
+<div class="masthead-caption">
+	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
+</div>
+{% elsif page.header.caption %}
+<div class="masthead-caption">
+	{{ page.header.caption }}
+</div>
+{% endif %}
+
 
 
 {% elsif page.header.image_fullwidth %}
@@ -36,17 +46,37 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
+{% if page.header.caption_url && page.header.caption %}
+<div class="masthead-caption">
+	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
+</div>
+{% elsif page.header.caption %}
+<div class="masthead-caption">
+	{{ page.header.caption }}
+</div>
+{% endif %}
+
 
 
 {% elsif page.header.pattern %}
 
 <div id="masthead-with-pattern" style="background: url('{{ site.url }}/images/{{ page.header.pattern }}')">
 	<div class="row">
-		<div class="small-12 columns">
+		<figure class="small-12 columns">
 			<img src="{{ site.url }}/images/{{ page.header.image }}" alt="{{ site.title }}">
-		</div><!-- /.small-12.columns -->
+		</figure><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
+
+	{% if page.header.caption_url && page.header.caption %}
+	<div class="masthead-caption">
+		<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
+	</div>
+	{% elsif page.header.caption %}
+	<div class="masthead-caption">
+		{{ page.header.caption }}
+	</div>
+	{% endif %}
 
 
 
@@ -54,14 +84,24 @@
 
 <div id="masthead-with-background-color" style="background: {{ page.header.background-color }};">
 	<div class="row">
-		<div class="small-12 columns">
+		<figure class="small-12 columns">
 			<img src="{{ site.url }}/images/{{ page.header.image }}" alt="{{ site.title }}">
-		</div><!-- /.small-12.columns -->
+		</figure><!-- /.small-12.columns -->
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
+{% if page.header.caption_url && page.header.caption %}
+<div class="masthead-caption">
+	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
+</div>
+{% elsif page.header.caption %}
+<div class="masthead-caption">
+	{{ page.header.caption }}
+</div>
+{% endif %}
+
+
+
 {% elsif page.header == no %}
-
-
 
 {% endif %}

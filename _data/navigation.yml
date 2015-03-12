@@ -47,6 +47,8 @@
     url: "/design/header-with-text/"
   - title: "No Header"
     url: "/design/no-header/"
+  - title: "No Header but Image"
+    url: "/design/no-header-but-image/"
 
 - title: Documentation
   url: "/documentation/"

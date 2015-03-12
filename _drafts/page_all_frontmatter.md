@@ -11,12 +11,14 @@ tags:
     - 
 header: no
 header:
-    image_fullwidth: "unsplash_brooklyn-bridge_header.jpg"
+    image_fullwidth: 
     image:
     pattern:
     color:
     background-color:  "#fabb00"
-    title: header with text
+    title: 
+    caption: 
+    caption_url: 
 image:
     title:
     homepage:

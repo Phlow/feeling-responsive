@@ -10,13 +10,13 @@ format: post
 				<figure>
 					<img src="{{ site.url }}/images/{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}" itemprop="image">
 
-					{% if page.image.url && page.image.credit %}
+					{% if page.image.caption_url && page.image.caption %}
 					<figcaption class="text-right">
-						<a href="{{ page.image.url }}">{{ page.image.credit }}</a>
+						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
 					</figcaption>
-					{% elsif page.image.credit %}
+					{% elsif page.image.caption %}
 					<figcaption class="text-right">
-						{{ page.image.credit }}
+						{{ page.image.caption }}
 					</figcaption>
 					{% endif %}
 				</figure>

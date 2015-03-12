@@ -62,9 +62,9 @@ format: blog-index
                 <a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img width="970" src="{{ site.url }}/images/{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
             </p>
 
-            {% if post.image.url && post.image.credit %}
+            {% if post.image.caption_url && post.image.caption %}
             <p class="text-right caption">
-                <a href="{{ post.image.url }}">{{ post.image.credit }}</a>
+                <a href="{{ post.image.caption_url }}">{{ post.image.caption }}</a>
             </p>
             {% endif %}
             {% elsif post.image.homepage == NULL %}

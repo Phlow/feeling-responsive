@@ -43,7 +43,7 @@ permalink: "/roadmap/"
 * [<s>Add draft-templates for new pages/posts</s>](https://github.com/Phlow/feeling-responsive/tree/gh-pages/_drafts)
 * [<s>Step-by-Step-Guide to customize *Feeling Responsive*</s>]({{ site.url }}/getting-started/)
 * [<s>Video-Post-Format to feature videos in a huge way</s>]({{ site.url }}/design/video/)
-* <s>Title and Credit for images</s>
+* <s>Title and captions for images</s>
 * <s>SEO › Add metadescription to header.html and front matter</s>
 * [<s>Adding Open Graph for Jekyll</s>](https://gist.github.com/pathawks/1406355)
 * [<s>Gallery Post Example</s>]({{ site.url }}/design/gallery/)

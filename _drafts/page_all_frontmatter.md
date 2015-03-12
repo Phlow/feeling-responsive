@@ -23,8 +23,8 @@ image:
     title:
     homepage:
     thumb:
-    credit:
-    url:
+    caption:
+    caption_url:
 show_meta: false
 sidebar: left
 comments: true

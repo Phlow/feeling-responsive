@@ -150,15 +150,15 @@ image:
 
 
 
-### Credits with URL
+### Captions with URL
 
 Sometimes you want to give credit to the creator of your images, maybe with a link. Especially when you use Creative Commons-images like I do for this website. Just add the following front matter and *Feeling Responsive* does the rest:
 
 ~~~
 image:
     title: header_image.jpg
-    credit: Image by Phlow
-    url: "http://phlow.de/"
+    caption: Image by Phlow
+    caption_url: "http://phlow.de/"
 ~~~
 
 ### Define all images for an article
@@ -168,8 +168,8 @@ image:
     title: title_image.jpg
     thumb: thumbnail_image.jpg
     homepage: header_homepage_13.jpg
-    credit: Image by Phlow
-    url: "http://phlow.de/"
+    caption: Image by Phlow
+    caption_url: "http://phlow.de/"
 ~~~
 
 

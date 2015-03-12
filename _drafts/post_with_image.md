@@ -12,7 +12,7 @@ image:
     header:  ""
     thumb:  ""
     homepage: ""
-    credit: ""
+    caption: ""
     url: ""
 ---
 

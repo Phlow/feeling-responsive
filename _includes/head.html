@@ -55,4 +55,8 @@
 	{% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
 
 	<link type="text/plain" rel="author" href="{{ site.url }}/humans.txt" />
+
+	{% unless page.style == NULL %}
+	<style type="text/css">{{ page.style }}</style>
+	{% endunless %}
 </head>

@@ -24,7 +24,9 @@ permalink: "/roadmap/"
 
 ## Done
 
-* [<s>Now with optional caption for header</s>]
+* <s>Use `style` in front matter to inject css-styles into `<head></s>
+* <s>Add include to loop through collections</s>
+* <s>Now with optional caption for header</s>
 * [<s>Refined humans.txt</s>](http://humanstxt.org/)
 * [<s>Produce an introduction video to showcase *Feeling Responsive*</s>](https://www.youtube.com/embed/3b5zCFSmVvU)
 * [<s>Additional header with text</s>]({{ site.url }}/headers/)

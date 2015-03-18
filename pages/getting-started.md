@@ -9,7 +9,7 @@ header:
 permalink: "/getting-started/"
 ---
 1. Open `_config.yml` and work it through, it's well documented
-2. Add your own `logo.png` to `/images/`.
+2. Add your own `logo.png` to `/assets/img/`.
 3. Open `_data/socialmedia.yml` and add your own social media links.
 4. Open `_data/navigation.yml` and customize your navigation.
 5. Open `_data/language.yml` and translate the theme if necessary.

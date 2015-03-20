@@ -1,4 +1,9 @@
-- menu_name: "Dankeschön"
+- menu_name: "Thank you to:"
+
+- name: "Feeling Responsive Jekyll Theme"
+  url: "http://phlow.github.io/feeling-responsive/"
+  class: "network-feelingresponsive"
+  title: "Feeling Responsive Jekyll Theme"
 
 - name: "Icons by Daniel Bruce"
   url: "http://entypo.com/"

@@ -12,6 +12,7 @@ permalink: "/roadmap/"
 {: .t30 }
 
 * [Add schema.org Markup for Videos](https://support.google.com/webmasters/answer/2413309?hl=en)
+* Get rid of Backstretch.js and solve it with pure CSS
 * Layout/Template for category-archives
 * Clean bare-bones version of *Feeling Responsive*
 * Landingpage

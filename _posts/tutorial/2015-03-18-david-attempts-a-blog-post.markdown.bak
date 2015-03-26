@@ -1,0 +1,26 @@
+---
+layout: page
+title: "Using Google Drive for PC backup"
+subheadline: "Good idea or not?"
+date: "2015-03-18"
+teaser: "A pragmatic review of Google Drive for cloud-based backup"
+breadcrumb: true
+categories:
+    - howto
+header: no
+---
+OK, so the purpose of this post is to see what happens if I create a post without any fancy stuff
+
+Mmm.. so that's not bad. It still produces a good result. No category though.
+
+## Let's try a subheading
+
+Well, this is my subsectino. Here's a bit of code now:
+
+{% highlight bash %}
+echo "hello bob"
+for i in 1-9
+do
+    echo $i
+done
+{% endhighlight %}

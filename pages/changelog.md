@@ -11,6 +11,11 @@ permalink: "/changelog/"
 2015-03-30 // Version 1.2
 :   Added [alert-include]({{ site.url }}/documentation/#alert-embed-an-alert-in-your-content) and structured Sass-files.
 
+2015-03-25  // Video
+:   Made a new [video tutorial](https://www.youtube.com/embed/rLS-BEvlEyY)
+
+<div class="flex-video"><iframe width="1280" height="720" src="https://www.youtube.com/embed/rLS-BEvlEyY" frameborder="0" allowfullscreen></iframe></div><!-- /.flex-video -->
+
 2015-03-02 // Version 1.1
 :   Added [Foundation Reveal](http://foundation.zurb.com/docs/components/reveal.html) to the mix to show videos and content in a popup window. <a href="#" data-reveal-id="videoModal">Try it out right know :)</a>
 

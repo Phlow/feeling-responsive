@@ -8,6 +8,9 @@ header:
 permalink: "/changelog/"
 ---
 
+2015-03-30 // Version 1.2
+:   Added [alert-include]({{ site.url }}/documentation/#alert-embed-an-alert-in-your-content) and structured Sass-files.
+
 2015-03-02 // Version 1.1
 :   Added [Foundation Reveal](http://foundation.zurb.com/docs/components/reveal.html) to the mix to show videos and content in a popup window. <a href="#" data-reveal-id="videoModal">Try it out right know :)</a>
 

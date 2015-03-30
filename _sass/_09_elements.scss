@@ -58,9 +58,15 @@
     border-bottom: 1px solid #fff;
   }
   .alert-box.terminal {
-    background: $grey-16; 
+    background: $grey-12; 
     color: #fff; 
-    border-color: scale-color($grey-16, $lightness: -14%);
+    border-color: scale-color($grey-12, $lightness: -14%);
+  }
+  .alert-box.text {
+    background-color: $grey-2;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0.9);
+    border-color: scale-color($grey-2, $lightness: -14%);
+    color: $grey-12;
   }
 
 .breadcrumbs>.current {

@@ -250,6 +250,43 @@ If your content is on Jekyll you can use this include to automatically generate 
 ~~~
 
 
+### list-collection.html
+
+This include lets you loop through a collection to list all entries in that collection. If you set »published: false« in front matter of a collection page the page gots filtered out via unless. The following example loops through a collection called *wordpress*.
+
+~~~
+{% raw %}{% include list-collection.html collection='wordpress' %}{% endraw %}
+~~~
+
+
+### alert – Embed an alert in your content
+
+This include lets you easily display an alert. To use the include no `.html` ending is necessary. You can use five different kinds of alerts: `warning`, `info`, `success`, `alert` and `text`. 
+
+~~~
+{% raw %}{% include alert warning='This is a warning.' %}
+{% include alert info='An info box.' %}
+{% include alert success='Yeah, you made it!' %}
+{% include alert alert='Danger!' %}
+{% include alert terminal='$ jekyll -serve' %}
+{% include alert text='Just a note!' %}{% endraw %}
+~~~
+
+{% include alert warning='This is a warning.' %}
+{% include alert info='An info box.' %}
+{% include alert success='Yeah, you made it!' %}
+{% include alert alert='Danger!' %}
+{% include alert terminal='$ jekyll -serve' %}
+{% include alert text='Just a note!' %}
+
+You can even use `<html>`-tags inside the alert. Beware: Use " and ' properly.
+
+~~~
+{% raw %}{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}{% endraw %}
+~~~
+
+{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}
+
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
 

@@ -1,8 +1,24 @@
-//
-// Typography 
-//
-// Check typography variables › _3_typography_settings.scss
-//
+/* TOC – Typography 
+
+Check typography variables › _3_typography_settings.scss
+
+- Links
+- Customize Foundation Typography
+- Headlines
+- Images
+- Lists
+- Tables
+- Code
+- Quotes
+- Typography for Articles
+- Smaller Fontsize for Bigteaser on small devices
+- Additional typographical elements
+- Footnotes
+- Icon Font
+
+*/
+
+
 
 /* Links
 ------------------------------------------------------------------- */
@@ -28,7 +44,7 @@ a:active {
 
 
 
-/* Additional Typography to complement Foundation
+/* Customize Foundation Typography
 ------------------------------------------------------------------- */
 
 p { 
@@ -57,6 +73,8 @@ p.button a {
     color: #fff;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
+
+
 
 /* Headlines
 ------------------------------------------------------------------- */
@@ -134,13 +152,6 @@ figcaption a:hover,
 }
 
 
-/* Lists
-------------------------------------------------------------------- */
-
-article dl dt   { line-height: 1.3; }
-article dl dd   { line-height: 1.6; margin-bottom: rem-calc(12); margin-left: rem-calc(24); }
-
-
 
 /* Tables
 ------------------------------------------------------------------- */
@@ -208,6 +219,8 @@ dt {
 }
 dd {
 }
+article dl dt   { line-height: 1.3; }
+article dl dd   { line-height: 1.6; margin-bottom: rem-calc(12); margin-left: rem-calc(24); }
 
 
 
@@ -261,9 +274,6 @@ mark {
 
 
 
-
-
-
 /* Typography for Articles
 ------------------------------------------------------------------- */
 
@@ -282,7 +292,7 @@ mark {
     font-style: italic; font-weight: 400;
 }
 
-/* Smaller Font Size for Bigteaser on small devices */
+/* Smaller Fontsize for Bigteaser on small devices */
 @media only screen {
     .big-teaser {
         font-size: rem-calc(20);
@@ -299,8 +309,8 @@ mark {
 /* Additional typographical elements
 ------------------------------------------------------------------- */
 
-.sans               { font-family: $font-family-sans-serif; }
-.serif              { font-family: $font-family-serif; }
+.sans           { font-family: $font-family-sans-serif; }
+.serif          { font-family: $font-family-serif; }
 
 .font-size-h1   { font-size: $font-size-h1; }
 .font-size-h2   { font-size: $font-size-h2; }
@@ -310,20 +320,20 @@ mark {
 .font-size-p    { font-size: $font-size-p; }
 
 
+
 /* Footnotes
 ------------------------------------------------------------------- */
 
 .footnotes {
     margin-top: 60px;
 }
-
 .footnotes ol { 
     font-size: $font-size-small;
 }
 
 
 
-/* Icon Font: iconfont
+/* Icon Font
    See the icon-set/preview in /assets/fonts/iconfont-preview.html
 ------------------------------------------------------------------- */
 

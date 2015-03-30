@@ -1,5 +1,25 @@
+/* TOC
 
-/* Special treatment for video layout
+- Adjustments: Video Layout
+- Navigation
+- Search
+- Masthead
+- Masthead › small-only
+- Masthead › medium-only
+- Masthead › large-only
+- Masthead › xlarge-up
+- Breadcrumb
+- Meta
+- Jump to top
+- Footer
+- Subfooter
+- CSS-Classes to add margin at top or bottom
+
+*/
+
+
+
+/* Adjustments: Video Layout
 ------------------------------------------------------------------- */
 
 body.video,
@@ -179,7 +199,6 @@ body.video cite { color: #fff; }
 
 
 
-
 /* Breadcrumb
 ------------------------------------------------------------------- */
 
@@ -188,7 +207,9 @@ body.video cite { color: #fff; }
     border-top: 1px solid scale-color($grey-1, $lightness: 45%);
     border-bottom: 1px solid scale-color($grey-1, $lightness: 45%);
 }
-
+.breadcrumbs>.current {
+  font-weight: bold;
+}
 
 
 /* Meta
@@ -254,6 +275,10 @@ body.video cite { color: #fff; }
     }
 
 
+
+/* Subfooter
+------------------------------------------------------------------- */
+
 #subfooter {
     background: $subfooter-bg;
     color: $subfooter-color;
@@ -286,7 +311,7 @@ body.video cite { color: #fff; }
 
 
 
-/* CSS-Classes to add margin at the top or bottom
+/* CSS-Classes to add margin at top or bottom
 ------------------------------------------------------------------- */
 
 .t10 { margin-top: 10px !important; }

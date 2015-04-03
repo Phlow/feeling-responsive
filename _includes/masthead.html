@@ -10,6 +10,12 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
+{% if page.breadcrumb == true %}
+{% include breadcrumb.html %}
+{% endif %}
+
+
+
 
 
 {% elsif page.header.title %}
@@ -22,6 +28,10 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
+{% if page.breadcrumb == true %}
+{% include breadcrumb.html %}
+{% endif %}
+
 {% if page.header.caption_url && page.header.caption %}
 <div class="masthead-caption">
 	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
@@ -31,6 +41,8 @@
 	{{ page.header.caption }}
 </div>
 {% endif %}
+
+
 
 
 
@@ -46,6 +58,10 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
+{% if page.breadcrumb == true %}
+{% include breadcrumb.html %}
+{% endif %}
+
 {% if page.header.caption_url && page.header.caption %}
 <div class="masthead-caption">
 	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
@@ -55,6 +71,8 @@
 	{{ page.header.caption }}
 </div>
 {% endif %}
+
+
 
 
 
@@ -68,27 +86,9 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-	{% if page.header.caption_url && page.header.caption %}
-	<div class="masthead-caption">
-		<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
-	</div>
-	{% elsif page.header.caption %}
-	<div class="masthead-caption">
-		{{ page.header.caption }}
-	</div>
-	{% endif %}
-
-
-
-{% elsif page.header.background-color %}
-
-<div id="masthead-with-background-color" style="background: {{ page.header.background-color }};">
-	<div class="row">
-		<figure class="small-12 columns">
-			<img src="{{ site.url }}/images/{{ page.header.image }}" alt="{{ site.title }}">
-		</figure><!-- /.small-12.columns -->
-	</div><!-- /.row -->
-</div><!-- /#masthead -->
+{% if page.breadcrumb == true %}
+{% include breadcrumb.html %}
+{% endif %}
 
 {% if page.header.caption_url && page.header.caption %}
 <div class="masthead-caption">
@@ -102,6 +102,40 @@
 
 
 
-{% elsif page.header == no %}
+
+
+{% elsif page.header.background-color %}
+
+<div id="masthead-with-background-color" style="background: {{ page.header.background-color }};">
+	<div class="row">
+		<figure class="small-12 columns">
+			<img src="{{ site.url }}/images/{{ page.header.image }}" alt="{{ site.title }}">
+		</figure><!-- /.small-12.columns -->
+	</div><!-- /.row -->
+</div><!-- /#masthead -->
+
+{% if page.breadcrumb == true %}
+{% include breadcrumb.html %}
+{% endif %}
+
+{% if page.header.caption_url && page.header.caption %}
+<div class="masthead-caption">
+	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
+</div>
+{% elsif page.header.caption %}
+<div class="masthead-caption">
+	{{ page.header.caption }}
+</div>
+{% endif %}
+
+
+
+
+
+{% elsif page.header = no %}
+
+{% if page.breadcrumb == true %}
+{% include breadcrumb.html %}
+{% endif %}
 
 {% endif %}

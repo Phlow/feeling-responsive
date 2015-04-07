@@ -32,13 +32,8 @@
 	{% if page.meta_description %}<meta name="description" content="{{ page.meta_description | strip_html | escape }}"/>{% elsif page.teaser %}<meta name="description" content="{{ page.teaser | strip_html | escape }}"/>{% elsif site.description %}<meta name="description" content="{{ site.description | strip_html | escape }}"/>{% endif %}
 	
 	{% if site.google_author %}<link rel="author" href="{{ site.google_author }}"/>{% endif %}
-	{% if site.favicon %}<link rel="shortcut icon" href="{{ site.url }}{{ site.favicon }}" type="image/png" />{% endif %}
-	{% if site.favicon %}<link rel="icon" href="{{ site.url }}{{ site.favicon }}" type="image/png" />{% endif %}
-	{% if site.apple_touch_icon_iphone %}<link rel="apple-touch-icon" href="{{ site.url }}{{ site.apple_touch_icon_iphone }}">{% endif %}
-	{% if site.apple_touch_icon_iphone_retina %}<link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}{{ site.apple_touch_icon_iphone_retina }}">{% endif %}
-	{% if site.apple_touch_icon_ipad %}<link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}{{ site.apple_touch_icon_ipad }}">{% endif %}
-	{% if site.apple_touch_icon_ipad_retina %}<link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}{{ site.apple_touch_icon_ipad_retina }}">{% endif %}
-	{% if site.apple_touch_icon_precomposed %}<link rel="apple-touch-icon-precomposed" href="{{ site.url }}{{ site.apple_touch_icon_precomposed }}">{% endif %}
+
+	{% include favicon %}
 
 	<!-- Facebook Optimization -->
 	<meta property="og:locale" content="{% if site.og_locale == nil %}en_EN{% else %}{{ site.og_locale }}{% endif %}" />

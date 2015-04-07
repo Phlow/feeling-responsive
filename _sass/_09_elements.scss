@@ -72,6 +72,11 @@
     background: $grey-12; 
     color: #fff; 
     border-color: scale-color($grey-12, $lightness: -14%);
+    font-family: $font-family-monospace;
+  }
+  .alert-box.terminal::before {
+    content: "$ ";
+    color: $ci-6;
   }
   .alert-box.text {
     background-color: $grey-2;

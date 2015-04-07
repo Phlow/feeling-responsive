@@ -25,7 +25,7 @@ categories:
 <div class="row t30">
     <div class="medium-4 columns">
         <img src="{{ site.url }}/images/webdesign_screenshot_stilwandel.jpg" alt="">
-        <p>Website: <a href="http://stilwandel-koeln.de">Stilwande-Koeln.de</a></p>
+        <p>Website: <a href="http://stilwandel-koeln.de">Stilwandel-Koeln.de</a></p>
     </div><!-- /.medium-4.columns -->
 
     <div class="medium-4 columns">

@@ -268,7 +268,7 @@ This include lets you easily display an alert. To use the include no `.html` end
 {% include alert info='An info box.' %}
 {% include alert success='Yeah, you made it!' %}
 {% include alert alert='Danger!' %}
-{% include alert terminal='$ jekyll -serve' %}
+{% include alert terminal='jekyll -serve' %}
 {% include alert text='Just a note!' %}{% endraw %}
 ~~~
 

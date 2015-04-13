@@ -3,7 +3,7 @@ layout: post
 title:  ""
 subheadline:  ""
 meta_description: ""
-description: ""
+teaser: ""
 categories:
     - 
 tags:

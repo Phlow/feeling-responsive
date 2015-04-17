@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "7680fdcdd1d625cdc3b4efee04bcd50aecf11af21345941d72e5f635b1ba9bba",
-    "current": "7680fdcdd1d625cdc3b4efee04bcd50aecf11af21345941d72e5f635b1ba9bba"
+    "previous": "c5cdc0a58b7277d1f320a4ad50aa8ae2ad47fa6ed879c164db1cfb75439bd1d9",
+    "current": "c5cdc0a58b7277d1f320a4ad50aa8ae2ad47fa6ed879c164db1cfb75439bd1d9"
   },
   "fonts": [
     "./iconfont.ttf",
@@ -217,6 +217,10 @@
     "warning": {
       "codepoint": 61745,
       "source": "svg-files-for-custom-font/warning.svg"
+    },
+    "xing": {
+      "codepoint": 61749,
+      "source": "svg-files-for-custom-font/xing.svg"
     },
     "youtube": {
       "codepoint": 61746,

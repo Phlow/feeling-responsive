@@ -11,21 +11,22 @@ permalink: "/roadmap/"
 ## Ideas and possible new features
 {: .t30 }
 
-* [Add schema.org Markup for Videos](https://support.google.com/webmasters/answer/2413309?hl=en)
 * Get rid of Backstretch.js and solve it with pure CSS
 * Layout/Template for category-archives
 * Layout/Template for collections
+* Layout/Template for Landingpage
 * Clean bare-bones version of *Feeling Responsive*
-* Landingpage
 * Even better responsive typography
 * Google AdSense ads
 * More post-formats for blogging like special post formats for links, audio, tweets,...
+* Make a [video-sitemap.xml](https://support.google.com/webmasters/answer/80472?hl=en)
 
 
 
 ## Done
 
-* [<s>Submit *Feeling Responsive* to jekyllthemes.org</s>](http://jekyllthemes.org/themes/feeling-responsive/)
+* [<s>Add schema.org Markup for Videos</s>](https://support.google.com/webmasters/answer/2413309?hl=en)
+* [<s>Submit <em>Feeling Responsive</em> to jekyllthemes.org</s>](http://jekyllthemes.org/themes/feeling-responsive/)
 * <s>Use `style` in front matter to inject css-styles into `<head></s>
 * <s>Add include to loop through collections</s>
 * <s>Now with optional caption for header</s>

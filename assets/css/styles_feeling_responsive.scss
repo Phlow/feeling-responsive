@@ -4,11 +4,10 @@
 @charset "utf-8";
 
 @import "functions.scss";
-@import "02_settings_colors.scss";
-@import "03_settings_typography.scss";
-@import "04_settings_mixins_media_queries.scss";
+@import "01_settings_colors.scss";
+@import "02_settings_typography.scss";
+@import "03_settings_mixins_media_queries.scss";
 @import "04_settings_global.scss";
-@import "05_settings_top-bar.scss";
 @import "05_normalize.scss";    // normalize.css v3.0.2
 
 @import "foundation-components/top-bar.scss";

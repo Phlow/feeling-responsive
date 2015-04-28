@@ -15,7 +15,7 @@ header:
     image:
     pattern:
     color:
-    background-color:  "#fabb00"
+    background-color: "#fabb00"
     title: 
     caption: 
     caption_url: 
@@ -25,6 +25,11 @@ image:
     thumb:
     caption:
     caption_url:
+iframe: ""
+video:
+    embedURL: ""
+    contentURL: ""
+    thumbnailUrl: ""
 show_meta: false
 sidebar: left
 comments: true

@@ -3,6 +3,7 @@ layout: page
 subheadline: 
 title: 
 teaser: 
+meta_title:             # SEO: Overwrites title in <head> if needed
 meta_description:
 permalink:
 categories:

@@ -206,3 +206,12 @@ sass:
 
 google_analytics_tracking_id: UA-60112281-1
 
+#   _                 _     _
+#  | |_ __ ___      _| | __| |_ ___
+#  | __/ _` \ \ /\ / / |/ /| __/ _ \
+#  | || (_| |\ V  V /|   < | || (_) |
+#   \__\__,_| \_/\_/ |_|\_(_)__\___/
+#
+# used in _includes/footer_scripts.html
+
+tawkto_embed_uri: https://embed.tawk.to/5407146b59df1e704b00001b/default

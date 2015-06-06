@@ -21,7 +21,7 @@ format: blog-index
         <a href="{{ site.baseurl }}{{ page.widget-1.url }}">{% if page.widget-1.image %}<img src="{{ site.urlimg }}/{{ page.widget-1.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-1.video %}{{ page.widget-1.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-1.title }}</h2>
         <p>{{ page.widget-1.text }}</p>
-        <p><a class="button tiny radius" href="{% if page.widget-1.url contains 'http://' %}{{ page.widget-1.url }}{% elsif %}{{ site.baseurl }}/{{ page.widget-1.url }}{% endif %}">{{ site.data.language.more }}</a></p>
+        <p><a class="button tiny radius" href="{% if page.widget-1.url contains 'http://' %}{{ page.widget-1.url }}{% else %}{{ site.baseurl }}/{{ page.widget-1.url }}{% endif %}">{{ site.data.language.more }}</a></p>
     </div><!-- /.medium-4.columns -->
     {% endif %}
 
@@ -31,7 +31,7 @@ format: blog-index
         <a href="{{ site.baseurl }}{{ page.widget-2.url }}">{% if page.widget-2.image %}<img src="{{ site.urlimg }}/{{ page.widget-2.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-2.video %}{{ page.widget-2.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-2.title }}</h2>
         <p>{{ page.widget-2.text }}</p>
-        <p><a class="button tiny radius" href="{% if page.widget-2.url contains 'http://' %}{{ page.widget-2.url }}{% elsif %}{{ site.baseurl }}/{{ page.widget-2.url }}{% endif %}">{{ site.data.language.more }}</a></p>
+        <p><a class="button tiny radius" href="{% if page.widget-2.url contains 'http://' %}{{ page.widget-2.url }}{% else %}{{ site.baseurl }}/{{ page.widget-2.url }}{% endif %}">{{ site.data.language.more }}</a></p>
     </div><!-- /.medium-4.columns -->
     {% endif %}
 
@@ -42,7 +42,7 @@ format: blog-index
         <a href="{{ page.widget-3.url }}">{% if page.widget-3.image %}<img class="lazy" data-src="{{ site.urlimg }}/{{ page.widget-3.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-3.video %}{{ page.widget-3.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-3.title }}</h2>
         <p>{{ page.widget-3.text }}</p>
-        <p><a class="button tiny radius" href="{% if page.widget-3.url contains 'http://' %}{{ page.widget-3.url }}{% elsif %}{{ site.baseurl }}/{{ page.widget-3.url }}{% endif %}">{{ site.data.language.more }}</a></p>
+        <p><a class="button tiny radius" href="{% if page.widget-3.url contains 'http://' %}{{ page.widget-3.url }}{% else %}{{ site.baseurl }}/{{ page.widget-3.url }}{% endif %}">{{ site.data.language.more }}</a></p>
     </div><!-- /.medium-4.columns -->
     {% endif %}
 </div><!-- /.row -->
@@ -68,7 +68,7 @@ format: blog-index
                 <a href="{{ post.image.caption_url }}">{{ post.image.caption }}</a>
             </p>
             {% endif %}
-            {% elsif post.image.homepage == NULL %}
+            {% else post.image.homepage == NULL %}
             <h2>{{ site.data.language.new_blog_entries }}</h2>
             {% endif %}
             {% endfor %}
@@ -82,7 +82,7 @@ format: blog-index
             {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>
-                {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
+                {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
             {% endfor %}

@@ -36,7 +36,7 @@ If you want to show the sidebar, just enter `sidebar: left` or `sidebar: right` 
 
 
 ### Page/Post with or without metadata
-If you want to show metadata like categories, tags and date at the end of the page, just enter `show_meta: true`. It's on by default. You can change it via `config.yml`. To turn of metadata just enter – *yes, you guessed right* – `show_meta: false`.
+If you want to show metadata like categories, tags and date at the end of the page, just enter `show_meta: true`. It's on by default. You can change it via `config.yml`. To turn of metadata just enter – *yes, you guessed right* – `show_meta: false`.
 
 
 
@@ -222,9 +222,9 @@ The `list-posts.html`-include is a loop to list posts. It's a helper to add some
 
 Possible parameter for the loop:
 
-- entries › define the number of entries to show
-- offset › define the offset (number of entries to skip before displaying the first one)
-- category › define **only one** category to display according entries
+- entries › define the number of entries to show
+- offset › define the offset (number of entries to skip before displaying the first one)
+- category › define **only one** category to display according entries
 
 The loop looks when you use all parameters. Single parameters are possible of course.
 
@@ -259,7 +259,7 @@ This include lets you loop through a collection to list all entries in that coll
 ~~~
 
 
-### alert – Embed an alert in your content
+### alert – Embed an alert in your content
 
 This include lets you easily display an alert. To use the include no `.html` ending is necessary. You can use five different kinds of alerts: `warning`, `info`, `success`, `alert` and `text`. 
 

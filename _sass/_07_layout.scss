@@ -65,10 +65,10 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #masthead {
-    background: $primary-color;
+    background-color: $primary-color;
 }
 #masthead-no-image-header {
-    background: $primary-color;
+    background-color: $primary-color;
 }
 #masthead-with-text {
     text-align: center;
@@ -83,9 +83,6 @@ body.video cite { color: #fff; }
 }
 #masthead-no-image-header #logo img {
     margin-top: 60px;
-}
-.backstretch {
-    background: $primary-color;
 }
 
 /* Masthead › small-only
@@ -229,6 +226,18 @@ body.video cite { color: #fff; }
 #page-meta .button:hover {
     background: $primary-color;
 }
+.meta-info p {
+  font-size: rem-calc(13);
+  color: scale-color($grey-1, $lightness: 40%);
+}
+  .meta-info a {
+    text-decoration: underline;
+    color: scale-color($grey-1, $lightness: 40%);
+  }
+  .meta-info a:hover {
+    text-decoration: none;
+    color: $secondary-color;
+  }
 
 
 
@@ -252,16 +261,17 @@ body.video cite { color: #fff; }
 /* Footer
 ------------------------------------------------------------------- */
 
+#footer-content p,
+#footer-content li {
+    font-size: rem-calc(13);
+    font-weight: 300;
+}
+
 #footer {
     padding-top: 30px;
     padding-bottom: 20px;
     background: $footer-bg;
     color: $footer-color;
-    }
-    footer p,
-    footer li {
-        font-size: rem-calc(13);
-        font-weight: 300;
     }
 
     #footer a {

@@ -3,7 +3,7 @@
   <nav class="top-bar" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="{{ site.url }}" class="icon-tree"> {{ site.title }}</a></h1>
+      <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
@@ -35,14 +35,14 @@
             {% comment %}   If right side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
               <li class="divider"></li>
-              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
 
             {% comment %}   If right side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
               <li class="divider"></li>
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
-                <a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
+                <a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
 
                   <ul class="dropdown">
                     {% for dropdown_link in link.dropdown %}
@@ -53,7 +53,7 @@
                         {% assign domain = site.url %}
                       {% endif %}
 
-                      <li><a href="{{ domain }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title }}</a></li>
+                      <li><a href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title }}</a></li>
                     {% endfor %}
                   </ul>
                   
@@ -89,14 +89,14 @@
 
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
-              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+              <li{% if link.url == page.url %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
               <li class="divider"></li>
 
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
-                <a href="{{ domain }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
+                <a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}</a>
 
                   <ul class="dropdown">
                     {% for dropdown_link in link.dropdown %}
@@ -107,7 +107,7 @@
                         {% assign domain = site.url %}
                       {% endif %}
 
-                      <li><a href="{{ domain }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title }}</a></li>
+                      <li><a href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title }}</a></li>
                     {% endfor %}
                   </ul>
                   

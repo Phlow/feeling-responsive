@@ -1,9 +1,9 @@
-<script src="{{ site.url }}/assets/js/javascript.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.min.js"></script>
 
 {% if page.header.image_fullwidth %}
 <script>
-    $("#masthead").backstretch("{{ site.url }}/images/{{ page.header.image_fullwidth }}", {fade: 700});
-    $("#masthead-with-text").backstretch("{{ site.url }}/images/{{ page.header.image_fullwidth }}", {fade: 700});
+    $("#masthead").backstretch("{{ site.urlimg }}/{{ page.header.image_fullwidth }}", {fade: 700});
+    $("#masthead-with-text").backstretch("{{ site.urlimg }}/{{ page.header.image_fullwidth }}", {fade: 700});
 </script>
 {% endif %}
 
@@ -38,5 +38,4 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
 {% endif %}
-
 

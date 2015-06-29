@@ -206,12 +206,19 @@ sass:
 
 google_analytics_tracking_id: UA-60112281-1
 
+
+
 #   _                 _     _
 #  | |_ __ ___      _| | __| |_ ___
 #  | __/ _` \ \ /\ / / |/ /| __/ _ \
 #  | || (_| |\ V  V /|   < | || (_) |
-#   \__\__,_| \_/\_/ |_|\_(_)__\___/
+#   \__\__,_| \_/\_/ |_|\_(_)__\___/     More › https://www.tawk.to/knowledgebase/
+#
+#  tawk.to is a free live chat app that lets you monitor and chat 
+#  with visitors on your website or from a free customizable page
+#
+#  To load the script add tawkto: true in front matter of each page
 #
 # used in _includes/footer_scripts.html
 
-tawkto_embed_uri: https://embed.tawk.to/5407146b59df1e704b00001b/default
+# tawkto_embed_uri: 

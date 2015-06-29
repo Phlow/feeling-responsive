@@ -23,8 +23,14 @@
 </script>
 {% endif %}
 
-{% if site.tawkto_embed_uri %}
-<!--Start of Tawk.to Script-->
+
+{% comment %}
+#  Start of Tawk.to Script
+#  
+#  More information in _config.yml
+#  
+{% endcomment %}
+{% if site.tawkto_embed_uri and page.tawkto == true %}
 <script type="text/javascript">
 var $_Tawk_API={},$_Tawk_LoadStart=new Date();
 (function(){
@@ -36,6 +42,5 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
-<!--End of Tawk.to Script-->
 {% endif %}
 

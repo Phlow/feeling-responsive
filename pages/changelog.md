@@ -8,6 +8,9 @@ header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2015-06-29 // Version 1.3
+:   Added the possibility of using [tawk.to][8] via front matter switch `tawkto: true` in front matter. Thank you [Juan Jose Amor Iglesias][9] for the suggestion.
+
 2015-05-04 // Version 1.2.1
 :   Added `meta_title` to `<head>`. Use it in frontmatter for SEO purposes. 
 
@@ -108,6 +111,6 @@ permalink: "/changelog/"
  [5]: {{ site.url }}/design/video/
  [6]: https://www.google.de/maps/place/Strandpaviljoen+Joep+B.V./@51.9960733,5.830135,6z/data=!4m2!3m1!1s0x47cf5918df69093b:0x7c11ab31102c1c8a
  [7]: fontcustom.com
- [8]: #
- [9]: #
+ [8]: https://www.tawk.to
+ [9]: https://github.com/jjamor
  [10]: #

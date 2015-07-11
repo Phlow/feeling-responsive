@@ -330,7 +330,9 @@ mark {
 .footnotes ol { 
     font-size: $font-size-small;
 }
-
+.footnotes p {
+    font-size: inherit;  
+}
 
 
 /* Icon Font

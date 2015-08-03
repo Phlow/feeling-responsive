@@ -324,6 +324,14 @@ mark {
 /* Footnotes
 ------------------------------------------------------------------- */
 
+.footnotes:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 60px;
+    margin-top: -10px;
+    border-bottom: 1px solid $grey-2;
+}
 .footnotes {
     margin-top: 60px;
 }
@@ -331,8 +339,11 @@ mark {
     font-size: $font-size-small;
 }
 .footnotes p {
-    font-size: inherit;  
+    font-size: inherit;
+    margin-bottom: 0;
 }
+
+
 
 
 /* Icon Font

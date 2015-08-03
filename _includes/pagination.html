@@ -1,16 +1,16 @@
 {% comment %}
-*  This loops through the paginated posts 
+*  This loops through the paginated posts
 *
 *  Total posts: {{ paginator.total_posts }}
 *  Total paginate-pages: {{ paginator.total_pages }}
-*  
+*
 {% endcomment %}
 
 
 {% for post in paginator.posts %}
   <div class="row">
     <div class="small-12 columns b60">
-      <p class="subheadline"><span class="subheader">{% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</span> – {% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>
+      <p class="subheadline"><span class="subheader">{% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</span> – {% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>
       <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
       <p>
         {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
@@ -27,16 +27,16 @@
 <nav id="pagination">
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-      <a class="radius button small" href="{{ site.url }}/blog/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
+      <a class="radius button small" href="{{ site.url }}/blog/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
       {% else %}
-      <a class="radius button small" href="{{ site.url }}/blog/page{{ paginator.previous_page }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
+      <a class="radius button small" href="{{ site.url }}/blog/page{{ paginator.previous_page }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
       {% endif %}
     {% endif %}
 
-    <a class="radius button small" href="{{ site.url }}/blog/archive/" title="{{ site.data.language.blog_archive }}">{{ site.data.language.blog_archive }}</a>
-        
-    {% if paginator.next_page %} 
-    <a class="radius button small" href="{{ site.url }}/blog/page{{ paginator.next_page }}/" title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
-    {% endif %} 
+    <a class="radius button small" href="{{ site.url }}/blog/archive/" title="{{ site.data.language.blog_archive }}">{{ site.data.language.blog_archive }}</a>
+
+    {% if paginator.next_page %}
+    <a class="radius button small" href="{{ site.url }}/blog/page{{ paginator.next_page }}/" title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
+    {% endif %}
   </nav>
 

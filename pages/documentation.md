@@ -27,7 +27,7 @@ header:
 *Feeling Responsive* supports you with different templates for your content. These are the actual page/post formats:
 
 ### Page/Post
-The [page/post format]({{ site.url }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
+The [page/post format]({{ site.url }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
 
 use in front matter via: `layout: page`
 
@@ -36,24 +36,24 @@ If you want to show the sidebar, just enter `sidebar: left` or `sidebar: right` 
 
 
 ### Page/Post with or without metadata
-If you want to show metadata like categories, tags and date at the end of the page, just enter `show_meta: true`. It's on by default. You can change it via `config.yml`. To turn of metadata just enter – *yes, you guessed right* – `show_meta: false`.
+If you want to show metadata like categories, tags and date at the end of the page, just enter `show_meta: true`. It's on by default. You can change it via `config.yml`. To turn of metadata just enter – *yes, you guessed right* – `show_meta: false`.
 
 
 
 ### Page Full Width
-If you want full control of styling a page, than use the [page fullwidth template]({{ site.url }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
+If you want full control of styling a page, than use the [page fullwidth template]({{ site.url }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
 
 use in front matter via: `layout: page-fullwidth`
 
 
 ### Frontpage
-This template is special. It allows you to define three *widgets* which are displayed with a headline, image, description and a link to the content. It's used for the [homepage]({{ site.url }}) of this website.
+This template is special. It allows you to define three *widgets* which are displayed with a headline, image, description and a link to the content. It's used for the [homepage]({{ site.url }}) of this website.
 
 use in front matter via: `layout: frontpage`
 
 
 ### Video
-If you're a video producer or cineast, you'll like the [video template]({{ site.url }}/design/video/). It darkens the layout to black and lets the video stand out full-width.
+If you're a video producer or cineast, you'll like the [video template]({{ site.url }}/design/video/). It darkens the layout to black and lets the video stand out full-width.
 
 use in front matter via: `layout: video`
 
@@ -114,11 +114,11 @@ With foundation responsive videos are easy. [More ›](http://foundation.zurb.co
 {% endhighlight %}
 
 
-<img class="t60" src="{{ site.url }}/images/header_homepage_13.jpg">
+<img class="t60" src="{{ site.url }}/images/header_homepage_13.jpg">
 
 ## Images: Title, Thumbnails, Homepage   {#images}
 
-There are several types of images you can define via front matter. If you want to change the images used in the header have a look at [Style your Header]({{ site.url }}/headers/). 
+There are several types of images you can define via front matter. If you want to change the images used in the header have a look at [Style your Header]({{ site.url }}/headers/). 
 
 
 ### Title Images
@@ -222,9 +222,9 @@ The `list-posts.html`-include is a loop to list posts. It's a helper to add some
 
 Possible parameter for the loop:
 
-- entries › define the number of entries to show
-- offset › define the offset (number of entries to skip before displaying the first one)
-- category › define **only one** category to display according entries
+- entries › define the number of entries to show
+- offset › define the offset (number of entries to skip before displaying the first one)
+- category › define **only one** category to display according entries
 
 The loop looks when you use all parameters. Single parameters are possible of course.
 
@@ -259,7 +259,7 @@ This include lets you loop through a collection to list all entries in that coll
 ~~~
 
 
-### alert – Embed an alert in your content
+### alert – Embed an alert in your content
 
 This include lets you easily display an alert. To use the include no `.html` ending is necessary. You can use five different kinds of alerts: `warning`, `info`, `success`, `alert` and `text`. 
 
@@ -315,7 +315,7 @@ I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. Th
 </div><!-- /.row -->
 
  [1]: http://kramdown.gettalong.org/converter/html.html#toc
- [2]: {{ site.url }}/blog/
+ [2]: {{ site.url }}/blog/
  [3]: http://srobbin.com/jquery-plugins/backstretch/
  [4]: #
  [5]: #

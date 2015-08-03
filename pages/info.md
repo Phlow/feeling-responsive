@@ -10,7 +10,7 @@ header:
 ---
 ...and learn at the same time.
 
-*Feeling Responsive* is my first theme which I let into the world. It's built on work and knowledge of others. While I am still designing it, you read about whats behind this theme in the – *hopefully* – near future.
+*Feeling Responsive* is my first theme which I let into the world. It's built on work and knowledge of others. While I am still designing it, you read about whats behind this theme in the – *hopefully* – near future.
 
 
 ## Features
@@ -18,7 +18,7 @@ header:
 * Responsive Gallery, Videos, Grid, Typography,...
 * 100% GitHub Pages friendly
 * Easy editable navigation, footer and social media links
-* Language Ready – just translate one file.
+* Language Ready – just translate one file.
 * Lots of possibilities to customize it to your needs
 * Lots of different headers
 * Various post formats to let your content shine

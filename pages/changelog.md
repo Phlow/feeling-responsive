@@ -15,10 +15,10 @@ permalink: "/changelog/"
 :   Added `meta_title` to `<head>`. Use it in frontmatter for SEO purposes. 
 
 2015-04-28 // Version 1.2
-:   Put some nice Schema.org-Meta-Data into the video-template for better SEO. If you want to know how to use the data, have a look into the front matter of the [video]({{ site.url }}/design/video/).
+:   Put some nice Schema.org-Meta-Data into the video-template for better SEO. If you want to know how to use the data, have a look into the front matter of the [video]({{ site.url }}/design/video/).
 
 2015-03-30 // Version 1.2
-:   Added [alert-include]({{ site.url }}/documentation/#alert-embed-an-alert-in-your-content) and structured Sass-files.
+:   Added [alert-include]({{ site.url }}/documentation/#alert-embed-an-alert-in-your-content) and structured Sass-files.
 
 2015-03-25  // Video
 :   Made a new [video tutorial](https://www.youtube.com/embed/rLS-BEvlEyY)
@@ -35,7 +35,7 @@ permalink: "/changelog/"
 
 
 2015-02-25 // Version 0.99.1
-:   Added support for Google Analtics. Added `_include/next-previous-post-in-category.html` to generate links from one post in a category to another post in that same category. Example at the bottom of [Grid & Colors]({{ site.url }}/design/grid/#bottom). Added `noindex`-variable for search engine optimization ([read more](https://support.google.com/webmasters/answer/93710?hl=en)). Changed code for breadcrumb. Added [Improve-Content-Include]({{ site.url }}/documentation/#improvecontenthtml).
+:   Added support for Google Analtics. Added `_include/next-previous-post-in-category.html` to generate links from one post in a category to another post in that same category. Example at the bottom of [Grid & Colors]({{ site.url }}/design/grid/#bottom). Added `noindex`-variable for search engine optimization ([read more](https://support.google.com/webmasters/answer/93710?hl=en)). Changed code for breadcrumb. Added [Improve-Content-Include]({{ site.url }}/documentation/#improvecontenthtml).
 
 2015-02-19 // Version 0.99
 :   Yes! Now *Feeling Responsive* uses the built-in sass-support by Jekyll. Open `_sass` and dig deeper into customizing this theme using your colors, typography and so on...
@@ -59,7 +59,7 @@ permalink: "/changelog/"
 :   Improved speed through the use of [webfontloader](https://github.com/typekit/webfontloader). Reduced Volkhov font and only embedded normal weight. Now fonts load asynchronous and the package is 53kb lighter.
 
 2014-12-21 // Version 0.92
-:   A new polished version, with a stronger and better color scheme. [Have a look ›]({{ site.url }}/design/grid/#color-scheme-and-colors-codes). Added foundation `.scss-files` to `assets/scss/` for savety.
+:   A new polished version, with a stronger and better color scheme. [Have a look ›]({{ site.url }}/design/grid/#color-scheme-and-colors-codes). Added foundation `.scss-files` to `assets/scss/` for savety.
 
 2014-10-08 // Version 0.91
 :   Moved images folder from `assets/img/` to `images` to fasten access to folder. Moved all pages to `pages/`-folder for better organization. Added language-functionality. *Feeling Responsive* is now translation ready.
@@ -104,11 +104,11 @@ permalink: "/changelog/"
 </div>
 
 
- [1]: {{ site.url }}/blog/
- [2]: {{ site.url }}/blog/archive/
+ [1]: {{ site.url }}/blog/
+ [2]: {{ site.url }}/blog/archive/
  [3]: http://foundation.zurb.com/docs/components/accordion.html
- [4]: {{ site.url }}/design/gallery/
- [5]: {{ site.url }}/design/video/
+ [4]: {{ site.url }}/design/gallery/
+ [5]: {{ site.url }}/design/video/
  [6]: https://www.google.de/maps/place/Strandpaviljoen+Joep+B.V./@51.9960733,5.830135,6z/data=!4m2!3m1!1s0x47cf5918df69093b:0x7c11ab31102c1c8a
  [7]: fontcustom.com
  [8]: https://www.tawk.to

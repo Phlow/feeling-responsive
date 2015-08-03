@@ -3,19 +3,19 @@
 * This include creates a next/previous link to a post of the same category
 * using the categories-variable in front matter.
 *
-* Use › {% include next-previous-post-in-category.html %}
-* 
+* Use › {% include next-previous-post-in-category.html %}
+*
 {% endcomment %}
 
 
 {% comment %}
 *
 * assign FIRST category from categories variable from front matter to cat
-* and make a string from the array by using › join: ''
+* and make a string from the array by using › join: ''
 *
 {% endcomment %}
 
-{% assign cat = page.categories | first | join: '' %}
+{% assign cat = page.categories | first | join: '' %}
 {% for post in site.categories.[cat] %}
 {% if post.url == page.url %}
 {% assign post_index0 = forloop.index0 %}

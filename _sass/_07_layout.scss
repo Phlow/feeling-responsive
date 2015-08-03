@@ -54,9 +54,8 @@ body.video cite { color: #fff; }
 /* Search
 ------------------------------------------------------------------- */
 
-#search {
-    padding: 20px 0 0 0;
-    background: $ci-4;
+.no-js form#search {
+  display: none;
 }
 
 

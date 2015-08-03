@@ -265,10 +265,16 @@ Let's <mark>mark this hint</mark> to give you a clue.
 
 
 
-
 ### &lt;br&gt;
 
 Need a break? I give you three!<br><br><br>
+
+
+
+## Footnotes
+
+If you need footnotes for your posts, articles and entries, the Kramdown-Parser [^1] got you covered. How to use footnotes? Read this footnote. [^2]
+
 
 
  [1]: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list
@@ -282,6 +288,9 @@ Need a break? I give you three!<br><br><br>
  [9]: #
  [10]: #
 
+
+[^1]: Find out more about Kramdown on <http://kramdown.gettalong.org/>
+[^2]: Kramdown has an excellent documentation of all its features. Check out, on how to [footnotes](http://kramdown.gettalong.org/syntax.html#footnotes).
 
 # &lt;h1&gt;-Heading in Volkhov
 

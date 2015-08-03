@@ -1,21 +1,20 @@
 ---
-layout: post
-title:  ""
-subheadline:  ""
+layout: page
+title: ""
+subheadline: ""
 meta_description: ""
 teaser: ""
 categories:
-    - 
+  - 
 tags:
-    - 
+  - 
 image:
-    header:  ""
-    thumb:  ""
-    homepage: ""
-    caption: ""
-    url: ""
+  header: ""
+  thumb: ""
+  homepage: ""
+  caption: ""
+  url: ""
 ---
-
 
 
 

@@ -53,7 +53,7 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 permalink: /:categories/:title/
 highlight: pygments
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--more-->"
 exclude: []
 include: ['.htaccess']
 
@@ -84,7 +84,7 @@ defaults:
       path: "" 				# an empty string here means all files in the project
       type: "pages"
     values:
-      show_meta: true 	# Show metadata beneath all pages
+      show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
       author: "your_author_name"
@@ -93,7 +93,7 @@ defaults:
       path: ""        
       type: "posts"
     values:
-      show_meta: true   # Show metadata beneath all posts
+      show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: "your_author_name"

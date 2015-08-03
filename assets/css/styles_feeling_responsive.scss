@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Only the main Sass file needs front matter, rest is included from site.sass.sass_dir
 ---
 @charset "utf-8";
 
@@ -8,9 +8,9 @@
 @import "02_settings_typography.scss";
 @import "03_settings_mixins_media_queries.scss";
 @import "04_settings_global.scss";
-@import "05_normalize.scss";    // normalize.css v3.0.2
+@import "05_normalize.scss"; // normalize.css v3.0.2
 
-@import "foundation-components/top-bar.scss";
+@import "foundation-components/top-bar";
 @import "foundation-components/accordion";
 @import "foundation-components/alert-boxes";
 @import "foundation-components/breadcrumbs";
@@ -36,8 +36,8 @@
 @import "foundation-components/visibility";
 
 @import "06_typography.scss";
-@import "07_layout";
+@import "07_layout.scss";
 @import "foundation-components/grid";
-@import "09_elements";
+@import "09_elements.scss";
 
-@import "11_syntax-highlighting";
+@import "11_syntax-highlighting.scss";

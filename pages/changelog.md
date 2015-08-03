@@ -41,7 +41,7 @@ permalink: "/changelog/"
 :   Yes! Now *Feeling Responsive* uses the built-in sass-support by Jekyll. Open `_sass` and dig deeper into customizing this theme using your colors, typography and so on...
 
 2015-02-18 // Version 0.98
-:   Now with author-support and [Schema.org microdata](http://schema.org). Edit author(s) in `authors.yml` and use it via front matter like `author: your_author_name`. Added [Disqus-comments]({{ site.url}}/design/comments/#comments) to the mix.
+:   Now with author-support and [Schema.org microdata](http://schema.org). Edit author(s) in `authors.yml` and use it via front matter like `author: your_author_name`. Added [Disqus-comments]({{ site.url }}/design/comments/#comments) to the mix.
 
 2015-02-17 // Version 0.97
 :   Simplicity. Reduced templates. Now there is one page/post-template with two switches via front matter to turn on metadata at the end of the page/post via `show_meta: true/false` and to add a left or right sidebar via `sidebar: left/right`. The defaults are declared in `config.yml`. I also changed the variable `description` to `teaser` because it's more logigally.
@@ -77,7 +77,7 @@ permalink: "/changelog/"
 :   Finally the [blogpage][1] has pagination and an [archive for all blog-posts][2] using the [foundation accordion][3].
 
 2014-08-22 // Version 0.5
-:   Better typograpyh, extended [documentation]({{ site.url}}/documentation/) and little subtle css-things to make *Feeling Responsive* a little better.
+:   Better typograpyh, extended [documentation]({{ site.url }}/documentation/) and little subtle css-things to make *Feeling Responsive* a little better.
 
 2014-08-17 // Version 0.4
 :   First beta release of »Feeling Responsive« with the current jekyll templates.

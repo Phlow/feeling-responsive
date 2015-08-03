@@ -18,6 +18,9 @@ slogan: "A Flexible Theme for Jekyll"
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: "»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette."
 
+# Main author of the website
+# See > authors.yml
+author: phlow
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
@@ -87,7 +90,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "your_author_name"
+      author: phlow     # Default author for pages
   -
     scope:
       path: ""        
@@ -96,7 +99,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "your_author_name"
+      author: phlow     # Default author for posts
 
 
 

@@ -297,13 +297,14 @@ body.video cite { color: #fff; }
     #subfooter-left ul.inline-list {
         float: left;
     }
-    #subfooter li a {
+    #subfooter .credits a {
         color: $subfooter-link-color;
         text-transform: uppercase;
+        &:hover {
+            color: #fff;
+        }
     }
-    #subfooter li a:hover {
-        color: #fff;
-    }
+
     #subfooter .social-icons li a {
         font-size: rem-calc(23);
         display: block;

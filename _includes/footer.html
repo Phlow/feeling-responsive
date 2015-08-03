@@ -67,10 +67,13 @@
 
       <div id="subfooter">
         <nav class="row">
-          <section id="subfooter-left" class="b30 small-12 medium-6 columns">
-            <ul class="inline-list">
-              <li>Created with &hearts; by <a style="display:inline;" href="http://phlow.de/">Phlow</a> with <a style="display:inline;" href="http://jekyllrb.com/" target="_blank">Jekyll</a> using <a style="display:inline;" href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> </li>
-            </ul>
+          <section id="subfooter-left" class="b30 small-12 medium-6 columns credits">
+            <p>
+              Created with &hearts;
+              by&nbsp;<a href="{{ site.data.authors[site.author].uri }}">{{ site.data.authors[site.author].name | replace: ' ', '&nbsp;' }}</a>
+              with&nbsp;<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
+              based&nbsp;on&nbsp;<a href="http://phlow.github.io/feeling-responsive/">Feeling&nbsp;Responsive</a>.
+            </p>
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns social-icons">

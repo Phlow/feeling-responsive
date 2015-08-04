@@ -9,6 +9,7 @@
 - Side-Nav
 - Accordion
 - Lazy Load XT
+- Frontpage Widget
 
 */
 
@@ -143,4 +144,17 @@ img.lazy {
     -o-transition: opacity 0.7s;
     transition: opacity 0.7s;
     opacity: 1;
+}
+
+/* Frontpage Widget
+------------------------------------------------------------------- */
+.frontpage-widget img {
+  transition-duration: .5s;
+  transition-property: all;
+  transform-origin: 50% 50%;
+  &:hover {
+    transform: scale(1.1) rotate(2deg) translateZ(0);
+    position: relative;
+    z-index: 1;
+  }
 }

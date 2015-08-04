@@ -1,5 +1,7 @@
 ---
 # Only the main Sass file needs front matter, rest is included from site.sass.sass_dir
+sitemap:
+  exclude: true
 ---
 @charset "utf-8";
 

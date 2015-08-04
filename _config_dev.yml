@@ -5,5 +5,16 @@
 #
 # Start development with › $ jekyll serve --config _config.yml,_config_dev.yml
 
-url: "http://localhost:4000"
-urlimg: "http://localhost:4000/images/"
+url: 'http://localhost:4000'
+
+sass:
+  # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: :expanded
+  line_numbers: true
+  #trace_selectors: true
+  #debug_info: true
+  # FUTURE https://github.com/jekyll/jekyll-sass-converter/issues/12
+  sourcemap: true
+
+# Disable when not in production
+google_analytics_tracking_id:

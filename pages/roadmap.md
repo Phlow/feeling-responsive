@@ -12,6 +12,7 @@ permalink: "/roadmap/"
 {: .t30 }
 
 * Get rid of Backstretch.js and solve it with pure CSS
+* [Custom Scrollbar](https://css-tricks.com/custom-scrollbars-in-webkit/)
 * Layout/Template for category-archives
 * Layout/Template for collections
 * Layout/Template for Landingpage

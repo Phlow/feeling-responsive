@@ -1,25 +1,28 @@
 ---
 layout: page
-subheadline: 
-title: 
-teaser: 
-meta_title:             # SEO: Overwrites title in <head> if needed
-meta_description:
-permalink:
+#
+# Content
+#
+subheadline: ""
+title: ""
+teaser: ""
 categories:
-    - 
+  - 
 tags:
-    - 
+  - 
+#
+# Styling
+#
 header: no
 header:
-    image_fullwidth: 
+    image_fullwidth:
     image:
     pattern:
     color:
-    background-color: "#fabb00"
-    title: 
-    caption: 
-    caption_url: 
+    background-color: "#fabb00"   # You must use ""
+    title:
+    caption:
+    caption_url:
 image:
     title:
     homepage:
@@ -32,10 +35,16 @@ video:
     embedURL: ""
     contentURL: ""
     thumbnailUrl: ""
-show_meta: false
+#
+# Metainformation & Customization
+#
 sidebar: left
 comments: true
 breadcrumb: true
+show_meta: false
+meta_title:             # SEO: Overwrites title in <head> if needed
+meta_description:
+permalink:
 tawkto: true               # Enable tawk.to-Service › More › _config.yml
 ---
 

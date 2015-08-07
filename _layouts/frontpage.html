@@ -44,7 +44,7 @@ format: blog-index
             {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
             <p>
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title escape_once }}" /></a>
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
             </p>
 
             {% if post.image.caption_url && post.image.caption %}

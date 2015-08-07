@@ -114,7 +114,7 @@ With foundation responsive videos are easy. [More ›](http://foundation.zurb.co
 {% endhighlight %}
 
 
-<img class="t60" src="{{ site.url }}/images/header_homepage_13.jpg" />
+<img class="t60" src="{{ site.url }}/images/header_homepage_13.jpg">
 
 ## Images: Title, Thumbnails, Homepage   {#images}
 

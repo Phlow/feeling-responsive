@@ -1,13 +1,19 @@
 ---
 layout: page
-title: ""
+#
+# Content
+#
 subheadline: ""
-meta_description: ""
+title: ""
 teaser: ""
+meta_description: ""
 categories:
   - 
 tags:
   - 
+#
+# Styling
+#
 image:
   header: ""
   thumb: ""

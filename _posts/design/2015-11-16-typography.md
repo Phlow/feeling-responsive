@@ -269,7 +269,7 @@ Let's <mark>mark this hint</mark> to give you a clue.
 
 ### &lt;br&gt;
 
-Need a break? I give you three!<br /><br /><br />
+Need a break? I give you three!<br><br><br>
 
 
 ## Footnotes

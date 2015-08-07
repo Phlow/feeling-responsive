@@ -11,8 +11,8 @@ sass:
   # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
   style: :expanded
   line_numbers: true
-  #trace_selectors: true
-  #debug_info: true
+  # trace_selectors: true
+  # debug_info: true
   # FUTURE https://github.com/jekyll/jekyll-sass-converter/issues/12
   sourcemap: true
 

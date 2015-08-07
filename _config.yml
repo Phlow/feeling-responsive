@@ -18,23 +18,26 @@ slogan: "A Flexible Theme for Jekyll"
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: "»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette."
 
+# Main author of the website
+# See > authors.yml
+author: phlow
 
-# This URL is the main adresse. Don't include a slash at the end.
+# This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: "https://phlow.github.io/feeling-responsive"
-baseurl: ""
+url: 'https://phlow.github.io/feeling-responsive'
+baseurl: ''
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
 # This URL points directly to the images directory making
-# things easier to link to images in posts and templates. It needs a slash.
+# things easier to link to images in posts and templates. It needs a slash at the end.
 #
-# Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
-# Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
+# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: "http://phlow.github.io/feeling-responsive/images/"
+urlimg: '/images/'
 
 
 # Logo size is 600x80 pixels
@@ -53,7 +56,7 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 permalink: /:categories/:title/
 highlight: pygments
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--more-->"
 exclude: []
 include: ['.htaccess']
 
@@ -63,10 +66,22 @@ language: "en"
 
 # Exclude these files from your production _site
 exclude:
+    - .sass-cache
     - Gemfile
     - Gemfile.lock
     - LICENSE
     - README.md
+    - INSTALL.md
+
+# Used › default.html front-matter and comress.html
+# Options › http://jch.penibelst.de
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
 
 
 #
@@ -84,19 +99,19 @@ defaults:
       path: "" 				# an empty string here means all files in the project
       type: "pages"
     values:
-      show_meta: true 	# Show metadata beneath all pages
+      show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "your_author_name"
+      author: phlow     # Default author for pages
   -
     scope:
       path: ""        
       type: "posts"
     values:
-      show_meta: true   # Show metadata beneath all posts
+      show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "your_author_name"
+      author: phlow     # Default author for posts
 
 
 

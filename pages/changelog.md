@@ -11,6 +11,9 @@ permalink: "/changelog/"
 2015-06-29 // Version 1.3
 :   Added the possibility of using [tawk.to][8] via front matter switch `tawkto: true` in front matter. Thank you [Juan Jose Amor Iglesias][9] for the suggestion.
 
+2015-08-07 // Version 1.3
+:   Lots of improvements done by [Róbert Papp aka TWiStErRob](https://github.com/TWiStErRob). Now with Atom.xml, better Sitemap, improved and slicker code, and many more bugfixes... **Thank you, Róbert!**
+
 2015-05-04 // Version 1.2.1
 :   Added `meta_title` to `<head>`. Use it in frontmatter for SEO purposes. 
 

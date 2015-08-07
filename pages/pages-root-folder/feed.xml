@@ -1,7 +1,7 @@
 ---
-permalink: /feed.xml
 layout: null
 title: "RSS Feed"
+permalink: /feed.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="{{ site.baseurl }}/assets/xslt/rss.xslt" ?>

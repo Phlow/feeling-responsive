@@ -1,8 +1,8 @@
 ---
-permalink: /humans.txt
-title: "Staff Information"
 layout: null
+title: "Staff Information"
 source: "http://humanstxt.org/Standard.html"
+permalink: /humans.txt
 ---
 /* TEAM */
 {% for author_entry in site.data.authors %}{% assign author = author_entry[1] %}

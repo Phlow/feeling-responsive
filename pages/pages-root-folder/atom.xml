@@ -1,7 +1,7 @@
 ---
-permalink: /atom.xml
 layout: null
 title: "Atom Feed"
+permalink: /atom.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="{{ site.baseurl }}/assets/xslt/atom.xslt" ?>

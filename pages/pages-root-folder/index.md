@@ -4,7 +4,6 @@
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
 #
-permalink: /index.html
 layout: frontpage
 header:
   image_fullwidth: header_unsplash_12.jpg
@@ -23,6 +22,7 @@ widget3:
   url: 'https://github.com/Phlow/feeling-responsive'
   image: github-303x182.jpg
   text: '<em>Feeling Responsive</em> is totally free and licensed under the MIT License. Make it your own and do with it what you want. Grab your copy or clone it at GitHub and start your website with it. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
+permalink: /index.html
 ---
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">

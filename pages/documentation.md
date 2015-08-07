@@ -20,7 +20,7 @@ header:
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
-{% include improve_content.html %}
+{% include improve_content %}
 
 ## Different Page/Posts Formats   {#formats}
 
@@ -32,7 +32,7 @@ The [page/post format]({{ site.url }}/design/page/) has no sidebar by default, i
 use in front matter via: `layout: page`
 
 ### Page/Post with a left or right sidebar
-If you want to show the sidebar, just enter `sidebar: left` or `sidebar: right` in front matter, and *whoops, there it is*! To customize the content of the sidebar, open `_includes/sidebar.html`.
+If you want to show the sidebar, just enter `sidebar: left` or `sidebar: right` in front matter, and *whoops, there it is*! To customize the content of the sidebar, open `_includes/sidebar`.
 
 
 ### Page/Post with or without metadata
@@ -229,7 +229,7 @@ Possible parameter for the loop:
 The loop looks when you use all parameters. Single parameters are possible of course.
 
 ~~~
-{% raw %}{% include list-posts.html entries='3' offset='1' category='design' %}{% endraw %}
+{% raw %}  entries='3' offset='1' category='design' %}{% endraw %}
 ~~~
 
 ### next-previous-post-in-category.html
@@ -237,25 +237,25 @@ The loop looks when you use all parameters. Single parameters are possible of co
 This include creates a next/previous link to a post of the same category using the first categories-variable in front matter.
 
 ~~~
-{% raw %}{% include next-previous-post-in-category.html %}{% endraw %}
+{% raw %} {% include next-previous-post-in-category %}{% endraw %}
 ~~~
 
 
-### improve_content.html
+### improve_content
 
 If your content is on Jekyll you can use this include to automatically generate a »Edit on GitHub Link« to give people a possibility to improve your content. Got the idea from [Ben Balters Blog](http://ben.balter.com/).
 
 ~~~
-{% raw %}{% include improve_content.html %}{% endraw %}
+{% raw %}{% include improve_content %}{% endraw %}
 ~~~
 
 
-### list-collection.html
+### list-collection
 
 This include lets you loop through a collection to list all entries in that collection. If you set »published: false« in front matter of a collection page the page gots filtered out via unless. The following example loops through a collection called *wordpress*.
 
 ~~~
-{% raw %}{% include list-collection.html collection='wordpress' %}{% endraw %}
+{% raw %}{% include list-collection collection='wordpress' %}{% endraw %}
 ~~~
 
 
@@ -309,7 +309,7 @@ I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. Th
 /foundation/js/jquery.backstretch.js'
 ~~~
 
-{% include improve_content.html %}
+{% include improve_content %}
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->

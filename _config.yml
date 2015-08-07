@@ -27,7 +27,7 @@ author: phlow
 url: 'https://phlow.github.io/feeling-responsive'
 baseurl: ''
 
-# This is for the editing function in _/includes/improve_content.html
+# This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
@@ -192,7 +192,7 @@ og_description:                     "Feeling Responsive is built on the fabulous
 #    /_____/_/____/\__, /\__,_/____/
 #                    /_/
 #
-# used in _includes/comments.html
+# used in _includes/comments
 
 disqus_shortname: feelingresponsive
 
@@ -216,7 +216,7 @@ sass:
 #   /_/  |_/_/ /_/\__,_/_/\__, /\__/_/\___/____/      https://www.google.com/analytics/
 #                        /____/
 #
-# used in _includes/footer_scripts.html
+# used in _includes/footer_scripts
 
 google_analytics_tracking_id: UA-60112281-1
 
@@ -233,6 +233,6 @@ google_analytics_tracking_id: UA-60112281-1
 #
 #  To load the script add tawkto: true in front matter of each page
 #
-# used in _includes/footer_scripts.html
+# used in _includes/footer_scripts
 
 # tawkto_embed_uri:

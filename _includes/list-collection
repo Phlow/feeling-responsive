@@ -6,7 +6,7 @@
 *   If you set »published: false« in front matter of a collection page 
 *   the page gots filtered out via unless
 *
-*   Example: {% include list-collection.html collection='wordpress' %}
+*   Example: {% include list-collection ollection='wordpress' %}
 *   
 {% endcomment %}
 

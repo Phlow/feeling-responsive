@@ -8,11 +8,14 @@ header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2015-08-07 // Version 1.5
+:   Simplified includes syntax. The `.html`-ending is not needed anymore. Makes it simpler to read, write and use.
+
+2015-08-07 // Version 1.4
+:   Lots of improvements done by [Róbert Papp aka TWiStErRob](https://github.com/TWiStErRob). Now with Atom.xml, better Sitemap, improved and slicker code, and many more bugfixes... **Thank you, Róbert!**
+
 2015-06-29 // Version 1.3
 :   Added the possibility of using [tawk.to][8] via front matter switch `tawkto: true` in front matter. Thank you [Juan Jose Amor Iglesias][9] for the suggestion.
-
-2015-08-07 // Version 1.3
-:   Lots of improvements done by [Róbert Papp aka TWiStErRob](https://github.com/TWiStErRob). Now with Atom.xml, better Sitemap, improved and slicker code, and many more bugfixes... **Thank you, Róbert!**
 
 2015-05-04 // Version 1.2.1
 :   Added `meta_title` to `<head>`. Use it in frontmatter for SEO purposes. 
@@ -74,7 +77,7 @@ permalink: "/changelog/"
 :   Added [video post format][5] for that cinematic flavor. Added URL- and Credit-feature to images and revamped the homepage a little bit to give blog-content more exposure. Optimized some includes, especially the `_include/list-posts.html`-Include which support some nifty parameters.
 
 2014-09-15 // Version 0.7
-:   Added an [example of a gallery][4] to show how to use Clearing Lightbox. Meta information is used in posts via `/include/meta_information.html`. To optimize pages/posts for search engines you have now have an extra front matter-variable called `meta_description`. Also the theme supports facebook open graph information.
+:   Added an [example of a gallery][4] to show how to use Clearing Lightbox. Meta information is used in posts via `/include/meta_information`. To optimize pages/posts for search engines you have now have an extra front matter-variable called `meta_description`. Also the theme supports facebook open graph information.
 
 2014-09-12 // Version 0.6
 :   Finally the [blogpage][1] has pagination and an [archive for all blog-posts][2] using the [foundation accordion][3].

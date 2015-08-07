@@ -31,4 +31,4 @@ show_meta: false
 
 ## Other Post Formats
 {: .t60 }
-{% include list-posts.html tag='post format' %}
+{% include list-posts tag='post format' %}

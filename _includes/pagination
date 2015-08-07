@@ -13,7 +13,7 @@
       <p class="subheadline"><span class="subheader">{% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</span> – {% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>
       <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
       <p>
-        {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+        {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.url }}{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
 
         {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
 

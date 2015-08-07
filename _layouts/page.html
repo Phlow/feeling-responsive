@@ -40,11 +40,11 @@ format: post
 			</span>
 
 			{% if page.show_meta == true %}
-			{% include meta_information.html %}
+			{% include meta_information %}
 			{% endif %}
 
 			{% if page.comments == true %}
-			{% include comments.html %}
+			{% include comments %}
 			{% endif %}
 		</article>
 	</div><!-- /.medium-8.columns -->
@@ -52,14 +52,14 @@ format: post
 
 	{% if page.sidebar == "left" %}
 	<div class="medium-4 columns medium-pull-8">
-		{% include sidebar.html %}
+		{% include sidebar %}
 	</div><!-- /.medium-4.columns -->
 	{% endif %}
 
 
 	{% if page.sidebar == "right" %}
 	<div class="medium-4 columns">
-		{% include sidebar.html %}
+		{% include sidebar %}
 	</div><!-- /.medium-4.columns -->
 	{% endif %}
 </div><!-- /.row -->

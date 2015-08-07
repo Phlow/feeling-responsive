@@ -1,33 +1,31 @@
 {% comment %}
-*  
-*  This include lets you easily display an alert.
-*  To use the include no `.html` ending is necessary.
-*  You can use five different kinds of alerts:
 *
-*  - warning
-*  - info
-*  - success
-*  - alert
-*  - text
+* This include lets you easily display an alert. To use this include no `.html` ending is necessary.
 *
-*  You can even use <html>-tags inside the alert. Beware:
-*  Use " and ' properly. 
-*  
-*  Example: {% include alert info='Show an info alert with outstanding information' %}
-*  
+* You can use the following kinds of alerts:
+*
+*  - warning  (foundation built-in)
+*  - info     (foundation built-in)
+*  - success  (foundation built-in)
+*  - alert    (foundation built-in)
+*  - text     (foundation built-in)
+*  - terminal (custom, see Alerts in _sass/_09_elements.scss)
+*  - ...      (define your own: .alert-box.<alert-type> { @include alert-style(<bg-color>);)
+*
+* You can even use markdown and <html>-tags inside the alert, but beware to use " and ' properly; for example:
+*
+*     {% include alert info='Show an info alert with <b>outstanding</b> <a href="#info">information</a>.' %}
+*
+*     {% include alert info='Show an info alert with *outstanding* [information](#info).' %}
+*
+*     {% include alert info='Show an info alert with *outstanding* <a href="#info">information</a>.' %}
+*
+* You can also call for additional classes to be put on the alert div:
+*
+*     {% include alert success="Yay! you did it!" classes='round' %}
+*
 {% endcomment %}
-
-
-{% if include.warning %}
-<div class="alert-box warning radius">{{ include.warning }}</div>
-{% elsif include.info %}
-<div class="alert-box info radius">{{ include.info }}</div>
-{% elsif include.success %}
-<div class="alert-box success radius">{{ include.success }}</div>
-{% elsif include.alert %}
-<div class="alert-box alert radius">{{ include.alert }}</div>
-{% elsif include.text %}
-<div class="alert-box text radius">{{ include.text }}</div>
-{% elsif include.terminal %}
-<div class="alert-box terminal radius">{{ include.terminal }}</div>
-{% endif %}
+{% for entry in include %}
+{% if entry[0] == 'classes' %}{% continue %}{% endif %}
+<div class="alert-box {{ entry[0] }} radius {{ include.classes }}">{{ entry[1] | markdownify }}</div>
+{% endfor %}

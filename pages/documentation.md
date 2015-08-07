@@ -41,7 +41,7 @@ If you want to show metadata like categories, tags and date at the end of the pa
 
 
 ### Page Full Width
-If you want full control of styling a page, than use the [page fullwidth template]({{ site.url }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
+If you want full control of styling a page, then use the [page fullwidth template]({{ site.url }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
 
 use in front matter via: `layout: page-fullwidth`
 
@@ -141,7 +141,7 @@ image:
 
 ### Homepage Image
 
-If you want to feature an article on the homepage with a huge image, than use the homepage image with a width of 970 pixels. If no homepage image is defined *Feeling Responsive* writes instead *New Blog Articles* over the blog entries. Define the homepage image like this:
+If you want to feature an article on the homepage with a huge image, then use the homepage image with a width of 970 pixels. If no homepage image is defined *Feeling Responsive* writes instead *New Blog Articles* over the blog entries. Define the homepage image like this:
 
 ~~~
 image:
@@ -177,7 +177,7 @@ image:
 {: .text-right }
 
 
-## Create a Table of Content
+## Create a Table of Contents
 {: .t60}
 
 With the Kramdown parser for Markdown you can render a table of contents for your documents. Just insert the following HTML in your post before the actual content. More information on [»Automatic ›Table of Contents‹ Generation«][1].

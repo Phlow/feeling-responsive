@@ -11,7 +11,7 @@ tags:
     - header
 ---
 No front matter code needed.
-
+<!--more-->
 
 ### All Header-Styles 
 {: .t60 }

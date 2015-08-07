@@ -4,10 +4,11 @@ title: "Show your beautiful work!"
 subheadline: "Portfolio"
 teaser: "You don't need a special portfolio template with this theme. Just check out the great possibilities of the <a href='http://foundation.zurb.com/docs/components/grid.html'>foundation grid</a> and experiment with it."
 image:
-    thumb: "unsplash_6_bus_thumb.jpg"
+    thumb: "unsplash_6_thumb.jpg"
 categories:
     - design
 ---
+<!--more-->
 
 <div class="row t60">
     <div class="medium-6 columns b30">

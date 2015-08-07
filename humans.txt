@@ -1,27 +1,29 @@
 ---
+permalink: /humans.txt
+title: "Staff Information"
+layout: null
+source: "http://humanstxt.org/Standard.html"
 ---
-/* SITE */
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* TEAM */
+{% for author_entry in site.data.authors %}{% assign author = author_entry[1] %}
+Name: {% if author.name %}{{ author.name }}{% else %}{{ site.author }}{% endif %}{% if author.siteroles %}
+Role: {{ author.siteroles }}{% endif %}{% if author.uri %}
+Site: {{ author.uri }}{% endif %}{% if author.twitter %}
+Twitter: {{ author.twitter }}{% endif %}
+{% endfor %}
 
-# TEAM
-
-
-
-# THANKS
+/* THANKS */
 
 Name: Moritz »mo.« Sauer
-Role: Webdesigner of Theme
+Role: Creator of the Theme
 Site: http://mo.phlow.de/
+Twitter: @phlow
 Theme: http://phlow.github.io/feeling-responsive/
-Twitter: http://twitter.com/phlow
 
-# TECHNOLOGY COLOPHON
+
+/* SITE */
 
 Last Updated: {{ site.time | date:"%Y/%m/%d" }}
 Standards: HTML5, CSS3
 Software: Sublime Text, Chrome, Jekyll, Git, Imageoptim, JPEGMini, Gulp.js, Sass
-Components: Modernizr, jQuery, Backstretch.js, Reveal, Foundation Framework
-
-
-
+Components: Foundation Framework, Modernizr, jQuery, Backstretch.js, Reveal

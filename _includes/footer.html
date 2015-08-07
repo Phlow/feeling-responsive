@@ -13,7 +13,7 @@
 
             <p class="shadow-black">
               {{ site.description }}
-              <a href="{{ site.url }}/info/">{{ site.data.language.more }}</a>
+              <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -27,11 +27,7 @@
               
               <ul class="no-bullet shadow-black">
               {% for service_item in site.data.services %}
-                {% if service_item.url contains 'http' %}
-                  {% assign domain = '' %}
-                  {% else %}
-                  {% assign domain = site.url %}
-                {% endif %}
+                {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl %}{% endif %}
                   <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
                     <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
                   </li>
@@ -49,11 +45,7 @@
               
             <ul class="no-bullet shadow-black">
             {% for network_item in site.data.network %}
-              {% if network_item.url contains 'http' %}
-                {% assign domain = '' %}
-                {% else %}
-                {% assign domain = site.url %}
-              {% endif %}
+              {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl %}{% endif %}
                 <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
                   <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
                 </li>
@@ -67,10 +59,13 @@
 
       <div id="subfooter">
         <nav class="row">
-          <section id="subfooter-left" class="b30 small-12 medium-6 columns">
-            <ul class="inline-list">
-              <li>Created with &hearts; by <a style="display:inline;" href="http://phlow.de/">Phlow</a> with <a style="display:inline;" href="http://jekyllrb.com/" target="_blank">Jekyll</a> using <a style="display:inline;" href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> </li>
-            </ul>
+          <section id="subfooter-left" class="b30 small-12 medium-6 columns credits">
+            <p>
+              Created with &hearts;
+              by&nbsp;<a href="{{ site.data.authors[site.author].uri }}">{{ site.data.authors[site.author].name | replace: ' ', '&nbsp;' }}</a>
+              with&nbsp;<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
+              based&nbsp;on&nbsp;<a href="http://phlow.github.io/feeling-responsive/">Feeling&nbsp;Responsive</a>.
+            </p>
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns social-icons">

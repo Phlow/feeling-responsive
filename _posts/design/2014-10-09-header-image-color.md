@@ -16,19 +16,20 @@ header:
     caption_url: https://unsplash.com/
 ---
 It's so easy to do. Just define in front matter an image and a background color. Instead of a color you can also use a pattern image. Have a look at the [example with a background pattern]({{ site.url }}/design/header-image-pattern/).
+<!--more-->
+
 
 ## Front Matter Code
 
-<div class="alert-box radius alert">WARNING: To make this work the value of <em>background-color</em> must be inbetween quotes.</div>
+{% include alert alert="WARNING: To make this work the value of `background-color` must be inbetween quotes." %}
 
 ~~~
 header:
-    image:  "header_unsplash_2-970x.jpg"
-    background-color:  "#fabb00"
+    image: "header_unsplash_2-970x.jpg"
+    background-color: "#fabb00"
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
 ~~~
-
 
 
 ### All Header-Styles 

@@ -18,23 +18,26 @@ slogan: "A Flexible Theme for Jekyll"
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: "»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette."
 
+# Main author of the website
+# See > authors.yml
+author: phlow
 
-# This URL is the main adresse. Don't include a slash at the end.
+# This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: "https://phlow.github.io/feeling-responsive"
-baseurl: ""
+url: 'https://phlow.github.io/feeling-responsive'
+baseurl: ''
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
 # This URL points directly to the images directory making
-# things easier to link to images in posts and templates. It needs a slash.
+# things easier to link to images in posts and templates. It needs a slash at the end.
 #
-# Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
-# Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
+# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: "http://phlow.github.io/feeling-responsive/images/"
+urlimg: '/images/'
 
 
 # Logo size is 600x80 pixels
@@ -53,29 +56,40 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 permalink: /:categories/:title/
 highlight: pygments
-excerpt_separator: "\n\n"
-exclude: []
+excerpt_separator: "<!--more-->"
 include: ['.htaccess']
+# Exclude these files from your production _site
+exclude:
+    - .sass-cache
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - INSTALL.md
 
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
 
-# Exclude these files from your production _site
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
+
+# Used › default.html front-matter and comress.html
+# Options › http://jch.penibelst.de
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
 
 
 #
-#       ____       ____            ____ 
+#       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_
 #     / / / / _ \/ /_/ __ `/ / / / / __/
-#    / /_/ /  __/ __/ /_/ / /_/ / / /_  
-#   /_____/\___/_/  \__,_/\__,_/_/\__/  
-#                                       
+#    / /_/ /  __/ __/ /_/ / /_/ / / /_
+#   /_____/\___/_/  \__,_/\__,_/_/\__/
+#
 # Default Settings
 
 defaults:
@@ -84,38 +98,38 @@ defaults:
       path: "" 				# an empty string here means all files in the project
       type: "pages"
     values:
-      show_meta: true 	# Show metadata beneath all pages
+      show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "your_author_name"
+      author: phlow     # Default author for pages
   -
     scope:
-      path: ""        
+      path: ""
       type: "posts"
     values:
-      show_meta: true   # Show metadata beneath all posts
+      show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "your_author_name"
+      author: phlow     # Default author for posts
 
 
 
-#       _   __            _             __  _           
-#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
+#       _   __            _             __  _
+#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
 #     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
 #    / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/ 
-#                       /____/                          
+#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
+#                       /____/
 #
 #  Open _data/navigation.yml to adjust the left and right topbar navigation
 #
 
 
 
-#     _____ __________ 
+#     _____ __________
 #    / ___// ____/ __ \
 #    \__ \/ __/ / / / /
-#   ___/ / /___/ /_/ / 
+#   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
 google_author:             "https://plus.google.com/u/0/118311555303973066167"
@@ -125,10 +139,10 @@ bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
 
 
 
-#       ______            _                      
+#       ______            _
 #      / ____/___ __   __(_)________  ____  _____
 #     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
-#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  ) 
+#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  )
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
@@ -146,10 +160,10 @@ msapplication_tileimage:                "msapplication_tileimage.png"           
 msapplication_tilecolor:                "#fabb00"
 
 
-#       ______                __                __  
+#       ______                __                __
 #      / ____/___ _________  / /_  ____  ____  / /__
 #     / /_  / __ `/ ___/ _ \/ __ \/ __ \/ __ \/ //_/
-#    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<   
+#    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
 og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
@@ -161,46 +175,46 @@ og_description:                     "Feeling Responsive is built on the fabulous
 # og_site_name:                     ""
 
 
-#      _____            _       __   __  ___         ___      
+#      _____            _       __   __  ___         ___
 #     / ___/____  _____(_)___ _/ /  /  |/  /__  ____/ (_)___ _
 #     \__ \/ __ \/ ___/ / __ `/ /  / /|_/ / _ \/ __  / / __ `/
-#    ___/ / /_/ / /__/ / /_/ / /  / /  / /  __/ /_/ / / /_/ / 
-#   /____/\____/\___/_/\__,_/_/  /_/  /_/\___/\__,_/_/\__,_/  
+#    ___/ / /_/ / /__/ / /_/ / /  / /  / /  __/ /_/ / / /_/ /
+#   /____/\____/\___/_/\__,_/_/  /_/  /_/\___/\__,_/_/\__,_/
 #
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
 
 
-#        ____  _                      
+#        ____  _
 #       / __ \(_)________ ___  _______
 #      / / / / / ___/ __ `/ / / / ___/
-#     / /_/ / (__  ) /_/ / /_/ (__  ) 
-#    /_____/_/____/\__, /\__,_/____/  
-#                    /_/              
+#     / /_/ / (__  ) /_/ / /_/ (__  )
+#    /_____/_/____/\__, /\__,_/____/
+#                    /_/
 #
 # used in _includes/comments.html
 
 disqus_shortname: feelingresponsive
 
 
-#      _____                
+#      _____
 #     / ___/____ ___________
 #     \__ \/ __ `/ ___/ ___/
-#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/ 
+#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/
 #   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
-#                           
+#
 
 sass:
     sass_dir: _sass
     style: :compressed
 
 
-#       ___                __      __  _          
+#       ___                __      __  _
 #      /   |  ____  ____ _/ /_  __/ /_(_)_________
 #     / /| | / __ \/ __ `/ / / / / __/ / ___/ ___/
-#    / ___ |/ / / / /_/ / / /_/ / /_/ / /__(__  ) 
+#    / ___ |/ / / / /_/ / / /_/ / /_/ / /__(__  )
 #   /_/  |_/_/ /_/\__,_/_/\__, /\__/_/\___/____/      https://www.google.com/analytics/
-#                        /____/                   
+#                        /____/
 #
 # used in _includes/footer_scripts.html
 

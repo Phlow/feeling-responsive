@@ -226,10 +226,10 @@ Possible parameter for the loop:
 - offset › define the offset (number of entries to skip before displaying the first one)
 - category › define **only one** category to display according entries
 
-The loop looks when you use all parameters. Single parameters are possible of course.
+The loop looks like this when you use all parameters. Single parameters are possible of course.
 
 ~~~
-{% raw %}  entries='3' offset='1' category='design' %}{% endraw %}
+{% raw %}{% include list-posts entries='3' offset='1' category='design' %}{% endraw %}
 ~~~
 
 ### next-previous-post-in-category.html

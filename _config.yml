@@ -72,7 +72,7 @@ exclude:
 language: "en"
 
 
-# Used › default.html front-matter and comress.html
+# Used › default.html front-matter and compress.html
 # Options › http://jch.penibelst.de
 compress_html:
   clippings: all

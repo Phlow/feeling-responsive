@@ -20,7 +20,7 @@ description: "»MEDICINA UCN« es un sitio web donde podrás encontrar noticias,
 
 # Main author of the website
 # See > authors.yml
-author: medicinaucn
+author: victor
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -166,7 +166,7 @@ msapplication_tilecolor:                "#fabb00"
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
+og_image:                           "http://medicinaucn.cl/assets/img/logo-cem.jpg"
 og_locale:                          "es_ES"
 og_type:                            "website"
 og_title:                           "Medicina UCN – Noticias, clases y mucho más"

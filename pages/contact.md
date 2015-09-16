@@ -1,17 +1,19 @@
 ---
 layout: page
-title: "Contact"
-meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
-teaser: "Get in touch with me? Use the contact form."
-permalink: "/contact/"
+title: "Contacto"
+meta_title: "Contactanos usando nuestro formulario"
+subheadline: "Siempre atentos a tu dudas, problemas y/o sugerencias"
+teaser: "Quieres decirnos algo? Usa este formulario ;)"
+permalink: "/contacto/"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
 
 <div class="panel">
-<iframe width="100%" height="650" frameborder="0" scrolling="no" src="https://phlowmedia.wufoo.com/embed/z7x3k1/"></iframe>
+<form action="//formspree.io/victor1262@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Tu nombre" />
+    <input type="email" name="_replyto" placeholder="Tu email" />
+    <textarea name="message" rows="6" placeholder="Tu mensaje"></textarea>
+    <input type="hidden" name="_subject" value="Formulario de contacto - medicinaucn.cl" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" value="Enviar" class="button" />
+</form> 
 </div>
-
-
-
- [1]: http://www.wufoo.com/

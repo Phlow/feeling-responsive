@@ -1,20 +1,24 @@
 ---
-layout: default
-title: "Archivo del Blog"
-teaser: "Revisa aquí todas las entradas del Blog. haz click en un titular para leer un breve resumen."
-breadcrumb: true
-header:
-   image_fullwidth: header_unsplash_8.jpg
-permalink: "blog/archivo/"
+layout: page-fullwidth
+show_meta: false
+subheadline: Links, revisiones, clases, material, recursos y demases
+title: Recursos y Referencias
+teaser: Todo lo necesario para aprender, actualizar tus conocimientos o hacer tu tarea.
+permalink: /recursos/
 ---
+
+## En Construcción ##
+
+{% comment %}
+
 <div id="blog-index" class="row">
 	<div class="small-12 columns t30">
-		<h1>{{ page.title }}</h1>
+		<h1>{{ page.title }}</h1>
 		{% if page.teaser %}<p class="teaser">{{ page.teaser }}</p>{% endif %}
 
 		<dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
-			{% for post in site.posts limit:1000 %}
+			{% for post in site.categories.gastroenterologia limit:1000 %}
 			<dd class="accordion-navigation">
 			<a href="#panel{{ counter }}"><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></a>
 				<div id="panel{{ counter }}" class="content">
@@ -27,3 +31,5 @@ permalink: "blog/archivo/"
 		</dl>
 	</div><!-- /.small-12.columns -->
 </div><!-- /.row -->
+
+{% endcomment %}

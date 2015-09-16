@@ -20,7 +20,7 @@ description: "»MEDICINA UCN« es un sitio web donde podrás encontrar noticias,
 
 # Main author of the website
 # See > authors.yml
-author: Viktor
+author: medicinaucn
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -69,7 +69,7 @@ exclude:
 
 
 # The language setting is used in /includes/header.html for html-settings
-language: "en"
+language: "es"
 
 
 # Used › default.html front-matter and compress.html
@@ -101,7 +101,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: Viktor     # Default author for pages
+      author: medicinaucn     # Default author for pages
   -
     scope:
       path: ""
@@ -109,8 +109,8 @@ defaults:
     values:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      comments: false
-      author: Viktor     # Default author for posts
+      comments: true
+      author: medicinaucn     # Default author for posts
 
 
 

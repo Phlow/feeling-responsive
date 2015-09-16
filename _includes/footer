@@ -61,10 +61,10 @@
         <nav class="row">
           <section id="subfooter-left" class="b30 small-12 medium-6 columns credits">
             <p>
-              Created with &hearts;
-              by&nbsp;<a href="{{ site.data.authors[site.author].uri }}">{{ site.data.authors[site.author].name | replace: ' ', '&nbsp;' }}</a>
-              with&nbsp;<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
-              based&nbsp;on&nbsp;<a href="http://phlow.github.io/feeling-responsive/">Feeling&nbsp;Responsive</a>.
+              Creado con &hearts;
+              por&nbsp;<a href="{{ site.data.authors[site.author].uri }}">{{ site.data.authors[site.author].name | replace: ' ', '&nbsp;' }}</a>
+              usando&nbsp;<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
+              basado&nbsp;en&nbsp;<a href="http://phlow.github.io/feeling-responsive/">Feeling&nbsp;Responsive</a>.
             </p>
           </section>
 

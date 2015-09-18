@@ -59,12 +59,13 @@
 
       <div id="subfooter">
         <nav class="row">
-          <section id="subfooter-left" class="b30 small-12 medium-6 columns credits">
+          <section id="subfooter-left" class="small-12 medium-6 columns credits">
             <p>
               Creado con &hearts;
               por&nbsp;<a href="{{ site.data.authors[site.author].uri }}">{{ site.data.authors[site.author].name | replace: ' ', '&nbsp;' }}</a>
               usando&nbsp;<a href="http://jekyllrb.com/" target="_blank">Jekyll</a>
-              basado&nbsp;en&nbsp;<a href="http://phlow.github.io/feeling-responsive/">Feeling&nbsp;Responsive</a>.
+              basado&nbsp;en&nbsp;<a href="http://phlow.github.io/feeling-responsive/">Feeling&nbsp;Responsive</a>.<br>
+              <small>Sitio web no afiliado a la Universidad Católica del Norte. UCN es marca registrada de Universidad Católica del Norte</small>
             </p>
           </section>
 

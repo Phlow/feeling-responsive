@@ -2,19 +2,21 @@
 	<div class="panel radius">
 		<h3>MedicinaUCN.cl</h3>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			El Médico de la UCN es el profesional encargado de atender problemas de salud de la comunidad con calidad y Vocación Social, a través de sus principios científicos, éticos y humanísticos inspirados en la antropología cristiana que promueven la capacidad de empatizar con el dolor y el respeto a la vida humana tratando a los pacientes con dignidad, cuidándolos en su integridad física y mental.
 		</p>
 	</div>
 
-  <img class="b30" src="http://dummyimage.com/303x16:9/df4949/e27b3f.png&amp;text=Ugly+Ad+Space" alt="">
+    <a href="http://www.ucn.cl"><img class="b30" src="{{ site.urlimg }}ucn.png" alt="UCN"></a>
+    <a href="http://www.asemech.cl"><img class="b30" src="{{ site.urlimg }}asemech.png" alt="ASEMECH"></a>
+    <a href="http://acemucn.cl"><img class="b30" src="{{ site.urlimg }}acemucn.png" alt="ACEM UCN"></a>
+    <a href="http://www.ifmsa.cl"><img class="b30" src="{{ site.urlimg }}ifmsaucn.png" alt="IFMSA UCN"></a>
 
 
 	<div class="border-dotted radius b30">
-		<img src="http://placekitten.com/271/270" alt="uh, Placekitten">
+		<img src="{{ site.urlimg }}mural-ucn.jpg" alt="Mural Facultad de Medicina UCN">
 		<p class="text-left">
-			This is an advertisment with a crazy cat! <a href="http://placekitten.com/">More cats, please!</a>
+            <em>La Medicina de Indoamérica al Tercer Milenio</em><br>
+            <cite>artista Daniel Palominos</cite>
 		</p>
 	</div>
 </aside>

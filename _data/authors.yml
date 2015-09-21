@@ -7,14 +7,14 @@
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 victor: # replace this with your info
   name: "Victor"
-  siterole: "webmaster, distraido..."
+  siterole: "webmaster, distraido e impulsivo..."
   uri: http://victortapia.cl
   email: "hola@victortapia.cl"
-  twitter: ""
+  twitter: "https://twitter.com/MrVicti"
 
 medicinaucn: 
   name: "Medicina UCN"
   siterole: "Autor"
   uri: http://medicinaucn.cl
-  email: ""
+  email: "cem@alumnos.ucn.cl"
   twitter: "https://twitter.com/cemucnoficial"

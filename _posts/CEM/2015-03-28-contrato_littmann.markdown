@@ -16,5 +16,5 @@ author: CEM
 
 #### Aquí puedes descargar el Contrato de esta nueva Alianza del CEM ####
 
-[Contrato <i class="fa fa-stethoscope fa-lg"></i>](http://medicinaucn.cl/documentos/Contrato_Littmann_CEM.pdf)
+[Contrato](http://medicinaucn.cl/documentos/Contrato_Littmann_CEM.pdf)
 {:.button .expand}

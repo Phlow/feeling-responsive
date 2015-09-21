@@ -6,12 +6,12 @@
 
 - name: "RSS"
   url: "/feed.xml"
-  title: "Subscribete con RSS"
+  title: "Subscríbete al feed RSS"
 
 - name: "Atom"
   url: "/atom.xml"
-  title: "Subscribete con Atom"
+  title: "Subscríbete al feed Atom"
 
 - name: "sitemap.xml"
   url: "/sitemap.xml"
-  title: "Sitemap for Google Webmaster Tools"
+  title: "Sitemap para Google Webmaster Tools"

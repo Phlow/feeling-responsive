@@ -22,6 +22,10 @@ Al pasar de los años, los Centros de Estudiantes de Medicina pasados han trabaj
 ## ¡AVANCEMOS CON UNIDAD! ##
 De este modo es como decidimos conformar un equipo de trabajo, que como tal, nos hemos propuesto el gran objetivo de ser el ente representativo de todos los estudiantes de Medicina de la UCN-Coquimbo, forjando mayores y efectivos espacios de participación y organización, en torno a un principio de cooperatividad y unión entre todos los cursos que componen nuestra carrera. Entendemos que solo así podremos enfrentar de buena manera las tareas que tengamos por delante.
 
+[Estatutos Orgánicos](http://medicinaucn.cl/documentos/Estatutos_Organicos_Medicina_UCN.pdf)
+{:.button .info .expand}
+
+## Directiva 2015 ##
 <ul class="small-block-grid-2 medium-block-grid-3">
   <li><img src="{{ site.urlimg }}CEM/cem_sebastian.jpg" alt="Sebastián Morales"><h6>Presidente</h6></li>
   <li><img src="{{ site.urlimg }}CEM/cem_andres.jpg" alt="Andrés Vergara"><h6>Vicepresidente</h6></li>

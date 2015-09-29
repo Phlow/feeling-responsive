@@ -30,6 +30,8 @@
   url: "/recursos/"
   side: left
   dropdown:
+  - title: Extensión LibX UCN
+    url: "/libx/"
   - title: Investigación ACEM UCN
     url: "http://www.acemucn.cl/recursos"
 

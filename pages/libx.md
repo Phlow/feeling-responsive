@@ -1,53 +1,111 @@
 ---
-layout: page
+layout: page-fullwidth
 subheadline: "Barra de herramientas para estudiantes de medicina de la Universidad Católica del Norte"
 title: "LibX - Edición Medicina UCN"
-teaser: "Extensión de navegador que facilita la busqueda y acceso a los artículos de las revistas médicas a las que nuestra universidad está suscrita"
+teaser: "Es una extensión de navegador que facilita la búsqueda y el acceso a indexadores y motores de búsqueda de revistas, artículos de investigación e incluso sitio como UpToDate, PubMed, Harrison Online y muchos más"
+header:
+    image_fullwidth: /LibX/libx_header.jpg
 permalink: /libx/
 ---
 
-## Qué es LibX edición Medicina UCN##
-LibX es una extensión de navegador que permite enlazar rápidamente contenido que se encuentra en Internet para acceder a través del catálogo de la Biblioteca de la UCN, revistas electrónicas, recursos electrónicos. Utilice los cuadros de búsqueda de LibX para buscar rápidamente en el catálogo de la Biblioteca, en revistas y recursos electrónicos con el Metabuscador, Tripdatabase, Uptodate y más. Con LibX puedes resaltar texto de una página web y hacer botón derecho del ratón para buscarlo por palabras clave en todo el texto, por título, autor o tema en  la lista de recursos a los que está suscrita nuestra universidad.
+<div class="row features">
+      <div class="medium-4 columns">
+        <div class="round-icon">
+          <span class="icon-globe"></span>
+        </div>
+        <h3>Acceso a todo tipo de buscadores médicos</h3>
+        <hr>
+        <p class="text-justify">Busca en indexadores como PubMed, libros como el "Harrison de Medicina Interna", metabuscadores de evidencia como Trip Database y muchos otros, además del Metabuscador para una búsqueda simultanea en 13 revistas electrónicas.</p>
+      </div>
+      <div class="medium-4 columns">
+        <div class="round-icon">
+          <span class="icon-cloud"></span>
+        </div>
+        <h3>Conexión instantánea a la Biblioteca UCN</h3>
+        <hr>
+        <p class="text-justify">Quieres pedir un libro que acabas de ver en internet? solo debes buscarlo desde el menú de la extensión o mejor aún, resalta su título o autor y con tan solo 2 clicks búscalo en el catálogo de la Biblioteca.</p>
+      </div>
+      <div class="medium-4 columns">
+        <div class="round-icon">
+          <span class="icon-rocket"></span>
+        </div>
+        <h3>Agiliza tu estudio o investigación</h3>
+        <hr>
+        <p class="text-justify">Haciendo click derecho sobre un enlace o una página que requiere comprar el artículo puedes usar EZproxy para acceder al artículo. También analiza los códigos de identificación (DOI, ISBN y otros) para facilitar su acceso.</p>
+      </div>     
+    </div>
 
-Utilice LibX cuando encuentres un artículo en la web que debes pagar para acceder. El menú contextual del botón derecho de LibX: "Reload page via EZproxy" le permite saber rápidamente si la UCN ofrece acceso a al texto completo en línea.
+<h2 class="text-center">¡Descargalo!</h2>
+<ul class="button-group even-2">
+  <li><a href="http://libx.org/releases/ff/libx2-latest.xpi?edition=C2D48715" class="button large warning">Mozilla Firefox</a></li>
+  <li><a href="http://libx.org/releases/gc/install.php?edition=C2D48715" class="button large info">Google Chrome</a></li>
+</ul>
 
-LibX integra el logo UCN en resultados de de búsqueda en Amazon, Barnes & Noble, y más. Haga clic en el logo para descubrir si la Biblioteca UCN tiene un ejemplar impreso o ofrece acceso online al recurso. LibX también vincula automáticamente códigos ISBN, códigos ISBN, ID de PubMed DOI y en las páginas web a estos recursos y artículos.
+---------
+
+<div class="row">
+  <div class="large-6 columns">
+      <img src="{{ site.urlimg }}LibX/1.gif">
+  </div>
+  <div class="large-6 columns">
+      <img src="{{ site.urlimg }}LibX/2.gif">
+  </div>
+  <div class="large-6 columns">
+      <img src="{{ site.urlimg }}LibX/3.gif">
+  </div>
+  <div class="large-6 columns">
+      <img src="{{ site.urlimg }}LibX/4.gif">
+  </div>
+</div>
+
+---------
+
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+**Tabla de Contenidos**
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
 
 
-## Instalación ##
-**[Mozilla Firefox](http://libx.org/releases/ff/libx2-latest.xpi?edition=C2D48715)**
-Haz click en link y permite la intalación de la extensión, instala y reinicia Firefox.
+<div class="medium-8 medium-pull-4 columns" markdown="1">
 
-**[Google Chrome](http://libx.org/releases/gc/install.php?edition=C2D48715)**
-Haz click en el botón "Add LibX 2.0 Medicina UCN to Chrome" y luego confirma la instalación. 
+# Documentación #
 
-El navegador *Opera* no tiene soporte oficial, pero si deseas instalarlo puedes [contactarnos]({{ site.url }}contacto/).
+## LibX Medicina UCN ##
+LibX es una extensión para *Firefox* y *Chrome* que permite enlazar y buscar rápidamente contenido que se encuentra en Internet a través del catálogo de la Biblioteca UCN y las suscripciones a revistas electrónicas, indexadores y bases de datos por medio del Metabuscador y muchos otros. Es mantenida por Víctor Tapia (vtj001@alumnos.ucn.cl)
 
+Utilice LibX cuando encuentre un artículo en la web en que debes pagar para acceder usando el menú contextual del botón derecho de LibX: "Reload page via EZproxy" le permite saber rápidamente si tiene acceso al texto completo online.
+
+LibX integra el logo UCN en resultados de búsqueda en Amazon, Barnes & Noble, y más. Haga click en ese logo para descubrir si la Biblioteca UCN tiene un ejemplar impreso u ofrece acceso online al recurso. LibX también vincula automáticamente códigos de identificación ISBN, ISBN, PMID de PubMed y DOI en las páginas web a estos recursos y artículos.
 
 ## ¿Cómo usar LibX? ##
-Puedes usar LibX de dos maneras:
-1. Mediante la ventana emergente de la extensión (al hacer click en el icono UCN), que cuenta con varias opciones de búsqueda como el catálogo de la Biblioteca UCN, Metabuscador, AccessMedicine, PubMed, Web of Science... además de links a contenido y recursos de la Biblioteca
-2. Con el menú contextual (click-derecho) en una página web o al resaltar parte del texto.
+Puedes realizar búsquedas en LibX de dos maneras:
 
-Puedes accedes son ayuda de EZproxy en ambas opciones, tu decides como usar esta herramienta.
+1. Mediante la ventana emergente de la extensión (al hacer click en el icono UCN), que cuenta con varias opciones de búsqueda como el catálogo de la Biblioteca UCN, Metabuscador, AccessMedicine, PubMed, Web of Science... además de links a contenidos y recursos de la Biblioteca.
+2. Con el menú contextual, simplemente seleccione el texto y presione el botón derecho del ratón para realizar una búsqueda en la lista de suscripciones de nuestra universidad.
+*También puedes buscar en Google Académico seleccionando el título de un artículo y arrastrando el texto al icono de la extensión*
 
-Para activar EZproxy puedes hacer click en el icono UCN y en la pestaña "Proxies" aparecera la opción "Reload page with this proxy".
+Puedes accedes con ayuda de EZproxy en ambas opciones, tu decides como usar esta herramienta.
 
-Otra opción es con el menú contextual (click-derecho) en cualquier parte de la página, escogiendo la opción "Reload page vía EZproxy."
+Para activar EZproxy puedes hacer click en el icono UCN y en la pestaña "Proxies" aparecerá la opción "Reload page with this proxy". Otra opción es con el menú contextual (click-derecho) en cualquier parte de la página, escogiendo la opción "Reload page vía EZproxy."
 
-Para acceder a un recurso con suscripción puedes dar click derecho en el enlace y escoger la opción "LibX for Google Chrome (TM)" y luego "Follow link via EZproxy." (en Chrome) o simplemente "Follow link via EZproxy." (en Firefox)
+Para acceder a un artículo también puedes dar click derecho en el enlace y escoger la opción "LibX for Google Chrome (TM)" y luego "Follow link via EZproxy." (en Chrome) o simplemente "Follow link via EZproxy." (en Firefox)
 
 ### ¿No te quedó claro? ###
-Aquí tienes algunos  [gif animados](http://imgur.com/a/ZS0GU) que te ayudaran a usar esta herramienta
+Aquí tienes algunos  [gif animados](http://imgur.com/a/ZS0GU) que te ayudaran a usar esta herramienta.
 
 
 ## Opciones de búsqueda ##
 
-#### Catálogo de la Biblioteca de Coquimbo ####
-Permite buscar libros, artículos, revistas, etc. en la Biblioteca UCN de Coquimbo (terminos de búsqueda: palabra clave, título, autor, materia, ISBN/ISSN y n° de pedido).
+#### Catálogo de Biblioteca Coquimbo
+Permite buscar libros, artículos, revistas, etc. en la Biblioteca UCN de Coquimbo (términos de búsqueda: palabra clave, título, autor, materia, ISBN/ISSN y n° de pedido).
 
 #### Metabuscador ####
-Realiza una búsqueda simultanea en 13 revistas del aréa de la salud:
+Realiza una búsqueda simultánea en 13 revistas del área de la salud:
 
 1. MEDLINE (Ovid)
 2. ScienceDirect (Elsevier)
@@ -79,60 +137,60 @@ Trip es un motor de búsqueda clínico diseñado para permitir a los usuarios en
 PubMed comprende más de 25 millones de referencias de literatura biomédica de MEDLINE, revistas de ciencias biológicas, y libros online. Las citaciones y los resúmenes incluyen los campos de la biomedicina y la salud, abarcando porciones de ciencias biológicas, ciencias conductuales, ciencias químicas, y Bioingeniería.
 
 #### Web of Science ####
-Web of Science contiene bases de datos de información bibliográfica y recursos de análisis de la información que permiten evaluar y analizar el rendimiento de la investigación. Su finalidad no es proporcionar el texto completo de los documentos que alberga sino proporcionar herramientas de análisis que permitan valorar su calidad científica. Permite acceder a diferentes bases de datos a través de una única interfaz de consulta pudiéndose acceder a una sola base de datos o a varias de forma simultanea. 
+Web of Science contiene bases de datos de información bibliográfica y recursos de análisis de la información que permiten evaluar y analizar el rendimiento de la investigación. Su finalidad no es proporcionar el texto completo de los documentos que alberga sino proporcionar herramientas de análisis que permitan valorar su calidad científica. Permite acceder a diferentes bases de datos a través de una única interfaz de consulta pudiéndose acceder a una sola base de datos o a varias de forma simultánea. 
 
 #### ScienceDirect ####
-Es una base de datos multidisciplinaria líder que alberga casi una cuarta parte del contenido mundial de revistas y libros en texto completo, con mas de 2.500 revistas y cerca de 20.000 libros, incluyendo artículos en prensa y contenido de acceso abierto de las revistas de Elsevier.
+Es una base de datos multidisciplinaria líder que alberga casi una cuarta parte del contenido mundial de revistas y libros en texto completo, con más de 2.500 revistas y cerca de 20.000 libros, incluyendo artículos en prensa y contenido de acceso abierto de las revistas de Elsevier.
 
-## Settings ##
+## Preferencias ##
 Puedes personalizar las opciones de LibX, activar o desactivar sus funciones, y especificar sus preferencias de visualización haciendo click en el icono de la UCN para activar la barra de herramientas desplegable, a continuación seleccione la opción "Preferencias" en el menú lateral (se abrirá una nueva pestaña en su navegador).
 
-### Context Menu ###
+### Menú Contextual ###
 Visita la pestaña de "Context Menu" en las preferencias para añadir más opciones a tu menú contextual botón derecho del ratón (además de las opciones por defecto para volver a cargar o seguir un enlace a través de EZproxy). Marque las casillas para incluir la capacidad de buscar palabras clave, títulos y autores en las suscripciones o el Catálogo de la Biblioteca UCN, todo con sólo utilizar el menú contextual.
 
-## Quién lo hizo ##
-Fue creado por "University Libraries and the Department of Computer Science at Virginia Tech".
-Esta edición, dirigida a los estudiantes de Medicina de la UCN es mantenida por Víctor Tapia Jiménez (vtj001@alumnos.ucn.cl)
+## Quién creó esta extensión ##
+Fue creada por las Biblioteca y el Departamento de Ciencias de la Computación de Virginia Tech.
+Esta edición, dirigida a los estudiantes de Medicina de la UCN es mantenida por Víctor Tapia Jiménez (vtj001@alumnos.ucn.cl).
 
 ----------
 
-## Privacy ##
-According to LibX Privacy Policy, use of the extension will send the URL of pages you are currently visiting to UCN Library's catalogue server and EZproxy server.
+## Privacidad ##
 
-The LibX Project and its developers are also using Google Analytics to learn how LibX is being used across the different academic libraries that provide their patrons with an edition. Type of data collected includes such things as how many times a library catalogue search is performed using the toolbar (according to the LibX Privacy Policy, only the event is logged, not the actual search query).
+De acuerdo con la Política de Privacidad de LibX, al usar los buscadores de la extensión se enviará la URL de las páginas que estás visitando actualmente al servidor del catálogo de la Biblioteca UCN y al servidor EZproxy UCN.
 
-To disable Google Analytics from tracking your usage, visit the Browser tab under Preferences and uncheck the following options:
+El Proyecto LibX y sus desarrolladores utilizan Google Analytics para aprender cómo LibX está siendo utilizado en las distintas bibliotecas académicas que proporcionan a sus usuarios con una edición. 
+El tipo de datos recolectados incluye cosas como el número de veces que se realiza una búsqueda en el catálogo de la biblioteca mediante la barra de herramientas (de acuerdo con la Política de privacidad de LibX, únicamente se registra el evento, no los términos de búsqueda).
 
-* Send extension usage (e.g edition installed, catalogs used for searches) [Note: LibX uses Google Analytics]
-* Send libapp usage (e.g frequently used libapps) [Note: LibX uses Google Analytics]
-
+Para desactivar el seguimiento del uso de Google Analytics, debes ir a la pestaña Browser en Preferences y desmarca las siguientes opciones:
 
 
+* Enviar datos del uso de la extensión (por ejemplo, edición instalada, catálogos utilizados en las búsquedas) [Nota: LibX utiliza Google Analytics].
+* Enviar dato de uso de las LibApp (por ejemplo, LibApps utilizados frecuentemente) [Nota: LibX utiliza Google Analytics]
 
 
+</div><!-- /.medium-8.columns -->
+</div><!-- /.row -->
 
-{% comment %}
-## Libx Features ##
-LibX Medicina Universidad Catolica del Norte browser extensions provides direct access to your Library's resources
-
-### Toolbar & Right-Click Context Menu ##
-Search your library catalog directly from the LibX toolbar or using the right-click context menu
-[IMAGEN]
-
-### Support for off-campus access via EZProzy ###
-Using the Library's off-campus proxy, you may reload a page through the proxy, or follow a link via the proxy, making it appear as though you are coming from an on-campus computer
-[ESQUEMA]
-
-### Quick full text access to journal articles ###
-
-LibX uses Google Scholar to search for articles and directs the user to the electronic copy subscribed to by your Library. Select a citation, then drag-and-drop it onto the Scholar button on the toolbar. You can use this feature even from inside a PDF file, which makes retrieving papers referenced in a PDF file a snap. To use this feature, your library must be a Google Scholar library, or you must activate this link in the Firefox profile in which LibX is installed: Activate Google Scholar support. (See also LibX FAQ Question 11) 
-[ESQUEMA]
-
-### Support for embedded cues ###
-LibX places cues in web pages you visit if your library has resources related to that page. Whenever you see the cue,click on the link to look at what the Library has to offer. For instance, book pages at Amazon or Barnes & Noble will contain cues that link to the book's entry in CatÃ¡logo Biblioteca Coquimbo. Cues are displayed at Google, Yahoo! Search, the NY Times Book Review, and other pages. [Watch this screencast for examples of this cool feature. (requires Macromedia Flash Plugin)](http://libx.org/screencasts/demo3.htm) 
-[IMAGEN]
-
-### Support for xISBN ###
-A book title can have different ISBNs for the paperback, the hardcover, even for different editions.LibX supports OCLC's xISBN service:you can find a book, given an ISBN, even if the library holds this book under a different ISBN
-[ESQUEMA]
-{% endcomment %}
+<style>
+.features {
+  text-align: center; }
+  .features hr {
+    width: 50%;
+    margin: 1rem auto; }
+  .features .round-icon {
+    background-color: #E87E04;
+    border-radius: 50%;
+    display: table;
+    height: 100px;
+    margin: 0px auto 1rem;
+    width: 100px;
+    font-size: 3rem; }
+    .features .round-icon span {
+      color: #fff;
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
+  @media only screen and (max-width: 40em) {
+    .features .columns {
+      margin-bottom: 5rem; } }
+</style>

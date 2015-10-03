@@ -15,7 +15,7 @@ permalink: /libx/
         </div>
         <h3>Acceso a todo tipo de buscadores médicos</h3>
         <hr>
-        <p class="text-justify">Busca en indexadores como PubMed, libros como el "Harrison de Medicina Interna", metabuscadores de evidencia como Trip Database y muchos otros, además del Metabuscador para una búsqueda simultanea en 13 revistas electrónicas.</p>
+        <p class="text-justify">Busca en indexadores como PubMed, libros como el "Harrison de Medicina Interna", metabuscadores de evidencia como Trip Database y muchos otros, además del Metabuscador para una búsqueda simultánea en 13 revistas electrónicas.</p>
       </div>
       <div class="medium-4 columns">
         <div class="round-icon">
@@ -35,7 +35,7 @@ permalink: /libx/
       </div>     
     </div>
 
-<h2 class="text-center">¡Descargalo!</h2>
+<h2 class="text-center">¡Descárgalo!</h2>
 <ul class="button-group even-2">
   <li><a href="http://libx.org/releases/ff/libx2-latest.xpi?edition=C2D48715" class="button large warning">Mozilla Firefox</a></li>
   <li><a href="http://libx.org/releases/gc/install.php?edition=C2D48715" class="button large info">Google Chrome</a></li>
@@ -74,38 +74,46 @@ permalink: /libx/
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
 # Documentación #
+LibX es una extensión para Firefox y Chrome que facilita el acceso a los recursos de la biblioteca. Permite buscar en el Catálogo de la Biblioteca de Coquimbo, el Metabuscador, en bases de datos y revistas, además de conectarlo con las suscripciones de la universidad para ver o descargar artículos de pago, todo esto directamente a través del click-derecho o el icono de la UCN en su navegador.
 
-## LibX Medicina UCN ##
-LibX es una extensión para *Firefox* y *Chrome* que permite enlazar y buscar rápidamente contenido que se encuentra en Internet a través del catálogo de la Biblioteca UCN y las suscripciones a revistas electrónicas, indexadores y bases de datos por medio del Metabuscador y muchos otros. Es mantenida por Víctor Tapia (vtj001@alumnos.ucn.cl)
+## Barra de herramientas ##
+Seleccione el buscador a utilizar <span class="round warning label">1</span> en la lista desplegable en la parte superior. Seleccione el campo (palabra clave, autor, título, ISBN / ISSN, etc.) que está buscando <span class="round warning label">2</span> en la lista desplegable a la izquierda del cuadro de búsqueda. Introduzca los términos de su búsqueda. Puede añadir más cuadros de búsqueda haciendo click en la flecha hacia abajo <span class="round warning label">3</span>, creando una búsqueda con múltiples términos en diferentes campos.
+![]({{ site.urlimg }}LibX/barra_de_herramientas.png)
 
-Utilice LibX cuando encuentre un artículo en la web en que debes pagar para acceder usando el menú contextual del botón derecho de LibX: "Reload page via EZproxy" le permite saber rápidamente si tiene acceso al texto completo online.
+## Menú contextual ##
+Seleccione texto en una página web y haga clic derecho para acceder al menú contextual <span class="round warning label">1</span> que permite la búsqueda en el Catálogo de la Biblioteca, PubMed, y Google Académico (*puede añadir o quitar opciones de búsqueda en las preferencias de LibX*). También hay una opción para abrir un enlace <span class="round warning label">2</span> o recargar la página <span class="round warning label">3</span> a través de EZproxy, así podrás identificarte como usuario y acceder al recurso electrónicos suscrito por la UCN cuando el acceso a un artículo está restringido. Además, en lugar de hacer clic derecho, el texto se puede arrastrar y soltar en el buscador de la barra de herramientas LibX, o sobre el icono del logotipo UCN.
+<a class="th" href="{{ site.urlimg }}LibX/menu_contextual.png">
+![]({{ site.urlimg }}LibX/menu_contextual-th.png)
+</a>
 
-LibX integra el logo UCN en resultados de búsqueda en Amazon, Barnes & Noble, y más. Haga click en ese logo para descubrir si la Biblioteca UCN tiene un ejemplar impreso u ofrece acceso online al recurso. LibX también vincula automáticamente códigos de identificación ISBN, ISBN, PMID de PubMed y DOI en las páginas web a estos recursos y artículos.
+## Soporte para el acceso fuera de la universidad a través de EZProxy ##
+EZproxy es un servicio de proxy, que permite conectarse desde fuera de la universidad. La búsqueda parece originarse desde un computador de la universidad, lo que permite el acceso a los recursos autorizados sólo para estudiantes de la UCN.
+![]({{ site.urlimg }}LibX/ezproxy_login.png)
 
-## ¿Cómo usar LibX? ##
-Puedes realizar búsquedas en LibX de dos maneras:
+## Rápido acceso al texto completo de artículos de las revistas ##
+LibX utiliza Google Académico y las suscripciones de la UCN para buscar los artículos y dirige al usuario a la copia electrónica suscrita por la Biblioteca. Seleccione una cita, a continuación, arrastre y suelte en el icono del logotipo UCN en la barra de herramientas. Es posible utilizar esta función incluso desde dentro de un archivo PDF.
 
-1. Mediante la ventana emergente de la extensión (al hacer click en el icono UCN), que cuenta con varias opciones de búsqueda como el catálogo de la Biblioteca UCN, Metabuscador, AccessMedicine, PubMed, Web of Science... además de links a contenidos y recursos de la Biblioteca.
-2. Con el menú contextual, simplemente seleccione el texto y presione el botón derecho del ratón para realizar una búsqueda en la lista de suscripciones de nuestra universidad.
-*También puedes buscar en Google Académico seleccionando el título de un artículo y arrastrando el texto al icono de la extensión*
+## Autolinks ##
+LibX reconoce códigos de identificación ISSN, ISBN, PubMed ID y DOI, convirtiéndolos en enlaces que conducen a libros y revistas específicas.
 
-Puedes accedes con ayuda de EZproxy en ambas opciones, tu decides como usar esta herramienta.
+## Soporte para señales integradas ##
+LibX coloca "señales" (como esta ![]({{ site.urlimg }}LibX/ucn_cue.png) y esta ![]({{ site.urlimg }}LibX/sfx_cue.gif)) en las páginas web para buscar si la biblioteca tiene recursos relacionados con esa página. Cada vez que vea una señal, haga clic en esta para ver lo que la Biblioteca tiene para ofrecer. Por ejemplo: las páginas de libros en Amazon o Barnes & Noble incluirán señales que enlazan con la entrada del libro en el catálogo, y páginas como Wikipedia contienen estas "señales" al final del artículo, en la sección de referencias)
+![]({{ site.urlimg }}LibX/referencias.png)
 
-Para activar EZproxy puedes hacer click en el icono UCN y en la pestaña "Proxies" aparecerá la opción "Reload page with this proxy". Otra opción es con el menú contextual (click-derecho) en cualquier parte de la página, escogiendo la opción "Reload page vía EZproxy."
+## Soporte de xISBN ##
+El título de un libro puede tener diferentes códigos ISBN para la edición de bolsillo, la de tapa dura, incluso para distintas ediciones. LibX soporta el servicio xISBN de OCLC: podrá encontrar un libro, dado un ISBN, incluso si la biblioteca tiene este libro con un código ISBN diferente.
 
-Para acceder a un artículo también puedes dar click derecho en el enlace y escoger la opción "LibX for Google Chrome (TM)" y luego "Follow link via EZproxy." (en Chrome) o simplemente "Follow link via EZproxy." (en Firefox)
+## Buscadores ##
 
-### ¿No te quedó claro? ###
-Aquí tienes algunos  [gif animados](http://imgur.com/a/ZS0GU) que te ayudaran a usar esta herramienta.
+#### Catálogo Biblioteca UCN - Coquimbo ####
+![]({{ site.urlimg }}LibX/biblioteca.jpg)
 
-
-## Opciones de búsqueda ##
-
-#### Catálogo de Biblioteca Coquimbo
-Permite buscar libros, artículos, revistas, etc. en la Biblioteca UCN de Coquimbo (términos de búsqueda: palabra clave, título, autor, materia, ISBN/ISSN y n° de pedido).
+Permite buscar libros, artículos, revistas, etc. en la Biblioteca UCN de Coquimbo usando varios términos de búsqueda: palabra clave, título, autor, materia, ISBN/ISSN y n° de pedido.
 
 #### Metabuscador ####
-Realiza una búsqueda simultánea en 13 revistas del área de la salud:
+![]({{ site.urlimg }}LibX/metabuscador.gif)
+
+Realiza una búsqueda simultánea en 13 indexadores y revistas del área de la salud: *[videos informativos](https://www.youtube.com/user/MetabuscadorUCN/videos)*
 
 1. MEDLINE (Ovid)
 2. ScienceDirect (Elsevier)
@@ -122,51 +130,63 @@ Realiza una búsqueda simultánea en 13 revistas del área de la salud:
 13. HVC Medicina - Revistas Impresas
 
 #### AccessMedicine ####
+![]({{ site.urlimg }}LibX/logo_acm.png)
+
 Accede a [más de 85 libros](http://accessmedicine.mhmedical.com/readings.aspx) en inglés de la editorial McGraw-Hill, incluyendo obras como *Harrison’s Principles of Internal Medicine* y *CURRENT Medical Diagnosis & Treatment*
 
 #### Harrison Medicina ####
+![]({{ site.urlimg }}LibX/logo_harrison.png)
+
 El sitio Web de Harrison Medicina se actualiza semanalmente y ofrece el texto completo, todas las ilustraciones y las características ampliadas en referencia a la 18ª edición de Harrison Principios de Medicina Interna. La base de datos permite una búsqueda completa y recoge los contenidos nuevos y revisados de los editores y coautores de Harrison Medicina.
 
 #### UpToDate ####
+![]({{ site.urlimg }}LibX/logo_uptodate.png)
+
 UpToDate® es un recurso de apoyo para la toma de decisiones clínicas basado en evidencia y está creado por profesionales en el que confían los médicos para tomar decisiones en el centro de atención al paciente.
 
 #### Trip Database ####
+![]({{ site.urlimg }}LibX/logo_trip.png)
+
 Trip es un motor de búsqueda clínico diseñado para permitir a los usuarios encontrar y utilizar rápida y fácilmente evidencia de investigaciones de alta calidad para apoyar su práctica y / o atención de salud.
 
 #### PubMed ####
+![]({{ site.urlimg }}LibX/logo_pubmed.png)
+
 PubMed comprende más de 25 millones de referencias de literatura biomédica de MEDLINE, revistas de ciencias biológicas, y libros online. Las citaciones y los resúmenes incluyen los campos de la biomedicina y la salud, abarcando porciones de ciencias biológicas, ciencias conductuales, ciencias químicas, y Bioingeniería.
 
 #### Web of Science ####
+![]({{ site.urlimg }}LibX/logo_webofscience.png)
+
 Web of Science contiene bases de datos de información bibliográfica y recursos de análisis de la información que permiten evaluar y analizar el rendimiento de la investigación. Su finalidad no es proporcionar el texto completo de los documentos que alberga sino proporcionar herramientas de análisis que permitan valorar su calidad científica. Permite acceder a diferentes bases de datos a través de una única interfaz de consulta pudiéndose acceder a una sola base de datos o a varias de forma simultánea. 
 
 #### ScienceDirect ####
+![]({{ site.urlimg }}LibX/logo_sciencedirect.png)
+
 Es una base de datos multidisciplinaria líder que alberga casi una cuarta parte del contenido mundial de revistas y libros en texto completo, con más de 2.500 revistas y cerca de 20.000 libros, incluyendo artículos en prensa y contenido de acceso abierto de las revistas de Elsevier.
 
 ## Preferencias ##
-Puedes personalizar las opciones de LibX, activar o desactivar sus funciones, y especificar sus preferencias de visualización haciendo click en el icono de la UCN para activar la barra de herramientas desplegable, a continuación seleccione la opción "Preferencias" en el menú lateral (se abrirá una nueva pestaña en su navegador).
+Puedes personalizar las opciones de LibX, activar o desactivar sus funciones, y especificar las preferencias de visualización haciendo click en el icono de la UCN para activar la barra de herramientas desplegable, a continuación seleccione la opción "Preferencias" en el menú lateral (se abrirá una nueva pestaña en su navegador).
 
-### Menú Contextual ###
+### Menú contextual ###
 Visita la pestaña de "Context Menu" en las preferencias para añadir más opciones a tu menú contextual botón derecho del ratón (además de las opciones por defecto para volver a cargar o seguir un enlace a través de EZproxy). Marque las casillas para incluir la capacidad de buscar palabras clave, títulos y autores en las suscripciones o el Catálogo de la Biblioteca UCN, todo con sólo utilizar el menú contextual.
 
-## Quién creó esta extensión ##
-Fue creada por las Biblioteca y el Departamento de Ciencias de la Computación de Virginia Tech.
+## Copyright ##
+LibX es distribuido bajo la "Mozilla Public License". Copyright Annette Bailey y Virginia Tech.
 Esta edición, dirigida a los estudiantes de Medicina de la UCN es mantenida por Víctor Tapia Jiménez (vtj001@alumnos.ucn.cl).
 
 ----------
 
 ## Privacidad ##
 
-De acuerdo con la Política de Privacidad de LibX, al usar los buscadores de la extensión se enviará la URL de las páginas que estás visitando actualmente al servidor del catálogo de la Biblioteca UCN y al servidor EZproxy UCN.
+De acuerdo con la Política de Privacidad de LibX, al usar activamente los buscadores de la extensión, se enviará la URL de las páginas que estás visitando actualmente al servidor del catálogo de la Biblioteca UCN y al servidor EZproxy UCN.
 
 El Proyecto LibX y sus desarrolladores utilizan Google Analytics para aprender cómo LibX está siendo utilizado en las distintas bibliotecas académicas que proporcionan a sus usuarios con una edición. 
 El tipo de datos recolectados incluye cosas como el número de veces que se realiza una búsqueda en el catálogo de la biblioteca mediante la barra de herramientas (de acuerdo con la Política de privacidad de LibX, únicamente se registra el evento, no los términos de búsqueda).
 
 Para desactivar el seguimiento del uso de Google Analytics, debes ir a la pestaña Browser en Preferences y desmarca las siguientes opciones:
 
-
 * Enviar datos del uso de la extensión (por ejemplo, edición instalada, catálogos utilizados en las búsquedas) [Nota: LibX utiliza Google Analytics].
 * Enviar dato de uso de las LibApp (por ejemplo, LibApps utilizados frecuentemente) [Nota: LibX utiliza Google Analytics]
-
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->

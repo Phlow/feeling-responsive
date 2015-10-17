@@ -24,7 +24,7 @@
                 <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
-              
+
               <ul class="no-bullet shadow-black">
               {% for service_item in site.data.services %}
                 {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl %}{% endif %}
@@ -42,7 +42,7 @@
                 <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
-              
+
             <ul class="no-bullet shadow-black">
             {% for network_item in site.data.network %}
               {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl %}{% endif %}

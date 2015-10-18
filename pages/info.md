@@ -14,7 +14,7 @@ header:
 
 ## Features
 
-* Responsive Gallery, Videos, Grid, Typography,...
+* [Responsive Gallery][8], [Videos][9], [Grid][10], [Typography][11],...
 * 100% GitHub Pages friendly
 * Easy editable navigation, footer and social media links
 * Language Ready – just translate one file.
@@ -24,6 +24,7 @@ header:
 * Uses Jekyll 3.0
 * Multiple possibilities to use images in different ways
 * Fine typography
+* Play Video and Audio with [Mediaelement.js][12]
 
 
 
@@ -45,6 +46,16 @@ Yours sincerelly, [Moritz »mo.« Sauer][7]
  [5]: http://www.smashingmagazine.com/
  [6]: https://github.com/
  [7]: http://sauer.io
- [8]: #
- [9]: #
- [10]: #
+ [8]: {{ site.url }}/design/gallery/
+ [9]: {{ site.url }}/design/video/
+ [10]: {{ site.url }}/design/grid/
+ [11]: {{ site.url }}/design/typography/
+ [12]: {{ site.url }}/design/mediaelement_js/
+ [13]: #
+ [14]: #
+ [15]: #
+ [16]: #
+ [17]: #
+ [18]: #
+ [19]: #
+ [20]: #

@@ -289,36 +289,44 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #subfooter {
-    background: $subfooter-bg;
-    color: $subfooter-color;
-    padding-top: 30px;
-    padding-bottom: 10px;
+  background: $subfooter-bg;
+  color: $subfooter-color;
+  padding-top: 30px;
 }
-    #subfooter-left ul.inline-list {
-        float: left;
-    }
-    #subfooter .credits a {
-        color: $subfooter-link-color;
-        border: 0;
-        text-transform: uppercase;
-        &:hover {
-            color: #fff;
-        }
-    }
 
-    #subfooter .social-icons li a {
-        font-size: rem-calc(23);
-        display: block;
-        width: 36px;
-        border-radius: 50%;
-        color: $subfooter-bg;
-        background: $subfooter-color;
-        text-align: center;
+#subfooter-left ul.inline-list {
+    float: left;
+}
+
+.credits a {
+  color: $subfooter-link-color;
+  border: 0;
+  text-transform: uppercase;
+  &:hover {
+      color: #fff;
+  }
+}
+
+.social-icons {
+  margin-bottom: 10px !important;
+
+  li {
+    padding: 0 0 20px 0;
+  }
+  a {
+    font-size: rem-calc(23);
+    display: block;
+    width: 36px;
+    border-radius: 50%;
+    color: $subfooter-bg;
+    background: $subfooter-color;
+    text-align: center;
+    &:hover {
+      background: $subfooter-bg;
+      color: #fff;
     }
-    #subfooter .social-icons li a:hover {
-        background: $subfooter-bg;
-        color: #fff;
-    }
+  }
+}
 
 
 

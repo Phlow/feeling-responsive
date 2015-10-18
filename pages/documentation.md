@@ -20,7 +20,7 @@ header:
 
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
-{% include improve_content %}
+{% include _improve_content.html %}
 
 ## Different Page/Posts Formats   {#formats}
 
@@ -246,7 +246,7 @@ This include creates a next/previous link to a post of the same category using t
 If your content is on Jekyll you can use this include to automatically generate a »Edit on GitHub Link« to give people a possibility to improve your content. Got the idea from [Ben Balters Blog](http://ben.balter.com/).
 
 ~~~
-{% raw %}{% include improve_content %}{% endraw %}
+{% raw %}{% include _improve_content.html %}{% endraw %}
 ~~~
 
 
@@ -309,7 +309,7 @@ I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. Th
 /foundation/js/jquery.backstretch.js'
 ~~~
 
-{% include improve_content %}
+{% include _improve_content.html %}
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->

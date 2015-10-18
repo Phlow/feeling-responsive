@@ -10,7 +10,7 @@ tags:
 categories:
     - design
 image:
-    thumb: "unsplash_2_thumb.jpg"
+    thumb: "unsplash_2-thumb.jpg"
     title: "unsplash_2.jpg"
     caption: Unsplash.com
     caption_url: http://unsplash.com

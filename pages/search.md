@@ -4,4 +4,4 @@ layout: page
 title: "Search"
 ---
 
-{% include google_search %}
+{% include _google_search.html %}

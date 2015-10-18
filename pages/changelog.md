@@ -8,6 +8,9 @@ header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2015-10-15 // Version 2.0
+:   Now with audio- and video-player [mediaelement.js]({{ site.url }}/design/mediaelement_js/).
+
 2015-08-07 // Version 1.5
 :   Simplified includes syntax. The `.html`-ending is not needed anymore. Makes it simpler to read, write and use.
 

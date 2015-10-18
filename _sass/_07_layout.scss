@@ -289,9 +289,9 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #subfooter {
-  background: $subfooter-bg;
-  color: $subfooter-color;
-  padding-top: 30px;
+    background: $subfooter-bg;
+    color: $subfooter-color;
+    padding-top: 30px;
 }
 
 #subfooter-left ul.inline-list {
@@ -299,17 +299,18 @@ body.video cite { color: #fff; }
 }
 
 .credits a {
-  color: $subfooter-link-color;
-  border: 0;
-  text-transform: uppercase;
-  &:hover {
-      color: #fff;
+    color: $subfooter-link-color;
+    border: 0;
+    text-transform: uppercase;
+    &:hover {
+        color: #fff;
   }
 }
 
 .social-icons {
-  margin-bottom: 10px !important;
+    margin-bottom: 10px !important;
 
+// Beware of SCSS-Syntax here
   li {
     padding: 0 0 20px 0;
   }

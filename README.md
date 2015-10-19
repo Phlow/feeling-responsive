@@ -1,3 +1,9 @@
+![](feeling-responsive-barebones-version.jpg)
+
+## THIS IS THE BARE BONES VERSION OF *Feeling Responsive*
+
+**All unnecessary files (images, posts) miss in this release to give you a quick and fresh start. If you are new to *Feeling Responsive* try the GH-Pages-Version. It teaches you with lots of material how to use this flexible theme.**
+
 
 [![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
 

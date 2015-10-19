@@ -5,7 +5,7 @@
 			{%comment%}TODO lazy loading{%endcomment%}
 			{%comment%}<img class="lazy" data-src="{% if include.widget.image contains='http://' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ include.widget.image }}{% endif %}" width="100%" alt="" />{%endcomment%}
 			{%comment%}<noscript>{%endcomment%}
-			{% capture widget_image %}{% if include.widget.image contains 'http' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ site.baseurl }}{{ include.widget.image }}{% endif %}{% endcapture %}
+			{% capture widget_image %}{% if include.widget.image contains 'http' %}{{ include.widget.image }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.image }}{% endif %}{% endcapture %}
 			<img src="{{widget_image}}" width="100%" alt="" />
 			{%comment%}</noscript>{%endcomment%}
 		{% endif %}
@@ -15,3 +15,4 @@
 	<p>{{ include.widget.text }}</p>
 	<p><a class="button tiny radius" href="{% if include.widget.url contains 'http' %}{{ include.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.url }}{% endif %}">{{ site.data.language.more }}</a></p>
 </div>
+

@@ -25,6 +25,14 @@ Feeling Responsive is heavily customizable.
 
 
 
+## Changelog
+
+*Feeling Responsive* is in active development. Thank you to everyone who contributed, especially [Róbert Papp][5], [Alexandra von Criegern](https://github.com/plutonik-a) and [Juan Jose Amor Iglesias](https://github.com/jjamor).
+
+**[Read Changelog ›][6]**
+
+
+
 ## Video Tutorial
 
 Click the image to [watch the YouTube-Video-Tutorial][4].
@@ -42,8 +50,8 @@ Click the image to [watch the YouTube-Video-Tutorial][4].
  [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE
  [3]: http://phlow.github.io/feeling-responsive/info/
  [4]: https://www.youtube.com/watch?v=rLS-BEvlEyY
- [5]: #
- [6]: #
+ [5]: https://github.com/TWiStErRob
+ [6]: https://phlow.github.io/feeling-responsive/changelog/
  [7]: #
  [8]: #
  [9]: #

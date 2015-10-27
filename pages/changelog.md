@@ -8,6 +8,9 @@ header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2015-10-27 // Version 1.8
+:   *Feeling Responsive* works smoothly with [Jekyll 3.0](http://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/). I added a Gemfile with the pagination gem *jekyll-paginate* so that paginate works. And now there is also a [bones-version](https://github.com/Phlow/feeling-responsive/tree/bare-bones-version) available to get a clean project started right from the beginning.
+
 2015-10-18 // Version 1.7
 :   Now with audio- and video-player [mediaelement.js]({{ site.url }}/design/mediaelement_js/). Added new gallery include. Changed names again... Sorry.
 

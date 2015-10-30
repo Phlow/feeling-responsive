@@ -7,6 +7,7 @@
 
 url: 'http://localhost:4000'
 urlimg: 'http://localhost:4000/images/'
+gems: [jekyll-paginate]
 
 sass:
   # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

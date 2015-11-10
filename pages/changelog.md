@@ -8,6 +8,9 @@ header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2015-11-10 // Version 1.91
+:   I added a nasty hack to highlight the homepage in the topbar navigation. To do it, you have to add `homepage: true` to your homepage. The pages *404* and *search* are now excluded from the sitemap.
+
 2015-10-29 // Version 1.9
 :   I needed a call for action button on the frontpage to get your awareness for the new and fresh [*Feeling Responsive*-Newsletter](https://tinyletter.com/feeling-responsive) which informs you about new features. Now you can use it, too. Just have a look into *pages/pages-root-folder/index.md* to delete or use it. Uh, there were some images missing and the video-template didn't show up correct. I use now `{% raw %}{{ layout.format }}{% endraw %}` to inject the class of a layout in `default.html` into `<body>` to make it work.
 

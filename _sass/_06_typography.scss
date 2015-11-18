@@ -24,22 +24,24 @@ Check typography variables › _3_typography_settings.scss
 ------------------------------------------------------------------- */
 
 a,
-a:link {}
+a:link {
+    transition: all .4s;
+}
 
 a:visited {
-        border-bottom: $grey-2;
+    border-bottom: $grey-2;
 }
 
 a:hover {
-        color: darken( $ci-1, 10% );
+    color: darken( $ci-1, 10% );
 }
 
 a:focus {
-        color: lighten( $ci-1, 20% );
+    color: lighten( $ci-1, 20% );
 }
 
 a:active {
-        color: darken( $ci-1, 20% );
+    color: darken( $ci-1, 20% );
 }
 
 

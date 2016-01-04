@@ -3,10 +3,10 @@
 	<a href="{{ widget_url }}">
 		{% if include.widget.image %}
 			{%comment%}TODO lazy loading{%endcomment%}
-			{%comment%}<img class="lazy" data-src="{% if include.widget.image contains='http://' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ include.widget.image }}{% endif %}" width="100%" alt="" />{%endcomment%}
+			{%comment%}<img class="lazy" data-src="{% if include.widget.image contains='http://' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ include.widget.image }}{% endif %}" alt="" />{%endcomment%}
 			{%comment%}<noscript>{%endcomment%}
 			{% capture widget_image %}{% if include.widget.image contains 'http' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ site.baseurl }}{{ include.widget.image }}{% endif %}{% endcapture %}
-			<img src="{{widget_image}}" width="100%" alt="" />
+			<img src="{{widget_image}}" alt="" />
 			{%comment%}</noscript>{%endcomment%}
 		{% endif %}
 		{% if include.widget.video %}{{ include.widget.video }}{% endif %}

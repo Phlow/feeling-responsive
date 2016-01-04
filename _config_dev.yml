@@ -5,9 +5,13 @@
 #
 # Start development with › $ jekyll serve --config _config.yml,_config_dev.yml
 
-url: 'http://localhost:4000'
-urlimg: 'http://localhost:4000/images/'
-gems: [jekyll-paginate]
+url: 		'http://localhost:4000'
+baseurl: 	''
+urlimg: 	'http://localhost:4000/images/'
+
+# See › https://github.com/jekyll/jekyll-gist#disabling-noscript-support
+gist:
+  noscript: false
 
 sass:
   # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

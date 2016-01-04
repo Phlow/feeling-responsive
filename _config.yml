@@ -51,7 +51,9 @@ logo: "logo.png"
 #   /_/    \__,_/\__, /_/_/ /_/\__,_/\__/_/\____/_/ /_/
 #               /____/
 #
-gems: [jekyll-paginate]
+gems:
+    - jekyll-gist
+    - jekyll-paginate
 paginate: 5                      # Paginates all X entries
 paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
@@ -175,10 +177,6 @@ msapplication_tilecolor:                "#fabb00"
 og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
 og_locale:                          "en_EN"
 og_type:                            "website"
-og_title:                           "Feeling Responsive – A Responsive Theme for Jekyll"
-og_description:                     "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
-# og_url:                           ""
-# og_site_name:                     ""
 
 
 #      _____            _       __   __  ___         ___
@@ -189,6 +187,10 @@ og_description:                     "Feeling Responsive is built on the fabulous
 #
 #  Open _data/socialmedia.yml to adjust the left and right topbar navigation
 #
+
+socialmedia:
+    twitter: phlow
+    facebook: phlow.media
 
 
 #        ____  _

@@ -30,11 +30,11 @@ image:
     caption:
     caption_url:
 style:                      # Adding additional CSS-styles to <head>
-iframe: ""
+iframe: ''
 video:
-    embedURL: ""
-    contentURL: ""
-    thumbnailUrl: ""
+    embedURL: ''
+    contentURL: ''
+    thumbnailUrl: ''
 #
 # Metainformation & Customization
 #

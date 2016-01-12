@@ -54,7 +54,7 @@
 	<meta property="og:locale" content="{% if site.og_locale == nil %}en_EN{% else %}{{ site.og_locale }}{% endif %}">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="{{ site.title }}">
-	{% if page.image %}<meta property="og:image" content="{{ site.urlimg }}{{ page.image }}">{% endif %}
+	{% if page.image.title %}<meta property="og:image" content="{{ site.urlimg }}{{ page.image.title }}">{% endif %}
 	{% if site.socialmedia.facebook %}<meta property="article:author" content="https://www.facebook.com/{{ site.socialmedia.facebook }}">{% endif %}
 
 

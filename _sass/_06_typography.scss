@@ -55,9 +55,9 @@ p {
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    -ms-word-break: break-all;
+    -ms-word-break: normal;
     /* Non standard for webkit */
-    word-break: break-word;
+    word-break: normal;
 }
 p a,
 article a {

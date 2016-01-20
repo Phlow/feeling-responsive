@@ -47,6 +47,7 @@
 .icon-feather:before,
 .icon-github:before,
 .icon-globe:before,
+.icon-googleplus:before,
 .icon-heart:before,
 .icon-heart-outlined:before,
 .icon-home:before,
@@ -115,6 +116,7 @@
 .icon-feather:before { content: "\f114"; }
 .icon-github:before { content: "\f115"; }
 .icon-globe:before { content: "\f116"; }
+.icon-googleplus:before { content: "\f136"; }
 .icon-heart:before { content: "\f117"; }
 .icon-heart-outlined:before { content: "\f118"; }
 .icon-home:before { content: "\f119"; }

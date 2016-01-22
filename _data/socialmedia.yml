@@ -18,6 +18,11 @@
   class: icon-cloud
   title: "Mixe, was sonst?"
 
+- name: Phlow YouTube Google+
+  url: https://plus.google.com/u/0/+Phlow
+  class: icon-googleplus
+  title: "YouTube Google+"
+
 # - name: Facebook
 #   url: http://www.facebook.com/
 #   class: icon-facebook

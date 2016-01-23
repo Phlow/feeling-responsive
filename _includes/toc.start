@@ -1,0 +1,29 @@
+{% comment %}
+*
+* This include lets you insert a table of content. To use this include no `.html` ending is necessary.
+* Use page-fullwidth for base layout.
+*
+* Use 
+*
+* {% include toc.start %}
+* # My Content
+* {% include toc.end %}
+*
+* Define the title for the table of content in frontmatter:
+*
+*   toc:
+*     title: "Table of Contents"
+
+{% endcomment %}
+
+<div class="row">
+<div class="medium-4 medium-push-8 columns" markdown="1">
+<div class="panel radius" markdown="1">
+{{ page.toc.title }}
+{: #toc }
+*  TOC
+{:toc}
+</div>
+</div><!-- /.medium-4.columns -->
+
+<div class="medium-8 medium-pull-4 columns" markdown="1">

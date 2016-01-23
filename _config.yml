@@ -84,6 +84,9 @@ compress_html:
     envs: [development]
 
 
+footer:
+  text: Leave some &hearts; for&nbsp; <a href="http://phlow.de" alt="Theme created by Phlow">Phlow</a>    
+    
 #
 #       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_

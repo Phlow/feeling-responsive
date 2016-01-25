@@ -3,23 +3,21 @@
 * This include lets you insert a table of content. To use this include no `.html` ending is necessary.
 * Use page-fullwidth for base layout.
 *
-* Use 
+* Usage:
 *
-* {% include toc.start %}
+* {% include toc_sidepanel.start title="My title" %}
 * # My Content
-* {% include toc.end %}
+* {% include toc_sidepanel.end %}
+* # Other content (gets indexed too) 
 *
-* Define the title for the table of content in frontmatter:
-*
-*   toc:
-*     title: "Table of Contents"
-
+* The whole content is indexed, start and end determine where the panel is placed.
+* If you don't specify title "Table of Contents" is used
 {% endcomment %}
 
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">
 <div class="panel radius" markdown="1">
-{{ page.toc.title }}
+{{ include.title | default: "Table of Contents"}}
 {: #toc }
 *  TOC
 {:toc}

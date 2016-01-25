@@ -10,12 +10,10 @@ categories:
   - 
 tags:
   - 
-toc:
-  - title: "Table of Contents"
 ---
 
-{% include toc.start %}
+{% include toc_sidepanel.start %}
 
 # My Content
 
-{% include toc.end %}
+{% include toc_sidepanel.end %}

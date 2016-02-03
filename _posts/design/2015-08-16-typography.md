@@ -317,9 +317,9 @@ Even tables are responsive thanks to foundation. A table can consist of these el
 <table>
   <caption>&lt;table&gt; defines an HTML table</caption>
   <colgroup>
-    <col span="1" style="width: 15%;"></col>
-    <col span="1" style="width: 50%;"></col>
-    <col span="1" style="width: 35%;"></col>
+    <col span="1" style="width: 15%;">
+    <col span="1" style="width: 50%;">
+    <col span="1" style="width: 35%;">
   </colgroup>
   <thead>
     <tr>

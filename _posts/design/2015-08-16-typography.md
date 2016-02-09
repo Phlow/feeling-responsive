@@ -16,6 +16,7 @@ image:
     caption_url: "http://www.aisleone.net/"
 categories:
     - design
+    - typography
 ---
 <!--more-->
 

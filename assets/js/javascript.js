@@ -810,7 +810,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
 
       // comma delimited list of selectors that, on click, will close clearing,
       // add 'div.clearing-blackout, div.visible-img' to close on background click
-      close_selectors : '.clearing-close, div.clearing-blackout',
+      close_selectors : '.clearing-close, div.clearing-blackout', 
 
       // Default to the entire li element.
       open_selectors : '',
@@ -954,7 +954,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
       if ($el.parent().hasClass('carousel')) {
         return;
       }
-
+      
       $el.after('<div id="foundationClearingHolder"></div>');
 
       var grid = $el.detach(),
@@ -965,7 +965,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
       } else {
         grid_outerHTML = grid[0].outerHTML;
       }
-
+      
       var holder = this.S('#foundationClearingHolder'),
           settings = $el.data(this.attr_name(true) + '-init'),
           data = {
@@ -1066,7 +1066,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
           .removeClass('clearing-blackout');
         container.removeClass('clearing-container');
         visible_image.hide();
-        visible_image.trigger('closed.fndtn.clearing');
+        visible_image.trigger('closed.fndtn.clearing');        
       }
 
       // Event to re-enable scrolling on touch devices
@@ -1230,7 +1230,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
           .hide();
       }
       return this;
-    },
+    }, 
 
     // directional methods
 
@@ -1422,7 +1422,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
 
           if ($this.data(self.data_attr())) {
               settings = $this.data(self.data_attr(true) + '-init') || self.settings;
-          }
+          } 
           else {
               var target   = S('[' + self.attr_name() + '="' + S(this).attr('id') + '"]'),
                   settings = target.data(self.attr_name(true) + '-init') || self.settings;
@@ -1593,13 +1593,13 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
 
         p.top -= o.top;
         p.left -= o.left;
-
+        
         //set some flags on the p object to pass along
         p.missRight = false;
         p.missTop = false;
         p.missLeft = false;
         p.leftRightFlag = false;
-
+    
         //lets see if the panel will be off the screen
         //get the actual width of the page and store it
         var actualBodyWidth;
@@ -1611,7 +1611,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
 
         var actualMarginWidth = (window.outerWidth - actualBodyWidth) / 2;
         var actualBoundary = actualBodyWidth;
-
+    
         if (!this.hasClass('mega')) {
           //miss top
           if (t.offset().top <= this.outerHeight()) {
@@ -1619,13 +1619,13 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
             actualBoundary = window.outerWidth - actualMarginWidth;
             p.leftRightFlag = true;
           }
-
+          
           //miss right
           if (t.offset().left + this.outerWidth() > t.offset().left + actualMarginWidth && t.offset().left - actualMarginWidth > this.outerWidth()) {
             p.missRight = true;
             p.missLeft = false;
           }
-
+          
           //miss left
           if (t.offset().left - this.outerWidth() <= 0) {
             p.missLeft = true;
@@ -1641,12 +1641,12 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
             p = self.dirs._base.call(this, t);
 
         this.addClass('drop-top');
-
+        
         if (p.missTop == true) {
           p.top = p.top + t.outerHeight() + this.outerHeight();
           this.removeClass('drop-top');
         }
-
+    
         if (p.missRight == true) {
           p.left = p.left - this.outerWidth() + t.outerWidth();
         }
@@ -1686,7 +1686,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         var p = Foundation.libs.dropdown.dirs._base.call(this, t);
 
         this.addClass('drop-left');
-
+        
         if (p.missLeft == true) {
           p.left =  p.left + this.outerWidth();
           p.top = p.top + t.outerHeight();
@@ -1700,7 +1700,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         var p = Foundation.libs.dropdown.dirs._base.call(this, t);
 
         this.addClass('drop-right');
-
+        
         if (p.missRight == true) {
           p.left = p.left - this.outerWidth();
           p.top = p.top + t.outerHeight();
@@ -1708,7 +1708,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         } else {
           p.triggeredRight = true;
         }
-
+    
         var self = Foundation.libs.dropdown;
 
         if (t.outerWidth() < this.outerWidth() || self.small() || this.hasClass(s.mega_menu)) {
@@ -1738,7 +1738,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
           sel_after  = '.f-dropdown.open:after',
           css_before = 'left: ' + pip_offset_base + 'px;',
           css_after  = 'left: ' + (pip_offset_base - 1) + 'px;';
-
+        
       if (position.missRight == true) {
         pip_offset_base = dropdown.outerWidth() - 23;
         sel_before = '.f-dropdown.open:before',
@@ -1746,7 +1746,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         css_before = 'left: ' + pip_offset_base + 'px;',
         css_after  = 'left: ' + (pip_offset_base - 1) + 'px;';
       }
-
+    
       //just a case where right is fired, but its not missing right
       if (position.triggeredRight == true) {
         sel_before = '.f-dropdown.open:before',
@@ -1880,7 +1880,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
       throttle_delay: 30, // calculation throttling to increase framerate
       fixed_top: 0, // top distance in pixels assigend to the fixed element on scroll
       offset_by_height: true,  // whether to offset the destination by the expedition height. Usually you want this to be true, unless your expedition is on the side.
-      duration: 700, // animation duration time
+      duration: 700, // animation duration time 
       easing: 'swing' // animation easing
     },
 
@@ -2561,7 +2561,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         .off('.reveal')
         .on('click.fndtn.reveal', '[' + this.add_namespace('data-reveal-id') + ']:not([disabled])', function (e) {
           e.preventDefault();
-
+        
           if (!self.locked) {
             var element = S(this),
                 ajax = element.data(self.data_attr('reveal-ajax'));
@@ -2754,7 +2754,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
     toggle_bg : function (el, modal, state) {
       var settings = el.data(this.attr_name(true) + '-init') || this.settings,
             bg_root_element = settings.bg_root_element; // Adding option to specify the background root element fixes scrolling issue
-
+      
       if (this.S('.' + this.settings.bg_class).length === 0) {
         this.settings.bg = $('<div />', {'class': this.settings.bg_class})
           .appendTo(bg_root_element).hide();
@@ -3036,7 +3036,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
   };
 
   /* STYLES
-   *
+   * 
    * Baked-in styles that we'll apply to our elements.
    * In an effort to keep the plugin simple, these are not exposed as options.
    * That said, anyone can override these in their own stylesheet.
@@ -3080,7 +3080,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
     // Preload images
     $.each(this.images, function () {
       $('<img />')[0].src = this;
-    });
+    });    
 
     // Convenience reference to know if the container is body.
     this.isBody = container === document.body;
@@ -3110,7 +3110,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
         , zIndex: zIndex === 'auto' ? 0 : zIndex
         , background: 'none'
       });
-
+      
       // Needs a higher z-index
       this.$wrap.css({zIndex: -999998});
     }
@@ -3186,7 +3186,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
           , evtOptions = { relatedTarget: self.$container[0] };
 
         // Trigger the "before" event
-        self.$container.trigger($.Event('backstretch.before', evtOptions), [self, newIndex]);
+        self.$container.trigger($.Event('backstretch.before', evtOptions), [self, newIndex]); 
 
         // Set the new index
         this.index = newIndex;
@@ -3200,7 +3200,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
                       .bind('load', function (e) {
                         var imgWidth = this.width || $(e.target).width()
                           , imgHeight = this.height || $(e.target).height();
-
+                        
                         // Save the ratio
                         $(this).data('ratio', imgWidth / imgHeight);
 
@@ -3279,7 +3279,7 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
 
         // Remove Backstretch
         if(!preserveBackground) {
-          this.$wrap.remove();
+          this.$wrap.remove();          
         }
         this.$container.removeData('backstretch');
       }
@@ -3314,23 +3314,23 @@ function FastClick(a,b){"use strict";function c(a,b){return function(){return a.
     return !(
       // iOS 4.3 and older : Platform is iPhone/Pad/Touch and Webkit version is less than 534 (ios5)
       ((platform.indexOf( "iPhone" ) > -1 || platform.indexOf( "iPad" ) > -1  || platform.indexOf( "iPod" ) > -1 ) && wkversion && wkversion < 534) ||
-
+      
       // Opera Mini
       (window.operamini && ({}).toString.call( window.operamini ) === "[object OperaMini]") ||
       (operammobilematch && omversion < 7458) ||
-
+      
       //Android lte 2.1: Platform is Android and Webkit version is less than 533 (Android 2.2)
       (ua.indexOf( "Android" ) > -1 && wkversion && wkversion < 533) ||
-
+      
       // Firefox Mobile before 6.0 -
       (ffversion && ffversion < 6) ||
-
+      
       // WebOS less than 3
       ("palmGetResource" in window && wkversion && wkversion < 534) ||
-
+      
       // MeeGo
       (ua.indexOf( "MeeGo" ) > -1 && ua.indexOf( "NokiaBrowser/8.5.0" ) > -1) ||
-
+      
       // IE6
       (ieversion && ieversion <= 6)
     );

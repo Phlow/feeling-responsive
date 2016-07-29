@@ -6,11 +6,11 @@ $pre-border-size: $panel-border-size;
 $pre-border-style: $panel-border-style;
 $pre-border-color: $panel-border-color;
 $pre-font-color: $body-font-color;
-$pre-padding: 5px;
+$pre-padding: 0.5em;
 $pre-line-height: 1.5;
 
 $code-font-size: 1rem;
-$code-word-spacing: 2px;
+$code-word-spacing: 0em;
 $code-line-height: 1rem;
 $code-text-rendering: optimal;
 
@@ -88,6 +88,19 @@ code {
     }
 */
 
+#toc {
+	ul.sectlevel1, ul.sectlevel2, ul.sectlevel3, ul.sectlevel4, ul.sectlevel5 {
+	  margin-top: 0px;
+  }
+}
+
+#toctitle {
+  font-size: 1.563em;
+  margin: 1.152em 0 0 0;
+}
+
+
+
 .keyseq {
   color: lighten($body-font-color, 20%);
 }
@@ -137,7 +150,6 @@ b.button:after {
   content: "]";
   padding: 0 2px 0 3px;
 }
-
 
 
 // AsciiDoc block styles
@@ -302,7 +314,6 @@ table.tableblock,
   }
 }
 
-.literalblock,
 .listingblock {
   // use pre[class] so we win over pre.<name> styles
   pre, pre[class] {
@@ -323,6 +334,7 @@ table.tableblock,
     
     // screens below breakpoint
     padding: $pre-padding;
+
     font-size: emCalc(13px);
 
     @media #{$small} {
@@ -335,20 +347,28 @@ table.tableblock,
   }
 }
 
+.literalblock {
+	pre, pre[class] {
+		background-color: inherit;
+		border: none;
+		padding: 0px;
+		
+		font-size: 1em;
+		word-wrap: break-word;
+		
+    &.nowrap {
+      overflow-x: auto;
+      white-space: pre;
+      word-wrap: normal;
+    }
+	}
+}
+
 .literalblock.output pre {
   // FIXME this doesn't work if pre-bg is an image!
   color: $pre-bg;
   background-color: $pre-font-color;
 }
-
-.literalblock {
-	pre, pre[class] {
-		overflow: initial;
-		background-color: inherit;
-		border: none;
-	}
-}
-
 
 // highlight.js themes put bg on <code>, so shift padding
 .listingblock pre.highlightjs {
@@ -458,22 +478,27 @@ table.pyhltable .linenodiv {
   }
 
   blockquote {
-    margin: 0;
     padding: 0;
     border: 0;
-
-    &:before {
-      content: "\201c";
-      float: left;
-      //font-size: 3em;
-      font-size: 2.75em;
-      font-weight: bold;
-      line-height: 0.6em; // use 0.67em if font-weight: normal
-      margin-left: -0.6em;
-      //color: $blockquote-cite-font-color;
-      color: $subheader-font-color;
-      text-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    }
+		font-style: italic;
+		
+		&:before {
+		  content:"\00BB";
+      font-size:80px;
+      line-height: 0;
+      position:absolute;
+      left: -50px;
+      top: auto;
+      color: $grey-11;
+		}
+		
+		&:after {
+			content: "\00AB";
+			font-size:80px;
+      line-height: 0;
+      position:absolute;
+      right: -50px;
+		}
 
     & > .paragraph:last-child p {
       margin-bottom: 0;
@@ -484,7 +509,7 @@ table.pyhltable .linenodiv {
     //margin-top: 0.5rem;
     margin-top: 0.5em;
     margin-right: 0.5ex;
-    text-align: right;
+    text-align: left;
   }
 
   .quoteblock {
@@ -1091,7 +1116,7 @@ span.icon>.fa {
     //color: scale-color(yellow, $lightness: $rainbow-lightness);
     //color: scale-color(yellow, $saturation: -15%);
     //color: $primary-color;
-    text-shadow: 1px 1px 2px rgba(155, 155, 0, .8);
+    //text-shadow: 1px 1px 2px rgba(155, 155, 0, .8);
     color: #111;
   }
   

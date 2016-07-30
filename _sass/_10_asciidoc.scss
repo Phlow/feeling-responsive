@@ -1096,46 +1096,43 @@ span.icon>.fa {
   }
   
   .icon-note:before {
-    // @extend .fa-thumb-tack;
-    //content: "\f08d";
-    //color: scale-color(green, $lightness: $rainbow-lightness);
-
     //@extend .fa-info-circle;
     content: "\f05a";
-    //color: scale-color(mediumblue, $lightness: $rainbow-lightness);
-    //color: $primary-color;
-    color: scale-color($primary-color, $lightness: $rainbow-lightness);
+    color: scale-color($success-color, $lightness: $rainbow-lightness);
+    //color: $success-color;
+    font-family: FontAwesome;
   }
   
   .icon-tip:before {
-    // @extend .fa-info-circle;
-    //content: "\f05a";
-    //color: scale-color(mediumblue, $lightness: $rainbow-lightness);
     // @extend .fa-lightbulb-o;
     content: "\f0eb";
-    //color: scale-color(yellow, $lightness: $rainbow-lightness);
-    //color: scale-color(yellow, $saturation: -15%);
-    //color: $primary-color;
-    //text-shadow: 1px 1px 2px rgba(155, 155, 0, .8);
-    color: #111;
+    color: scale-color($info-color, $lightness: $rainbow-lightness);
+    //color: $info-color;
+    font-family: FontAwesome;
   }
   
   .icon-warning:before {
     // @extend .fa-exclamation-triangle;
     content: "\f071";
-    color: scale-color(darkorange, $lightness: $rainbow-lightness);
+    color: scale-color($warning-color, $lightness: $rainbow-lightness);
+    //color: $warning-color;
+    font-family: FontAwesome;
   }
 
   .icon-caution:before {
     // @extend .fa-fire;
     content: "\f06d";
-    color: scale-color(orangered, $lightness: $rainbow-lightness);
+    color: scale-color($alert-color, $lightness: $rainbow-lightness);
+    //color: $alert-color;
+    font-family: FontAwesome;
   }
   
   .icon-important:before {
     // @extend .icon-exclamation-circle;
     content: "\f06a";
-    color: scale-color(red, $lightness: $rainbow-lightness);
+    color: scale-color($ci-2, $lightness: $rainbow-lightness);
+    //color: $ci-2;
+    font-family: FontAwesome;
   }
 }
 

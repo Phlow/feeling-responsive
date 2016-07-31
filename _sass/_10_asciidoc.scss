@@ -10,7 +10,7 @@ $pre-padding: 0.5em;
 $pre-line-height: 1.5;
 
 $code-font-size: 1rem;
-$code-word-spacing: 0em;
+$code-word-spacing: 0;
 $code-line-height: 1rem;
 $code-text-rendering: optimal;
 
@@ -266,7 +266,7 @@ table.tableblock,
       @if $sidebar-header-align {
         text-align: $sidebar-header-align;
       }
-      @if $sidebar-header-border-size != 0 {
+      @if $sidebar-header-border-size != 0px {
         border-width: $sidebar-header-border-size;
         border-style: $sidebar-header-border-style;
         border-color: $sidebar-header-border-color;

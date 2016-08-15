@@ -50,7 +50,7 @@
 	{% if site.bing_webmastertools_id %}<meta name="msvalidate.01" content="{{ site.bing_webmastertools_id }}" >{% endif %}
 	{% if site.google_author %}<link rel="author" href="{{ site.google_author }}">{% endif %}
 	{% if site.alexa_verify_id %}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}">{% endif %}
-	{% if page.noindex == true %}<meta name="robots" content="noindex">{% endif %}
+	{% if page.noindex == true or layout.noindex == true %}<meta name="robots" content="noindex">{% endif %}
 
 
 	<!-- Facebook Open Graph -->

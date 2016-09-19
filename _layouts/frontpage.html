@@ -65,10 +65,10 @@ format: frontpage
             {% for post in site.posts limit:1 %}
             {% if post.image.homepage %}
             <p>
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
             </p>
 
-            {% if post.image.caption_url && post.image.caption %}
+            {% if post.image.caption_url and post.image.caption %}
             <p class="text-right caption">
                 <a href="{{ post.image.caption_url }}">{{ post.image.caption }}</a>
             </p>
@@ -88,7 +88,7 @@ format: frontpage
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>
                 {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
-                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+                <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
             </p>
             {% endfor %}
         </div><!-- /.medium-5.columns -->

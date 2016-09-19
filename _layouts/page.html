@@ -8,9 +8,9 @@ format: post
 			<header>
 				{% if page.image.title %}
 				<figure>
-					<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title escape_once }}" itemprop="image">
+					<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}" itemprop="image">
 
-					{% if page.image.caption_url && page.image.caption %}
+					{% if page.image.caption_url and page.image.caption %}
 					<figcaption class="text-right">
 						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
 					</figcaption>

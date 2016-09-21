@@ -51,6 +51,7 @@
 	{% if site.google_author %}<link rel="author" href="{{ site.google_author }}">{% endif %}
 	{% if site.alexa_verify_id %}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}">{% endif %}
 	{% if page.noindex == true or layout.noindex == true %}<meta name="robots" content="noindex">{% endif %}
+	<link rel="canonical" href="{{ url }}{{ page.url }}">
 
 
 	<!-- Facebook Open Graph -->

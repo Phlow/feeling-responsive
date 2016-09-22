@@ -1,4 +1,4 @@
-- menu_name: "Dankeschön"
+- menu_name: "Credits"
 
 - name: "Icons by Daniel Bruce"
   url: "http://entypo.com/"
@@ -9,11 +9,6 @@
   url: "http://foundation.zurb.com/"
   class: "services-newsletter"
   title: "Built on Foundation"
-
-- name: "Images by Unsplash"
-  url: "http://unsplash.com/"
-  class: "rss-link"
-  title: "Images by Unsplash"
 
 - name: "Using Backstretch by Scott Robbin"
   url: "http://srobbin.com/jquery-plugins/backstretch/"

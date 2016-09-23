@@ -25,7 +25,7 @@ author: ewan
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://ioe-uoe.github.io'
+url: 'https://iot-uoe.github.io'
 baseurl:
 
 # This is for the editing function in _/includes/improve_content

@@ -38,7 +38,7 @@ baseurl:
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://ioe-uoe.github.io/images/'
+urlimg: 'https://iot-uoe.github.io/images/'
 
 
 # Logo size is 600x80 pixels

@@ -73,10 +73,10 @@ body.video cite { color: #fff; }
 #masthead-with-text {
     text-align: center;
     font-size: rem-calc(54);
-    font-family: $header-font-family;
+    font-family: $font-family-serif;
     color: #fff;
-    /* text-transform: uppercase;
-    text-shadow: 0 2px 3px rgba(0,0,0,.4); */
+    text-transform: uppercase;
+    /*text-shadow: 0 2px 3px rgba(0,0,0,.4); */
 }
 #masthead-no-image-header {
     height: 175px;
@@ -84,6 +84,28 @@ body.video cite { color: #fff; }
 #masthead-no-image-header #logo img {
     margin-top: 60px;
 }
+
+#branding {
+    height: 100px;
+    background-color: #fff;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#branding img {
+    width: 85%;
+    max-width: 332px;
+    height: auto;
+    max-height: 79px
+}
+
+#branding row {
+    margin-left: 5px;   
+}
+
+
+
 
 /* Masthead › small-only
 ------------------------------------------------------------------- */

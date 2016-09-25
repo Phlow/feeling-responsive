@@ -42,7 +42,7 @@ urlimg: 'https://iot-uoe.github.io/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "UoE_logo.png"
+logo: 
 
 # Gems
 gems:

@@ -1,15 +1,10 @@
 ---
-#
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
-#
 layout: page
+
 header:
-    title: IoT Lab
-    image_fullwidth: banner-l.jpg
-   
-title: "Overview"
+    image_fullwidth: "heating_app.jpg"
+    title: "iot.ed.ac.uk"
+
 
 permalink: /index.html
 homepage: true
@@ -19,7 +14,6 @@ The Internet of Things (IoT) is a cluster of technologies spanning hardware devi
 
 As an initiative spearheaded by Information Services, the University is setting up a pilot IoT network using LoRaWAN technology. The network will be made available as a shared infrastructure for R&amp;D by a wide range of partners, as well as supporting teaching and learning opportunities within the University.
 
-<a href="{{ site.urlimg }}banner.jpg">try an image</a>
 
 
 <div class="row t60 b60">

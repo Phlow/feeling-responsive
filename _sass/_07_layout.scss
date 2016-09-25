@@ -85,6 +85,21 @@ body.video cite { color: #fff; }
     margin-top: 60px;
 }
 
+#masthead-text-only {
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 0.3rem;
+    background-color: $primary-color;
+    font-size: rem-calc(45);
+    font-family: $font-family-sans-serif;
+    color: #fff;
+}
+
+#masthead-text-only row {
+    padding-left: 0.3rem;
+}
+
 #branding {
     height: 100px;
     background-color: #fff;

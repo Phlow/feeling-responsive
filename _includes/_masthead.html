@@ -17,20 +17,26 @@
 
 
 
-
+<!-- Hacked together alternative to make this look more like UoE branding -->
+<!-- ******************************************************************** -->
 {% elsif page.header.title %}
 
 <div id="masthead-with-text" style="{% if page.header.background-color %}background: {{ page.header.background-color }};{% endif %} {% if page.header.image_fullwidth %}{% elsif page.header.pattern %}background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('{{ site.urlimg }}/{{ page.header.pattern }}'){% endif %}">
-	<div class="row">
-		<div class="small-12 columns">
-			<div class="masthead-title">{{ page.header.title }}</div>
-		</div><!-- /.small-12.columns -->
-	</div><!-- /.row -->
 </div><!-- /#masthead -->
+<div id="masthead-text-only">
+<div class="row">
+    <div class="small-12 columns">
+       {{ page.header.title }}
+    </div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+</div><!-- /.masthead -->
+
 
 {% if page.breadcrumb == true %}
 {% include _breadcrumb.html %}
 {% endif %}
+<!-- ******************************************************************** -->
+
 
 {% if page.header.caption_url && page.header.caption %}
 <div class="masthead-caption">

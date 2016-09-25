@@ -32,14 +32,27 @@ $ci-3: #EFC94C;		// yellow
 $ci-4: #E27A3F;		// orange
 $ci-5: #DF4949;		// red
 $ci-6: #A1D044;     // green
-$uoe-dark: #222222;     // dark grey
+
+/* UoE Corporate Colours */
+
+$ci-red: #D50032;	         // Corporate red
+$ci-blue: #041E42;            // Corporate blue
+$ci-bright-blue: #008EAA;	 // Bright blue
+$ci-bright-pink: #D0006F;     // Bright pink
+$ci-purple: #830065;	         // Purple theme
+$ci-burgundy: #A50034;	     // Burgundy theme
+$ci-dark-green: #154734;	     // Dark green theme
+$ci-jade: #487A7B;	         // Jade
+$ci-muted-blue: #004F71;	     // Muted blue theme
+$ci-muted-brown: #6D4F47;	 // Muted brown theme
+$ci-spruce-grey: #333F48;     // Spruce grey
 
 
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
 
-$primary-color: $ci-1;
+$primary-color: $ci-red;
 $secondary-color: $ci-6;
 $alert-color: $ci-5;
 $success-color: $ci-6;
@@ -73,7 +86,7 @@ $grey-16: #0B0B0B;
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-$topbar-bg-color: $uoe-dark; // $body-bg;
+$topbar-bg-color: $grey-16; // $body-bg;
 $topbar-bg: $topbar-bg-color;
 
 
@@ -108,7 +121,7 @@ $topbar-menu-icon-color-toggled: $ci-6;
 /* Footer
 ------------------------------------------------------------------- */
 
-$footer-bg: $uoe-dark;
+$footer-bg: $grey-16;
 $footer-color: #fff;
 $footer-link-color: $ci-6;
 

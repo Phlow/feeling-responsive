@@ -2,15 +2,17 @@
   url: "/"
   side: left
 
-- title: "Projects"
-  url: "/Projects/"
+- title: "Development"
+  url: "/development/"
   side: left
-  dropdown:
-  - title: "Argyle House"
-    url: "/projects/argylehouse/"
-  - title: "Main Library"
-    url: "/projects/mainlibrary/"
-  
+
+- title: "Pilots"
+  url: "/pilots/"
+  side: left
+
+- title: "Governance"
+  url: "/governance/"
+  side: left 
 
 - title: "Contact"
   url: "/contact/"

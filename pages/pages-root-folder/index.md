@@ -16,10 +16,10 @@ As an initiative spearheaded by Information Services, the University is setting 
 
 
 
-<div class="row t60 b60">
+<div class="row t60">
         <div class="small-12 text-center columns">
             <a class="button large radius" href="https://mlist.is.ed.ac.uk/lists/subscribe/iot" target="_blank" >
-            Subscribe to the University of Edinburgh IoT Mailing List
+            Subscribe to the University of Edinburgh<br/>IoT Mailing List
             </a>
         </div><!-- /.small-12.columns -->
 </div><!-- /.row -->

@@ -11,7 +11,7 @@
 title: 'IoT Lab'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'IoT Lab'
+slogan: 'iot.ed.ac.uk'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'IoT Initiative at The University of Edinburgh'
@@ -76,6 +76,8 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
+    - _posts/design/
+    - .gitignore
 
 
 # The language setting is used in /includes/header.html for html-settings

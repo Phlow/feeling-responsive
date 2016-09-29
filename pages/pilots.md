@@ -13,8 +13,9 @@ permalink: "/pilots/"
 
 During the initial phase of rolling out the IoT infrastructure, we are encouraging different teams across the University to experiment with different ways of using infrastructure. As they develop, we will post brief descriptions of these pilot projects here.
 
-<ul>
-    {% for post in site.categories.pilot %}
-    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+
+{% for pilot in site.pilots %}
+<div class="pilot">
+<h2><a href="{{ pilot.url }}">{{ pilot.title }}</a></h2>
+</div>
+{% endfor %}

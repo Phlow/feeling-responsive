@@ -51,8 +51,8 @@ gems:
     - jekyll-paginate
 
 collections:
-    pilots:
-      output: true
+    - pilots
+
 
 
 #       ____              _             __  _

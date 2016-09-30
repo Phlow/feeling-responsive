@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 show_meta: false
 title: "IoT Pilots"
 subheadline: "Experimenting with IoT"
@@ -15,7 +15,18 @@ During the initial phase of rolling out the IoT infrastructure, we are encouragi
 
 
 {% for pilot in site.pilots %}
-<div class="pilot">
-<h2><a href="{{ pilot.url }}">{{ pilot.title }}</a></h2>
+
+<div class="t30">
+ 
+ 
+ <h3><img src="{{ site.urlimg }}{{ pilot.image }}">{{ pilot.title }}</h3>
+ <p>
+ {{ pilot.content }}
+ </p>
+ </div>
+
+ 
+
+
 </div>
 {% endfor %}

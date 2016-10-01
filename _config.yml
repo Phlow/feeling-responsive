@@ -16,8 +16,10 @@ slogan: 'iot.ed.ac.uk'
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'IoT Initiative at The University of Edinburgh'
 
+copyright: '<p>Copyright &copy; University of Edinburgh 2016</p>'
+
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> Theme</p>'
+credits: '<p>Powered by <a href="http://jekyllrb.com/">Jekyll</a>, based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> Theme</p>'
 
 # Main author of the website
 # See > authors.yml
@@ -51,7 +53,8 @@ gems:
     - jekyll-paginate
 
 collections:
-    - pilots
+    pilots:
+        output: true
 
 
 
@@ -62,8 +65,8 @@ collections:
 #   /_/    \__,_/\__, /_/_/ /_/\__,_/\__/_/\____/_/ /_/
 #               /____/
 #
-paginate: 5                      # Paginates all X entries
-paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
+#paginate: 5                      # Paginates all X entries
+#paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
 
 # Theme works best with Kramdown (using the table of contents function)
@@ -80,8 +83,8 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
-    - _posts/design/
     - .gitignore
+    - blog
 
 
 # The language setting is used in /includes/header.html for html-settings

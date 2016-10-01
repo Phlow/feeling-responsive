@@ -332,6 +332,15 @@ body.video cite { color: #fff; }
     padding-top: 30px;
 }
 
+#subfooter p {
+    font-size: rem-calc(10);
+    font-weight: 200;
+}
+
+#subfooter a {
+    text-transform: none;
+}
+
 #subfooter-left ul.inline-list {
     float: left;
 }

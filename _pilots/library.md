@@ -1,10 +1,17 @@
 ---
-layout: pilot
+layout: page
 title: 'Main Library'
-image: kerlink.jpg
+image: 
+    title: booth.jpg
+    thumb: booth-thumb.jpg
+teaser: "Tracking occupancy in student study spaces"
 ---
 
-The proposal is to install a variety of sensors in different kinds of student spaces in order to determine occupancy levels. Our current plan is to proceed with this in Semester 2, after Argyle House project is underway. We are considering two options: (i) Centre for Research Collections (CRC), which is already quite a controlled space on the top floor of the library, and (ii) some or all of the small group study pods. 
-The information would be made available to students via a display screen in the foyer and/or via an app. We hope to be able to put a draft proposal to the Library Committee in October 2016.
+This pilot will install chair sensor kits similar to those described in the [Argyle House pilot]({{ site.url }}/pilots/argyle_house). We will use these in different kinds of student spaces in order to determine occupancy levels. We are currently considering two kinds of space: 
+
+* The Centre for Research Collection, which is already quite a controlled space on the top floor of the library, 
+* Some or all of the small group study pods. 
+
+Real-time information about occupancy could be made available to students *via* a display screen in the library foyer or via an app. 
 
 

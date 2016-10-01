@@ -1,17 +1,17 @@
 - name: GitHub
   url: http://github.com/ioe-uos
   class: icon-github
-  title: Code und mehr...
+  title: Code
 
-- name: YouTube
-  url: http://www.youtube.com/
-  class: icon-youtube
-  title: "Videos"
+# - name: YouTube
+#   url: http://www.youtube.com/
+#   class: icon-youtube
+#   title: "Videos"
 
-- name: Twitter
-  url: http://twitter.com/
-  class: icon-twitter
-  title: ""
+# - name: Twitter
+#   url: http://twitter.com/
+#   class: icon-twitter
+#   title: ""
 
 # - name: Facebook
 #   url: http://www.facebook.com/

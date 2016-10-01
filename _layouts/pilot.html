@@ -1,12 +1,23 @@
 ---
 layout: page
 ---
-<img src="{{ site.urlimg }}{{ page.image }}" alt="page.title" />
+<p>
+During the initial phase of rolling out the IoT infrastructure, we are encouraging different teams across the University to experiment with different ways of using infrastructure. As the pilot projects develop, we will post brief descriptions and updates here.
+</p>
 
-<div class="pilot">
- <!--  <h2><img src="{{ page.image_path }}" alt="page.title" />{{ page.title }}</h2>
+{% for pilot in site.pilots %}
 
-  <div class="blog-post spacing"> -->
-    {{ content }}
-  </div>
-</div>
+  <div class="row">
+    <div class="small-12 columns b10">
+      <p class="subheadline">{{ pilot.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if pilot.categories != empty and pilot.subheadline != NULL %} – {% endif %}{{ pilot.subheadline }}</p>
+      <h2><a href="{{ site.url }}{{ pilot.url }}">{{ pilot.title }}</a></h2>
+      <p>
+        {% if pilot.image.thumb %}<a href="{{ site.url }}{{ pilot.url }}" title="{{ pilot.title escape_once }}"><img src="{{ site.urlimg }}{{ pilot.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+
+        {% if pilot.meta_description %}{{ pilot.meta_description | strip_html | escape }}{% elsif pilot.teaser %}{{ pilot.teaser | strip_html | escape }}{% endif %}
+        <br/>
+        <a href="{{ site.url }}{{ pilot.url }}" title="{{ site.data.language.read }} {{ pilot.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+      </p>
+    </div><!-- /.small-12.columns -->
+  </div><!-- /.row -->
+{% endfor %}

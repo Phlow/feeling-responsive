@@ -10,10 +10,10 @@
   url: "/pilots/"
   side: left
 
-- title: "Governance"
-  url: "/governance/"
+- title: "Coordination"
+  url: "/coordination/"
   side: left 
 
-- title: "Contact"
-  url: "/contact/"
-  side: right
+# - title: "Contact"
+#   url: "/contact/"
+#   side: right

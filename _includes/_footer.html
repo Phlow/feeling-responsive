@@ -8,16 +8,20 @@
       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            {{ site.copyright }}
+          </section>
+
+          <section id="subfooter-right" class="small-12 medium-6 columns credits">
             {{ site.credits }}
           </section>
 
-          <section id="subfooter-right" class="small-12 medium-6 columns">
+   <!--        <section id="subfooter-right" class="small-12 medium-4 columns">
             <ul class="inline-list social-icons">
             {% for social_item in site.data.socialmedia %}
               <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
             {% endfor %}
             </ul>
-          </section>
+          </section> -->
         </nav>
       </div><!-- /#subfooter -->
     </footer>

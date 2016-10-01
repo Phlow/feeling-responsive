@@ -1,14 +1,8 @@
 ---
 layout: page
-show_meta: false
-title: "Style your content!"
-subheadline: "Layouts of Feeling Responsive"
+title: "Development"
+subheadline: "Roadmap for IoT Deployment"
 header:
-   image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/design/"
+   image_fullwidth: "counter.jpg"
+permalink: "/development/"
 ---
-<ul>
-    {% for post in site.categories.design %}
-    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>

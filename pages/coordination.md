@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Coordingation"
+title: "Coordination"
 permalink: "/coordination/"
 ---
 

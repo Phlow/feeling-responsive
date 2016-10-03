@@ -4,6 +4,7 @@ title: "Development"
 subheadline: "Roadmap for IoT Deployment"
 header:
    image_fullwidth: "counter.jpg"
+   title: "iot.ed.ac.uk"
 permalink: "/development/"
 ---
 

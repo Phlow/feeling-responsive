@@ -7,7 +7,7 @@ show_meta: false
 
 header:
     title: "iot.ed.ac.uk"
-    image_fullwidth: "lopy_cropped.jpg"
+    image_fullwidth: "lopy.jpg"
 permalink: "/pilots/"
 ---
 

@@ -8,4 +8,4 @@ header:
 permalink: "/development/"
 ---
 
-We are in the process of installing five [Kerlink](http://www.kerlink.fr/en/) gateways across the University campus. In the first instance, data sent to the gateways will be accessed via [The Things Network](https://www.thethingsnetwork.org).
+We are in the process of installing [Kerlink](http://www.kerlink.fr/en/) gateways at up to five sites across the University campus. In the first instance, data sent to the gateways will be accessed via [The Things Network](https://www.thethingsnetwork.org).

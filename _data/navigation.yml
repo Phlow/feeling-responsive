@@ -10,9 +10,15 @@
   url: "/pilots/"
   side: left
 
+- title: "Events"
+  url: "/events/"
+  side: left 
+
 - title: "Coordination"
   url: "/coordination/"
   side: left 
+
+
 
 # - title: "Contact"
 #   url: "/contact/"

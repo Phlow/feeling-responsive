@@ -1,0 +1,49 @@
+---
+layout: page
+---
+<div class="row">
+    <div class="small-12 text-center columns">
+        <table>
+            <tr>
+                <td><b>Date:</b></td>
+                <td>{{ page.start_time | date: "%A, %-d %B %Y" }}</td>
+            </tr>
+            <tr>
+                <td><b>Time:</b></td>
+                <td>{{ page.start_time | date: "%R" }}&ndash;{{ page.end_time | date: "%R"}}</td>
+            </tr>
+            <tr>
+                <td><b>Location:</b></td>
+                <td>{{ page.venue }}</td>
+            </tr>
+            {% if page.speaker %}
+            <tr>
+                <td><b>Speaker:</b></td>
+                <td>{{ page.speaker }}</td>
+            </tr>
+            {% endif %}
+            {% if page.registration %}
+            <tr>
+                <td><b>Registration:</b></td>
+                <td><a href="{{ page.registration }}">{{ page.registration }}</a></td>
+            </tr>
+            {% endif %}
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div class="small-12 columns">
+        <p>
+            {{ page.content }}
+        </p>
+        {% if page.bio %}
+        <h5>Bio</h5>
+        <p>
+          {{ page.bio }}
+        </p>
+        {% endif %}
+    </div>
+</div>
+
+
+

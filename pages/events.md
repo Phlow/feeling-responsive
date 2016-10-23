@@ -22,7 +22,7 @@ permalink: "/events/"
 		{% assign eventtime = eventtime | plus: 0 %}
 	<!-- only show events later than now  -->
 	{% if eventtime > nowunix %}
-    <li><a href="{{ site.url }}{{ event.url }}">{{ event.date | date_to_long_string }}: {{ event.title }}</a></li>
+    <li><a href="{{ site.url }}{{ event.url }}">{{ event.date | date_to_long_string }}, {{ event.start_time | date: '%R' }}: {{ event.title }}</a></li>
     {% endif %}
     {% endfor %}
 </ul>

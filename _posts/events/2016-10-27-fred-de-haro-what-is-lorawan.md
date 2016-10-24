@@ -1,6 +1,6 @@
 ---
 layout: event
-title:  "Introduction to the LoPy"
+title:  "What you can do with LoRaWAN"
 speaker: "Fred de Haro (Pycom CEO)"
 breadcrumb: true
 categories:
@@ -8,9 +8,8 @@ categories:
 venue: "Design Informatics Studio, Evolution House"
 start_time: 2016-10-27 16:00
 end_time: 2016-10-27 17:00
-registration: 
 ---
 
-
+Fred de Haro will give a general introduction to LoRaWAN, followed by an explanation of the kinds of applications that it is well-suited to support.
 
 

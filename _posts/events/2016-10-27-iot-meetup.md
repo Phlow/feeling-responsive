@@ -1,6 +1,7 @@
 ---
 layout: event
-title:  "IOT//EDI Meetup (IoT + Blockchain)"
+subheadline: Meetup
+title:  "IOT//EDI (IoT + Blockchain)"
 breadcrumb: true
 categories:
     - events

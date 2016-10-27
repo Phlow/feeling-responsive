@@ -85,6 +85,7 @@ exclude:
     - README.md
     - INSTALL.md
     - .gitignore
+    - Makefile
 
 
 # The language setting is used in /includes/header.html for html-settings

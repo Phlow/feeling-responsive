@@ -3,3 +3,5 @@ _site/
 .DS_Store
 uoe-colours.txt
 images_copy/
+Gemfile.lock
+

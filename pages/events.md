@@ -14,7 +14,7 @@ permalink: "/events/"
 <!-- decrement by one day in seconds -->
 {% assign yesterday = nowunix | minus: 86400 %}
 
-
+{% assign flag = false %}
 <ul>
     {% for event in site.categories.events reversed %}
     	{% capture eventtime %}
@@ -23,8 +23,16 @@ permalink: "/events/"
 		{% assign eventtime = eventtime | plus: 0 %}
 	<!-- only show events later than yesterday  -->
 	{% if eventtime > yesterday %}
+    {% assign flag = true %}
 
     <li><a href="{{ site.url }}{{ event.url }}">{{ event.date | date_to_long_string }}, {{ event.start_time | date: '%R' }} [{{ event.subheadline }}]: {{ event.title }}</a></li>
     {% endif %}
     {% endfor %}
-</ul>
+ </ul>   
+
+    {% if flag == false %}
+<p>
+     Sorry! There is nothing definite on the schedule at the moment.
+</p>
+    {% endif %}
+

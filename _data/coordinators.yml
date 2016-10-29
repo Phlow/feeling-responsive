@@ -10,9 +10,13 @@
   affiliation: "Principal's Office"
   url: http://www.ed.ac.uk/principals-office/vice-principals-smgt/assistant-principals/collins
 
+- name: "Alec Edgcliffe-Johnson"
+  job: "President"
+  affiliation: "Edinburgh University Students Association"
+  url: https://www.eusa.ed.ac.uk/representation/yourrepresentatives/president/
 
 - name: "Matt Hodson"
-  job: "Head of Infrastructure"
+  job: "Head of Operations"
   affiliation: "EDINA"
   url: https://www.linkedin.com/in/matthew-hodson-b52a93116
 
@@ -20,12 +24,10 @@
   affiliation: "School of Informatics"
   url: https://www.linkedin.com/in/ewanklein
 
-
 - name: "Cat Magill"
   job:
   affiliation: "Edinburgh Living Lab &amp; School of Informatics"
   url: ttps://www.linkedin.com/in/catherinermagill
-
 
 - name: "David Richardson"
   job: "Director of Partnerships (Data Science)"
@@ -37,12 +39,10 @@
   affiliation: "City of Edinburgh Council"
   url: https://www.linkedin.com/in/ritchie-somerville-a1607910
 
-
 - name: "Chris Speed"
   job: "Director of Design Informatics"
   affiliation: "School of Design"
   url: http://www.eca.ed.ac.uk/school-of-design/chris-speed
-
 
 - name: "Tony Weir"
   job: Director

@@ -13,6 +13,11 @@
 - title: "Events"
   url: "/events/"
   side: left 
+  dropdown:
+  - title: "Forthcoming"
+    url: "/events/"
+  - title: "Past Events"
+    url: "/past_events/"
 
 - title: "Coordination"
   url: "/coordination/"

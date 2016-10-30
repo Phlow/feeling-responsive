@@ -71,7 +71,7 @@ paginate_path: "blog/page:num"   # Pagination path › Important for blog page i
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:title/
 highlight: rouge
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']

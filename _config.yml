@@ -42,8 +42,6 @@ baseurl:
 #
 urlimg: 'https://iot-uoe.github.io/images/'
 
-resources: 'https://iot-uoe.github.io/resources/'
-
 # Logo size is 600x80 pixels
 logo: 
 
@@ -52,6 +50,7 @@ gems:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
+    - jekyll-twitter-plugin
 
 collections:
     pilots:

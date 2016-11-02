@@ -8,7 +8,7 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'IoT Lab'
+title: 'Edinburgh IoT Initiative'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
 slogan: 'iot.ed.ac.uk'
@@ -42,6 +42,7 @@ baseurl:
 #
 urlimg: 'https://iot-uoe.github.io/images/'
 
+resources: 'https://iot-uoe.github.io/resources/'
 
 # Logo size is 600x80 pixels
 logo: 

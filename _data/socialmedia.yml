@@ -8,10 +8,10 @@
 #   class: icon-youtube
 #   title: "Videos"
 
-# - name: Twitter
-#   url: http://twitter.com/
-#   class: icon-twitter
-#   title: ""
+- name: Twitter
+  url: https://twitter.com/UoE_IoT
+  class: icon-twitter
+  title: ""
 
 # - name: Facebook
 #   url: http://www.facebook.com/

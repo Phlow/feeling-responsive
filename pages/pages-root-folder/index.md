@@ -1,7 +1,7 @@
 ---
 layout: page
 header:
-    image_fullwidth: "heating_app.jpg"
+    image_fullwidth: "lopy_workshop.jpg"
     title: "iot.ed.ac.uk"
 permalink: /index.html
 homepage: true

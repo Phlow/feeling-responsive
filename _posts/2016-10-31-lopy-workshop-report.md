@@ -24,6 +24,4 @@ Immediately after the workshop we had an excellent presentation from Fred about 
 ## Workshop Resources
 
 * [slides]({{ site.url }}/resources/IoTWorkshopOct16.pdf)
-* [Node Example]({{ site.url }}/resources/node_example.js)
-* [UoELoPyLoRaWAN.py]({{ site.url }}/resources/UoELoPyLoRaWAN.py)
-* [WorkshopLightSensor.py]({{ site.url }}/resources/WorkshopLightSensor.py)
+* Code examples to follow

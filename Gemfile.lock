@@ -10,7 +10,6 @@ GEM
     ffi (1.9.14)
     ffi (1.9.14-x64-mingw32)
     jekyll (3.0.2)
-      colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
       kramdown (~> 1.3)

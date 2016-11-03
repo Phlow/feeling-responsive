@@ -46,7 +46,6 @@ logo: "logo.png"
 
 # Gems
 gems:
-    - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
 
@@ -261,11 +260,3 @@ google_analytics_tracking_id: UA-60112281-1
 #  https://github.com/asciidoctor
 #
 #
-
-asciidoctor-enabled: false
-asciidoctor:
-  description: testtewtetrue
-  attributes:
-    source-highlighter: coderay
-    coderay-css: style
-    icons: font

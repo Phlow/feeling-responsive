@@ -17,7 +17,7 @@ slogan: 'A Flexible Theme for Jekyll'
 description: '»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to tmoss4 or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by <a href="http://tmoss4.de/">tmoss4</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://tmoss4.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+credits: '<p>Created with &hearts; by <a href="https://tmoss4.de/">tmoss4</a> with <a href="https//jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="https://tmoss4.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
@@ -81,7 +81,7 @@ language: 'en'
 
 
 # Used › default.html front-matter and compress.html
-# Options › http://jch.penibelst.de
+# Options › https://jch.penibelst.de
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -174,7 +174,7 @@ msapplication_tilecolor:                '#fabb00'
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image:                           'http://images.tmoss4.de/tmoss4/tmoss4_de-logo-512x.png'
+og_image:                           'https://images.tmoss4.de/tmoss4/tmoss4_de-logo-512x.png'
 og_locale:                          'en_EN'
 og_type:                            'website'
 
@@ -208,8 +208,8 @@ disqus_shortname: feelingresponsive
 #      _____
 #     / ___/____ ___________
 #     \__ \/ __ `/ ___/ ___/
-#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/
-#   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
+#    ___/ / /_/ (__  |__  )     More › https://sass-lang.com/
+#   /____/\__,_/____/____/      More › https://jekyllrb.com/docs/assets/#sassscss
 #
 
 sass:

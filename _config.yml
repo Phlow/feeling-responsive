@@ -26,7 +26,7 @@ author: tmoss4
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'https://tmoss4.github.io/feeling-responsive'
-baseurl: /feeling-responsive/
+baseurl:
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages

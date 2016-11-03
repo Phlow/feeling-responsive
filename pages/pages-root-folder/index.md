@@ -4,7 +4,6 @@ header:
     image_fullwidth: "lopy_workshop.jpg"
     title: "iot.ed.ac.uk"
 permalink: /index.html
-sidebar: right
 homepage: true
 ---
 

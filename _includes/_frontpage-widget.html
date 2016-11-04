@@ -1,5 +1,5 @@
 <div class="medium-4 columns frontpage-widget">
-	{% capture widget_url %}{% if include.widget.url contains 'https' %}{{ include.widget.url }}{% else %}{{ site.url }}{{ include.widget.url }}{% endif %}{% endcapture %}
+	{% capture widget_url %}{% if include.widget.url contains 'https' %}{{ include.widget.url }}{% else %}{{ site.baseurl }}{{ include.widget.url }}{% endif %}{% endcapture %}
 	{% if include.widget.video %}
 		{{ include.widget.video }}
 	{% else %}
@@ -16,5 +16,5 @@
 	{% endif %}
 	<h2 class="font-size-h3 t10">{{ include.widget.title }}</h2>
 	<p>{{ include.widget.text }}</p>
-	<p><a class="button tiny radius" href="{% if include.widget.url contains 'https' %}{{ include.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.url }}{% endif %}">{{ site.data.language.more }}</a></p>
+	<p><a class="button tiny radius" href="{% if include.widget.url contains 'https' %}{{ include.widget.url }}{% else %}{{ site.baseurl }}{{ site.baseurl }}{{ include.widget.url }}{% endif %}">{{ site.data.language.more }}</a></p>
 </div>

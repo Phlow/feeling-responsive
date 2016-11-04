@@ -3,13 +3,13 @@
 #   Liquid variables are created at the top to keep the source DRY and clean.
 #   Idea by ericcarlisle.com
 #
-#   Variables › {{ url }} › site.url + site.baseurl
+#   Variables › {{ url }} › site.baseurl + site.baseurl
 #   Variables › {{ description }} › excerpt, page.meta_description, or site.description
 #   Variables › {{ title }} › page.title
 #
 {% endcomment %}{% capture ignore %}
 
-{% assign url = site.baseurl | prepend: site.url %}
+{% assign url = site.baseurl | prepend: site.baseurl %}
 
 {% capture description %}{% if page.meta_description %}{{ page.meta_description }}{% elsif page.teaser %}{{ page.teaser }}{% elsif page.excerpt %}{{ page.excerpt }}{% elsif site.description %}{{ site.description }}{% endif %}{% endcapture %}
 {% assign description = description | strip_html | escape | strip %}
@@ -40,7 +40,7 @@
 	</script>
 
 	<noscript>
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
 	</noscript>
 
 
@@ -61,7 +61,7 @@
 	<meta property="og:locale" content="{% if site.og_locale == nil %}en_EN{% else %}{{ site.og_locale }}{% endif %}">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="{{ site.title }}">
-	{% if page.image.title %}<meta property="og:image" content="{{ site.urlimg }}{{ page.image.title }}">{% endif %}
+	{% if page.image.title %}<meta property="og:image" content="{{ site.baseurlimg }}{{ page.image.title }}">{% endif %}
 	{% if site.socialmedia.facebook %}<meta property="article:author" content="https://www.facebook.com/{{ site.socialmedia.facebook }}">{% endif %}
 
 
@@ -72,7 +72,7 @@
 	<meta name="twitter:creator" content="{{ site.socialmedia.twitter }}">
 	<meta name="twitter:title" content="{{ title }}">
 	<meta name="twitter:description" content="{{ description }}">
-	{% if page.image.title %}<meta name="twitter:image" content="{{ site.urlimg }}{{ page.image.title }}">{% endif %}
+	{% if page.image.title %}<meta name="twitter:image" content="{{ site.baseurlimg }}{{ page.image.title }}">{% endif %}
 	{% endif %}
 
 	<link type="text/plain" rel="author" href="{{ url}}/humans.txt">

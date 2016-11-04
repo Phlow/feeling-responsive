@@ -13,7 +13,7 @@
 
             <p class="shadow-black">
               {{ site.description }}
-              <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
+              <a href="{{ site.baseurl }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -27,9 +27,9 @@
 
               <ul class="no-bullet shadow-black">
               {% for service_item in site.data.services %}
-                {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.url + site.baseurl %}{% endif %}
+                {% if service_item.url contains 'https' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl + site.baseurl %}{% endif %}
                   <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
-                    <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
+                    <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'https' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
                   </li>
               {% endfor %}
               </ul>
@@ -45,9 +45,9 @@
 
             <ul class="no-bullet shadow-black">
             {% for network_item in site.data.network %}
-              {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.url + site.baseurl %}{% endif %}
+              {% if network_item.url contains 'https' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl + site.baseurl %}{% endif %}
                 <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
-                  <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
+                  <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'https' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
                 </li>
             {% endfor %}
             </ul>

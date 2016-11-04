@@ -1,4 +1,4 @@
-# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
+# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=tmoss4
 #
 #      _____ _ __          _____      __  __  _
 #     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
@@ -16,21 +16,21 @@ slogan: 'A Flexible Theme for Jekyll'
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: '»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.'
 
-# The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+# The credits show up in the includes/_footer.html – It would be nice of you to leave a link to tmoss4 or Feeling Responsive as a thank you :)
+credits: '<p>Created with &hearts; by <a href="https://tmoss4.de/">tmoss4</a> with <a href="https//jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="https://tmoss4.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: tmoss4
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://phlow.github.io/feeling-responsive'
-baseurl: ''
+url: 'https://tmoss4.github.io'
+baseurl: '/feeling-responsive'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+improve_content: https://github.com/tmoss4/feeling-responsive/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -38,7 +38,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+urlimg: 'https://tmoss4.github.io/feeling-responsive/images/'
 
 
 # Logo size is 600x80 pixels
@@ -46,7 +46,6 @@ logo: "logo.png"
 
 # Gems
 gems:
-    - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
 
@@ -64,7 +63,6 @@ paginate_path: "blog/page:num"   # Pagination path › Important for blog page i
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
-permalink: /:categories/:title/
 highlight: rouge
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
@@ -83,7 +81,7 @@ language: 'en'
 
 
 # Used › default.html front-matter and compress.html
-# Options › http://jch.penibelst.de
+# Options › https://jch.penibelst.de
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -111,7 +109,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author: tmoss4     # Default author for pages
   -
     scope:
       path: ''
@@ -120,7 +118,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
+      author: tmoss4     # Default author for posts
 
 
 
@@ -176,7 +174,7 @@ msapplication_tilecolor:                '#fabb00'
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image:                           'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
+og_image:                           'https://images.tmoss4.de/tmoss4/tmoss4_de-logo-512x.png'
 og_locale:                          'en_EN'
 og_type:                            'website'
 
@@ -191,8 +189,8 @@ og_type:                            'website'
 #
 
 socialmedia:
-    twitter: phlow
-    facebook: phlow.media
+    twitter: tmoss4
+    facebook: tmoss4.media
 
 
 #        ____  _
@@ -210,8 +208,8 @@ disqus_shortname: feelingresponsive
 #      _____
 #     / ___/____ ___________
 #     \__ \/ __ `/ ___/ ___/
-#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/
-#   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
+#    ___/ / /_/ (__  |__  )     More › https://sass-lang.com/
+#   /____/\__,_/____/____/      More › https://jekyllrb.com/docs/assets/#sassscss
 #
 
 sass:
@@ -261,11 +259,3 @@ google_analytics_tracking_id: UA-60112281-1
 #  https://github.com/asciidoctor
 #
 #
-
-asciidoctor-enabled: false
-asciidoctor:
-  description: testtewtetrue
-  attributes:
-    source-highlighter: coderay
-    coderay-css: style
-    icons: font

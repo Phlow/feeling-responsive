@@ -27,7 +27,7 @@ header:
 *Feeling Responsive* supports you with different templates for your content. These are the actual page/post formats:
 
 ### Page/Post
-The [page/post format]({{ site.url }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
+The [page/post format]({{ site.baseurl }}/design/page/) has no sidebar by default, its content is centered and beneath the content the visitor gets some metadata like categories, tags, date and author if provided via data in front matter of the post.
 
 use in front matter via: `layout: page`
 
@@ -41,19 +41,19 @@ If you want to show metadata like categories, tags and date at the end of the pa
 
 
 ### Page Full Width
-If you want full control of styling a page, then use the [page fullwidth template]({{ site.url }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](http://foundation.zurb.com/docs/components/grid.html).
+If you want full control of styling a page, then use the [page fullwidth template]({{ site.baseurl }}/design/page-fullwidth/). To set up a grid, just use the [foundation grid system](https://foundation.zurb.com/docs/components/grid.html).
 
 use in front matter via: `layout: page-fullwidth`
 
 
 ### Frontpage
-This template is special. It allows you to define three *widgets* which are displayed with a headline, image, description and a link to the content. It's used for the [homepage]({{ site.url }}) of this website.
+This template is special. It allows you to define three *widgets* which are displayed with a headline, image, description and a link to the content. It's used for the [homepage]({{ site.baseurl }}) of this website.
 
 use in front matter via: `layout: frontpage`
 
 
 ### Video
-If you're a video producer or cineast, you'll like the [video template]({{ site.url }}/design/video/). It darkens the layout to black and lets the video stand out full-width.
+If you're a video producer or cineast, you'll like the [video template]({{ site.baseurl }}/design/video/). It darkens the layout to black and lets the video stand out full-width.
 
 use in front matter via: `layout: video`
 
@@ -99,7 +99,7 @@ By default comments are turned off. You can customize the default behaviour in `
 
 ## Responsive Videos
 
-With foundation responsive videos are easy. [More ›](http://foundation.zurb.com/docs/components/flex_video.html)
+With foundation responsive videos are easy. [More ›](https://foundation.zurb.com/docs/components/flex_video.html)
 
 <div class="flex-video">
         <iframe width="1280" height="720" src="//www.youtube.com/embed/WoHxoz_0ykI" frameborder="0" allowfullscreen></iframe>
@@ -114,11 +114,11 @@ With foundation responsive videos are easy. [More ›](http://foundation.zurb.co
 {% endhighlight %}
 
 
-<img class="t60" src="{{ site.url }}/images/header_homepage_13.jpg" alt="">
+<img class="t60" src="{{ site.baseurl }}/images/header_homepage_13.jpg" alt="">
 
 ## Images: Title, Thumbnails, Homepage   {#images}
 
-There are several types of images you can define via front matter. If you want to change the images used in the header have a look at [Style your Header]({{ site.url }}/headers/). 
+There are several types of images you can define via front matter. If you want to change the images used in the header have a look at [Style your Header]({{ site.baseurl }}/headers/). 
 
 
 ### Title Images
@@ -158,7 +158,7 @@ Sometimes you want to give credit to the creator of your images, maybe with a li
 image:
     title: header_image.jpg
     caption: Image by Phlow
-    caption_url: "http://phlow.de/"
+    caption_url: "https://phlow.de/"
 ~~~
 
 ### Define all images for an article
@@ -169,7 +169,7 @@ image:
     thumb: thumbnail_image.jpg
     homepage: header_homepage_13.jpg
     caption: Image by Phlow
-    caption_url: "http://phlow.de/"
+    caption_url: "https://phlow.de/"
 ~~~
 
 
@@ -243,7 +243,7 @@ This include creates a next/previous link to a post of the same category using t
 
 ### improve_content
 
-If your content is on Jekyll you can use this include to automatically generate a »Edit on GitHub Link« to give people a possibility to improve your content. Got the idea from [Ben Balters Blog](http://ben.balter.com/).
+If your content is on Jekyll you can use this include to automatically generate a »Edit on GitHub Link« to give people a possibility to improve your content. Got the idea from [Ben Balters Blog](https://ben.balter.com/).
 
 ~~~
 {% raw %}{% include _improve_content.html %}{% endraw %}
@@ -282,10 +282,10 @@ This include lets you easily display an alert. To use the include no `.html` end
 You can even use `<html>`-tags inside the alert. Beware: Use " and ' properly.
 
 ~~~
-{% raw %}{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}{% endraw %}
+{% raw %}{% include alert info='<em>Feeling Responsive</em> is listed on <a href="https://jekyllthemes.org/">https://jekyllthemes.org</a>' %}{% endraw %}
 ~~~
 
-{% include alert info='<em>Feeling Responsive</em> is listed on <a href="http://jekyllthemes.org/">http://jekyllthemes.org</a>' %}
+{% include alert info='<em>Feeling Responsive</em> is listed on <a href="https://jekyllthemes.org/">https://jekyllthemes.org</a>' %}
 
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
@@ -314,9 +314,9 @@ I only added one other javascript-module: [`backstretch`][3] by Scott Robbin. Th
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 
- [1]: http://kramdown.gettalong.org/converter/html.html#toc
- [2]: {{ site.url }}/blog/
- [3]: http://srobbin.com/jquery-plugins/backstretch/
+ [1]: https://kramdown.gettalong.org/converter/html.html#toc
+ [2]: {{ site.baseurl }}/blog/
+ [3]: https://srobbin.com/jquery-plugins/backstretch/
  [4]: #
  [5]: #
  [6]: #

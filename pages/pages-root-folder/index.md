@@ -7,10 +7,10 @@
 layout: frontpage
 header:
   image_fullwidth: header_unsplash_12.jpg
-widget1: widget-1-302x182.jpg
-  title: "Blog & Portfolio"
+widget1:
+  title: "Why use this theme?"
   url: ''
-  image_fullwidth: widget-1-302x182.jpg
+  image: widget-1-302x182.jpg
   text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
 widget2:
   title: "Why use this theme?"

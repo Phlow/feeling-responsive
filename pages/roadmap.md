@@ -20,7 +20,7 @@ permalink: "/roadmap/"
 * Even better responsive typography
 * Google AdSense ads
 * More post-formats for blogging like special post formats for links, audio, tweets,...
-* Make a [video-sitemap.xml](https://support.google.com/webmasters/answer/80472?hl=en)
+* Make a video-sitemap.xml
 
 
 
@@ -33,7 +33,7 @@ permalink: "/roadmap/"
 * <s>Now with optional caption for header</s>
 * [<s>Refined humans.txt</s>](http://humanstxt.org/)
 * [<s>Produce an introduction video to showcase *Feeling Responsive*</s>](https://www.youtube.com/embed/3b5zCFSmVvU)
-* [<s>Additional header with text</s>]({{ site.url }}/headers/)
+* [<s>Additional header with text</s>]({{ site.url }}{{ site.baseurl }}/headers/)
 * <s>Added Google Analtics support</s>
 * [<s>Add redirection layout by KanishkKanishk</s>](http://codingtips.kanishkkunal.in/redirects-jekyll-github-pages/)
 * <s>Convert Foundation Sass to use native Jekyll Sass support</s>
@@ -41,16 +41,16 @@ permalink: "/roadmap/"
 * <s>Disqus comments</s>
 * <s>Rework `list-entries.html` › now language ready</s>
 * [<s>Create custom 404.html-webpage</s>](https://help.github.com/articles/custom-404-pages/)
-* [<s>Add simple search box with Google</s>](http://truongtx.me/2012/12/28/jekyll-create-simple-search-box/)
+* <s>Add simple search box with Google</s>
 * <s>Alternative non-landscape header</s>
 * <s>Patterns for header</s>
 * <s>Clean up color scheme and highlighting colors</s>
 * <s>Make theme translation ready</s>
 * [<s>Add draft-templates for new pages/posts</s>](https://github.com/Phlow/feeling-responsive/tree/gh-pages/_drafts)
-* [<s>Step-by-Step-Guide to customize *Feeling Responsive*</s>]({{ site.url }}/getting-started/)
-* [<s>Video-Post-Format to feature videos in a huge way</s>]({{ site.url }}/design/video/)
+* [<s>Step-by-Step-Guide to customize *Feeling Responsive*</s>]({{ site.url }}{{ site.baseurl }}/getting-started/)
+* [<s>Video-Post-Format to feature videos in a huge way</s>]({{ site.url }}{{ site.baseurl }}/design/video/)
 * <s>Title and captions for images</s>
 * <s>SEO › Add metadescription to header.html and front matter</s>
 * [<s>Adding Open Graph for Jekyll</s>](https://gist.github.com/pathawks/1406355)
-* [<s>Gallery Post Example</s>]({{ site.url }}/design/gallery/)
+* [<s>Gallery Post Example</s>]({{ site.url }}{{ site.baseurl }}/design/gallery/)
 * [<s>Adding pagination</s>](http://jekyllrb.com/docs/pagination/)

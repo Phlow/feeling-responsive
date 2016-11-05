@@ -15,7 +15,7 @@ header:
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
 ---
-It's so easy to do. Just define in front matter an image and a background color. Instead of a color you can also use a pattern image. Have a look at the [example with a background pattern]({{ site.url }}/design/header-image-pattern/).
+It's so easy to do. Just define in front matter an image and a background color. Instead of a color you can also use a pattern image. Have a look at the [example with a background pattern]({{ site.url }}{{ site.baseurl }}/design/header-image-pattern/).
 <!--more-->
 
 

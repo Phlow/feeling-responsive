@@ -19,7 +19,7 @@ permalink: "/getting-started/"
 1. [Read the documentation][1] to check out all features of *Feeling Responsive*.
 1. Make it yours and add your own content.
 
-<a class="radius button small" href="{{ site.url }}/documentation/">Check out the documentation for all the tricks ›</a>
+<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
 
 
- [1]: {{ site.url }}/documentation/
+ [1]: {{ site.url }}{{ site.baseurl }}/documentation/

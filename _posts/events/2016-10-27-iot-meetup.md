@@ -2,7 +2,6 @@
 layout: event
 subheadline: Meetup
 title:  "IOT//EDI (IoT + Blockchain)"
-breadcrumb: true
 categories:
     - events
 venue: "Design Informatics Studio, Evolution House"

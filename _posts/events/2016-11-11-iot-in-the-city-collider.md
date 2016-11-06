@@ -2,7 +2,6 @@
 layout: event
 subheadline: Collider
 title:  "Internet of Things in the City"
-breadcrumb: true
 categories:
     - events
 speakers:

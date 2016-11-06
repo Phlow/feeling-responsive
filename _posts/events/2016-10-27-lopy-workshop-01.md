@@ -2,7 +2,6 @@
 layout: event
 subheadline: Workshop
 title:  "Programming an IoT Device in MicroPython"
-breadcrumb: true
 categories:
     - events
 venue: "Design Informatics Studio, Evolution House"

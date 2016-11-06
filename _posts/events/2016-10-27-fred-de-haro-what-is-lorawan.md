@@ -3,7 +3,6 @@ layout: event
 subheadline: Seminar
 title:  "What you can do with LoRaWAN"
 speaker: "Fred de Haro (Pycom CEO)"
-breadcrumb: true
 categories:
     - events
 venue: "Design Informatics Studio, Evolution House"

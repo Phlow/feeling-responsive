@@ -2,7 +2,6 @@
 layout: event
 subheadline: Seminar
 title:  "LoRa, Sigfox and LTE-M: How do they compare?"
-breadcrumb: true
 categories:
     - events
 

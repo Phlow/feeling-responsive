@@ -3,7 +3,7 @@ layout: page
 subheadline: Event Report
 title:  "Our first LoPy Workshop"
 teaser: "Programming IoT Devices with MicroPython"
-breadcrumb: true
+breadcrumb: false
 tags:
     - LoPy
     - LoRa

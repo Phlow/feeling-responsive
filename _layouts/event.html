@@ -2,6 +2,18 @@
 layout: page
 ---
 <div class="row">
+{% assign venue = site.data.venues[page.venue] %}
+
+{% capture address %}
+{{ venue.room | strip | append: "," }}
+{{ venue.address1 | strip | append: "," }}
+{{ venue.address2 | strip | append: "," }}
+{{ venue.city     | strip | append: "," }}
+{{ venue.postcode | strip }}
+<a href="{{ venue.mapurl }}" target="_blank">View map</a>
+
+{% endcapture %}
+
     <div class="small-12 text-center columns">
         <table>
             <tr>
@@ -14,13 +26,17 @@ layout: page
             </tr>
             <tr>
                 <td><b>Location:</b></td>
-                <td>{{ page.venue }}</td>
+                <td>{{ address }}</td>
             </tr>
             {% if page.speaker %}
             <tr>
                 <td><b>Speaker:</b></td>
                 <td>{{ page.speaker }}</td>
             </tr>
+            {% else if page.speakers %}
+            <tr>
+                <td><b>Speakers:</b></td>               
+                <td>{{ page.speakers | join: ', '  }} </td>              
             {% endif %}
             {% if page.registration %}
             <tr>

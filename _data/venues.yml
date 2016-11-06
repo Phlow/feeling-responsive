@@ -1,0 +1,13 @@
+# Author Venue
+#
+#
+# Resource › https://help.shopify.com/themes/liquid/objects/address
+design-informatics: # replace this with your info
+  room: "Design Informatics Studio"
+  address1: "Evolution House"
+  address2: "78 West Port"
+  city: Edinburgh
+  postcode: "EH1 2LE"
+  mapurl: http://osm.org/go/evfLgzO19--?layers=H&m=&way=253564810
+  
+

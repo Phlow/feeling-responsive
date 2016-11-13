@@ -243,25 +243,26 @@ blockquote {
 
     blockquote p {font-style: italic; color: $grey-10; }
 
-    blockquote:before {
-        display:block;content:"\00BB";
-        font-size:80px;
-        line-height: 0;
-        position:absolute;
-        left:-25px;
-        top: auto;
-        color: $grey-11;
-    }
-    blockquote:after {
-        display:block;
-        content:"\00AB";
-        font-size:80px;
-        line-height: 0;
-        position:absolute;
-        right:-10px;
-        bottom: 20px;
-        color: $grey-11;
-    }
+    // blockquote:before {
+    //     display:block;content:"\00BB";
+    //     font-size:80px;
+    //     line-height: 0;
+    //     position:absolute;
+    //     left:-25px;
+    //     top: auto;
+    //     color: $grey-11;
+    // }
+    // blockquote:after {
+    //     display:block;
+    //     content:"\00AB";
+    //     font-size:80px;
+    //     line-height: 0;
+    //     position:absolute;
+    //     right:-10px;
+    //     bottom: 20px;
+    //     color: $grey-11;
+    // }
+    
     blockquote cite:before {
         content:"\2014 \0020"
     }

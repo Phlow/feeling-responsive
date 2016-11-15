@@ -14,11 +14,11 @@ image:
 author: ewan
 show_meta: false
 ---
-Our [Collider on IoT in the City]({{ site.baseurl }}{% post_url 2016-11-11-iot-in-the-city-collider %}) (11th November 2016) was framed by the following question:
+The [Collider on IoT in the City]({{ site.baseurl }}{% post_url 2016-11-11-iot-in-the-city-collider %}) (11th November 2016) was framed by the following question:
 
 > In the context of a city-wide network for the Internet of Things, what connections can be made that link together civic, cultural and private activities to foster an open innovation culture?
 
-The afternoon was introduced by Jon Oberlander, and then kicked off with three short talks:
+The afternoon was [introduced by Jon Oberlander]({{ site.url }}/resources/JO-Collider.pdf), and then kicked off with three short talks:
 
 * Simon Chapple gave a [quick overview of LoRaWAN]({{ site.url }}/resources/IoTColliderSC.pdf)
 * Eoghan Howard described community developments and activism in Wester Hailes since it was built in the late 1960s, and showed a [video about a campaign to reinstate a crucial underpass](#wh-video).
@@ -39,10 +39,11 @@ Ewan Klein [reviewed the overall theme]({{ site.url }}/resources/collider-challe
 
 For the next hour, participants broke into four teams to discuss, brainstorm and curate project concepts. The projects that emerged featured a wide variety of ideas:
 
-* Libraries could lend out not just books, CDs and videos but also sensors that could be deployed by residents to gather data about the city
-* Placing sensors on dogs would allow people to gauge how busy parks are at a particular time, and help decide whether to make a trip or not.
-* Incentivising people to take and upload photos of how full their local recycling bins are, would prevent  top-floor tenement dwellers don't make a wasted journey (and dump their recycling into general waste).
-* Placing digital displays on the outside of buses that visualise how full they are and how many car journeys they are saving could help encourage more sustainable travel.
+*	**Participatory sensing for community empowerment**: Libraries could lend out not just books, CDs and videos but also sensors that could be deployed by residents to gather data about the city. The project aims to create a community 'living lab' where people could place sensors in areas that they don’t feel safe.
+*	**Park Sensing** Placing sensors on dogs would allow people to gauge how busy parks are at a particular time, and help decide whether to make a trip or not. We could also tag children’s buggies and park benches so that we could map out particular types of usage. 
+*	**Your Glass Bin is Half Full!**: Incentivising people to take and upload photos of how full their local recycling bins are would prevent top-floor tenement dwellers from making a wasted journey (and dumping their recycling into general waste). We could could do this tby developing an app which would give micro-payments to responsible citizens and help to create value within a community.
+*	**Sustainable Travel through empowerment and reward**: Placing digital displays on the outside of buses that visualise how full they are and how many car journeys they are saving could help encourage more sustainable travel.
+
 
 Collectively, there was a feeling that we need think first and foremost about people and communities, then about data, and finally how IoT technology can play a supporting role.
 

@@ -39,13 +39,81 @@ Ewan Klein [reviewed the overall theme]({{ site.url }}/resources/collider-challe
 
 For the next hour, participants broke into four teams to discuss, brainstorm and curate project concepts. The projects that emerged featured a wide variety of ideas:
 
-*	**Participatory sensing for community empowerment**: Libraries could lend out not just books, CDs and videos but also sensors that could be deployed by residents to gather data about the city. The project aims to create a community 'living lab' where people could place sensors in areas that they don’t feel safe.
-*	**Park Sensing** Placing sensors on dogs would allow people to gauge how busy parks are at a particular time, and help decide whether to make a trip or not. We could also tag children’s buggies and park benches so that we could map out particular types of usage. 
-*	**Your Glass Bin is Half Full!**: Incentivising people to take and upload photos of how full their local recycling bins are would prevent top-floor tenement dwellers from making a wasted journey (and dumping their recycling into general waste). We could could do this tby developing an app which would give micro-payments to responsible citizens and help to create value within a community.
-*	**Sustainable Travel through empowerment and reward**: Placing digital displays on the outside of buses that visualise how full they are and how many car journeys they are saving could help encourage more sustainable travel.
+####Group 1: Participatory sensing for community empowerment
+
+Libraries could lend out not just books, CDs and videos but also sensors that could be deployed by residents to gather data about the city. The project aims to create a community 'living lab' where people could place sensors in areas that they don’t feel safe.
+<div class="row b50">
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}Collider-ideas-2.pdf" alt="collider flipboard image">       
+    </div><!-- /.medium-6.columns -->
+
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}Collider-ideas-3.pdf" alt="collider flipboard image">
+    </div><!-- /.medium-6.columns -->
+
+      <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}Collider-ideas-4.pdf" alt="collider flipboard image">
+    </div><!-- /.medium-6.columns -->
+ </div>
+
+####Group 2: Park Sensing
+
+Placing sensors on dogs would allow people to gauge how busy parks are at a particular time, and help decide whether to make a trip or not. We could also tag children’s buggies and park benches so that we could map out particular types of usage. 
+<div class="row b50">
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}Collider-ideas-5.pdf" alt="collider flipboard image">       
+    </div><!-- /.medium-6.columns -->
+
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}Collider-ideas-6.pdf" alt="collider flipboard image">
+    </div><!-- /.medium-6.columns -->
+
+      <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}Collider-ideas-7.pdf" alt="collider flipboard image">
+    </div><!-- /.medium-6.columns -->
+ </div>
 
 
+####Group 3: Your Glass Bin is Half Full!
+
+Incentivising people to take and upload photos of how full their local recycling bins are would prevent top-floor tenement dwellers from making a wasted journey (and dumping their recycling into general waste). We could could do this by developing an app which would give micro-payments to responsible citizens and help to create value within a community.
+
+<div class="row b50">
+    <div class="medium-4 columns">
+            &nbsp;
+    </div><!-- /.medium-6.columns -->
+
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}Collider-ideas-8.pdf" alt="collider flipboard image">
+    </div><!-- /.medium-6.columns -->
+
+      <div class="medium-4 columns">
+        
+    </div><!-- /.medium-6.columns -->
+ </div>
+
+
+####Group 4: Sustainable Travel through empowerment and reward
+
+Placing digital displays on the outside of buses that visualise how full they are and how many car journeys they are saving could help encourage more sustainable travel.
+<div class="row b50">
+    <div class="medium-4 columns">
+            &nbsp;
+    </div><!-- /.medium-6.columns -->
+
+    <div class="medium-4 columns">
+        <img src="{{ site.urlimg }}Collider-ideas-9.pdf" alt="collider flipboard image">
+    </div><!-- /.medium-6.columns -->
+
+      <div class="medium-4 columns">
+        
+    </div><!-- /.medium-6.columns -->
+ </div>
+<hr/>
+
+<div class="t40">
 Collectively, there was a feeling that we need think first and foremost about people and communities, then about data, and finally how IoT technology can play a supporting role.
+</div>
 
 <div class="row t30">
     <div class="medium-6 columns">

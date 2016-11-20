@@ -2,7 +2,7 @@
 layout: page
 subheadline: Event Report
 title:  "Colliding with IoT in the City"
-teaser: ""
+teaser: "Hacking community ideas for the Internet of Things"
 category: report
 tags:
     - LoRa
@@ -15,14 +15,16 @@ author: ewan
 show_meta: false
 ---
 
-A **Collider** is a conceptual design event, bringing together computational thinking and design thinking, to pull informaticians together with designers, and problem holders. The first part of the Collider sets the scene before breaking out in to workshop sessions. The [Collider on IoT in the City]({{ site.baseurl }}{% post_url 2016-11-11-iot-in-the-city-collider %}) (11th November 2016) was framed by the following question:
+A [Design Informatics](http://www.designinformatics.org) **Collider** is a conceptual design event, bringing together computational thinking and design thinking, to pull informaticians together with designers, and problem holders. The first part of the Collider sets the scene before breaking out in to workshop sessions. 
+
+The [Collider on IoT in the City]({{ site.baseurl }}{% post_url 2016-11-11-iot-in-the-city-collider %}) (11th November 2016) was framed by the following question:
 
 > In the context of a city-wide network for the Internet of Things, what connections can be made that link together civic, cultural and private activities to foster an open innovation culture?
 
 The afternoon was [introduced by Jon Oberlander]({{ site.url }}/resources/JO-Collider.pdf), and then kicked off with three short talks:
 
 * Simon Chapple gave a [quick overview of LoRaWAN]({{ site.url }}/resources/IoTColliderSC.pdf)
-* Eoghan Howard described community developments and activism in Wester Hailes since it was built in the late 1960s, and showed a [video about a campaign to reinstate a crucial underpass](#wh-video).
+* Eoghan Howard described community developments and activism in Wester Hailes since it was built in the late 1960s, in part supported by [collaborative projects with Design Informatics](http://www.communityhacking.org), and showed a [video about a campaign to reinstate a crucial underpass](#wh-video).
 * Ritchie Sommerville outlined his vision of how IoT could help underpin a better relationship between residents and the Council in Edinburgh. (Bonus [slides]({{ site.url }}/resources/IUofE-Collide-RS.pdf))
 
 Ewan Klein [reviewed the overall theme]({{ site.url }}/resources/collider-challenges.pdf) of the event, and posed the following challenges:

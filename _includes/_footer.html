@@ -4,6 +4,56 @@
       </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
+    <footer id="footer-content">
+      <div id="footer">
+        <div class="row">
+          <div class="medium-6 large-5 columns">
+            <h5 class="shadow-black">{{ site.data.language.info_website }}</h5>
+
+            <p class="shadow-black">
+              {{ site.description }}
+              <a href="{{ site.url }}{{ site.baseurl }}/info/">{{ site.data.language.more }}</a>
+            </p>
+          </div><!-- /.large-6.columns -->
+
+
+          <div class="small-6 medium-3 large-3 large-offset-1 columns">
+            {% for service_item in site.data.services %}
+              {% if forloop.first == true %}
+                <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
+              {% endif %}
+            {% endfor %}
+
+              <ul class="no-bullet shadow-black">
+              {% for service_item in site.data.services %}
+                {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.url + site.baseurl %}{% endif %}
+                  <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
+                    <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
+                  </li>
+              {% endfor %}
+              </ul>
+          </div><!-- /.large-4.columns -->
+
+
+          <div class="small-6 medium-3 large-3 columns">
+            {% for network_item in site.data.network %}
+              {% if forloop.first == true %}
+                <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
+              {% endif %}
+            {% endfor %}
+
+            <ul class="no-bullet shadow-black">
+            {% for network_item in site.data.network %}
+              {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.url + site.baseurl %}{% endif %}
+                <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
+                  <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
+                </li>
+            {% endfor %}
+            </ul>
+          </div><!-- /.large-3.columns -->
+        </div><!-- /.row -->
+
+      </div><!-- /#footer -->
 
       <div id="subfooter">
         <nav class="row">

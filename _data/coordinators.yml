@@ -27,7 +27,12 @@
 - name: "Cat Magill"
   job:
   affiliation: "Edinburgh Living Lab &amp; School of Informatics"
-  url: ttps://www.linkedin.com/in/catherinermagill
+  url: https://www.linkedin.com/in/catherinermagill
+
+- name: "Dave Murray-Rust"
+  job: "Lecturer in Design"
+  affiliation: "School of Design"
+  url: http://www.mo-seph.com
 
 - name: "David Richardson"
   job: "Director of Partnerships (Data Science)"

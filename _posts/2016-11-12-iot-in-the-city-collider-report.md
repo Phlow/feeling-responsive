@@ -3,7 +3,6 @@ layout: page
 subheadline: Event Report
 title:  "Colliding with IoT in the City"
 teaser: "Hacking community ideas for the Internet of Things"
-category: report
 tags:
     - LoRa
     - collider

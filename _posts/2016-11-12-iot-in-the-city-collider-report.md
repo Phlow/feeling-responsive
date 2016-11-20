@@ -14,7 +14,8 @@ image:
 author: ewan
 show_meta: false
 ---
-The [Collider on IoT in the City]({{ site.baseurl }}{% post_url 2016-11-11-iot-in-the-city-collider %}) (11th November 2016) was framed by the following question:
+
+A **Collider** is a conceptual design event, bringing together computational thinking and design thinking, to pull informaticians together with designers, and problem holders. The first part of the Collider sets the scene before breaking out in to workshop sessions. The [Collider on IoT in the City]({{ site.baseurl }}{% post_url 2016-11-11-iot-in-the-city-collider %}) (11th November 2016) was framed by the following question:
 
 > In the context of a city-wide network for the Internet of Things, what connections can be made that link together civic, cultural and private activities to foster an open innovation culture?
 
@@ -37,44 +38,44 @@ Ewan Klein [reviewed the overall theme]({{ site.url }}/resources/collider-challe
  </ol>
  </div>
 
-For the next hour, participants broke into four teams to discuss, brainstorm and curate project concepts. The projects that emerged featured a wide variety of ideas:
+For the next hour, participants broke into four teams to discuss, brainstorm and curate project concepts. The projects that emerged featured a wide variety of ideas, briefly described below.
 
-####Group 1: Participatory sensing for community empowerment
+<h4>Group 1: Participatory sensing for community empowerment</h4>
 
 Libraries could lend out not just books, CDs and videos but also sensors that could be deployed by residents to gather data about the city. The project aims to create a community 'living lab' where people could place sensors in areas that they don’t feel safe.
 <div class="row b50">
     <div class="medium-4 columns">
-        <img src="{{ site.urlimg }}Collider-ideas-2.pdf" alt="collider flipboard image">       
+        <a href="{{ site.urlimg }}Collider-ideas-2.pdf"><img src="{{ site.urlimg }}Collider-ideas-2.pdf" alt="collider flipboard image"></a>     
     </div><!-- /.medium-6.columns -->
 
     <div class="medium-4 columns">
-        <img src="{{ site.urlimg }}Collider-ideas-3.pdf" alt="collider flipboard image">
+        <a href="{{ site.urlimg }}Collider-ideas-3.pdf"><img src="{{ site.urlimg }}Collider-ideas-3.pdf" alt="collider flipboard image"></a>
     </div><!-- /.medium-6.columns -->
 
       <div class="medium-4 columns">
-        <img src="{{ site.urlimg }}Collider-ideas-4.pdf" alt="collider flipboard image">
+        <a href="{{ site.urlimg }}Collider-ideas-4.pdf"><img src="{{ site.urlimg }}Collider-ideas-4.pdf" alt="collider flipboard image"></a>
     </div><!-- /.medium-6.columns -->
  </div>
 
-####Group 2: Park Sensing
+<h4>Group 2: Park Sensing</h4>
 
 Placing sensors on dogs would allow people to gauge how busy parks are at a particular time, and help decide whether to make a trip or not. We could also tag children’s buggies and park benches so that we could map out particular types of usage. 
 <div class="row b50">
     <div class="medium-4 columns">
-        <img src="{{ site.urlimg }}Collider-ideas-5.pdf" alt="collider flipboard image">       
+        <a href="{{ site.urlimg }}Collider-ideas-5.pdf"><img src="{{ site.urlimg }}Collider-ideas-5.pdf" alt="collider flipboard image"></a>     
     </div><!-- /.medium-6.columns -->
 
     <div class="medium-4 columns">
-        <img src="{{ site.urlimg }}Collider-ideas-6.pdf" alt="collider flipboard image">
+        <a href="{{ site.urlimg }}Collider-ideas-6.pdf"><img src="{{ site.urlimg }}Collider-ideas-6.pdf" alt="collider flipboard image"></a>
     </div><!-- /.medium-6.columns -->
 
       <div class="medium-4 columns">
-        <img src="{{ site.urlimg }}Collider-ideas-7.pdf" alt="collider flipboard image">
+        <a href="{{ site.urlimg }}Collider-ideas-7.pdf"><img src="{{ site.urlimg }}Collider-ideas-7.pdf" alt="collider flipboard image"></a>
     </div><!-- /.medium-6.columns -->
  </div>
 
 
-####Group 3: Your Glass Bin is Half Full!
+<h4>Group 3: Your Glass Bin is Half Full!</h4>
 
 Incentivising people to take and upload photos of how full their local recycling bins are would prevent top-floor tenement dwellers from making a wasted journey (and dumping their recycling into general waste). We could could do this by developing an app which would give micro-payments to responsible citizens and help to create value within a community.
 
@@ -84,7 +85,7 @@ Incentivising people to take and upload photos of how full their local recycling
     </div><!-- /.medium-6.columns -->
 
     <div class="medium-4 columns">
-        <img src="{{ site.urlimg }}Collider-ideas-8.pdf" alt="collider flipboard image">
+        <a href="{{ site.urlimg }}Collider-ideas-8.pdf"><img src="{{ site.urlimg }}Collider-ideas-8.pdf" alt="collider flipboard image"></a>
     </div><!-- /.medium-6.columns -->
 
       <div class="medium-4 columns">
@@ -93,7 +94,7 @@ Incentivising people to take and upload photos of how full their local recycling
  </div>
 
 
-####Group 4: Sustainable Travel through empowerment and reward
+<h4>Group 4: Sustainable Travel through empowerment and reward</h4>
 
 Placing digital displays on the outside of buses that visualise how full they are and how many car journeys they are saving could help encourage more sustainable travel.
 <div class="row b50">
@@ -102,7 +103,7 @@ Placing digital displays on the outside of buses that visualise how full they ar
     </div><!-- /.medium-6.columns -->
 
     <div class="medium-4 columns">
-        <img src="{{ site.urlimg }}Collider-ideas-9.pdf" alt="collider flipboard image">
+        <a href="{{ site.urlimg }}Collider-ideas-9.pdf"><img src="{{ site.urlimg }}Collider-ideas-9.pdf" alt="collider flipboard image"></a>
     </div><!-- /.medium-6.columns -->
 
       <div class="medium-4 columns">

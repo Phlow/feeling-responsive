@@ -24,7 +24,7 @@ The afternoon was [introduced by Jon Oberlander]({{ site.url }}/resources/JO-Col
 
 * Simon Chapple gave a [quick overview of LoRaWAN]({{ site.url }}/resources/IoTColliderSC.pdf)
 * Eoghan Howard described community developments and activism in Wester Hailes since it was built in the late 1960s, in part supported by [collaborative projects with Design Informatics](http://www.communityhacking.org), and showed a [video about a campaign to reinstate a crucial underpass](#wh-video).
-* Ritchie Sommerville outlined his vision of how IoT could help underpin a better relationship between residents and the Council in Edinburgh. (Bonus [slides]({{ site.url }}/resources/IUofE-Collide-RS.pdf))
+* Ritchie Somerville outlined his vision of how IoT could help underpin a better relationship between residents and the Council in Edinburgh. (Bonus [slides]({{ site.url }}/resources/IUofE-Collide-RS.pdf))
 
 Ewan Klein [reviewed the overall theme]({{ site.url }}/resources/collider-challenges.pdf) of the event, and posed the following challenges:
 

@@ -72,6 +72,8 @@ exclude:
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
 
+#color for headers without image
+header-color: 334D5C
 
 # Used › default.html front-matter and compress.html
 # Options › http://jch.penibelst.de
@@ -84,6 +86,9 @@ compress_html:
     envs: [development]
 
 
+footer:
+  text: Leave some &hearts; for&nbsp; <a href="http://phlow.de" alt="Theme created by Phlow">Phlow</a>    
+    
 #
 #       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_

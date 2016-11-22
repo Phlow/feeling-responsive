@@ -35,17 +35,17 @@ $ci-6: #A1D044;     // green
 
 /* UoE Corporate Colours */
 
-$ci-red: #D50032;	         // Corporate red
-$ci-blue: #041E42;            // Corporate blue
-$ci-bright-blue: #008EAA;	 // Bright blue
-$ci-bright-pink: #D0006F;     // Bright pink
-$ci-purple: #830065;	         // Purple theme
-$ci-burgundy: #A50034;	     // Burgundy theme
-$ci-dark-green: #154734;	     // Dark green theme
-$ci-jade: #487A7B;	         // Jade
-$ci-muted-blue: #004F71;	     // Muted blue theme
-$ci-muted-brown: #6D4F47;	 // Muted brown theme
-$ci-spruce-grey: #333F48;     // Spruce grey
+$ci-red: #D50032;         // Corporate red
+$ci-blue: #041E42;        // Corporate blue
+$ci-bright-blue: #008EAA; // Bright blue
+$ci-bright-pink: #D0006F; // Bright pink
+$ci-purple: #830065;	  // Purple theme
+$ci-burgundy: #A50034;    // Burgundy theme
+$ci-dark-green: #154734;  // Dark green theme
+$ci-jade: #487A7B;        // Jade
+$ci-muted-blue: #004F71;  // Muted blue theme
+$ci-muted-brown: #6D4F47; // Muted brown theme
+$ci-spruce-grey: #333F48; // Spruce grey
 
 
 
@@ -105,16 +105,14 @@ $topbar-link-bg-hover: #fff;
 $topbar-link-bg-active-hover: $grey-6;
 
 
-$topbar-dropdown-bg: $ci-6; // Background Mobile Navigation
+$topbar-dropdown-bg: $ci-bright-pink; // Background Mobile Navigation
 $topbar-dropdown-link-color: #000;
 $topbar-dropdown-link-bg: $grey-6;
 
-$topbar-menu-link-color-toggled: $ci-1;
-$topbar-menu-icon-color-toggled: $ci-1;
-$topbar-menu-link-color: #000;
-$topbar-menu-icon-color: #000;
-$topbar-menu-link-color-toggled: $ci-6;
-$topbar-menu-icon-color-toggled: $ci-6;
+$topbar-menu-link-color: #fff;
+$topbar-menu-icon-color: #fff;
+$topbar-menu-link-color-toggled: $ci-bright-pink;
+$topbar-menu-icon-color-toggled: $ci-bright-pink;
 
 
 

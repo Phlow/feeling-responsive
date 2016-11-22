@@ -39,6 +39,14 @@ sitemap:
 
 @import "06_typography.scss";
 @import "07_layout.scss";
+#masthead {
+  background-color: #{{ site.header-color }};
+}
+
+#masthead-no-image-header {
+  background-color: #{{ site.header-color }};
+}
+
 @import "foundation-components/grid";
 @import "09_elements.scss";
 

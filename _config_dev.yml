@@ -9,6 +9,9 @@ url: 		'http://localhost:4000'
 baseurl: 	''
 urlimg: 	'http://localhost:4000/images/'
 
+# Logo size is 600x80 pixels
+logo: "logo.png"
+
 # See › https://github.com/jekyll/jekyll-gist#disabling-noscript-support
 gist:
   noscript: false

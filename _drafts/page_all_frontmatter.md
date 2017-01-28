@@ -7,9 +7,9 @@ subheadline: ""
 title: ""
 teaser: ""
 categories:
-  - 
+  -
 tags:
-  - 
+  -
 #
 # Styling
 #
@@ -42,13 +42,12 @@ sidebar: left
 comments: true
 breadcrumb: true
 show_meta: false
-meta_title:             # SEO: Overwrites title in <head> if needed
-meta_description:
+description:
 permalink:
 tawkto: true               # Enable tawk.to-Service › More › _config.yml
 callforaction:
-  url: 
-  text: 
+  url:
+  text:
   style: alert
 #
 # This is a nasty hack to make the navigation highlight
@@ -56,4 +55,3 @@ callforaction:
 #
 homepage: false
 ---
-

@@ -28,7 +28,7 @@ image:
 #
 # Metainformation & Customization
 #
-meta_description:
+description:
 permalink:
 ---
 

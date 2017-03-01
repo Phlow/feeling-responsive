@@ -17,6 +17,7 @@
 				<span class="pr20">{% for tag in page.tags %}<span class="icon-price-tag pr10"> {{tag}}</span> {% endfor %}</span>
 			</p>
 
+			{% if page.collection == "posts" %}
 			<div id="post-nav" class="row">
 				{% if page.previous.url %}
 				<div class="small-5 columns"><a class="button small radius prev" href="{{ site.url }}{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div><!-- /.small-4.columns -->
@@ -28,4 +29,5 @@
 				<div class="small-5 columns text-right"></div><!-- /.small-4.columns -->
 				{% endif %}
 			</div>
+			{% endif %}
 			</div><!--  /.page-meta -->

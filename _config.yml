@@ -56,7 +56,7 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 permalink: /:categories/:title/
 highlight: rouge
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
 # Exclude these files from your production _site

@@ -1,9 +1,10 @@
 Gem::Specification.new do |s|
   s.name = 'jekyll-theme-feeling-responsive'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.date = '2017-10-09'
   s.summary = 'a free flexible theme for Jekyll built on Foundation framework'
-  s.description = <<-EOD==
+  s.description = <<EOD
+==
 # Feeling Responsive
 Is a free flexible theme for Jekyll built on Foundation framework.
 You can use it for your company site, as a portfolio or as a blog.
@@ -13,9 +14,9 @@ look at the theme and read about its features.
 
 See the [documentation](http://phlow.github.io/feeling-responsive/documentation/)
 to learn how to use the theme effectively in your Jekyll site.
-  EOD
-  s.authors = ['Moritz Sauer', 'Douglas Lovell']
-  s.email = ['https://phlow.de/kontakt.html', 'doug@wbreeze.com']
+EOD
+  s.authors = ['Moritz Sauer']
+  s.email = ['https://phlow.de/kontakt.html']
   s.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
   s.homepage = 'http://phlow.github.io/feeling-responsive/'
   s.license = 'MIT'

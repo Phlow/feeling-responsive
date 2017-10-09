@@ -1,12 +1,11 @@
 Gem::Specification.new do |s|
   s.name = 'jekyll-theme-feeling-responsive'
-  s.version = '1.0.1'
+  s.version = '1.0.2'
   s.date = '2017-10-09'
-  s.summary = 'a free flexible theme for Jekyll built on Foundation framework'
+  s.summary = 'A free flexible theme for Jekyll built on Foundation framework'
   s.description = <<EOD
-==
-# Feeling Responsive
-Is a free flexible theme for Jekyll built on Foundation framework.
+== Feeling Responsive
+A free flexible theme for Jekyll built on Foundation framework.
 You can use it for your company site, as a portfolio or as a blog.
 
 See the [home page](http://phlow.github.io/feeling-responsive/) to get a

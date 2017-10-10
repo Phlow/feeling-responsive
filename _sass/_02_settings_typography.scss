@@ -31,7 +31,10 @@ $body-font-style: normal;
 
 $header-font-family: $font-family-serif;
 
-
+// control hyphenation in body paragraphs
+// use value for the hyphens css property
+// https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens
+$body-hyphenation: auto;
 
 /* Font Weight
 ------------------------------------------------------------------- */

@@ -48,10 +48,10 @@ a:active {
 ------------------------------------------------------------------- */
 
 p {
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+    -webkit-hyphens: $body-hyphenation;
+    -moz-hyphens: $body-hyphenation;
+    -ms-hyphens: $body-hyphenation;
+    hyphens: $body-hyphenation;
 }
 p a,
 article a {

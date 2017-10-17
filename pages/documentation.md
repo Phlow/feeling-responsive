@@ -22,6 +22,10 @@ header:
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 {% include _improve_content.html %}
 
+## Edit Navigation   {#edit-navigation}
+
+To customize the navigation of *Feeling Responsive*, you have to open the [YAML](https://jekyllrb.com/docs/datafiles/)-file `_data/navigation.yml`. Edit the data and adjust it to your own needs.
+
 ## Different Page/Posts Formats   {#formats}
 
 *Feeling Responsive* supports you with different templates for your content. These are the actual page/post formats:

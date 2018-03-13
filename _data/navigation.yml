@@ -5,11 +5,11 @@
   url: "/"
   side: left
 
-- title: "Dropdown Menu"
+- title: "Course chapters"
   url: "#"
   side: left
   dropdown:
-  - title: "Dropdown Menu 1"
+  - title: "Chapter 1:  fundamentals"
     url: "#"
   - title: "Dropdown Menu 2"
     url: "#"

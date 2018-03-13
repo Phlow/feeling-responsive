@@ -1,5 +1,5 @@
 - name: GitHub
-  url: http://github.com/
+  url: http://github.com/distancedevelopment
   class: icon-github
   title: ""
 
@@ -9,7 +9,7 @@
   title: ""
 
 - name: Twitter
-  url: http://twitter.com/
+  url: http://twitter.com/distancesamp
   class: icon-twitter
   title: ""
 

@@ -1,4 +1,4 @@
-# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
+﻿# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
 #
 #      _____ _ __          _____      __  __  _
 #     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
@@ -8,25 +8,24 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Feeling Responsive'
+title: 'CoinProQuo'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A Flexible Theme for Jekyll'
+slogan: 'More Than a Coincidence!'
 
-# The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.'
+# The description is used on homepage and in the footer to quickly describe your website. #Use a maximum of 150 characters for SEO-purposes.
+description: 'coinproquo'
 
-# The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: David McNeal
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://phlow.github.io'
-baseurl: '/feeling-responsive'
+url: 'https://coinproquo.club'
+baseurl: '/'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -38,7 +37,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+# urlimg: '/images/'
 
 
 # Logo size is 600x80 pixels
@@ -49,7 +48,7 @@ gems:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
-
+    - jekyll
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
@@ -105,16 +104,16 @@ compress_html:
 defaults:
   -
     scope:
-      path: '' 				# an empty string here means all files in the project
+      path:  			# an empty string here means all files in the project
       type: 'pages'
     values:
       show_meta: false 	# Hide metadata for all pages
-      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
+      sidebar: left   		# Possible values › left, right › by default there will be no sidebar:
       comments: false
-      author: phlow     # Default author for pages
+      author: david     # Default author for pages
   -
     scope:
-      path: ''
+      path:
       type: 'posts'
     values:
       show_meta: true   # Show metadata for all posts
@@ -192,8 +191,8 @@ og_type:                            'website'
 #
 
 socialmedia:
-    twitter: phlow
-    facebook: phlow.media
+    twitter: plan_a_site
+    facebook: cryptowriter
 
 
 #        ____  _
@@ -228,8 +227,7 @@ sass:
 #                        /____/
 #
 # used in _includes/footer_scripts
-
-google_analytics_tracking_id: UA-60112281-1
+# google_analytics_tracking_id:
 
 
 

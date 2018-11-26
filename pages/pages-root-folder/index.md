@@ -11,7 +11,7 @@ widget1:
   title: "Наш блог"
   url: 'https://dmytro-lytvyn.github.io/simotek/blog/'
   image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  text: 'Тут можно вести <em>Блог</em> или назвать это <em>Новости</em>. Каждая новая запись в блоге - это просто новый файл в каталоге _posts. По идее можно всё дублировать на разных языках и сделать переключение между ними.'
 widget2:
   title: "Какую камеру выбрать?"
   url: 'https://dmytro-lytvyn.github.io/simotek/design/video/'

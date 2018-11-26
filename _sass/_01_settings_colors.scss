@@ -27,11 +27,11 @@ $body-bg: 			#272727; //#fdfdfd;
 ------------------------------------------------------------------- */
 
 $ci-1: #334D5C;		// dark turquoise
-$ci-2: #45B29D;		// turquoise
+$ci-2: #75A9BF;//#45B29D;		// turquoise
 $ci-3: #EFC94C;		// yellow
 $ci-4: #E27A3F;		// orange
 $ci-5: #DF4949;		// red
-$ci-6: #75A9BF;//#A1D044;     // green
+$ci-6: #A1D044;     // green
 
 
 
@@ -39,9 +39,9 @@ $ci-6: #75A9BF;//#A1D044;     // green
 ------------------------------------------------------------------- */
 
 $primary-color: $ci-1;
-$secondary-color: $ci-6;
+$secondary-color: $ci-2;//$ci-6;
 $alert-color: $ci-5;
-$success-color: $ci-6;
+$success-color: $ci-2;//$ci-6;
 $warning-color: $ci-4;
 $info-color: $ci-1;
 

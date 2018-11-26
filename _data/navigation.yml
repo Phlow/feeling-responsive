@@ -1,12 +1,12 @@
-- title: Start
+- title: "Главная"
   url: "/"
   side: left
 
-- title: Getting Started
+- title: "Услуги"
   url: "/getting-started/"
   side: left
 
-- title: "Templates"
+- title: "Продукция"
   url: "/design/"
   side: left
   dropdown:
@@ -31,7 +31,7 @@
   - title: "Portfolio"
     url: "/design/portfolio/"
 
-- title: "Header Styles"
+- title: "О компании"
   url: "/headers/"
   side: left
   dropdown:
@@ -50,7 +50,7 @@
   - title: "No Header but Image"
     url: "/design/no-header-but-image/"
 
-- title: Documentation
+- title: "Наши клиенты"
   url: "/documentation/"
   side: left
   dropdown:
@@ -59,17 +59,17 @@
   - title: "Roadmap"
     url: "/roadmap/"
 
-- title: Blog
+- title: "Галерея"
   url: "/blog/"
   side: left
   dropdown:
   - title: "Blog Archive"
     url: "/blog/archive/"
 
-- title: "Search"
+- title: "Поддержка"
   url: "/search/"
   side: right
 
-- title: "Contact"
+- title: "Конакты"
   url: "/contact/"
   side: right

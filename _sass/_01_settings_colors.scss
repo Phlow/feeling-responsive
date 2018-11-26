@@ -16,9 +16,9 @@
 /* Basics
 ------------------------------------------------------------------- */
 
-$text-color:       	#fdfdfd; //#111;
-$body-font-color: 	$text-color;
-$body-bg: 			#272727; //#fdfdfd;
+$text-color:        #fdfdfd; //#111;
+$body-font-color:   $text-color;
+$body-bg:           #272727; //#fdfdfd;
 
 
 
@@ -31,15 +31,15 @@ $ci-2: #66aac2;//#45B29D;		// turquoise
 $ci-3: #EFC94C;		// yellow
 $ci-4: #E27A3F;		// orange
 $ci-5: #DF4949;		// red
-$ci-6: #A1D044;     // green
+$ci-6: #A1D044;		// green
 
 
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
 
-$primary-color: $ci-1;
-$secondary-color: $ci-2;//$ci-6;
+$primary-color: $ci-2;//$ci-1;
+$secondary-color: $ci-1;//$ci-6;
 $alert-color: $ci-5;
 $success-color: $ci-2;//$ci-6;
 $warning-color: $ci-4;

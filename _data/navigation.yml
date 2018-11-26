@@ -60,7 +60,7 @@
     url: "/roadmap/"
 
 - title: "Галерея"
-  url: "/blog/"
+  url: "/design/gallery/"
   side: left
   dropdown:
   - title: "Blog Archive"

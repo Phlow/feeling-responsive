@@ -7,7 +7,6 @@ teaser: "This Ремонт дверной автоматики helps you to cust
 header:
    image_fullwidth: "camera3.jpg"
 permalink: "/services/automatic-doors/"
-breadcrumb: true
 ---
 1. Open `_config.yml` and work it through, it's well documented
 1. Add your own `logo.png` to `/assets/img/`.

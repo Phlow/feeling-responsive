@@ -6,7 +6,6 @@ teaser: "Here are some ideas and features I want to implement in the future."
 header:
    image_fullwidth: "header_roadmap_3.jpg"
 permalink: "/gallery/"
-breadcrumb: true
 gallery:
     - image_url: camera1.jpg
       caption: Sample image camera1.jpg

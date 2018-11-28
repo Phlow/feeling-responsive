@@ -6,7 +6,6 @@ teaser: "The documentation is a work in progress..."
 permalink: "/products/"
 header:
    image_fullwidth: "camera5.jpg"
-breadcrumb: true
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">

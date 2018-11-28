@@ -5,8 +5,27 @@ subheadline: "ToDo-List &amp; Ideas"
 teaser: "Here are some ideas and features I want to implement in the future."
 header:
    image_fullwidth: "header_roadmap_3.jpg"
-permalink: "/roadmap/"
+permalink: "/gallery/"
+gallery:
+    - image_url: gallery-example-1.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-2.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-3.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-4.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-5.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-6.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-7.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-8.jpg
+      caption: Great images by Unsplash.com
 ---
+
+{% include gallery %}
 
 ## Ideas and possible new features
 {: .t30 }

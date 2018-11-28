@@ -5,7 +5,7 @@ title: "Style your content!"
 subheadline: "Layouts of Feeling Responsive"
 header:
    image_fullwidth: "camera3.jpg"
-permalink: "/design/"
+permalink: "/about/"
 ---
 <ul>
     {% for post in site.categories.design %}

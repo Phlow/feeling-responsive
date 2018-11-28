@@ -1,5 +1,5 @@
 ---
-permalink: /search/
+permalink: /support/
 layout: page
 title: "Search"
 sitemap: false

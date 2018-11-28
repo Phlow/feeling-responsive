@@ -3,7 +3,7 @@ layout: page-fullwidth
 title: "Theme Documentation"
 subheadline: "How to use Feeling Responsive"
 teaser: "The documentation is a work in progress..."
-permalink: "/documentation/"
+permalink: "/products/"
 header:
    image_fullwidth: "camera5.jpg"
 ---

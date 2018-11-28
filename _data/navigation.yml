@@ -30,19 +30,19 @@
     url: "/products/leakage-control/"
 
 - title: "О компании"
-  url: "/headers/"
+  url: "/about/"
   side: left
 
 - title: "Наши клиенты"
-  url: "/documentation/"
+  url: "/customers/"
   side: left
 
 - title: "Галерея"
-  url: "/design/gallery/"
+  url: "/gallery/"
   side: left
 
 - title: "Поддержка"
-  url: "/search/"
+  url: "/support/"
   side: right
 
 - title: "Контакты"

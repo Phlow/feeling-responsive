@@ -3,8 +3,19 @@
   side: left
 
 - title: "Услуги"
-  url: "/getting-started/"
+  url: "/services/"
   side: left
+  dropdown:
+  - title: "Телефония"
+    url: "/services/phone/"
+  - title: "Видеонаблюдение"
+    url: "/services/video/"
+  - title: "Системы контроля управления доступом"
+    url: "/services/physical-access-control-system/"
+  - title: "Декоративная подсветка"
+    url: "/services/deсorative-lighting/"
+  - title: "Ремонт дверной автоматики"
+    url: "/services/automatic-doors/"
 
 - title: "Продукция"
   url: "/design/"

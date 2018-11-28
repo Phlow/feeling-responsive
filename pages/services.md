@@ -1,8 +1,8 @@
 ---
 layout: page
 show_meta: false
-title: "Getting Started"
-subheadline: "A Step-by-Step Guide"
+title: "Услуги"
+subheadline: "Описание Услуги"
 teaser: "This step-by-step guide helps you to customize Feeling Responsive to your needs."
 header:
    image_fullwidth: "camera2.jpg"

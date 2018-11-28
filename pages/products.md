@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
-title: "Theme Documentation"
-subheadline: "How to use Feeling Responsive"
+title: "Продукция"
+subheadline: "Описание Продукция"
 teaser: "The documentation is a work in progress..."
 permalink: "/products/"
 header:

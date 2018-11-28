@@ -1,8 +1,7 @@
 ---
 layout: page
-show_meta: false
-title: "Style your content!"
-subheadline: "Layouts of Feeling Responsive"
+title: "О компании"
+subheadline: "Описание О компании"
 header:
    image_fullwidth: "camera3.jpg"
 permalink: "/about/"

@@ -10,6 +10,11 @@
     url: "/services/phone/"
   - title: "Видеонаблюдение"
     url: "/services/video/"
+    dropdown:
+    - title: "IP камеры Hikvision"
+      url: "/services/video/ip-cam-hikvision/"
+    - title: "IP камеры Dahua"
+      url: "/services/video/ip-cam-dahua/"
   - title: "Системы контроля управления доступом"
     url: "/services/physical-access-control-system/"
   - title: "Декоративная подсветка"

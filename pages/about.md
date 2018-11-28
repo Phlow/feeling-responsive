@@ -6,6 +6,7 @@ subheadline: "Layouts of Feeling Responsive"
 header:
    image_fullwidth: "camera3.jpg"
 permalink: "/about/"
+breadcrumb: true
 ---
 <ul>
     {% for post in site.categories.design %}

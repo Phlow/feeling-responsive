@@ -6,23 +6,24 @@ teaser: "Here are some ideas and features I want to implement in the future."
 header:
    image_fullwidth: "header_roadmap_3.jpg"
 permalink: "/gallery/"
+breadcrumb: true
 gallery:
-    - image_url: gallery-example-1.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-2.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-3.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-4.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-5.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-6.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-7.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-8.jpg
-      caption: Great images by Unsplash.com
+    - image_url: camera1.jpg
+      caption: Sample image camera1.jpg
+    - image_url: camera2.jpg
+      caption: Sample image camera2.jpg
+    - image_url: camera3.jpg
+      caption: Sample image camera3.jpg
+    - image_url: camera4.jpg
+      caption: Sample image camera4.jpg
+    - image_url: camera5.jpg
+      caption: Sample image camera5.jpg
+    - image_url: camera6.jpg
+      caption: Sample image camera6.jpg
+    - image_url: camera7.jpg
+      caption: Sample image camera7.jpg
+    - image_url: camera8.jpg
+      caption: Sample image camera8.jpg
 ---
 
 {% include gallery %}

@@ -7,6 +7,7 @@ teaser: "This Видеонаблюдение helps you to customize Feeling Resp
 header:
    image_fullwidth: "camera3.jpg"
 permalink: "/services/video/"
+breadcrumb: true
 ---
 1. [IP камеры Hikvision]({{ site.url }}{{ site.baseurl }}/services/video/ip-cam-hikvision/)
 1. [IP камеры Dahua]({{ site.url }}{{ site.baseurl }}/services/video/ip-cam-dahua/)

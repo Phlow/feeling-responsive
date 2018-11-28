@@ -7,6 +7,7 @@ teaser: "This Декоративная подсветка helps you to customize
 header:
    image_fullwidth: "camera3.jpg"
 permalink: "/services/deсorative-lighting/"
+breadcrumb: true
 ---
 1. Open `_config.yml` and work it through, it's well documented
 1. Add your own `logo.png` to `/assets/img/`.

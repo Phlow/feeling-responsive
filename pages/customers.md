@@ -6,6 +6,7 @@ teaser: "These are your options to style the header of each webpage individually
 header:
    image_fullwidth: "camera4.jpg"
 permalink: "/customers/"
+breadcrumb: true
 ---
 <ul>
     {% for post in site.tags.header %}

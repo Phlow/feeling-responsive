@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 title: "Декоративная подсветка"
-subheadline: "Декоративная подсветка2"
+subheadline: "Информация о Декоративная подсветка"
 teaser: "This Декоративная подсветка helps you to customize Feeling Responsive to your needs."
 header:
    image_fullwidth: "camera3.jpg"

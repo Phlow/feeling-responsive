@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 title: "Ремонт дверной автоматики"
-subheadline: "Ремонт дверной автоматики2"
+subheadline: "Информация о Ремонт дверной автоматики"
 teaser: "This Ремонт дверной автоматики helps you to customize Feeling Responsive to your needs."
 header:
    image_fullwidth: "camera3.jpg"

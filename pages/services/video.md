@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 title: "Видеонаблюдение"
-subheadline: "Видеонаблюдение2"
+subheadline: "Информация о Видеонаблюдение"
 teaser: "This Видеонаблюдение helps you to customize Feeling Responsive to your needs."
 header:
    image_fullwidth: "camera3.jpg"

@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 title: "Системы контроля управления доступом"
-subheadline: "Системы контроля управления доступом2"
+subheadline: "Информация о Системы контроля управления доступом"
 teaser: "This Системы контроля управления доступом helps you to customize Feeling Responsive to your needs."
 header:
    image_fullwidth: "camera3.jpg"

@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 title: "Телефония"
-subheadline: "Телефония2"
+subheadline: "Информация о Телефония"
 teaser: "This Телефония helps you to customize Feeling Responsive to your needs."
 header:
    image_fullwidth: "camera3.jpg"

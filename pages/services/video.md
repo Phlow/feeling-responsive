@@ -8,5 +8,5 @@ header:
    image_fullwidth: "camera3.jpg"
 permalink: "/services/video/"
 ---
-1. {{ site.url }}{{ site.baseurl }}/services/video/ip-cam-hikvision/
-1. {{ site.url }}{{ site.baseurl }}/services/video/ip-cam-dahua/
+1. [IP камеры Hikvision]({{ site.url }}{{ site.baseurl }}/services/video/ip-cam-hikvision/)
+1. [IP камеры Dahua]({{ site.url }}{{ site.baseurl }}/services/video/ip-cam-dahua/)

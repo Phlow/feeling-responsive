@@ -1,12 +1,12 @@
 ---
 layout: page
 show_meta: false
-title: "Телефония"
-subheadline: "Телефония2"
-teaser: "This Телефония helps you to customize Feeling Responsive to your needs."
+title: "Ремонт дверной автоматики"
+subheadline: "Ремонт дверной автоматики2"
+teaser: "This Ремонт дверной автоматики helps you to customize Feeling Responsive to your needs."
 header:
    image_fullwidth: "camera3.jpg"
-permalink: "/services/phone/"
+permalink: "/services/automatic-doors/"
 ---
 1. Open `_config.yml` and work it through, it's well documented
 1. Add your own `logo.png` to `/assets/img/`.

@@ -1,12 +1,12 @@
 ---
 layout: page
 show_meta: false
-title: "Телефония"
-subheadline: "Телефония2"
-teaser: "This Телефония helps you to customize Feeling Responsive to your needs."
+title: "Системы контроля управления доступом"
+subheadline: "Системы контроля управления доступом2"
+teaser: "This Системы контроля управления доступом helps you to customize Feeling Responsive to your needs."
 header:
    image_fullwidth: "camera3.jpg"
-permalink: "/services/phone/"
+permalink: "/services/physical-access-control-system/"
 ---
 1. Open `_config.yml` and work it through, it's well documented
 1. Add your own `logo.png` to `/assets/img/`.

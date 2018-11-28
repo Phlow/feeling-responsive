@@ -1,12 +1,12 @@
 ---
 layout: page
 show_meta: false
-title: "Телефония"
-subheadline: "Телефония2"
-teaser: "This Телефония helps you to customize Feeling Responsive to your needs."
+title: "Видеонаблюдение"
+subheadline: "Видеонаблюдение2"
+teaser: "This Видеонаблюдение helps you to customize Feeling Responsive to your needs."
 header:
    image_fullwidth: "camera3.jpg"
-permalink: "/services/phone/"
+permalink: "/services/video/"
 ---
 1. Open `_config.yml` and work it through, it's well documented
 1. Add your own `logo.png` to `/assets/img/`.

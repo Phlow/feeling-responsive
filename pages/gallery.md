@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Галерея"
-subheadline: "Опимание Галерея"
+subheadline: "Описание Галерея"
 teaser: "Here are some ideas and features I want to implement in the future."
 header:
    image_fullwidth: "header_roadmap_3.jpg"

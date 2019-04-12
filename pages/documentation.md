@@ -64,9 +64,6 @@ use in front matter via: `layout: video`
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
 
-
-
-
 ## Style your content with   {#styling}
 
 Feeling Responsive offers lots of possibilities to style your articles. You can style your content in different ways. There are elements like subheadlines, feature images, header images, homepage images, meta data like categories and tags and many more.
@@ -87,7 +84,13 @@ Quotes mix it up a little bit, if you write long articles. So use quotes:
 
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
+``` html
+> Age is an issue of mind over matter. If you don't mind, it doesn't matter.
+<cite>Mark Twain</cite>
 
+<small markdown="1">[Up to table of contents](#toc)</small>
+{: .text-right }
+```
 
 ## Comments
 

@@ -64,9 +64,6 @@ use in front matter via: `layout: video`
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
 
-
-
-
 ## Style your content with   {#styling}
 
 Feeling Responsive offers lots of possibilities to style your articles. You can style your content in different ways. There are elements like subheadlines, feature images, header images, homepage images, meta data like categories and tags and many more.
@@ -88,6 +85,12 @@ Quotes mix it up a little bit, if you write long articles. So use quotes:
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
 
+{% hightlight html %}
+> Age is an issue of mind over matter. If you don't mind, it doesn't matter.
+<cite>Mark Twain</cite>
+<small markdown="1">[Up to table of contents](#toc)</small>
+{: .text-right }
+{% endhighlight %}
 
 ## Comments
 
@@ -97,9 +100,6 @@ By default comments are turned off. You can customize the default behaviour in `
 
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
-
-
-
 
 ## Responsive Videos
 
@@ -151,8 +151,6 @@ If you want to feature an article on the homepage with a huge image, then use th
 image:
     homepage: header_homepage_13.jpg
 ~~~
-
-
 
 ### Captions with URL
 
@@ -244,7 +242,6 @@ This include creates a next/previous link to a post of the same category using t
 {% raw %} {% include next-previous-post-in-category %}{% endraw %}
 ~~~
 
-
 ### improve_content
 
 If your content is on Jekyll you can use this include to automatically generate a »Edit on GitHub Link« to give people a possibility to improve your content. Got the idea from [Ben Balters Blog](http://ben.balter.com/).
@@ -253,7 +250,6 @@ If your content is on Jekyll you can use this include to automatically generate 
 {% raw %}{% include _improve_content.html %}{% endraw %}
 ~~~
 
-
 ### list-collection
 
 This include lets you loop through a collection to list all entries in that collection. If you set »published: false« in front matter of a collection page the page gots filtered out via unless. The following example loops through a collection called *wordpress*.
@@ -261,7 +257,6 @@ This include lets you loop through a collection to list all entries in that coll
 ~~~
 {% raw %}{% include list-collection collection='wordpress' %}{% endraw %}
 ~~~
-
 
 ### alert – Embed an alert in your content
 
@@ -293,7 +288,6 @@ You can even use `<html>`-tags inside the alert. Beware: Use " and ' properly.
 
 <small markdown="1">[Up to table of contents](#toc)</small>
 {: .text-right }
-
 
 ## Javascript/Foundation modules
 

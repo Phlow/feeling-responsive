@@ -63,11 +63,11 @@ paginate_path: "blog/page:num"   # Pagination path › Important for blog page i
 
 
 # Theme works best with Kramdown (using the table of contents function)
-markdown: kramdown
-permalink: /:categories/:title/
-highlight: rouge
-excerpt_separator: "<!--more-->"
-include: ['.htaccess']
+markdown           : kramdown
+permalink          : /:categories/:title/
+highlight          : rouge
+excerpt_separator  : "<!--more-->"
+include            : ['.htaccess']
 # Exclude these files from your production _site
 exclude:
     - .sass-cache

@@ -1,70 +1,42 @@
-- title: Start
+- title: Home
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
-  side: left
-
-- title: "Templates"
-  url: "/design/"
+- title: Downloads
+  url: "/downloads/"
   side: left
   dropdown:
-  - title: "Grid & Colors"
-    url: "/design/grid/"
-  - title: "Typography"
-    url: "/design/typography/typography/"
-  - title: "Page/Post"
-    url: "/design/page/"
-  - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
-    url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
-    url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
-    url: "/blog/"
-  - title: "Video"
-    url: "/design/video/"
-  - title: "Gallery"
-    url: "/design/gallery/"
-  - title: "Portfolio"
-    url: "/design/portfolio/"
-
-- title: "Header Styles"
-  url: "/headers/"
-  side: left
-  dropdown:
-  - title: "Header with Full-Width-Image"
-    url: "/design/header-full-width-image/"
-  - title: "Header with Image and Pattern"
-    url: "/design/header-image-pattern/"
-  - title: "Header with image and color"
-    url: "/design/header-image-color/"
-  - title: "Header Only With Logo"
-    url: "/design/header-logo-only/"
-  - title: "Header With Text"
-    url: "/design/header-with-text/"
-  - title: "No Header"
-    url: "/design/no-header/"
-  - title: "No Header but Image"
-    url: "/design/no-header-but-image/"
+  - title: "Executables"
+    url: "/downloads/execs/"
+  - title: "Sources"
+    url: "/downloads/sources/"
+  - title: "Example & Test Data"
+    url: "/downloads/data"
 
 - title: Documentation
-  url: "/documentation/"
+  url: "/docs/"
   side: left
   dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
+  - title: "GUI Manual"
+    url: "https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/gui_manual/index.html"
+  - title: "Python CLI Manual"
+    url: https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/cli_manual/index.html
+  - title: "Current Tutorials"
+    url: https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/tutorials/index.html
+  - title: "Older Tutorials"
+    url: https://www.visitusers.org/index.php?title=VisIt_Tutorial
+  - title: "VisIt User's Email Archive"
+    url: https://elist.ornl.gov/mailman/listinfo/visit-users
+  - title: "Citing VisIt"
+    url: https://wci.llnl.gov/content/assets/docs/simulation/computer-codes/visit/visit_citation.bib
+  - title: "Wiki Pages"
+    url: https://www.visitusers.org/index.php?title=Main_Page
+  - title: "Gallery"
+    url: https://wci.llnl.gov/simulation/computer-codes/visit/gallery
 
-- title: Blog
-  url: "/blog/"
+- title: News
+  url: "/news/"
   side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
 
 - title: "Search"
   url: "/search/"

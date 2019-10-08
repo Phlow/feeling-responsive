@@ -14,11 +14,11 @@
     url: "/downloads/data"
 
 - title: Documentation
-  url: "/"
+  url: ""
   side: left
   dropdown:
   - title: "GUI Manual"
-    url: "https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/gui_manual/index.html"
+    url: https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/gui_manual/index.html
   - title: "Python CLI Manual"
     url: https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/cli_manual/index.html
   - title: "Current Tutorials"

@@ -14,7 +14,7 @@
     url: "/downloads/data"
 
 - title: Documentation
-  url: "/docs/"
+  url: "/"
   side: left
   dropdown:
   - title: "GUI Manual"

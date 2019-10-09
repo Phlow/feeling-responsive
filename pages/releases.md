@@ -2,7 +2,7 @@
 layout: page
 title: "Release Executables"
 header:
-   image_fullwidth: "header_roadmap_3.jpg"
+   image_fullwidth: "gallery_05a.png"
 permalink: "/releases/"
 ---
 

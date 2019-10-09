@@ -9,10 +9,18 @@ $('audio,video').mediaelementplayer();
 
 
 {% if page.header.image_fullwidth %}
+  {% assign http = page.header.image_fullwidth | split: ':' | first | remove: 's' %}
+  {% if http == 'http' %}
+<script>
+    $("#masthead").backstretch("{{ page.header.image_fullwidth }}", {fade: 700});
+    $("#masthead-with-text").backstretch("{{ page.header.image_fullwidth }}", {fade: 700});
+</script>
+  {% else %}
 <script>
     $("#masthead").backstretch("{{ site.urlimg }}{{ page.header.image_fullwidth }}", {fade: 700});
     $("#masthead-with-text").backstretch("{{ site.urlimg }}{{ page.header.image_fullwidth }}", {fade: 700});
 </script>
+  {% endif %}
 {% endif %}
 
 

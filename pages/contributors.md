@@ -2,7 +2,7 @@
 layout: page
 header:
   image_fullwidth: gallery_10a.png
-permalink: "/Contributors/"
+permalink: "/contributors/"
 ---
 
 {% comment %}

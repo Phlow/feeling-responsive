@@ -14,7 +14,7 @@ widget1:
   text: 'Learn about recent releases, plans for upcomming releases, works in progress and other stuff about VisIt, its related technologies and visualization and data analysis in general.'
 widget2:
   title: "Why use VisIt?"
-  url: '/visit-top-50/'
+  url: '/gallery/'
   text: '<em>VisIt</em> is extremely scalable.<br/>1. Runs on Unix, Windows & OSX<br/>2. Is Free, <a href="https://github.com/visit-dav/visit/blob/develop/LICENSE">BSD Open Source</a>.<br/>3. Reads 130+ <a href="https://www.visitusers.org/index.php?title=Detailed_list_of_file_formats_VisIt_supports">File Formats</a>.<br/>4. Installed on many <a href="https://science.osti.gov/User-Facilities">LCFs</a>'
   video: '<center><a href="#" data-reveal-id="videoModal"><img src="images/gallery_12.jpg" width="180" align="middle"/></a></center>'
 widget3:

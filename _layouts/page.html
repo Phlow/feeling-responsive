@@ -24,10 +24,13 @@ format: post
 
 				<div itemprop="name">
 					{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+                                        {% if page.layout == "example" %}
+					<h3>{{ page.title }}</h3>
+                                        {% else %}
 					<h1>{{ page.title }}</h1>
+                                        {% endif %}
 				</div>
 			</header>
-
 
 			{% if page.teaser %}
 			<p class="teaser" itemprop="description">

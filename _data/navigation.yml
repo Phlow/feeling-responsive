@@ -36,6 +36,15 @@
   - title: "Gallery"
     url: https://wci.llnl.gov/simulation/computer-codes/visit/gallery
 
+- title: Stuff
+  url: ""
+  side: left
+  dropdown:
+  - title: "Contributors"
+    url: "/contributors/"
+  - title: "Examples"
+    url: "/examples"
+
 - title: News
   url: "/blog/"
   side: left

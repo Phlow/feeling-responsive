@@ -4,7 +4,7 @@ layout: page
 # Content
 #
 subheadline: "All teams have to do it. Now we have a name for it."
-title: "Continuous Technology Refreshment (CTI)"
+title: "Continuous Technology Refreshment (CTR)"
 categories:
   - design
 #

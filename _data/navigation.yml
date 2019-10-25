@@ -46,8 +46,13 @@
     url: "/examples"
 
 - title: News
-  url: "/blog/"
+  url: ""
   side: left
+  dropdown:
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Recent"
+    url: "/recent/"
 
 - title: "Search"
   url: "/search/"

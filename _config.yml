@@ -131,6 +131,12 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: miller86 # Default author for posts
+  -
+    scope:
+      path: ''
+      type: 'examples'
+    values:
+      header: no
 
 
 

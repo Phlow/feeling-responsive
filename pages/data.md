@@ -4,6 +4,7 @@ title: "Example and Test Data"
 header:
    image_fullwidth: "gallery_10a.png"
 permalink: "/data/"
+date: "2015-10-15"
 ---
 
 VisIt comes preinstalled with a small set of example Silo files that

@@ -47,12 +47,16 @@
 
 
 {% elsif page.header.image_fullwidth %}
-
 <div id="masthead">
 	<div class="row">
 		<div class="small-12 columns">
 			<a id="logo" href="{{ '/' | absolute_url }}" title="{{ site.title }} – {{ site.slogan }}">
+
+  {% if page.header.image_fullwidth contains "youtube" %}
+<center><iframe width="560" height="315" src="{{ page.header.image_fullwidth}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+  {% else %}
 				<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }} – {{ site.slogan }}">
+  {% endif %}
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->

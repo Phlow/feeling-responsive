@@ -126,15 +126,3 @@ and the lead developer of
 Holly Auten is the Web Content Lead for the Computation Web Team and
 routinely contributes articles regarding various aspects of on-going software
 development activities within the Computation department at [LLNL](https://www.llnl.gov).
-
-<!--
-Publish: yes
-RSS update: 2019-04-12
-Categories: development
-Topics: revision control, issue tracking, documentation
-Tags: bssw-blog-article
-Level: 2
-Prerequisites: default
-Aggregate: none
--->
-

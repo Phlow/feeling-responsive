@@ -29,11 +29,16 @@
 
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
+                {% assign _baseurl = '' %}
               {% elsif link.url == '#' %}
                 {% assign domain = '' %}
+                {% assign _baseurl = site.baseurl %}
               {% else %}
                 {% assign domain = site.url %}
+                {% assign _baseurl = site.baseurl %}
               {% endif %}
+
+
 
           {% comment %}   If there are links for right side begin   {% endcomment %}
           {% if link.side == 'right' %}
@@ -83,10 +88,13 @@
 
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
+                {% assign _baseurl = '' %}
               {% elsif link.url == '#' %}
                 {% assign domain = '' %}
+                {% assign _baseurl = site.baseurl %}
               {% else %}
                 {% assign domain = site.url %}
+                {% assign _baseurl = site.baseurl %}
               {% endif %}
 
           {% comment %}   If there are links for left side begin   {% endcomment %}

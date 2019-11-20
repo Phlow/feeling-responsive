@@ -230,7 +230,7 @@ sass:
 #
 # used in _includes/footer_scripts
 
-google_analytics_tracking_id: UA-60112281-1
+# google_analytics_tracking_id:
 
 
 
@@ -266,7 +266,7 @@ google_analytics_tracking_id: UA-60112281-1
 
 asciidoctor-enabled: false
 asciidoctor:
-  description: testtewtetrue
+  description: 
   attributes:
     source-highlighter: coderay
     coderay-css: style

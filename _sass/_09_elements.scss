@@ -148,3 +148,15 @@ img.lazy {
     transition: opacity 0.7s;
     opacity: 1;
 }
+
+*:target:not([id^='fn:']):not([id^='fnref:']) {
+  &::before {
+    content: " ";
+    width: 0;
+    height: 0;
+
+    display: block;
+    padding-top: 50px;
+    margin-top: -50px;
+  }
+}

@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "03f5dd2a3a893dc3637cdfbb6da25d276f597ea03db701e7220b5dfcde6ef9bf",
-    "current": "03f5dd2a3a893dc3637cdfbb6da25d276f597ea03db701e7220b5dfcde6ef9bf"
+    "previous": "c5cdc0a58b7277d1f320a4ad50aa8ae2ad47fa6ed879c164db1cfb75439bd1d9",
+    "current": "c5cdc0a58b7277d1f320a4ad50aa8ae2ad47fa6ed879c164db1cfb75439bd1d9"
   },
   "fonts": [
     "./iconfont.ttf",
@@ -105,10 +105,6 @@
     "globe": {
       "codepoint": 61718,
       "source": "svg-files-for-custom-font/globe.svg"
-    },
-    "googleplus": {
-      "codepoint": 61750,
-      "source": "svg-files-for-custom-font/googleplus.svg"
     },
     "heart": {
       "codepoint": 61719,
@@ -243,8 +239,8 @@
     "font_name": "iconfont",
     "force": false,
     "input": {
-      "templates": "svg-files-for-custom-font/",
-      "vectors": "svg-files-for-custom-font/"
+      "templates": "svg-files-for-custom-font",
+      "vectors": "svg-files-for-custom-font"
     },
     "no_hash": true,
     "output": {

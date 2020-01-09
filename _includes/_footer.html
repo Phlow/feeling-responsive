@@ -24,10 +24,10 @@
                 <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
-
+              
               <ul class="no-bullet shadow-black">
               {% for service_item in site.data.services %}
-                {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
+                {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl %}{% endif %}
                   <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
                     <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
                   </li>
@@ -42,10 +42,10 @@
                 <h5 class="shadow-black">{{ network_item.menu_name }}</h5>
               {% endif %}
             {% endfor %}
-
+              
             <ul class="no-bullet shadow-black">
             {% for network_item in site.data.network %}
-              {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
+              {% if network_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = site.baseurl %}{% endif %}
                 <li {% if network_item.class %}class="{{ network_item.class }}" {% endif %}>
                   <a href="{{ domain }}{{ network_item.url }}" {% if network_item.url contains 'http' %}target="_blank" {% endif %} title="{{ network_item.title }}">{{ network_item.name }}</a>
                 </li>
@@ -59,12 +59,16 @@
 
       <div id="subfooter">
         <nav class="row">
-          <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            {{ site.credits }}
+          <section id="subfooter-left" class="b30 small-12 medium-6 columns credits">
+            <p>
+              Leave some &hearts;
+              for&nbsp;
+              <a href="http://phlow.de" alt="Theme created by Phlow">Phlow</a>
+            </p>
           </section>
 
-          <section id="subfooter-right" class="small-12 medium-6 columns">
-            <ul class="inline-list social-icons">
+          <section id="subfooter-right" class="small-12 medium-6 columns social-icons">
+            <ul class="inline-list">
             {% for social_item in site.data.socialmedia %}
               <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
             {% endfor %}

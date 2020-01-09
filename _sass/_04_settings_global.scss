@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 $spacing-unit: 30px;
 
 
@@ -1372,6 +1370,10 @@ $table-head-bg: $grey-2;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // $include-html-top-bar-classes: $include-html-classes;
+
+// Background color for the top bar
+$topbar-bg-color: #fff;
+$topbar-bg: $topbar-bg-color;
 
 // Height and margin
 $topbar-height: rem-calc(50);

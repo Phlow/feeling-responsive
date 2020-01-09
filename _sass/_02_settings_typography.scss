@@ -1,7 +1,6 @@
-@charset "utf-8";
 /* TOC – Typography variables
 
-Modular Scale › http://www.modularscale.com//?16,36&px&1.25&web&table
+Modular Scale › http://modularscale.com/scale/?px1=16&px2=36&ra1=1.25&ra2=0
 
 - Fonts
 - Font Weight
@@ -32,7 +31,10 @@ $body-font-style: normal;
 
 $header-font-family: $font-family-serif;
 
-
+// control hyphenation in body paragraphs
+// use value for the hyphens css property
+// https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens
+$body-hyphenation: auto;
 
 /* Font Weight
 ------------------------------------------------------------------- */

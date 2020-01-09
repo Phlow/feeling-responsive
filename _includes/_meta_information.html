@@ -9,25 +9,21 @@
 				{% endif %}
 
 				{% if page.date %}
-				<time class="icon-calendar pr20" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"> {{ page.date | date: "%Y-%m-%d" }}</time>
+				<time class="icon-calendar pr20" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished"> {{ page.date | date: "%Y-%m-%d" }}</time>
 				{% endif %}
 
-				{% if page.categories != empty %}<span class="icon-archive pr20"> {{ page.categories | join: ' · ' | upcase }}{% endif %}</span>
+				{% if page.categories %}<span class="icon-archive pr20"> {{ page.categories | join: ' · ' | upcase }}{% endif %}</span>
 				<br />
 				<span class="pr20">{% for tag in page.tags %}<span class="icon-price-tag pr10"> {{tag}}</span> {% endfor %}</span>
 			</p>
 
-			{% if page.collection == "posts" %}
 			<div id="post-nav" class="row">
 				{% if page.previous.url %}
-				<div class="small-5 columns"><a class="button small radius prev" href="{{ site.url }}{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div><!-- /.small-4.columns -->
+				<div class="small-5 columns"><a class="button small radius prev" href="{{ site.url }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div><!-- /.small-4.columns -->
 				{% endif %}
-				<div class="small-2 columns text-center"><a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/blog/archive/" title="Blog {{ site.data.language.archive }}">{{ site.data.language.archive }}</a></div><!-- /.small-4.columns -->
+				<div class="small-2 columns text-center"><a class="radius button small" href="{{ site.url }}/blog/archive/" title="Blog {{ site.data.language.archive }}">{{ site.data.language.archive }}</a></div><!-- /.small-4.columns -->
 				{% if page.next.url %}
-				<div class="small-5 columns text-right"><a class="button small radius next" href="{{ site.url }}{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a></div><!-- /.small-4.columns -->
-				{% else %}
-				<div class="small-5 columns text-right"></div><!-- /.small-4.columns -->
+				<div class="small-5 columns text-right"><a class="button small radius next" href="{{ site.url }}{{page.next.url}}">{{page.next.title}} &raquo;</a></div><!-- /.small-4.columns -->
 				{% endif %}
 			</div>
-			{% endif %}
 			</div><!--  /.page-meta -->

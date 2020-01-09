@@ -5,13 +5,8 @@
 #
 # Start development with › $ jekyll serve --config _config.yml,_config_dev.yml
 
-url: 		'http://localhost:4000'
-baseurl: 	''
-urlimg: 	'http://localhost:4000/images/'
-
-# See › https://github.com/jekyll/jekyll-gist#disabling-noscript-support
-gist:
-  noscript: false
+url: 'http://localhost:4000'
+urlimg: 'http://localhost:4000/images/'
 
 sass:
   # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
@@ -20,7 +15,7 @@ sass:
   # trace_selectors: true
   # debug_info: true
   # FUTURE https://github.com/jekyll/jekyll-sass-converter/issues/12
-  # sourcemap: true # Produces an error
+  sourcemap: true
 
 # Disable when not in production
-google_analytics_tracking_id: false
+google_analytics_tracking_id:

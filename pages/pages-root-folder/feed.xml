@@ -4,8 +4,8 @@ title: "RSS Feed"
 permalink: /feed.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="{{ site.url }}{{ site.baseurl }}/assets/xslt/rss.xslt" ?>
-<?xml-stylesheet type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/css/rss.css" ?>
+<?xml-stylesheet type="text/xsl" href="{{ site.baseurl }}/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="{{ site.baseurl }}/assets/css/rss.css" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>{{ site.title | xml_escape }}</title>

@@ -2080,7 +2080,7 @@ if (typeof jQuery != 'undefined') {
 		// if set, overrides <video height>
 		videoHeight: -1,
 		// default if the user doesn't specify
-		defaultAudioWidth: 280,
+		defaultAudioWidth: 400,
 		// default if the user doesn't specify
 		defaultAudioHeight: 30,
 

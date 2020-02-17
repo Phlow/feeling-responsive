@@ -19,8 +19,17 @@
     url: "/services/physical-access-control-system/"
   - title: "Декоративная подсветка"
     url: "/services/deсorative-lighting/"
+
   - title: "Ремонт дверной автоматики"
     url: "/services/automatic-doors/"
+
+  - title: "Тепловые завесы"
+    url: "/services/air-curtain/"
+    dropdown:
+    - title: "Тепловые завесы Frico"
+      url: "/services/air-curtain-frico/"
+    - title: "Контроллер тепловых завес"
+      url: "/services/air-curtain-controller/"
 
 - title: "Продукция"
   url: "/products/"

@@ -6,7 +6,7 @@ subheadline: "Информация о Тепловые завесы"
 teaser: "This Тепловые завесы helps you to customize Feeling Responsive to your needs."
 header:
    image_fullwidth: "camera3.jpg"
-permalink: "/services/phone/"
+permalink: "/services/air-curtain/"
 ---
 * Open `_config.yml` and work it through, it's well documented
 * Add your own `logo.png` to `/assets/img/`.

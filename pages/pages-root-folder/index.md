@@ -9,14 +9,15 @@ header:
   image_fullwidth: camera1.jpg
 widget1:
   title: "Наш блог"
-  url: 'https://dmytro-lytvyn.github.io/simotek/blog/'
+  url: '/blog/'
   image: widget-1-302x182.jpg
   text: 'Тут можно вести <em>Блог</em> или назвать это <em>Новости</em>. Каждая новая запись в блоге - это просто новый файл в каталоге _posts. По идее можно всё дублировать на разных языках и сделать переключение между ними.'
 widget2:
   title: "Какую камеру выбрать?"
-  url: 'https://dmytro-lytvyn.github.io/simotek/design/video/'
+  url: '/design/video/'
+  image: start-video-feeling-responsive-302x182.jpg
   text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="https://dmytro-lytvyn.github.io/simotek/images/video1.jpg" width="302" height="182" alt=""/></a>'
+  video: '<a href="#" data-reveal-id="videoModal"><img src="/images/video1.jpg" width="302" height="182" alt=""/></a>'
 widget3:
   title: "Скачать тему"
   url: 'https://github.com/Phlow/feeling-responsive'

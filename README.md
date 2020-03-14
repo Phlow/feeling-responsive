@@ -12,6 +12,12 @@ Bot is possible, building the site with a local installation of Jekyll or contai
 
 The site is served at [localhost:4000/feeling-responsive](localhost:4000/feeling-responsive) in both cases.
 
+To work around Jekyll build errors, create to folders which are required
+
+```
+mkdir .jekyll-cache _site
+```
+
 ## Local installation
 
 ```

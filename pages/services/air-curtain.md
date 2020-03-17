@@ -5,7 +5,7 @@ title: "Тепловые завесы"
 subheadline: "Информация о Тепловые завесы"
 teaser: "This Тепловые завесы helps you to customize Feeling Responsive to your needs."
 header:
-   image_fullwidth: "camera3.jpg"
+   image_fullwidth: "fire-and-water-1920x800.jpg"
 permalink: "/services/air-curtain/"
 ---
 * Open `_config.yml` and work it through, it's well documented

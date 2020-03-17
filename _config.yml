@@ -17,6 +17,7 @@ slogan: 'Сайт компании Simotek'
 description: 'Сайт компании Simotek - видеонаблюдение, безопасность!'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
+credits: '<p>Created with &hearts; using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>!</p>'
 
 # Main author of the website
 # See > authors.yml

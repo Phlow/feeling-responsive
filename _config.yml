@@ -42,7 +42,7 @@ urlimg: 'https://phlow.github.io/feeling-responsive/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "eGon_logo_noborder_transbg_small.png"
+# logo: "eGon_logo_noborder_transbg_small.png"
 
 # Plugins
 plugins:

@@ -1,0 +1,11 @@
+- name: ding0
+  description: "Ding0 is a software package for reverse-engineering topologies of medium-voltage and low-voltage electricity distribution grids for entire Germany. Purely on open data."
+  logo: ding0_logo.png
+  link: https://dingo.readthedocs.io
+  links:
+  - link: https://github.com/openego/ding0/
+    name: GitHub
+    class: icon-github
+  - link: https://dingo.readthedocs.io
+    name: ReadTheDocs
+    class: "fas fa-book"

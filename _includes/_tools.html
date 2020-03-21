@@ -1,0 +1,21 @@
+<div class="grid-container">
+  <div class="grid-x grid-padding-x medium-unstack equal-height-cards">
+    {% for tool in site.data.tools %}
+      <div class="cell medium-4">
+        <div class="card">
+          <div class="card-section">
+            <h4><a href="{{ tool.link }}">{{ tool.name }}</a></h4>
+            <img src="{{ site.url }}{{ site.baseurl }}/images/{{ tool.logo }}" alt="{{ site.name }}">
+            <p>{{ tool.description }}</p>
+            <ul class="inline-list social-icons">
+              {% for link in tool.links %}
+
+                <li><a href="{{ link.link }}" class="tiny button">{{ link.name }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -15,3 +15,13 @@ Tools introduction text
 
 {% include _tools.html %}
 
+
+# Data from open_eGo
+
+Text about open_eGo data
+
+{% include openego_data.html %}
+
+
+More data can be found on the [OEDB](https://openenergy-platform.org/).
+![](/images/oedb_logo_bad_resolution.png)

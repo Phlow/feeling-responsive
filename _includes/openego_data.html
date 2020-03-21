@@ -1,0 +1,25 @@
+<table class="grid" style="width: 100%">
+    <caption></caption>
+    <thead>
+        <tr class="header">
+            <th>Data set</th>
+            <th>Desription</th>
+            <th>Tables</th>
+            <th>License</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for d in site.data.openego_data %}
+            <tr>
+              <td>{{ d.description }}</td>
+              <td>{{ d.dataset }}</td>
+              {% for table in d.tables %}
+                <td><a href="{{ table.url }}">{{ table.name }}</a><br></td>
+              {% endfor %}
+              <td>
+                  <a href="{{ d.license.url }}">{{ d.license.name }} ({{ d.license.acronym }})</a>
+              </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>

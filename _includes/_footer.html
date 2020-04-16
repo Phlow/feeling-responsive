@@ -10,12 +10,15 @@
 
       <div id="subfooter">
         <nav class="row">
-          {% for link in site.data.footer_links %}
-            <div>
+          <section id="subfooter-right" class="small-12 columns credits">
+            {% for link in site.data.footer_links %}
               <a href="{{ link.url }}" target="_blank" class="{{ link.class }}" title="{{ link.title }}">{{ link.title }}</a>
-            </div>
-          {% endfor %}
-          <section id="subfooter-left" class="small-12 medium-6 columns credits">
+            {% endfor %}
+          </section>
+          <section id="subfooter__copyright">
+            <p>&copy; Copyright</p>
+          </section>
+          <section id="subfooter-left" class="small-12 columns credits">
             {{ site.credits }}
           </section>
         </nav>

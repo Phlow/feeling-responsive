@@ -74,6 +74,11 @@ $base-font-size: 16px;
 $rem-base: $base-font-size;
 
 
+@media only screen and (min-width: 641px)  {
+    $base-font-size: 18px;
+}
+
+
 // The $base-font-size is 100% while $base-line-height is 150%
 // $base-line-height: 150%;
 

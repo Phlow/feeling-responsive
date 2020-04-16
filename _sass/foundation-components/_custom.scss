@@ -1,0 +1,45 @@
+/* Custom CSS not realted to Feeling Responsive */
+
+/* Footer */
+#subfooter #subfooter-right a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#footer-content #subfooter #subfooter-left p {
+    font-size: .75rem;
+    line-height: 1rem;
+    color: $primary-color-1;
+    margin-bottom: 0;
+}
+
+#subfooter {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#subfooter #subfooter-right, #footer-content #subfooter #subfooter-left, #subfooter__copyright {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+}
+
+#subfooter #subfooter__copyright p {
+    color: $primary-color-1;
+    font-size: .75rem;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 641px)  {
+    #footer-content #subfooter #subfooter-left p {
+        line-height: 27px;
+    }
+    #subfooter {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #subfooter #subfooter-right, #footer-content #subfooter #subfooter-left {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}

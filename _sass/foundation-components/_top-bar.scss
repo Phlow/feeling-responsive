@@ -25,7 +25,7 @@ $topbar-title-weight: $font-weight-normal !default;
 $topbar-title-font-size: rem-calc(17) !default;
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: $primary-color-1;
+$topbar-link-color: $primary-color-2;
 $topbar-link-color-hover: $white;
 $topbar-link-color-active: $white;
 $topbar-link-color-active-hover: $white;
@@ -33,10 +33,10 @@ $topbar-link-weight: $font-weight-normal;
 $topbar-link-font-size: rem-calc(18);
 $topbar-link-hover-lightness: -10%; // Darken by 10%
 $topbar-link-bg: $topbar-bg;
-$topbar-link-bg-hover: $primary-color-1;
+$topbar-link-bg-hover: $primary-color-2;
 $topbar-link-bg-color-hover: $white;
-$topbar-link-bg-active: $primary-color-1;
-$topbar-link-bg-active-hover: scale-color($primary-color-1, $lightness: -14%);
+$topbar-link-bg-active: $primary-color-2;
+$topbar-link-bg-active-hover: scale-color($primary-color-2, $lightness: -14%);
 $topbar-link-font-family: $body-font-family;
 $topbar-link-text-transform: none;
 $topbar-link-padding: ($topbar-height / 3);
@@ -47,10 +47,10 @@ $topbar-button-top: 7px;
 
 // Style the top bar dropdown elements
 $topbar-dropdown-bg: $white;
-$topbar-dropdown-link-color: $primary-color-1;
+$topbar-dropdown-link-color: $primary-color-2;
 $topbar-dropdown-link-color-hover: $white;
-$topbar-dropdown-link-bg: $primary-color-1;
-$topbar-dropdown-link-bg-hover: $primary-color-1;
+$topbar-dropdown-link-bg: $primary-color-2;
+$topbar-dropdown-link-bg-hover: $primary-color-2;
 $topbar-dropdown-link-weight: $font-weight-normal;
 $topbar-dropdown-toggle-size: 5px;
 $topbar-dropdown-toggle-color: $white;
@@ -66,10 +66,10 @@ $topbar-dropdown-label-bg: $primary-color-2;
 $topbar-menu-link-transform: uppercase;
 $topbar-menu-link-font-size: rem-calc(13);
 $topbar-menu-link-weight: $font-weight-bold;
-$topbar-menu-link-color: $primary-color-1;
-$topbar-menu-icon-color: $primary-color-1;
-$topbar-menu-link-color-toggled: $primary-color-1;
-$topbar-menu-icon-color-toggled: $primary-color-1;
+$topbar-menu-link-color: $primary-color-2;
+$topbar-menu-icon-color: $primary-color-2;
+$topbar-menu-link-color-toggled: $primary-color-2;
+$topbar-menu-icon-color-toggled: $primary-color-2;
 
 // Transitions and breakpoint styles
 $topbar-transition-speed: 300ms !default;

@@ -9,7 +9,7 @@
   - title: "Executables"
     url: "/releases/"
   - title: "Sources"
-    url: "/downloads/sources/"
+    url: "/sources/"
   - title: "Example & Test Data"
     url: "/data/"
   - title: "Image Gallery"
@@ -30,7 +30,7 @@
   - title: "VisIt User's Email Archive"
     url: https://elist.ornl.gov/mailman/listinfo/visit-users
   - title: "Citing VisIt"
-    url: https://wci.llnl.gov/content/assets/docs/simulation/computer-codes/visit/visit_citation.bib
+    url: "/visit_citation/"
   - title: "Wiki Pages"
     url: https://www.visitusers.org/index.php?title=Main_Page
   - title: "Gallery"

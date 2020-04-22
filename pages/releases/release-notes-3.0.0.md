@@ -11,7 +11,7 @@ enhancements and bug-fixes that were added to this release.
 
 ### General features added in version 3.0
 
-* VisIt has been enhanced to support outputting Cinema databases. Cinema is an image-based database that offers low-cost interaction with simulation data. When viewing a Cinema database through a Cinema viewer, the viewer merely changes the image from the database in response to changes in camera angle and other visualization parameters rather than performing potentially expensive I/O, computational and rendering operations. Viewers and more information about Cinema can be found at <a href=https://cinemascience.org>CinemaScience</a>.
+* VisIt has been enhanced to support outputting Cinema databases. Cinema is an image-based database that offers low-cost interaction with simulation data. When viewing a Cinema database through a Cinema viewer, the viewer merely changes the image from the database in response to changes in camera angle and other visualization parameters rather than performing potentially expensive I/O, computational and rendering operations. Viewers and more information about Cinema can be found at [CinemaScience](https://cinemascience.org).
 
     Images can consist of RGB pixel images and composite images that enable VisIt to bring together multiple plots independently in the Cinema viewer. Cinema databases can be created using the *Save Cinema wizard*, accessible by selecting *Save to Cinema...* from the *File* pulldown menu on the main control panel.
   

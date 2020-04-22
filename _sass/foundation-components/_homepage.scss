@@ -1,0 +1,41 @@
+section.row.row__wrap {
+    width: 100%;
+    max-width: 62.5rem;
+}
+
+.page__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 2rem;
+}
+
+.hero h1.hero__header {
+    font-size: 2rem;
+}
+.hero span.hero__subheader {
+    font-size: 1.15rem;
+}
+.hero .hero__img img {
+    max-height: 20rem;
+}
+.hero .hero__img {
+    text-align: center;
+}
+
+@media only screen and (min-width: 649px) {
+    .hero h1.hero__header {
+        font-size: 2.65rem;
+    }
+    .hero span.hero__subheader {
+        font-size: 1.25rem;
+    }
+    .hero .hero__img img {
+        max-height: 100%;
+    }
+    .hero .hero__img {
+        text-align: right;
+    }
+}

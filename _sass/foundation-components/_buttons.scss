@@ -265,3 +265,7 @@ $button-disabled-cursor: $cursor-default-value !default;
   box-sizing: border-box;
   border: 1px solid #1F567D;
 }
+
+.button {
+  text-transform: uppercase;
+}

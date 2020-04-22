@@ -28,7 +28,7 @@ header: no
   </section>
 
   <section class="tasks row row__wrap">
-    <div class="small-12 columns">
+    <div class="small-12 columns tasks__header">
       <h2>Our tasks</h2>
     </div>
     <div class="small-12 columns">
@@ -62,6 +62,19 @@ header: no
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="openego row row__wrap">
+    <div class="columns openego__img">
+      <img src="images/open_ego_logo.jpg">
+    </div>
+    <div class="columns openego__text">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+      </p>
+      <div class="openego__btn">
+        <a href="#" class="button">See project</a>
       </div>
     </div>
   </section>

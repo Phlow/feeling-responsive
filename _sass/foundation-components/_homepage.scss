@@ -23,11 +23,13 @@ section.row.row__wrap {
 }
 .hero h1.hero__header {
     font-size: 2rem;
+    text-align: center;
 }
 .hero p.hero__subheader {
     font-size: 1.15rem;
     line-height: 2rem;
     color: #000;
+    text-align: center;
 }
 .hero .hero__img img {
     max-height: 20rem;
@@ -44,7 +46,6 @@ section.row.row__wrap {
     width: 12rem;
     padding-left: 0;
     padding-right: 0;
-    text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
 }
@@ -55,10 +56,12 @@ section.row.row__wrap {
 @media only screen and (min-width: 640px) {
     .hero h1.hero__header {
         font-size: 2.65rem;
+        text-align: left;
     }
     .hero p.hero__subheader {
         font-size: 1.25rem;
         margin-right: 3rem;
+        text-align: left;
     }
     .hero .hero__img img {
         max-height: 28rem;
@@ -74,6 +77,10 @@ section.row.row__wrap {
 
 section.row.tasks {
     margin-top: 2rem;
+    .tasks__header {
+        text-align: center;
+        margin-bottom: .5rem;
+    }
     .tasks__item {
         font-family: iconfont;
     }
@@ -105,6 +112,9 @@ section.row.tasks {
 @media only screen and (min-width: 640px) {
     section.row.tasks {
         margin-top: 3rem;
+        .tasks__header {
+            margin-bottom: 1rem;
+        }
         .tasks__row {
             display: flex;
         }
@@ -122,5 +132,37 @@ section.row.tasks {
 @media only screen and (min-width: 1024px) {
     section.row.tasks {
         margin-top: 5rem;
+    }
+}
+
+section.row.openego {
+    margin-top: 5rem;
+    .openego__img {
+        text-align: center;
+    }
+    .openego__img img {
+        width: 6.875rem;
+    }
+    .openego__text {
+        padding-top: 1.5rem;
+    }
+    .openego__btn {
+        text-align: center;
+    }
+    .openego__text p {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    section.row.openego {
+        margin-top: 8rem;
+        .openego__text p {
+            max-width: 32rem;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.25rem;
+            line-height: 2rem;
+        }
     }
 }

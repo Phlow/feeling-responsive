@@ -7,13 +7,11 @@
   side: left
   dropdown:
   - title: "Executables"
-    url: "/releases/"
+    url: "/executables/"
   - title: "Sources"
     url: "/sources/"
   - title: "Example & Test Data"
     url: "/data/"
-  - title: "Image Gallery"
-    url: "/gallery/"
 
 - title: Documentation
   url: ""
@@ -30,11 +28,11 @@
   - title: "VisIt User's Email Archive"
     url: https://elist.ornl.gov/mailman/listinfo/visit-users
   - title: "Citing VisIt"
-    url: "/visit_citation/"
+    url: "/visit-citation/"
   - title: "Wiki Pages"
     url: https://www.visitusers.org/index.php?title=Main_Page
   - title: "Gallery"
-    url: https://wci.llnl.gov/simulation/computer-codes/visit/gallery
+    url: "/gallery/"
 
 - title: Stuff
   url: ""
@@ -51,8 +49,8 @@
   dropdown:
   - title: "Blog"
     url: "/blog/"
-  - title: "Recent"
-    url: "/recent/"
+  - title: "Releases"
+    url: "/releases/"
 
 - title: "Search"
   url: "/search/"

@@ -6,17 +6,26 @@ section.row.row__wrap {
 .page__wrap {
     display: flex;
     justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media only screen and (min-width: 640px) {
+    .page__wrap {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 }
 
 .hero h1 {
     font-size: 2rem;
 }
-
 .hero h1.hero__header {
     font-size: 2rem;
 }
-.hero span.hero__subheader {
+.hero p.hero__subheader {
     font-size: 1.15rem;
+    line-height: 2rem;
 }
 .hero .hero__img img {
     max-height: 20rem;
@@ -24,18 +33,39 @@ section.row.row__wrap {
 .hero .hero__img {
     text-align: center;
 }
+.hero .hero__btn {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.hero .button {
+    display: block;
+    width: 12rem;
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero .button.hero__cta {
+    margin-bottom: .75rem;
+}
 
-@media only screen and (min-width: 649px) {
+@media only screen and (min-width: 640px) {
     .hero h1.hero__header {
         font-size: 2.65rem;
     }
-    .hero span.hero__subheader {
+    .hero p.hero__subheader {
         font-size: 1.25rem;
+        margin-right: 3rem;
     }
     .hero .hero__img img {
-        max-height: 100%;
+        max-height: 28rem;
     }
     .hero .hero__img {
         text-align: right;
+    }
+    .hero .button {
+        margin-left: 0;
+        margin-right: 0;
     }
 }

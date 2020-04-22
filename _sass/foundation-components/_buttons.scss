@@ -36,7 +36,7 @@ $button-function-factor: -20% !default;
 // We use these to control button border styles.
 $button-border-width: 0 !default;
 $button-border-style: solid !default;
-$button-bg-color: $primary-color !default;
+$button-bg-color: #1F567D;
 $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor) !default;
 $button-border-color: $button-bg-hover !default;
 $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor) !default;
@@ -256,4 +256,12 @@ $button-disabled-cursor: $cursor-default-value !default;
       }
     }
   }
+}
+
+// Hollow buttons
+.hero .button.hero__contact {
+  background-color: #fff;
+  color: #1F567D;
+  box-sizing: border-box;
+  border: 1px solid #1F567D;
 }

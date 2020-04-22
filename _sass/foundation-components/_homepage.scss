@@ -27,6 +27,7 @@ section.row.row__wrap {
 .hero p.hero__subheader {
     font-size: 1.15rem;
     line-height: 2rem;
+    color: #000;
 }
 .hero .hero__img img {
     max-height: 20rem;
@@ -71,9 +72,9 @@ section.row.row__wrap {
     }
 }
 
-.tasks {
+section.row.tasks {
+    margin-top: 2rem;
     .tasks__item {
-        flex: 1; 
         font-family: iconfont;
     }
     .tasks__item::before {
@@ -102,9 +103,24 @@ section.row.row__wrap {
 }
 
 @media only screen and (min-width: 640px) {
-    .tasks {
+    section.row.tasks {
+        margin-top: 3rem;
         .tasks__row {
             display: flex;
         }
+        .tasks__item {
+            margin-bottom: 2rem;
+        }
+        .tasks__item-text {
+            font-size: 1.15rem;
+            line-height: 2rem;
+            padding-bottom: 0;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    section.row.tasks {
+        margin-top: 5rem;
     }
 }

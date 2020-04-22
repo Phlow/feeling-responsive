@@ -50,6 +50,20 @@ header: no
         </div>
       </div>
     </div>
+    <div class="small-12 columns">
+      <div class="tasks__row row">
+        <div class="tasks__item medium-4 columns">
+          <div class="tasks__item-text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
+          </div>
+        </div>
+        <div class="tasks__item medium-4 columns">
+          <div class="tasks__item-text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 </div>

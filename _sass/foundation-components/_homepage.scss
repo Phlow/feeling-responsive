@@ -276,3 +276,33 @@ section.row.workshops {
         margin-top: 5rem;
     }
 }
+
+section.row.funding {
+    margin-top: 5rem;
+    .funding__header {
+        text-align: center;
+    }
+    .funding__logo {
+        text-align: center;
+    }
+    .funding__logo img {
+        width: 17rem;
+    }
+    .funding__text {
+        padding-top: 1.5rem;
+    }
+    .funding__text p {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    section.row.funding {
+        margin-top: 5rem;
+        .funding__text p {
+            max-width: 26rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

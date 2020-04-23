@@ -129,7 +129,7 @@ header: no
   </section>
 
   <section class="workshops row row__wrap">
-    <div class="workshops workshops__header">
+    <div class="columns workshops__header">
       <h2>Our workshops</h2>
     </div>
     <div class="small-12 columns">
@@ -159,6 +159,20 @@ header: no
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="funding row row__wrap">
+    <div class="columns funding__header">
+      <h2>Funding</h2>
+    </div>
+    <div class="columns funding__text">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit amet, consetetur sadipscing elitr</p>
+    </div>
+    <div class="columns funding__logo">
+      <a href="https://www.bmwi.de/" title="Zur BMWI Website">
+        <img src="images/BMWI.jpg">
+      </a>
     </div>
   </section>
 

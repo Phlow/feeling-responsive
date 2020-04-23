@@ -306,7 +306,8 @@ body.video cite { color: #fff; }
 .credits a {
     color: $subfooter-link-color;
     border: 0;
-    text-transform: uppercase;
+    text-transform: none;
+    font-weight: 700;
     &:hover {
         color: $subfooter-link-color;
   }

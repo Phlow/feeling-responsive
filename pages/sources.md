@@ -6,9 +6,9 @@ header:
 permalink: "/sources/"
 ---
 
-## Automatically Build VisIt with the [build_visit](https://github.com/visit-dav/visit/releases/tag/v3.1.1/build_visit3_1_1) Script
+## Automatically Build VisIt with the [build_visit](https://github.com/visit-dav/visit/releases/download/v3.1.1/build_visit3_1_1) Script
 
-VisIt can be built automatically using the [build_visit](https://github.com/visit-dav/visit/releases/tag/v3.1.1/build_visit3_1_1) script on MacOS X and many Linux platforms. The [build_visit](https://github.com/visit-dav/visit/releases/tag/v3.1.1/build_visit3_1_1) script takes care of downloading relevant VisIt and 3rd party source code, configuring, and building it all using your C++ compiler. We encourage users to build VisIt using the [build_visit](https://github.com/visit-dav/visit/releases/tag/v3.1.1/build_visit3_1_1) script when our binary distributions have trouble running on some systems. We also recommend using the [build_visit](https://github.com/visit-dav/visit/releases/tag/v3.1.1/build_visit3_1_1) script on your system if you plan to:
+VisIt can be built automatically using the [build_visit](https://github.com/visit-dav/visit/releases/download/v3.1.1/build_visit3_1_1) script on MacOS X and many Linux platforms. The [build_visit](https://github.com/visit-dav/visit/releases/download/v3.1.1/build_visit3_1_1) script takes care of downloading relevant VisIt and 3rd party source code, configuring, and building it all using your C++ compiler. We encourage users to build VisIt using the [build_visit](https://github.com/visit-dav/visit/releases/download/v3.1.1/build_visit3_1_1) script when our binary distributions have trouble running on some systems. We also recommend using the [build_visit](https://github.com/visit-dav/visit/releases/download/v3.1.1/build_visit3_1_1) script on your system if you plan to:
 
 * Modify the VisIt source code. 
 * Build a parallel version on an advanced platform that we don't provide executables for.

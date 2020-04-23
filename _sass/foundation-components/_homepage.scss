@@ -196,8 +196,9 @@ section.row.tools {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 640px) {
     section.row.tools {
+        margin-top: 4rem;
         .tools__item {
             display: flex;
             flex-flow: column;

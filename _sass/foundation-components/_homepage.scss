@@ -222,3 +222,57 @@ section.row.tools {
         border-radius: 8px;
     }
 }
+
+section.row.workshops {
+    margin-top: 2rem;
+    .workshops__header {
+        text-align: center;
+        margin-bottom: .5rem;
+    }
+    .workshops__item {
+        font-family: iconfont;
+    }
+    .workshops__item-date {
+        background-color: #F9F9FA;
+        color: #1F567D;
+    }
+    .workshops__item-text {
+        box-shadow: 0px 4px 16px rgba(31, 86, 125, 0.1);
+        border-radius: 8px;
+        height: 100%;
+        margin: 1rem;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+    .workshops__item-date {
+        padding: .5rem 1rem;
+    }
+    .workshops__item-text p {
+        padding: 1rem 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    section.row.workshops {
+        margin-top: 3rem;
+        .workshops__header {
+            margin-bottom: 1rem;
+        }
+        .workshops__row {
+            display: flex;
+        }
+        .workshops__item {
+            margin-bottom: 2rem;
+        }
+        .workshops__item-text {
+            font-size: 1.15rem;
+            line-height: 2rem;
+            padding-bottom: 0;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    section.row.workshops {
+        margin-top: 5rem;
+    }
+}

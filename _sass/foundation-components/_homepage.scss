@@ -54,6 +54,9 @@ section.row.row__wrap {
 }
 
 @media only screen and (min-width: 640px) {
+    .hero {
+        padding-top: 1rem;
+    }
     .hero h1.hero__header {
         font-size: 2.65rem;
         text-align: left;
@@ -72,6 +75,12 @@ section.row.row__wrap {
     .hero .button {
         margin-left: 0;
         margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .hero {
+        padding-top: 3rem;
     }
 }
 

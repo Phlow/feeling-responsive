@@ -23,7 +23,7 @@ header: no
       </div>
     </div>
     <div class="medium-5 columns hero__img">
-      <img src="images/HP_hero_img_v2_for_web.svg">
+      <img src="images/HP_hero_img_v2_for_web.svg" alt="Image about how open_egon works">
     </div>
   </section>
 
@@ -68,7 +68,7 @@ header: no
 
   <section class="openego row row__wrap">
     <div class="columns openego__img">
-      <img src="images/open_ego_logo.jpg">
+      <img src="images/open_ego_logo.jpg" alt="Logo open_ego">
     </div>
     <div class="columns openego__text">
       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
@@ -87,7 +87,7 @@ header: no
       <div class="row" data-equalizer>
         <div class="medium-4 columns tools__item" data-equalizer-watch>
           <div class="tools__item-img">
-            <img src="images/open_ego_logo.jpg">
+            <img src="images/open_ego_logo.jpg" alt="Logo open_ego">
           </div>
           <div class="tools__item-text">
             <p>
@@ -100,7 +100,7 @@ header: no
         </div>
         <div class="medium-4 columns tools__item" data-equalizer-watch>
           <div class="tools__item-img">
-            <img src="images/open_ego_logo.jpg">
+            <img src="images/open_ego_logo.jpg" alt="Logo open_ego">
           </div>
           <div class="tools__item-text">
             <p>
@@ -113,7 +113,7 @@ header: no
         </div>
         <div class="medium-4 columns tools__item" data-equalizer-watch>
           <div class="tools__item-img">
-            <img src="images/open_ego_logo.jpg">
+            <img src="images/open_ego_logo.jpg" alt="Logo open_ego">
           </div>
           <div class="tools__item-text">
             <p>
@@ -171,7 +171,7 @@ header: no
     </div>
     <div class="columns funding__logo">
       <a href="https://www.bmwi.de/" title="Zur BMWI Website">
-        <img src="images/BMWI.jpg">
+        <img src="images/BMWI.jpg" alt="Logo vom BMWI">
       </a>
     </div>
   </section>

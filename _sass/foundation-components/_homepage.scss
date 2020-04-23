@@ -57,7 +57,7 @@ section.row.row__wrap {
 
 @media only screen and (min-width: 640px) {
     .hero {
-        padding-top: 1rem;
+        padding: 1rem 1rem 0;
     }
     .hero h1.hero__header {
         font-size: 2.65rem;
@@ -113,9 +113,9 @@ section.row.tasks {
     .tasks__item-text {
         box-shadow: 0px 4px 16px rgba(31, 86, 125, 0.1);
         border-radius: 8px;
-        padding: 2rem 1.25rem 1.25rem;
+        padding: 2rem 1.25rem 1.75rem;
         height: 100%;
-        margin: 1rem;
+        margin: 1rem 0;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     }
 }
@@ -136,6 +136,7 @@ section.row.tasks {
             font-size: 1.15rem;
             line-height: 2rem;
             padding-bottom: 0;
+            margin: 1rem;
         }
     }
 }
@@ -148,6 +149,7 @@ section.row.tasks {
 
 section.row.openego {
     margin-top: 5rem;
+    margin-bottom: 2rem;
     .openego__img {
         text-align: center;
     }
@@ -167,7 +169,8 @@ section.row.openego {
 
 @media only screen and (min-width: 640px) {
     section.row.openego {
-        margin-top: 8rem;
+        margin-top: 7rem;
+        margin-bottom: 0;
         .openego__text p {
             max-width: 32rem;
             margin-left: auto;
@@ -179,9 +182,14 @@ section.row.openego {
 }
 
 section.row.tools {
+    background-color: #F9F9FA;
+    padding: .5rem;
     .tools__header {
         text-align: center;
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
+    }
+    .tools__item {
+        margin-bottom: 2.5rem;
     }
     .tools__item-img {
         text-align: center;
@@ -191,7 +199,7 @@ section.row.tools {
     }
     .tools__item-text {
         text-align: center;
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
     .tools__item-link {
         text-align: center;
@@ -201,25 +209,36 @@ section.row.tools {
 @media only screen and (min-width: 640px) {
     section.row.tools {
         margin-top: 4rem;
+        background-color: #FFF;
+        padding: 0;
+        .tools__header {
+            padding-bottom: 3rem;
+        }
         .tools__item {
             display: flex;
             flex-flow: column;
             padding-left: 1rem;
             padding-right: 1rem;
+            margin-bottom: 0;
         }
         .tools__item-text {
             flex: 1;
+            padding-top: 2rem;
         }
     }
 }
 
 @media only screen and (min-width: 1024px) {
     section.row.row__wrap.tools {
-        margin-top: 5rem;
+        margin-top: 10rem;
         padding-bottom: 3rem;
-        max-width: 76rem;
+        max-width: 82rem;
         box-shadow: 0px 4px 16px rgba(31, 86, 125, 0.1);
         border-radius: 8px;
+    }
+    section.row.row__wrap.tools .tools__items {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
@@ -240,20 +259,21 @@ section.row.workshops {
         box-shadow: 0px 4px 16px rgba(31, 86, 125, 0.1);
         border-radius: 8px;
         height: 100%;
-        margin: 1rem;
+        margin: 1rem 0;
         font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     }
     .workshops__item-date {
         padding: .5rem 1rem;
+        font-weight: 700;
     }
     .workshops__item-text p {
-        padding: 1rem 1rem 0;
+        padding: 1rem 1rem;
     }
 }
 
 @media only screen and (min-width: 640px) {
     section.row.workshops {
-        margin-top: 3rem;
+        margin-top: 5rem;
         .workshops__header {
             margin-bottom: 1rem;
         }
@@ -267,18 +287,22 @@ section.row.workshops {
             font-size: 1.15rem;
             line-height: 2rem;
             padding-bottom: 0;
+            margin: 1rem;
+        }
+        .workshops__item-text p {
+            padding: 1rem 1rem 0;
         }
     }
 }
 
 @media only screen and (min-width: 1024px) {
     section.row.workshops {
-        margin-top: 5rem;
+        margin-top: 8rem;
     }
 }
 
 section.row.funding {
-    margin-top: 5rem;
+    margin-top: 2rem;
     .funding__header {
         text-align: center;
     }
@@ -304,5 +328,11 @@ section.row.funding {
             margin-left: auto;
             margin-right: auto;
         }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    section.row.funding {
+        margin-top: 8rem;
     }
 }

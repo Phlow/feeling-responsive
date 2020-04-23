@@ -175,3 +175,47 @@ section.row.openego {
         }
     }
 }
+
+section.row.tools {
+    .tools__header {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .tools__item-img {
+        text-align: center;
+    }
+    .tools__item-img img {
+        width: 5rem;
+    }
+    .tools__item-text {
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .tools__item-link {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    section.row.tools {
+        .tools__item {
+            display: flex;
+            flex-flow: column;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .tools__item-text {
+            flex: 1;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    section.row.row__wrap.tools {
+        margin-top: 5rem;
+        padding-bottom: 3rem;
+        max-width: 76rem;
+        box-shadow: 0px 4px 16px rgba(31, 86, 125, 0.1);
+        border-radius: 8px;
+    }
+}

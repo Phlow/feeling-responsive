@@ -79,4 +79,53 @@ header: no
     </div>
   </section>
 
+  <section class="tools row row__wrap">
+    <div class="columns tools__header">
+      <h2>Our tools</h2>
+    </div>
+    <div class="columns tools__items">
+      <div class="row" data-equalizer>
+        <div class="medium-4 columns tools__item" data-equalizer-watch>
+          <div class="tools__item-img">
+            <img src="images/open_ego_logo.jpg">
+          </div>
+          <div class="tools__item-text">
+            <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet
+            </p>
+          </div>
+          <div class="tools__item-link">
+            <a href="#" class="button">See project</a>
+          </div>
+        </div>
+        <div class="medium-4 columns tools__item" data-equalizer-watch>
+          <div class="tools__item-img">
+            <img src="images/open_ego_logo.jpg">
+          </div>
+          <div class="tools__item-text">
+            <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet
+            </p>
+          </div>
+          <div class="tools__item-link">
+            <a href="#" class="button">See project</a>
+          </div>
+        </div>
+        <div class="medium-4 columns tools__item" data-equalizer-watch>
+          <div class="tools__item-img">
+            <img src="images/open_ego_logo.jpg">
+          </div>
+          <div class="tools__item-text">
+            <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet consetetur sadipscing elitr
+            </p>
+          </div>
+          <div class="tools__item-link">
+            <a href="#" class="button">See project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </div>

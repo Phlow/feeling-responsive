@@ -132,7 +132,7 @@ header: no
     </div>
     <div class="small-12 columns">
       <div class="workshops__row row">
-        <div class="workshops__item medium-4 medium-offset-2 columns">
+        <div class="workshops__item medium-6 columns">
           <div class="workshops__item-text">
             <div class="workshops__item-date">
               25.07.2020
@@ -140,7 +140,7 @@ header: no
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit amet, consetetur sadipscing elitr</p>
           </div>
         </div>
-        <div class="workshops__item medium-4 columns">
+        <div class="workshops__item medium-6 columns">
           <div class="workshops__item-text">
             <div class="workshops__item-date">
               25.07.2020

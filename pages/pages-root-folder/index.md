@@ -19,7 +19,6 @@ header: no
       </p>
       <div class="hero__btn">
         <a href="/tools_data/" class="button hero__cta">See our tools</a>
-        <a href="/contact/" class="button hero__contact">Contact us</a>
       </div>
     </div>
     <div class="medium-5 columns hero__img">

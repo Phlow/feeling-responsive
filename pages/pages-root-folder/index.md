@@ -32,18 +32,15 @@ header: no
     </div>
     <div class="small-12 columns">
       <div class="tasks__row row">
-        <div class="tasks__item medium-4 columns">
+        <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
+            <h3 class="tasks__item-title">Planning Tool</h3>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
           </div>
         </div>
-        <div class="tasks__item medium-4 columns">
+        <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          </div>
-        </div>
-        <div class="tasks__item medium-4 columns">
-          <div class="tasks__item-text">
+            <h3 class="tasks__item-title">Sector Coupling</h3>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           </div>
         </div>
@@ -51,13 +48,15 @@ header: no
     </div>
     <div class="small-12 columns">
       <div class="tasks__row row">
-        <div class="tasks__item medium-4 columns">
+        <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
+          <h3 class="tasks__item-title">Modeling and Complexity</h3>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           </div>
         </div>
-        <div class="tasks__item medium-4 columns">
+        <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
+            <h3 class="tasks__item-title">Open Data / Open Source</h3>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           </div>
         </div>

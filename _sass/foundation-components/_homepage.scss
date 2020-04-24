@@ -110,6 +110,12 @@ section.row.tasks {
         box-shadow: 0px 4px 8px rgba(31, 86, 125, 0.1);
         border-radius: 100px;
     }
+    h3.tasks__item-title {
+        font-size: 1.25em;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        color: #1F567D;
+    }
     .tasks__item-text {
         box-shadow: 0px 4px 16px rgba(31, 86, 125, 0.1);
         border-radius: 8px;
@@ -124,7 +130,7 @@ section.row.tasks {
     section.row.tasks {
         margin-top: 3rem;
         .tasks__header {
-            margin-bottom: 1rem;
+            margin-bottom: 2rem;
         }
         .tasks__row {
             display: flex;

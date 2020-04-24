@@ -22,7 +22,7 @@ header: no
       </div>
     </div>
     <div class="medium-5 columns hero__img">
-      <img src="images/HP_hero_img_v2_for_web.svg" alt="Image about how open_egon works">
+      <img src="images/HP_hero_img_v3_for_web.svg" alt="Image about how open_egon works">
     </div>
   </section>
 

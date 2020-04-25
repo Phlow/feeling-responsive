@@ -16,11 +16,14 @@ VisIt is supported by the Department of Energy with funding from the Advanced Si
 
 ## Releases
 
-|[3.1.1](https://github.com/visit-dav/visit/releases/tag/v3.1.1)|
-|[3.1.0](https://github.com/visit-dav/visit/releases/tag/v3.1.0)|
-|[3.0.2](https://github.com/visit-dav/visit/releases/tag/v3.0.2)|
-|[3.0.1](https://github.com/visit-dav/visit/releases/tag/v3.0.1)|
-|[2.13.3](https://github.com/visit-dav/visit/releases/tag/v2.13.3)|
-|[2.13.2](https://github.com/visit-dav/visit/releases/tag/v2.13.2)|
-|[2.13.1](https://github.com/visit-dav/visit/releases/tag/v2.13.1)|
-|[2.13.0](https://github.com/visit-dav/visit/releases/tag/v2.13.0)|
+##### Version 3.1 series (latest)
+
+* [3.1.1](https://github.com/visit-dav/visit/releases/tag/v3.1.1), [3.1.0](https://github.com/visit-dav/visit/releases/tag/v3.1.0)
+
+##### Version 3.0 series
+
+* [3.0.2](https://github.com/visit-dav/visit/releases/tag/v3.0.2), [3.0.1](https://github.com/visit-dav/visit/releases/tag/v3.0.1)
+
+##### Version 2.13 series
+
+* [2.13.3](https://github.com/visit-dav/visit/releases/tag/v2.13.3), [2.13.2](https://github.com/visit-dav/visit/releases/tag/v2.13.2), [2.13.1](https://github.com/visit-dav/visit/releases/tag/v2.13.1), [2.13.0](https://github.com/visit-dav/visit/releases/tag/v2.13.0)

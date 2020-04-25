@@ -8,11 +8,10 @@ github: markcmiller86
 role: active
 photo_url: https://people.llnl.gov/getImage?per_intr_no=1011807
 ---
-Mark has been supporting [VisIt](http://visit.llnl.gov) and the lead developer of
-[Silo](https://silo.llnl.gov) supporting 
-scalable I/O requirements of LLNL HPC simulation codes such as
+Mark has supported [VisIt](http://visit.llnl.gov) and led development of
+[Silo](https://silo.llnl.gov) supporting scalable I/O requirements of LLNL HPC simulation codes such as
 [ALE3D](https://wci.llnl.gov/simulation/computer-codes/ale3d)
-[Kull, Ares, LASNEX, Overlink](https://wci.llnl.gov/simulation/computer-codes)
+[Kull, Ares, LASNEX and Overlink](https://wci.llnl.gov/simulation/computer-codes)
 for ~20 years.
 Mark's interests include data models and their impact on software
 interoperability, high performance I/O, and Software Quality Engineering
@@ -21,8 +20,8 @@ for HPC libraries.  In this role, Mark has participated in the development of
 a number of scientific
 database and data modeling technologies including
 [Silo](http://silo.llnl.gov),
-[SAF](https://github.com/markcmiller86/SAF)
 [HDF5](https://support.hdfgroup.org/HDF5/),
+[SAF](https://github.com/markcmiller86/SAF), and
 [ITAPS](https://github.com/markcmiller86/ITAPS/blob/master/docs/Presentations/ITAPS_SC08_Tutorial_Submitted.pdf)
 and most recently the
 [MACSio](https://codesign.llnl.gov/macsio.php)

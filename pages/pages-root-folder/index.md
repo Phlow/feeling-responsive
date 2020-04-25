@@ -6,22 +6,22 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: gallery_00a.png
+  image_fullwidth: reactor1.png
 widget1:
-  title: "Updates & Plans"
-  url: '/visit-top-50/'
-  image: gallery_25_widget.jpg
-  text: 'Learn about recent releases, plans for upcomming releases, works in progress and other stuff about VisIt, its related technologies and visualization and data analysis in general.'
-widget2:
-  title: "Why use VisIt?"
-  url: '/gallery/'
-  text: '<em>VisIt</em> is extremely scalable.<br/>1. Runs on Unix, Windows & OSX<br/>2. Is Free, <a href="https://github.com/visit-dav/visit/blob/develop/LICENSE">BSD Open Source</a>.<br/>3. Reads 130+ <a href="https://www.visitusers.org/index.php?title=Detailed_list_of_file_formats_VisIt_supports">File Formats</a>.<br/>4. Installed on many <a href="https://science.osti.gov/User-Facilities">LCFs</a>'
-  video: '<center><a href="#" data-reveal-id="videoModal"><img src="images/gallery_12.jpg" width="180" align="middle"/></a></center>'
-widget3:
   title: "Download Now"
   url: 'https://github.com/visit-dav/visit'
   image: widget-github-303x182.jpg
   text: 'Get the <a href="https://github.com/visit-dav/visit/releases/latest">latest release</a> to start visualizing and analyzing your data today. Or, download the <a href="https://github.com/visit-dav/visit/releases/download/v3.0.2/build_visit3_0_2">build_visit</a> script to build a custom version. Please <a href="https://github.com/visit-dav/visit/issues/new">share a comment</a> with us about your experiences with VisIt.'
+widget2:
+  title: "Why use VisIt?"
+  url: '/gallery/'
+  text: '<em>VisIt</em> is extremely scalable.<br/>1. Runs on Unix, Windows & OSX<br/>2. Is Free, <a href="https://github.com/visit-dav/visit/blob/develop/LICENSE">BSD Open Source</a>.<br/>3. Reads 130+ <a href="https://www.visitusers.org/index.php?title=Detailed_list_of_file_formats_VisIt_supports">File Formats</a>.<br/>4. Installed on many <a href="https://science.osti.gov/User-Facilities">LCFs</a>'
+  video: '<center><a href="#" data-reveal-id="videoModal"><img src="images/wing_tip_streamlines_thumb.png" width="303" align="middle"/></a></center>'
+widget3:
+  title: "Updates & Plans"
+  url: 'https://github.com/visit-dav/visit/issues?q=is%3Aopen+is%3Aissue+milestone%3A3.2'
+  image: gallery_00b.png
+  text: 'Learn about recent releases, plans for upcomming releases, works in progress and other stuff about VisIt, its related technologies and visualization and data analysis in general.'
 
 callforaction:
   url: https://elist.ornl.gov/mailman/listinfo/visit-announce

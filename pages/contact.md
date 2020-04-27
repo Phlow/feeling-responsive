@@ -11,13 +11,13 @@ each of which have differeing *requirements* and *privacy* levels.
 
 Method | Privacy | Requirements
 --- | --- | ---
-[GitHub issue][gh1] | None | Must have a (free) [GitHub account][gh2]
-[General email][ge1] | None | Must [subscribe to visit-users][ge2] email list
-[User Forum][uf1] | None | Must have a (free) [Forum account][uf2]
-[ASC email][ae1] | Some | Must be ASC related work
-[SciDAC email][se1] | Some | Must be SciDAC related work
-[Developer email][de1] | Some | Must be a VisIt developer & [subscribe<br>to visit-developers][de2] email list
-[Hotline call][hc1] | Most | Must be LLNL employee
+[GitHub issue][gh1] | None<sup>[A]</sup> | Must have a (free) [GitHub account][gh2]
+[General email][ge1] | None<sup>[A]</sup> | Must [subscribe to visit-users][ge2] email list
+[User Forum][uf1] | None<sup>[A]</sup> | Must have a (free) [Forum account][uf2]
+[ASC email][ae1] | Some<sup>[B]</sup> | Must be ASC related work
+[SciDAC email][se1] | Some<sup>[B]</sup> | Must be SciDAC related work
+[Developer email][de1] | Some<sup>[B]</sup> | Must be a VisIt developer & [subscribe<br>to visit-developers][de2] email list
+[Hotline call][hc1] | Most<sup>[C]</sup> | Must be LLNL employee
 Announcements | N/A | Must [subscribe][An1] to get<br>important/release announcements
 
 ### More details
@@ -49,3 +49,18 @@ processes to understand how we aim to respond to inquiries.
 [uf1]: http://www.visitusers.org/forum/YaBB.pl "Go to the VisIt User Forum" 
 [uf2]: http://visitusers.org/forum/YaBB.pl?action=register "Register for a user forum account"
 [An1]: https://elist.ornl.gov/mailman/listinfo/visit-announce "Subscribe to visit-announce email list"
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+[A]: #privacy-notes "World readable and discoverable"
+[B]: #privacy-notes "Not archived or discoverable on any server"
+[C]: #privacy-notes "Same privacy as a telephone call"
+
+##### Privacy notes
+
+* (A) World readable and discoverable
+* (B) Not archived or discoverable on any server
+* (C) Same privacy as a telephone call
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>

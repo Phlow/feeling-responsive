@@ -11,11 +11,12 @@ categories:
 #
 # Styling
 #
-#    image_fullwidth: "summit_and_sierra-fs8.png"
 header:
     image_fullwidth: "https://www.youtube.com/embed/tLm_3Vl9rLg?vq=hd720"
     caption: "A VisIt keyframing demo-tutorial"
     caption_url: https://www.youtube.com/embed/tLm_3Vl9rLg
+image:
+    thumb: gallery_01.jpg
 author: miller86
 ---
 This tutorial demonstrates basic functionality of VisIt's keyframing feature

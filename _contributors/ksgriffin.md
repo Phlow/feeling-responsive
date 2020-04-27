@@ -8,7 +8,7 @@ expertise: [OSX, Python, PyDV, GUI/Qt]
 role: active
 ---
 Kevin has been supporting VisIt development for 4+ years and is the lead
-developer for [PyDV ](https://github.com/griffin28/PyDV). He is a graduate
-of U.C. Davis doctoral program in computer science with a focus on computer
+developer for [PyDV ](https://github.com/griffin28/PyDV). He is a recent graduate
+of the U.C. Davis doctoral program in computer science with a focus on computer
 graphics and visualization. Kevin also holds the rank of Lt. Commander
 as an Information Warfare Officer in the Naval Reserves.

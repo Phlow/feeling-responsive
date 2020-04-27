@@ -1,0 +1,15 @@
+<div class="grid-container">
+  <div class="grid-x grid-padding-x medium-unstack equal-height-cards">
+    {% for partner in site.data._partners %}
+      <div class="cell medium-4">
+        <div class="card">
+          <div class="card-section">
+            <h4><a href="{{ partner.url }}">{{ partner.name }}</a></h4>
+            <img src="{{ site.url }}{{ site.baseurl }}/images/{{ tool.logo }}" alt="{{ site.name }}">
+            <p>{{ partner.description | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

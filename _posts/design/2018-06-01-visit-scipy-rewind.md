@@ -2,6 +2,7 @@
 layout: page
 show_meta: false
 title: "SciPy 2102 Rewind"
+subheadline: "Slides overviewing some early GPU acceleration work"
 teaser: "Python and GPU-accelerated expressions with OpenCL"
 tags:
     - post format

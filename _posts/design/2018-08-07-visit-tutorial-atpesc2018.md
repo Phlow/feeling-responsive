@@ -2,6 +2,7 @@
 layout: video
 show_meta: false
 title: "2018 ATPESC VisIt Tutorial"
+subheadline: "A video intro to VisIt"
 teaser: "Intro to VisIt plus 90 min. hands-on tutorial"
 tags:
     - post format

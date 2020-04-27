@@ -4,6 +4,7 @@ layout: page
 # Content
 #
 teaser: "All teams have to do it. Now we have a name for it."
+subheadline: "BSSw.io blog article re-host"
 title: "Continuous Technology Refreshment (CTR)"
 categories:
   - design

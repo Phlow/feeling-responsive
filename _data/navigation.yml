@@ -42,6 +42,8 @@
     url: "/contributors/"
   - title: "Examples"
     url: "/examples"
+  - title: "VisIt Top 50"
+    url: "/visit-top-50"
 
 - title: News
   url: ""

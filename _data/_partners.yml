@@ -1,5 +1,25 @@
+- name: DLR Institute of Networked Energy Systems
+  logo: Partnerlogo_DLR.svg
+  description: The DLR Institute of Networked Energy Systems, department of Energy Systems Analysis, contributes to the extension of the existing open source power system planning tools with regard to sector integration and a focus on the gas sector. The DLR Institute of Networked Energy Systems has strong expertise in open source modelling of power and gas grid infrastructure. Among other activities, the DLR will provide methods and data for the optimal allocation of power-to-gas plants as well as cross-sectoral complexity reduction techniques. For more information, please refer to the [institute's website](https://www.dlr.de/ve/desktopdefault.aspx/tabid-12471/21741_read-49802/).
+  url: https://www.dlr.de/ve/desktopdefault.aspx/tabid-12471/21741_read-49802/
+- name: University of Flensburg
+  logo: Partnerlogo_EUF.svg
+  description: The Europa-Universität Flensburg (EUF), as a part of the Center for Sustainable Energy Systems (ZNES), contributes to the extension of the existing open source power system planning tools with regard to sector integration with a focus on the heat sector. The EUF can rely on expertise in open source modelling, energy economics and heat sector mapping. As part of its work, the EUF will, among other activities, provide high-resolution spatial and temporal heat demand data. Please find contact information on the [this website](https://www.uni-flensburg.de/eum/).
+  url: https://www.uni-flensburg.de/eum/
+- name: Universtity of Applied Sciences Flensburg
+  logo: Partnerlogo_HSFL.svg
+  description: The Flensburg University of Applied Sciences (FUAS) is part of the Center for Sustainable Energy Systems (ZNES). It provides valuable expertise in modeling and planning of sub-transmission and transmission grids including the development and application of methods for complexity reductions., Furthermore the FUAS can build on profound knowledge in processing data for energy system modeling.  In the context of eGo<sup>n</sup>, the FUAS works on the expansion of the grid planning tool focusing on the high and extra-high voltage level. This includes the integration of e-mobility and advanced electrical flexibilities such as demand-side-management and dynamic line rating. Additionally, the FUAS is in charge of the overall project coordination. Please find contact information [here](http://www.znes-flensburg.de/projekt/266).
+  url: http://www.znes-flensburg.de/projekt/266
+- name: Fraunhofer Institute for Energy Economics and Energy System Technology
+  logo: Partnerlogo_IEE.svg
+  description: The Fraunhofer Institute for Energy Economics and Energy System Technology IEE in Kassel researches for the national and international transformation of energy supply systems. The IEE provides data for studies about sector coupling (e.g. time series) and algorithms to reduce the complexity of models. These are based on experiences made in former projects. In addition, the IEE will validate new solutions created during the eGo<sup>n</sup> project. More information can be found on the [IEE's website](https://www.iee.fraunhofer.de/).
+  url: https://www.iee.fraunhofer.de/
+- name: University of Magdeburg
+  logo: 
+  description: Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Günni is a lazy guy. Please find contact information on the [this website](https://forschung-sachsen-anhalt.de/project/offenes-netzebenen-sektorenuebergreifendes-23206).
+  url: https://forschung-sachsen-anhalt.de/project/offenes-netzebenen-sektorenuebergreifendes-23206
 - name: Reiner Lemoine Institut
-  logo: images/Partnerlogo_RLI.svg
-  description: The Reiner Lemoine Institut (RLI) brings competence in planning of distribution grids, modeling of synthetic distribution grid topologies, and (geo-)data processing to the project. The RLI has a strong focus on the distribution grid part and is responsible for providing charging profiles of battery-electric vehicles, developing sector-coupled distribution planning methods, and leads case studies that will be conducted with the developed tools. Find contact information on the [RLI's website](https://reiner-lemoine-institut.de/egon/).
+  logo: Partnerlogo_RLI.svg
+  description: The Reiner Lemoine Institut (RLI) brings competence in planning of distribution grids, modeling of synthetic distribution grid topologies, and (geo-)data processing to the project. The RLI has a strong focus on the distribution grid part and is responsible for providing charging profiles of battery-electric vehicles, developing sector-coupled distribution planning methods, and leads case studies that will be conducted with the developed tools. Find contact information on the [RLI's website](https://reiner-lemoine-institut.de/eGo<sup>n</sup>/).
   url: https://reiner-lemoine-institut.de/egon/
   

@@ -24,3 +24,6 @@ sass:
 
 # Disable when not in production
 google_analytics_tracking_id: false
+
+# To control content only for developers
+audience: ['public', 'developers']

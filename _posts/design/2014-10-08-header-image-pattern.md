@@ -14,6 +14,7 @@ header:
     pattern: pattern_concrete.jpg
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
+audience: "developers"
 ---
 It's so easy to do. Just define in front matter an image and a pattern image. Instead of a pattern you can also use a color. Have a look at the [example with a background color]({{ site.url }}{{ site.baseurl }}/design/header-image-color/).
 <!--more-->

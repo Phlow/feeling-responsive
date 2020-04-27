@@ -40,7 +40,6 @@ improve_content: https://visit-dav.github.io/visit-website/edit/gh-pages
 #
 urlimg: 'https://visit-dav.github.io/visit-website/images/'
 
-
 # Logo size is 600x80 pixels
 logo: "logo.png"
 
@@ -69,7 +68,6 @@ plugins:
 #
 paginate: 5                      # Paginates all X entries
 paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
-
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown           : kramdown
@@ -102,7 +100,6 @@ compress_html:
   ignore:
     envs: [development]
 
-
 #
 #       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_
@@ -131,6 +128,7 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: miller86 # Default author for posts
+      audience: 'public' # Default audience for posts
   -
     scope:
       path: ''
@@ -138,7 +136,8 @@ defaults:
     values:
       header: no
 
-
+# To control which content gets processed
+audience: ['public']
 
 #       _   __            _             __  _
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____

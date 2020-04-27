@@ -17,6 +17,7 @@ image:
 categories:
     - design
     - typography
+audience: "developers"
 ---
 <!--more-->
 

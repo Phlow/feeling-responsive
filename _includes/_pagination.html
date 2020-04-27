@@ -8,6 +8,11 @@
 
 
 {% for post in paginator.posts %}
+<!--
+    {% unless site.audience contains post.audience %}
+        {% continue %}
+    {% endunless %}
+-->
   <div class="row">
     <div class="small-12 columns b60">
       <p class="subheadline">{{ post.categories | join: ' &middot; ' | prepend: '<span class="subheader">' | append: '</span>' }}{% if post.categories != empty and post.subheadline != NULL %} – {% endif %}{{ post.subheadline }}</p>

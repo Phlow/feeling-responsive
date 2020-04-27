@@ -8,7 +8,8 @@ header:
 permalink: "/roadmap/"
 
 ---
-## Ideas and possible new features
+## Ideas and possible new features CBD
+
 {: .t30 }
 
 * Get rid of Backstretch.js and solve it with pure CSS
@@ -16,23 +17,21 @@ permalink: "/roadmap/"
 * Layout/Template for category-archives
 * Layout/Template for collections
 * Layout/Template for Landingpage
-* Clean bare-bones version of *Feeling Responsive*
+* Clean bare-bones version of _Feeling Responsive_
 * Even better responsive typography
 * Google AdSense ads
 * More post-formats for blogging like special post formats for links, audio, tweets,...
 * Make a video-sitemap.xml
 
-
-
 ## Done
 
 * [<s>Add schema.org Markup for Videos</s>](https://support.google.com/webmasters/answer/2413309?hl=en)
 * [<s>Submit <em>Feeling Responsive</em> to jekyllthemes.org</s>](http://jekyllthemes.org/themes/feeling-responsive/)
-* <s>Use `style` in front matter to inject css-styles into `<head></s>
+* <s>Use `style` in front matter to inject css-styles into \`<head></s>
 * <s>Add include to loop through collections</s>
 * <s>Now with optional caption for header</s>
 * [<s>Refined humans.txt</s>](http://humanstxt.org/)
-* [<s>Produce an introduction video to showcase *Feeling Responsive*</s>](https://www.youtube.com/embed/3b5zCFSmVvU)
+* [<s>Produce an introduction video to showcase _Feeling Responsive_</s>](https://www.youtube.com/embed/3b5zCFSmVvU)
 * [<s>Additional header with text</s>]({{ site.url }}{{ site.baseurl }}/headers/)
 * <s>Added Google Analtics support</s>
 * [<s>Add redirection layout by KanishkKanishk</s>](http://codingtips.kanishkkunal.in/redirects-jekyll-github-pages/)
@@ -47,7 +46,7 @@ permalink: "/roadmap/"
 * <s>Clean up color scheme and highlighting colors</s>
 * <s>Make theme translation ready</s>
 * [<s>Add draft-templates for new pages/posts</s>](https://github.com/Phlow/feeling-responsive/tree/gh-pages/_drafts)
-* [<s>Step-by-Step-Guide to customize *Feeling Responsive*</s>]({{ site.url }}{{ site.baseurl }}/getting-started/)
+* [<s>Step-by-Step-Guide to customize _Feeling Responsive_</s>]({{ site.url }}{{ site.baseurl }}/getting-started/)
 * [<s>Video-Post-Format to feature videos in a huge way</s>]({{ site.url }}{{ site.baseurl }}/design/video/)
 * <s>Title and captions for images</s>
 * <s>SEO › Add metadescription to header.html and front matter</s>

@@ -14,7 +14,7 @@ header: no
       </p>
     </div>
     <div class="columns tools-data__img">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/open_ego_tool-chain_150dpi.png" alt="Image about open ego tool chain">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/open_ego_tool-chain_noBorder.svg" alt="Image about open ego tool chain">
     </div>
   </section>
 
@@ -43,7 +43,7 @@ header: no
 
   <section class="tools-data__oep row row__wrap">
     <div class="columns medium-3 tools-data__oep-logo">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/oedb_logo_bad_resolution.png" alt="Logo oedb">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/OEP_logo.svg" alt="Logo oedb">
     </div>
     <div class="columns medium-7 tools-data__oep-right">
       <div class="row">

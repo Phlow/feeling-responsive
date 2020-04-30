@@ -8,71 +8,14 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
-    </li>
+        <h1 class="">
+          <a href="{{ site.url }}{{ site.baseurl }}"><img class="top-bar__logo" src="{{ site.url }}{{ site.baseurl }}/assets/img/logo_egon_top_nav.svg"> {{ site.title }}</a>
+        </h1>
+      </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
     </ul>
     <section class="top-bar-section">
-{% comment %}
-
-    ____  _       __    __     _   __            _             __  _
-   / __ \(_)___ _/ /_  / /_   / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
-  / /_/ / / __ `/ __ \/ __/  /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
- / _, _/ / /_/ / / / / /_   / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
-/_/ |_/_/\__, /_/ /_/\__/  /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
-        /____/                                 /____/
-
-{% endcomment %}
-      <ul class="right">
-        {% for link in site.data.navigation %}
-
-              {% if link.url contains 'http' %}
-                {% assign domain = '' %}
-                {% assign _baseurl = '' %}
-              {% elsif link.url == '#' %}
-                {% assign domain = '' %}
-                {% assign _baseurl = site.baseurl %}
-              {% else %}
-                {% assign domain = site.url %}
-                {% assign _baseurl = site.baseurl %}
-              {% endif %}
-
-
-
-          {% comment %}   If there are links for right side begin   {% endcomment %}
-          {% if link.side == 'right' %}
-            {% comment %}   If right side WITHOUT dropdown menu do   {% endcomment %}
-            {% if link.dropdown == nil %}
-              <li class="divider"></li>
-              <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
-
-            {% comment %}   If right side WITH dropdown menu do   {% endcomment %}
-            {% else %}
-
-              <li class="divider"></li>
-              <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
-                <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
-
-                  <ul class="dropdown">
-                    {% for dropdown_link in link.dropdown %}
-
-                      {% if dropdown_link.url contains 'http' %}
-                        {% assign domain = '' %}
-                        {% else %}
-                        {% assign domain = site.url %}
-                      {% endif %}
-
-                      <li><a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
-                    {% endfor %}
-                  </ul>
-
-              </li>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        {% comment %}   First loop finished 1   {% endcomment %}
-      </ul>
 {% comment %}
 
     __         ______     _   __            _             __  _
@@ -102,8 +45,13 @@
 
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
+              {% if link.home %}
+                <li{% if link.url == page.url %} class="hide-for-small-only active"{% elsif page.homepage == true and link.url == '/' %} class="hide-for-small-only active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}><img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{site.logo}}" style="height: 48px"> {{ link.title}}.yml</a></li>
+                <li class="divider"></li>
+              {% else %}
               <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
               <li class="divider"></li>
+              {% endif %}
 
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
             {% else %}

@@ -41,6 +41,21 @@ header: no
     </div>
   </section>
 
+  <section class="tools-data__oep row row__wrap">
+    <div class="columns medium-3 tools-data__oep-logo">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/oedb_logo_bad_resolution.png" alt="Logo oedb">
+    </div>
+    <div class="columns medium-7 tools-data__oep-right">
+      <div class="row">
+        <h2 class="tools-data__oep-heading">OpenEnergyPlatform</h2>
+        <p class="tools-data__oep-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit amet, consetetur sadipscing elitr</p>
+        <div class="tools-data__oep-btn">
+          <a href="#" class="button">To Platform</a>
+      </div>
+      </div>
+    </div>
+  </section>
+
 </div>
 
 

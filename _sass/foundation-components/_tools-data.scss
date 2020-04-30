@@ -119,6 +119,44 @@
       }
     }
   }
+
+  .tools-data__oep {
+    padding-top: 7rem;
+
+    @media only screen and (min-width: 640px) {
+      padding-top: 10rem;
+    }
+  }
+
+  .tools-data__oep-heading {
+    text-align: center;
+    margin-bottom: .5rem;
+    margin-top: 0;
+
+    @media only screen and (min-width: 640px) {
+      text-align: left;
+    }
+  }
+
+  .tools-data__oep-logo {
+    text-align: center;
+
+    @media only screen and (min-width: 640px) {
+      text-align: right;
+      padding-right: 1rem;
+    }
+    img {
+      height: 8rem;
+    }
+  }
+
+  .tools-data__oep-btn {
+    text-align: center;
+
+    @media only screen and (min-width: 640px) {
+      text-align: left;
+    }
+  }
 }
 
 

@@ -28,7 +28,14 @@ header: no
   </section>
 
 
-  {% include openego_data.html %}
+  <section class="tools-data__table row row__wrap">
+    <div class="columns tools-data__table-heading">
+      <h2>Our data</h2>
+    </div>
+    <div class="columns tools-data__table-content">
+      {% include openego_data.html %}
+    </div>
+  </section>
 
 </div>
 

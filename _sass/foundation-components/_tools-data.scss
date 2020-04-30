@@ -21,12 +21,34 @@
     }
   }
 
+  .tools-data__tools {
+    padding-top: 4rem;
+
+    @media only screen and (min-width: 640px) {
+      padding-top: 5rem;
+    }
+  }
+
   .tools-data__tools-heading {
     text-align: center;
     margin-bottom: .5rem;
 
     @media only screen and (min-width: 640px) {
       margin-bottom: 2rem;
+    }
+  }
+  
+  .tools-data__table {
+    padding-top: 4rem;
+
+    @media only screen and (min-width: 640px) {
+      padding-top: 5rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
@@ -36,6 +58,17 @@
 
     @media only screen and (min-width: 640px) {
       margin-bottom: 2rem;
+    }
+  }
+
+  .tools-data__table-text {
+    padding-top: 2rem;
+
+    @media only screen and (min-width: 1024px) {
+      padding-top: 0;
+      margin-bottom: 5rem;
+      padding-left: 1rem;
+      border-left: 1px solid #dadada;
     }
   }
 
@@ -79,6 +112,11 @@
 
     tr td {
       padding: 1.75rem 1rem;
+
+      @media only screen and (min-width: 1024px) {
+        font-size: 1rem;
+        line-height: 1.4rem;
+      }
     }
   }
 }

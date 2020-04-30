@@ -32,6 +32,10 @@ header: no
     <div class="columns tools-data__table-heading">
       <h2>Our data</h2>
     </div>
+    <div class="large-9 columns">
+      <p class="tools-data__table-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sediam voluptua.
+      </p>
+    </div>
     <div class="columns tools-data__table-content">
       {% include openego_data.html %}
     </div>

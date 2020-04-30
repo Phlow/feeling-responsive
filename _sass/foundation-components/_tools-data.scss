@@ -20,4 +20,31 @@
       border-left: 1px solid #dadada;
     }
   }
+
+  .tools-data__tools-heading {
+    text-align: center;
+    margin-bottom: .5rem;
+
+    @media only screen and (min-width: 640px) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+// Tools section
+.tools__item-name {
+  text-align: center;
+}
+
+.tools__item-img {
+  text-align: center;
+  padding-bottom: 1rem;
+
+  @media only screen and (min-width: 640px) {
+    padding-top: 1rem;
+  }
+
+  img {
+    max-height: 8rem;
+  }
 }

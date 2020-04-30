@@ -18,7 +18,14 @@ header: no
     </div>
   </section>
 
-  {% include _tools.html %}
+  <section class="tools-data__tools row row__wrap">
+    <div class="columns tools-data__tools-heading">
+      <h2>Our tools</h2>
+    </div>
+
+    {% include _tools.html %}
+
+  </section>
 
 
   {% include openego_data.html %}

@@ -4,6 +4,8 @@
   link: https://dingo.readthedocs.io
   links:
   - link: https://github.com/openego/ding0/
-    class: icon-github
+    name: GitHub
+    icon: GitHub_icon.svg
   - link: https://dingo.readthedocs.io
-    class: "fas fa-book"
+    name: "Docs"
+    icon: RTD_icon.svg

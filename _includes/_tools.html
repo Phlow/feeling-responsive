@@ -12,9 +12,15 @@
           <p>{{ tool.description }}</p>
         </div>
         <div class="tools__item-link">
-          <ul class="inline-list social-icons">
+          <!-- <ul class="inline-list social-icons"> -->
+          <ul>
             {% for link in tool.links %}
-              <li><a href="{{ link.link }}" class="tiny button">{{ link.name }}</a></li>
+              <li>
+                <a href="{{ link.link }}">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ link.icon }}" width="24" alt="Logo {{ link.name }}">
+                {{ link.name }}
+                </a>
+              </li>
             {% endfor %}
           </ul>
         </div>

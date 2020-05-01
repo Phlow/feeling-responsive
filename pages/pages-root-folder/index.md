@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: reactor1.png
+  image_fullwidth: pres_movie_b_smaller_banner.gif
 widget1:
   title: "Download Now"
   url: 'https://github.com/visit-dav/visit'

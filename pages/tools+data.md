@@ -10,7 +10,8 @@ header: no
 
   <section class="tools-data__header row row__wrap">
     <div class="large-9 columns">
-      <p class="tools-data__subheading">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sediam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      <p class="tools-data__subheading">
+        In the context of <a href="https://openegoproject.wordpress.com">open_eGo</a> several models and applications have been developed resulting in a toolchain. These data and tools provide the basis for eGo<sup>n</sup>. The data and data models were created and processed in different modules named data processing and ding0. Additional external open source tools such as osmTGmod and SciGrid were applied. Two modular planning tools (eTraGo and eDisGo) focusing on different grid levels were developed. They are combined in the inter-grid-level planning tool eGo to investigate viable grid expansion scenarios. All data sets are open data and made available on the open energy database (oedb) as part of the open energy platform - <a href="https://openenergy-platform.org/">OEP</a>. The grid planning tools access the oedb to retrieve and store data. The codes of the developed tools are open source and available on <a href="https://github.com/openego">GitHub</a>. 
       </p>
     </div>
     <div class="columns tools-data__img">
@@ -33,7 +34,8 @@ header: no
       <h2>Our data</h2>
     </div>
     <div class="large-9 columns">
-      <p class="tools-data__table-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sediam voluptua.
+      <p class="tools-data__table-text">
+        The data is characterized by a high spatial resolution suitable for energy system modeling. It is available through the oedb. You can find the most important data sets listed in the following table.
       </p>
     </div>
     <div class="columns tools-data__table-content">
@@ -48,9 +50,11 @@ header: no
     <div class="columns medium-7 tools-data__oep-right">
       <div class="row">
         <h2 class="tools-data__oep-heading">OpenEnergyPlatform</h2>
-        <p class="tools-data__oep-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit amet, consetetur sadipscing elitr</p>
+        <p class="tools-data__oep-text">
+          The OpenEnergy Platform is an open data platform used by energy researchers to publish data in an accessible manner.
+        </p>
         <div class="tools-data__oep-btn">
-          <a href="#" class="button">To Platform</a>
+          <a href="https://openenergy-platform.org/" class="button">Visit OEP</a>
       </div>
       </div>
     </div>

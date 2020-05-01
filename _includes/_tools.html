@@ -9,7 +9,7 @@
           <a href="{{ tool.link }}"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ tool.logo }}" alt="{{ site.name }} Logo"></a>
         </div>
         <div class="tools__item-text">
-          <p>{{ tool.description }}</p>
+          <p>{{ tool.description | markdownify }}</p>
         </div>
         <div class="tools__item-link">
           <!-- <ul class="inline-list social-icons"> -->

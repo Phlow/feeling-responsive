@@ -11,7 +11,7 @@ widget1:
   title: "Download Now"
   url: 'https://github.com/visit-dav/visit'
   image: widget-github-303x182.jpg
-  text: 'Get the <a href="https://github.com/visit-dav/visit/releases/latest">latest release</a> to start visualizing and analyzing your data today. Or, download the <a href="https://github.com/visit-dav/visit/releases/download/v3.1.1/build_visit3_1_1">build_visit</a> script to build a custom version. Please <a href="https://github.com/visit-dav/visit/issues/new">share a comment</a> with us about your experiences with VisIt.'
+  text: 'Get the [latest release](./executables/#latest) to start visualizing and analyzing your data today. Or, download the <a href="https://github.com/visit-dav/visit/releases/latest">latest build_visit</a> script to build a custom version. Please <a href="https://github.com/visit-dav/live-customer-response/issues/new?assignees=&labels=&template=customer-response.md&title=">share a comment</a> with us about your experiences with VisIt.'
 widget2:
   title: "Why use VisIt?"
   url: '/about/'
@@ -21,7 +21,7 @@ widget3:
   title: "Updates & Plans"
   url: 'https://github.com/visit-dav/visit/issues?q=is%3Aopen+is%3Aissue+milestone%3A3.2'
   image: gallery_00b.png
-  text: 'Learn about recent releases, plans for upcomming releases, works in progress and other stuff about VisIt, its related technologies and visualization and data analysis in general.'
+  text: 'Learn about recent releases, <a href="https://github.com/visit-dav/visit/milestones">plans for upcomming releases</a>, <a href="https://github.com/visit-dav/visit/branches/active">works in progress</a> and other stuff about VisIt, its related technologies and visualization and data analysis in general.'
 
 callforaction:
   url: https://elist.ornl.gov/mailman/listinfo/visit-announce

@@ -18,7 +18,7 @@
                   {% assign item_parts = item | split: ':' %}
 		  {% assign split_url = item_parts[0] | split: '.' %}
 		  {% capture thumb_url %}{{split_url[0]}}-thumb.{{split_url[1]}}{% endcapture %}
-		  <li><a href="{{ site.urlimg }}{{ item_parts[0] | strip }}"><img {% if item_parts[1] %}data-caption="{{ item_parts[1] }}"{% endif %} src="{{ site.urlimg }}{{ thumb_url | strip }}" alt="{{ item_parts[1] }}"></a></li>
+		  <li><a href="{{ site.urlimg }}{{ item_parts[0] | strip }}"><img {% if item_parts[1] %}data-caption="{{- item_parts[1] | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines -}}"{% endif %} src="{{ site.urlimg }}{{ thumb_url | strip }}" alt="{{- item_parts[1] | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines -}}"></a></li>
 		{% endfor %}
 	</ul>
 </div>

@@ -4,9 +4,11 @@ layout: page
 <br><figure><img src="{{ site.urlimg }}{{ page.image }}"></figure>
 
 {{ page.content }}
+<br>
 
 {% if page.mediaelement %}
 <video src="../../images/{{ page.image | replace: ".jpg", ".mpeg" }}" style="width:100%;height:100%;" width="100%" height="100%" class="mejs__player" data-mejsoptions='{"alwaysShowControls": "true"}'></video>
+<br>
 {% endif %}
 
 {% if page.image_credits or page.data_credits or page.compute_credits %}
@@ -22,6 +24,7 @@ layout: page
     <tr><td><b>Compute</b></td><td>Compute resources courtesy of {{ page.compute_credits | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</td></tr>
     {% endif %}
 </table>
+<br>
 {% endif %}
 
 {% include next-previous-post-in-collection back_to_top="/examples/" %}

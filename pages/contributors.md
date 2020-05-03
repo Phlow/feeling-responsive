@@ -1,7 +1,7 @@
 ---
 layout: page
 header:
-  image_fullwidth: gallery_07a.png
+  image_fullwidth: gallery-07a.png
 permalink: "/contributors/"
 ---
 

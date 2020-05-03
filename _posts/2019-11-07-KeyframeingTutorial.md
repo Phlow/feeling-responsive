@@ -16,7 +16,7 @@ header:
     caption: "A VisIt keyframing demo-tutorial"
     caption_url: https://www.youtube.com/embed/tLm_3Vl9rLg
 image:
-    thumb: gallery_01.jpg
+    thumb: gallery-01.jpg
 author: miller86
 ---
 This tutorial demonstrates basic functionality of VisIt's keyframing feature

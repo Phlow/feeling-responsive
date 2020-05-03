@@ -17,7 +17,7 @@ header:
     caption: "A NASA astronaut on STS-130 gives the ISS a Tech Refresh"
     caption_url: https://www.nasa.gov/mission_pages/shuttle/shuttlemissions/sts130/main/index.html
 image:
-    thumb: gallery_27.jpg
+    thumb: gallery-27.jpg
 author: miller86
 ---
 The practice of

@@ -5,7 +5,7 @@ title: "VisIt Top 50"
 subheadline: "Leading Examples of VisIt at Scale"
 teaser: "From laptop to LCF, VisIt can visualize and analize data at any scale."
 header:
-   image_fullwidth: "gallery_07a.png"
+   image_fullwidth: "gallery-07a.png"
 permalink: "/visit-top-50/"
 ---
 
@@ -30,7 +30,7 @@ Mz=Million Zones (10<sup>6</sup>), Bz=Billion Zones (10<sup>9</sup>), Tz=Trillio
 |10,000<sup>3</sup>|1|1 Tz|Rect+1|16,000 cpus of [Franklin](https://www.top500.org/system/176150)|Mark Howison<br>Prabhat<br>Hank Childs|[![](../images/1tz.png){:width="50px"}](https://cacm.acm.org/news/30613-doe-researchers-test-limits-of-visualization-tool/fulltext?mobile=false)|
 |8000<sup>3</sup>|1|0.5 Tz|Rect+1|8,000 cpus of [Purple](https://www.top500.org/system/174683)|Hank Childs|[![](../images/1tz.png){:width="50px"}](https://cacm.acm.org/news/30613-doe-researchers-test-limits-of-visualization-tool/fulltext?mobile=false)|
 |4000<sup>3</sup>|1|64 Bz|Rect+1|4,000 cpus of [Ranger](https://www.top500.org/system/176183)|Hank Childs<br>Cyrus Harrison||
-|3000<sup>3</sup>|1|27 Bz|Rect+3||Hank Childs|![](../images/gallery_02.jpg){:width="50px"}|
-|1152<sup>3</sup>|400+|1.52 Bz|Rect+1||Hank Childs<br>Daniel Laney<br>Mark C Miller|[![](../images/gallery_02.jpg){:width="50px"}](https://asc.llnl.gov/computing_resources/bluegenel/papers/cabot.pdf)|
-|720<sup>2</sup>x1620|1000+|0.85 Tz|Rect+1|125 cpus of [MCR](https://www.top500.org/system/167394)|Hank Childs<br>Daniel Laney<br>Mark C Miller|[![](../images/gallery_02.jpg){:width="50px"}](https://asc.llnl.gov/computing_resources/bluegenel/papers/cabot.pdf)|
+|3000<sup>3</sup>|1|27 Bz|Rect+3||Hank Childs|![](../images/gallery-02.jpg){:width="50px"}|
+|1152<sup>3</sup>|400+|1.52 Bz|Rect+1||Hank Childs<br>Daniel Laney<br>Mark C Miller|[![](../images/gallery-02.jpg){:width="50px"}](https://asc.llnl.gov/computing_resources/bluegenel/papers/cabot.pdf)|
+|720<sup>2</sup>x1620|1000+|0.85 Tz|Rect+1|125 cpus of [MCR](https://www.top500.org/system/167394)|Hank Childs<br>Daniel Laney<br>Mark C Miller|[![](../images/gallery-02.jpg){:width="50px"}](https://asc.llnl.gov/computing_resources/bluegenel/papers/cabot.pdf)|
 |3600x308<sup>2</sup>|1|340 Mz|Rect+4|128 cpus of [Franklin](https://www.top500.org/system/176150)|Gunther H. Weber<br>Cameron Geddes||

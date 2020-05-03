@@ -2,7 +2,7 @@
 layout: page
 title: "Citing VisIt"
 header:
-   image_fullwidth: "gallery_05a.png"
+   image_fullwidth: "gallery-05a.png"
 permalink: "/visit-citation/"
 ---
 

@@ -1,7 +1,5 @@
 ---
 layout: page
-header:
-  image_fullwidth: 1tza.png
 permalink: "/examples/"
 ---
 

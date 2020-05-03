@@ -9,7 +9,7 @@ tags:
 categories:
     - tutorials
 image:
-    thumb: gallery_15.jpg
+    thumb: gallery-15.jpg
 iframe: <iframe width="560" height="315" src="https://www.youtube.com/embed/aRV5etrNlAQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 video:
     embedURL: "https://www.youtube.com/embed/aRV5etrNlAQ"

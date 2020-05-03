@@ -5,7 +5,7 @@ subheadline: Templates
 title:  "Page/Post Right Sidebar"
 teaser: "This is an example of page/post with a sidebar on the right."
 sidebar-text: "Don't forget to have look at the new features in [SILO](https://silo.llnl.gov)"
-sidebar-image: "gallery_01.jpg"
+sidebar-image: "gallery-01.jpg"
 breadcrumb: true
 tags:
     - post format

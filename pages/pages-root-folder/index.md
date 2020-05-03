@@ -20,7 +20,7 @@ widget2:
 widget3:
   title: "Updates & Plans"
   url: 'https://github.com/visit-dav/visit/issues?q=is%3Aopen+is%3Aissue+milestone%3A3.2'
-  image: gallery_00b.png
+  image: gallery-00b.png
   text: 'Learn about recent releases, <a href="https://github.com/visit-dav/visit/milestones">plans for upcomming releases</a>, <a href="https://github.com/visit-dav/visit/branches/active">works in progress</a> and other stuff about VisIt, its related technologies and visualization and data analysis in general.'
 
 callforaction:

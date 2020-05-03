@@ -69,10 +69,10 @@ Manuals     |[html][311doc]/[pdf][311pdf]|[html][310doc]/[pdf][310pdf]
 [311stgz]: https://github.com/visit-dav/visit/archive/v3.1.1.tar.gz
 [311rn]: https://wci.llnl.gov/simulation/computer-codes/visit/releases/release-notes-3.1.1
 [311in]: https://github.com/visit-dav/visit/releases/download/v3.1.1/INSTALL_NOTES.txt
-[311sha256]: https://github.com/visit-dav/visit/releases/download/v3.1.1/visit_sha256_checksums.txt
-[311sha1]: https://github.com/visit-dav/visit/releases/download/v3.1.1/visit_sha1_checksums.txt
-[311md5]: https://github.com/visit-dav/visit/releases/download/v3.1.1/visit_md5_checksums.txt
-[311fs]: https://github.com/visit-dav/visit/releases/download/v3.1.1/visit_filesizes.txt
+[311sha256]: https://github.com/visit-dav/visit/releases/download/v3.1.1/visit_sha256_checksums.txt "List of all download file names and their sha256 checksums"
+[311sha1]: https://github.com/visit-dav/visit/releases/download/v3.1.1/visit_sha1_checksums.txt "List of all download file names and their sha1 checksums"
+[311md5]: https://github.com/visit-dav/visit/releases/download/v3.1.1/visit_md5_checksums.txt "List of all download file names and their md5 checksums"
+[311fs]: https://github.com/visit-dav/visit/releases/download/v3.1.1/visit_filesizes.txt "List of all download file names and their sizes in bytes"
 [311doc]: https://visit-sphinx-github-user-manual.readthedocs.io/en/v3.1.1/
 [311pdf]: https://visit-sphinx-github-user-manual.readthedocs.io/_/downloads/en/v3.1.1/pdf/
 

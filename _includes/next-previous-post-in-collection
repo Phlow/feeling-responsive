@@ -33,7 +33,7 @@
 <a class="left button tiny radius icon-chevron-left r15" href="{{site.url}}{{site.baseurl}}{{ next_post }}">{{ site.data.language.previous_post_in }} {{ collection.label | upcase }}</a>
 {% endif %}
 {% if include.back_to_top %}
-<a class="button tiny radius" href="{{ include.back_to_top }}">{{ site.data.language.back_to_top_in }} {{ collection.label | upcase }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="button tiny radius" href="{{site.url}}{{site.baseurl}}{{include.back_to_top}}">{{ site.data.language.back_to_top_in }} {{ collection.label | upcase }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
 {% endif %}
 {% if prev_post %}
 <a class="button tiny radius" href="{{site.url}}{{site.baseurl}}{{ prev_post }}">{{ site.data.language.next_post_in }} {{ collection.label | upcase }}<span class="icon-chevron-right"></span></a>

@@ -11,11 +11,11 @@ widget1:
   title: "Download Now"
   url: 'https://github.com/visit-dav/visit'
   image: widget-github-303x182.jpg
-  text: 'Get the [latest release](./executables/#latest) to start visualizing and analyzing your data today. Or, download the <a href="https://github.com/visit-dav/visit/releases/latest">latest build_visit</a> script to build a custom version. Please <a href="https://github.com/visit-dav/live-customer-response/issues/new?assignees=&labels=&template=customer-response.md&title=">share a comment</a> with us about your experiences with VisIt.'
+  text: 'Get the [latest release](./executables/#latest) to start visualizing and analyzing your data today. Or, download the <a href="https://github.com/visit-dav/visit/releases/latest/download/build_visit3_1_1">latest build_visit</a> script to build a custom version. Please <a href="https://github.com/visit-dav/live-customer-response/issues/new?assignees=&labels=&template=customer-response.md&title=">share a comment</a> with us about your experiences with VisIt.'
 widget2:
   title: "Why use VisIt?"
   url: '/about/'
-  text: '<em>VisIt</em> is extremely scalable.<br/>1. Runs on Unix, Windows & OSX<br/>2. Is Free, <a href="https://github.com/visit-dav/visit/blob/develop/LICENSE">BSD Open Source</a>.<br/>3. Reads 130+ <a href="https://www.visitusers.org/index.php?title=Detailed_list_of_file_formats_VisIt_supports">File Formats</a>.<br/>4. Installed on many <a href="https://science.osti.gov/User-Facilities/User-Facilities-at-a-Glance/ASCR">LCFs</a>'
+  text: '= Proven [scaling](./visit-top-50) to &gt;10<sup>12</sup> zones.<br/>= Supported on Unix, Windows & Mac.<br/>= Free, <a href="https://github.com/visit-dav/visit/blob/develop/LICENSE">BSD Open Source</a>.<br/>= Reads 130+ <a href="https://www.visitusers.org/index.php?title=Detailed_list_of_file_formats_VisIt_supports">File Formats</a>.<br/>= Supported on many <a href="https://science.osti.gov/User-Facilities/User-Facilities-at-a-Glance/ASCR">LCFs</a>'
   video: '<center><a href="#" data-reveal-id="videoModal"><img src="images/wing_tip_streamlines_thumb.png" width="303" align="middle"/></a></center>'
 widget3:
   title: "Updates & Plans"

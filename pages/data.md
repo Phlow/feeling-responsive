@@ -2,7 +2,7 @@
 layout: page
 title: "Example and Test Data"
 header:
-   image_fullwidth: "gallery_10a.png"
+   image_fullwidth: "gallery-10a.png"
 permalink: "/data/"
 date: "2015-10-15"
 ---
@@ -20,8 +20,8 @@ VisIt at visitusers.org. If you want us to add a link to your data here,
 send an e-mail to the VisIt Webmaster.
 
 |**File Format**|**Example Image**|**File Format**|**Example Image**|
-|[VisIt Test Data][silo]|[![](../images/visit_data_files.jpg)][silo]|[ESRI Shapefile][esri]|[![](../images/gallery_14.jpg){:width="150px"}][esri]|
-|[DEM][dem]|[![](../images/gallery_13.jpg){:width="150px"}][dem]|[NetCDF][netcdf]|[![](../images/gallery_09.jpg){:width="150px"}][netcdf]|
+|[VisIt Test Data][silo]|[![](../images/visit_data_files.jpg)][silo]|[ESRI Shapefile][esri]|[![](../images/gallery-14.jpg){:width="150px"}][esri]|
+|[DEM][dem]|[![](../images/gallery-13.jpg){:width="150px"}][dem]|[NetCDF][netcdf]|[![](../images/gallery-09.jpg){:width="150px"}][netcdf]|
 
 [silo]: https://wci.llnl.gov/content/assets/docs/simulation/computer-codes/visit/visit_data_files.tar.gz
 [esri]: http://arcdata.esri.com/data/tiger2000/tiger_download.cfm

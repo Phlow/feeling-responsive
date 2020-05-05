@@ -5,8 +5,8 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-#header:
-#  image_fullwidth: pres_movie_b_smaller_banner.gif
+header:
+  image_fullwidth: pres_movie_b_smaller_banner.gif
 widget1:
   title: "Why use VisIt?"
   url: '/about/'

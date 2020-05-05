@@ -1,5 +1,8 @@
 ---
 layout: page
+title: Examples Gallery
+header:
+    image_fullwidth: "summit_and_sierra-fs8.png"
 permalink: "/examples/"
 ---
 

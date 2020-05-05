@@ -40,6 +40,8 @@
     url: "/pdfs/GettingDataIntoVisIt2.0.0.pdf"
   - title: "VisIt Reader Tutorial"
     url: "/pdfs/Tutorial_FileFormatReader.pdf"
+  - title: "VisIt User's Wiki"
+    url: "https://www.visitusers.org"
 
 - title: Developers
   url: ""

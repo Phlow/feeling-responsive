@@ -1,15 +1,26 @@
 - title: Home
   url: "/"
   side: left
+  dropdown:
+  - title: "About"
+    url: "/about/"
+  - title: "Contact"
+    url: "/contact/"
+  - title: "Examples/Gallery"
+    url: "/examples/"
+  - title: "Citing VisIt"
+    url: "/citing-visit/"
+  - title: "Contributors"
+    url: "/contributors/"
+  - title: "Top 50"
+    url: "/visit-top-50/"
 
 - title: Downloads
   url: "/releases/"
   side: left
   dropdown:
-  - title: "Executables"
-    url: "/executables/"
-  - title: "Sources"
-    url: "/sources/"
+  - title: "Releases"
+    url: "/releases-as-tables/"
   - title: "Example & Test Data"
     url: "/data/"
 
@@ -19,31 +30,25 @@
   dropdown:
   - title: "GUI Manual"
     url: https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/gui_manual/index.html
-  - title: "Python CLI Manual"
+  - title: "CLI (Python) Manual"
     url: https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/cli_manual/index.html
-  - title: "Current Tutorials"
+  - title: "Tutorials"
     url: https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/tutorials/index.html
-  - title: "Older Tutorials"
+  - title: "Tutorials (dated)"
     url: https://www.visitusers.org/index.php?title=VisIt_Tutorial
-  - title: "VisIt User's Email Archive"
-    url: https://elist.ornl.gov/mailman/listinfo/visit-users
-  - title: "Citing VisIt"
-    url: "/visit-citation/"
-  - title: "Wiki Pages"
-    url: https://www.visitusers.org/index.php?title=Main_Page
-  - title: "Gallery"
-    url: "/gallery/"
+  - title: "Getting Data Into VisIt"
+    url: "/pdfs/GettingDataIntoVisIt2.0.0.pdf"
+  - title: "VisIt Reader Tutorial"
+    url: "/pdfs/Tutorial_FileFormatReader.pdf"
 
-- title: Stuff
+- title: Developers
   url: ""
   side: left
   dropdown:
-  - title: "Contributors"
-    url: "/contributors/"
-  - title: "Examples"
-    url: "/examples"
-  - title: "VisIt Top 50"
-    url: "/visit-top-50"
+  - title: "Developing VisIt"
+    url: https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/dev_manual/index.html
+  - title: "Test Dashboard"
+    url: "/dashboard/"
 
 - title: News
   url: ""
@@ -52,7 +57,7 @@
   - title: "Blog"
     url: "/blog/"
   - title: "Releases"
-    url: "/releases/"
+    url: "/releases-as-tables/"
 
 - title: "Search"
   url: "/search/"

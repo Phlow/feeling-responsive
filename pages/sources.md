@@ -18,7 +18,7 @@ For instructions on building VisIt on MacOS X and Linux systems using [build_vis
 
 If you use VisIt to generate images and/or movies please cite VisIt in your paper and the credits of your movie. Doing so helps us sustain funding for future improvements and on going maintenance. Please use the following acknowledgement and send us references to any publications, presentations, or successful funding applications that make use of DOE software.
 
-* VisIt Citation [bibtex citation](visit-citation.md)
+* VisIt Citation [bibtex citation](citing-visit.md)
 
 VisIt is supported by the Department of Energy with funding from the Advanced Simulation and Computing Program, the Scientific Discovery through Advanced Computing Program, and the Exascale Computing Project.
 

@@ -2,10 +2,11 @@
 layout: page
 title: "Contact"
 meta_title: "Contact and use our contact form"
+header:
+    image_fullwidth: "llnl_machine.jpg"
 permalink: "/contact/"
 ---
-You can contact the VisIt team in various ways. Methods differ in *requirements* and
-*privacy* level.
+Methods of contact we offer differ in *requirements* and *privacy* level.
 
 ### Options for contacting us
 
@@ -56,6 +57,7 @@ processes to understand how we aim to respond to inquiries.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### None privacy
 ##### None privacy
@@ -63,6 +65,7 @@ processes to understand how we aim to respond to inquiries.
 All communications, including any attached images and data files are discoverable
 and readable by anyone, anywhere in the world with a web browser.
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -74,11 +77,13 @@ and are not archived or discoverable on any email storage servers.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ##### Most privacy
 ##### Most privacy
 
 The same level of privacy as any ordinary telephone call.
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

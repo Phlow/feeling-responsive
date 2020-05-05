@@ -2,11 +2,14 @@
 layout: page
 title: "Release Notes for VisIt 3.0.1"
 header:
-   image_fullwidth: "gallery_05a.png"
+   image_fullwidth: "gallery-05a.png"
 permalink: "/releases/release-notes-3.0.1/"
 ---
 
 Welcome to VisIt's release notes page. This page describes the important enhancements and bug-fixes that were added to this release.
+
+1. TOC
+{:toc}
 
 ### Bugs fixed in version 3.0.1
 

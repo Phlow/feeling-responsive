@@ -55,6 +55,22 @@
       margin-bottom: 1rem;
     }
   }
+
+  .tools-data__tools-text {
+    text-align: center;
+
+    @media only screen and (min-width: 640px) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      padding-top: 0;
+      margin-bottom: 1rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+  }
   
   .tools-data__table {
     padding-top: 4rem;

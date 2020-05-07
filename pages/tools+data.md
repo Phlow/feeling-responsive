@@ -23,6 +23,9 @@ header: no
     <div class="columns tools-data__tools-heading">
       <h2>Our tools</h2>
     </div>
+    <div class="columns tools-data__tools-text">
+      <p>The data is characterized by a high spatial resolution suitable for energy system modeling. It is available through the oedb. You can find the most important data sets listed in the following table.</p>
+    </div>
 
     {% include _tools.html %}
 

@@ -1,11 +1,33 @@
-- name: ding0
-  description: "Ding0 is a software package for reverse-engineering topologies of medium-voltage and low-voltage electricity distribution grids for entire Germany. Purely on open data."
-  logo: ding0_logo.png
-  link: https://dingo.readthedocs.io
-  links:
-  - link: https://github.com/openego/ding0/
+- name: eTraGo
+  description: The open source tool eTraGo optimizes grid and storage expansion on the German 380, 220 and 110 kV voltage levels for future power system designs.
+  logo: etrago_logo.png
+  link: https://etrago.readthedocs.io
+  links: 
+  - link: https://github.com/openego/eTraGo/
     name: GitHub
-    class: icon-github
-  - link: https://dingo.readthedocs.io
-    name: ReadTheDocs
-    class: "fas fa-book"
+    icon: GitHub_icon.svg
+  - link: https://etrago.readthedocs.io
+    name: "Docs"
+    icon: noun_Book_3324965.svg
+- name: eGo
+  description: With eGo, an integrated optimization of flexibility options and grid extension is assessed by linking transmission grid planning of [eTraGo](https://etrago.readthedocs.io) with distribution grid of [eDisGo](https://edisgo.readthedocs.io) planning.
+  logo: Toollogo_eGo3.svg
+  link: https://openego.readthedocs.io
+  links: 
+  - link: https://github.com/openego/eGo
+    name: GitHub
+    icon: GitHub_icon.svg
+  - link: https://openego.readthedocs.io
+    name: "Docs"
+    icon: noun_Book_3324965.svg
+- name: eDisGo
+  description: A distribution grid planning tool based on PyPSA. It offers automatized grid reinforcement, battery integration, grid-supportive curtailment, and can deal with time series.
+  logo: Toollogo_eDisGo.svg
+  link: https://edisgo.readthedocs.io
+  links: 
+  - link: https://github.com/openego/eDisGo
+    name: GitHub
+    icon: GitHub_icon.svg
+  - link: https://edisgo.readthedocs.io
+    name: "Docs"
+    icon: noun_Book_3324965.svg

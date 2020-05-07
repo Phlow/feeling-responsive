@@ -2,7 +2,7 @@
     
   .tools-data__header {
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       padding-bottom: 8rem;
     }
 
@@ -19,7 +19,7 @@
     padding-bottom: 2rem;
     line-height: 2rem;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       line-height: 2.15rem;
     }
 
@@ -36,7 +36,7 @@
   .tools-data__tools {
     padding-top: 4rem;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       padding-top: 0;
       padding-bottom: 2rem;
       box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
@@ -51,7 +51,7 @@
     text-align: center;
     margin-bottom: 1rem;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       margin-bottom: 1rem;
     }
   }
@@ -59,7 +59,7 @@
   .tools-data__table {
     padding-top: 4rem;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       padding-top: 6rem;
     }
 
@@ -75,7 +75,7 @@
     text-align: center;
     margin-bottom: .5rem;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       margin-bottom: 2rem;
     }
   }
@@ -95,7 +95,7 @@
     overflow-x: auto;
     margin-bottom: 4rem;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       margin-bottom: 8rem;
     }
 
@@ -152,7 +152,7 @@
     margin-top: 7rem;
     padding: 2rem 1rem 1rem;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
       border-radius: 8px;
       padding: 4rem 1rem 3rem;
@@ -168,7 +168,7 @@
     margin-bottom: .5rem;
     margin-top: 0;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       text-align: left;
     }
   }
@@ -176,7 +176,7 @@
   .tools-data__oep-logo {
     text-align: center;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       text-align: right;
       padding-right: 1rem;
     }
@@ -186,7 +186,7 @@
   }
 
   .tools-data__oep-text {
-    @media only screen and (max-width: 639px) {
+    @media only screen and (max-width: 640px) {
       text-align: center;
     }
   }
@@ -194,7 +194,7 @@
   .tools-data__oep-btn {
     text-align: center;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       text-align: left;
     }
   }
@@ -205,7 +205,7 @@
 // Tools section
 .tools-data__tools .tools__items .tools__item {
 
-  @media only screen and (max-width: 639px) {
+  @media only screen and (max-width: 640px) {
     box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
     border-radius: 8px;
     padding: 0 1rem 1rem;
@@ -213,7 +213,7 @@
     margin-bottom: .5rem;
   }
 
-  @media only screen and (min-width: 640px) {
+  @media only screen and (min-width: 641px) {
     padding-left: .75rem;
     padding-right: .75rem;
     display: flex;
@@ -231,7 +231,7 @@
 .tools__item-name {
   text-align: center;
 
-  @media only screen and (max-width: 639px) {
+  @media only screen and (max-width: 640px) {
     margin-bottom: 1.5rem;
   }
 }
@@ -240,23 +240,12 @@
   text-align: center;
   padding-bottom: 1rem;
 
-  @media only screen and (min-width: 640px) {
+  @media only screen and (min-width: 641px) {
     padding-top: 1rem;
   }
 
   img {
     max-height: 8rem;
-  }
-}
-
-.tools__item-upper {
-  justify-content: normal;
-}
-
-.tools__item-link {
-  align-items: flex-end;
-
-  img {
     transform: translateY(-3px);
     margin-right: .25rem;
   }
@@ -264,6 +253,20 @@
 
 .tools__item-link ul {
   margin-left: 0;
+
+  @media only screen and (min-width: 641px) {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.tools__item-link-bg {
+  display: none;
+
+  @media only screen and (min-width: 641px) {
+    height: 4.5rem;
+    display: block;
+  }
 }
 
 .tools__item-link li {

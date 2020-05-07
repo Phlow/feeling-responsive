@@ -1,15 +1,16 @@
-<div class="grid-container">
-  <div class="grid-x grid-padding-x medium-unstack equal-height-cards">
-    {% for partner in site.data._partners %}
-      <div class="cell medium-4">
-        <div class="card">
-          <div class="card-section">
-            <h4><a href="{{ partner.url }}">{{ partner.name }}</a></h4>
-            <img src="{{ site.url }}{{ site.baseurl }}/images/{{ partner.logo }}" alt="{{ partner.name }}">
-            <p>{{ partner.description | markdownify }}</p>
-          </div>
+<div class="partners">
+  {% for partner in site.data._partners %}
+    <div class="partners__item">
+      <div class="partners__upper">
+        <h2 class="partners__name"><a href="{{ partner.url }}">{{ partner.name }}</a></h2>
+        <img class="partners__logo" src="{{ site.url }}{{ site.baseurl }}/images/{{ partner.logo }}" alt="{{ partner.name }}">
+      </div>
+      <div class="partners__bottom">
+        <p class="partners__text">{{ partner.description | markdownify }}</p>
+        <div class="partners__link">
+          <a href="{{ partner.url }}">{{ partner.name }}</a>
         </div>
       </div>
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 </div>

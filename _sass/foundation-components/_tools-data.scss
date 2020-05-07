@@ -203,3 +203,13 @@
 .tools__item-link {
   align-items: flex-end;
 }
+
+.tools__item-link ul {
+  margin-left: 0;
+}
+
+.tools__item-link li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 1rem;
+}

@@ -1,4 +1,5 @@
-$partner-card-helper-height: 20rem;
+$partner-card-helper-height: 13rem;
+$partner-card-margin-desktop: .75rem;
 
 .partners {
   max-width: 62.5rem;
@@ -8,25 +9,38 @@ $partner-card-helper-height: 20rem;
   padding-left: .75rem;
   padding-right: .75rem;
 
+  a {
+    color: #1F567D;
+  }
+
   .partners__item {
+    box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
+    border-radius: 8px;
     width: 100%;
     display: block;
     position: relative;
+    padding: 0 .75rem 1.5rem;
+    margin: .75rem 0;
     @media only screen and (min-width: 1024px) {
-      width: 50%;
+      width: calc(50% - #{$partner-card-margin-desktop});
+      padding: 0 1.25rem 2rem;
     }
   }
 
   @media only screen and (min-width: 1024px) {
     > .partners__item:nth-child(odd) {
-      padding-left: 0;
-      padding-right: 2rem;
+      margin-left: 0;
+      margin-right: $partner-card-margin-desktop;
     }
 
     > .partners__item:nth-child(even) {
-      padding-left: 2rem;
-      padding-right: 0;
+      margin-left: $partner-card-margin-desktop;
+      margin-right: 0;
     }
+  }
+
+  h2.partners__name {
+    font-size: 1.25rem;
   }
 
   .partners__upper--helper {
@@ -45,12 +59,27 @@ $partner-card-helper-height: 20rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 100%;
       top: 0;
+      text-align: left;
     }
   }
 }
 
 .partners__logo {
-  height: 11rem;
+
+  @media only screen and (min-width: 1024px) {
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+
+  img {
+    height: 7rem;
+    display: inline;
+    padding-top: 1rem;
+
+    @media only screen and (min-width: 1024px) {
+      padding-top: 0;
+    }
+  }
 }

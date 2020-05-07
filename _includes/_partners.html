@@ -4,7 +4,9 @@
       <div class="partners__upper--helper"></div>
       <div class="partners__upper">
         <h2 class="partners__name"><a href="{{ partner.url }}">{{ partner.name }}</a></h2>
-        <img class="partners__logo" src="{{ site.url }}{{ site.baseurl }}/images/{{ partner.logo }}" alt="{{ partner.name }}">
+        <div class="partners__logo">
+          <img src="{{ site.url }}{{ site.baseurl }}/images/{{ partner.logo }}" alt="{{ partner.name }}">
+        </div>
       </div>
       <div class="partners__bottom">
         <p class="partners__text">{{ partner.description | markdownify }}</p>

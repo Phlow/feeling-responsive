@@ -246,8 +246,6 @@
 
   img {
     max-height: 8rem;
-    transform: translateY(-3px);
-    margin-right: .25rem;
   }
 }
 
@@ -257,6 +255,11 @@
   @media only screen and (min-width: 641px) {
     position: absolute;
     bottom: 0;
+  }
+
+  img {
+    transform: translateY(-3px);
+    margin-right: .25rem;
   }
 }
 

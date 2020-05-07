@@ -8,7 +8,7 @@
     icon: GitHub_icon.svg
   - link: https://etrago.readthedocs.io
     name: "Docs"
-    icon: RTD_icon.svg
+    icon: noun_Book_3324965.svg
 - name: eGo
   description: With eGo, an integrated optimization of flexibility options and grid extension is assessed by linking transmission grid planning of [eTraGo](https://etrago.readthedocs.io) with distribution grid of [eDisGo](https://edisgo.readthedocs.io) planning.
   logo: Toollogo_eGo3.svg
@@ -19,7 +19,7 @@
     icon: GitHub_icon.svg
   - link: https://openego.readthedocs.io
     name: "Docs"
-    icon: RTD_icon.svg
+    icon: noun_Book_3324965.svg
 - name: eDisGo
   description: A distribution grid planning tool based on PyPSA. It offers automatized grid reinforcement, battery integration, grid-supportive curtailment, and can deal with time series.
   logo: Toollogo_eDisGo.svg
@@ -30,4 +30,4 @@
     icon: GitHub_icon.svg
   - link: https://edisgo.readthedocs.io
     name: "Docs"
-    icon: RTD_icon.svg
+    icon: noun_Book_3324965.svg

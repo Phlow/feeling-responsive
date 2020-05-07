@@ -9,15 +9,24 @@
 
 
       <div id="subfooter">
-        <nav class="row">
-          {% for link in site.data.footer_links %}
-            <div>
-              <a href="{{ link.url }}" target="_blank" class="{{ link.class }}" title="{{ link.title }}">{{ link.title }}</a>
+        <div class="row">
+          <div class="columns medium-3 subfooter__logo">
+            <img src="{{ site.url }}/images/logo_egon_v3.png" alt="egon logo">
+          </div>
+          <div class="columns medium-9 subfooter__links">
+            <div id="subfooter-right" class="credits credits--imprint">
+              {% for link in site.data.footer_links %}
+                <a href="{{ link.url }}" target="_blank" class="{{ link.class }}" title="{{ link.title }}">{{ link.title }}</a>
+              {% endfor %}
             </div>
-          {% endfor %}
-          <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            {{ site.credits }}
-          </section>
-        </nav>
+            <!-- <section id="subfooter__copyright"  class="small-6 columns credits"> -->
+            <div id="subfooter-left"  class="credits">
+              <p> <img src="{{ site.url }}/images/cc.svg" alt="CC" style="height:24px;"> <img src="{{ site.url }}/images/by.svg" alt="BY" style="height:24px;">  Content of this webpage - except for the partner logos - is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" class="{{ link.class }}">CC-BY-4.0</a> conditions</p>
+            </div>
+            <div id="subfooter-left" class="credits">
+              {{ site.credits }}
+            </div>
+          </div>
+        </div>
       </div><!-- /#subfooter -->
     </footer>

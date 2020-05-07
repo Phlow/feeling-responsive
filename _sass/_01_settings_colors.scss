@@ -12,13 +12,19 @@
 */
 
 
+/* custom variable colors */
+$primary-color-1: #000;
+$primary-color-2: #1F567D;
+$white: #fff;
+
+
 
 /* Basics
 ------------------------------------------------------------------- */
 
 $text-color:       	#838383;
 $body-font-color: 	$text-color;
-$body-bg: 			#fdfdfd;
+$body-bg: 			#fff;
 
 
 
@@ -26,7 +32,7 @@ $body-bg: 			#fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
-$ci-1: #334D5C;		// dark turquoise
+$ci-1: #000;		// dark turquoise
 $ci-2: #45B29D;		// turquoise
 $ci-3: #EFC94C;		// yellow
 $ci-4: #E27A3F;		// orange
@@ -108,13 +114,13 @@ $topbar-menu-icon-color-toggled: $ci-6;
 ------------------------------------------------------------------- */
 
 $footer-bg: $grey-8;
-$footer-color: #fff;
+$footer-color: $white;
 $footer-link-color: $ci-6;
 
 
-$subfooter-bg: $grey-13;
-$subfooter-color: $grey-8;
-$subfooter-link-color: $grey-8;
+$subfooter-bg: $white;
+$subfooter-color: $primary-color-2;
+$subfooter-link-color: $primary-color-2;
 
 
 

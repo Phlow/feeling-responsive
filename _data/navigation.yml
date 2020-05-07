@@ -1,7 +1,3 @@
-- title: eGon
-  url: "/"
-  side: left
-
 # - title: News
 #   url: "/news/"
 #   side: left
@@ -17,7 +13,3 @@
 - title: "Partners"
   url: "/partners/"
   side: left
-
-- title: "Contact"
-  url: "/contact/"
-  side: right

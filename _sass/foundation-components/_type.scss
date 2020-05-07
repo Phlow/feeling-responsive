@@ -65,10 +65,10 @@ $code-border-color: scale-color($code-background-color, $lightness: -10%) !defau
 $code-padding: rem-calc(2) rem-calc(5) rem-calc(1) !default;
 
 // We use these to style anchors
-$anchor-text-decoration: none !default;
-$anchor-text-decoration-hover: none !default;
-$anchor-font-color: $primary-color !default;
-$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%) !default;
+$anchor-text-decoration: none;
+$anchor-text-decoration-hover: none;
+$anchor-font-color: $primary-color-1;
+$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 
 // We use these to style the <hr> element
 $hr-border-width: 1px !default;
@@ -216,14 +216,14 @@ $align-class-breakpoints:
     /* Default Link Styles */
     a {
       color: $anchor-font-color;
-      text-decoration: $anchor-text-decoration;
+      text-decoration: none;
       line-height: inherit;
 
       &:hover,
       &:focus {
         color: $anchor-font-color-hover;
         @if $anchor-text-decoration-hover != $anchor-text-decoration {
-        	text-decoration: $anchor-text-decoration-hover;
+        	text-decoration: none;
         }
       }
 

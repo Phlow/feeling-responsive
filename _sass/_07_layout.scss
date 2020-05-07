@@ -267,8 +267,8 @@ body.video cite { color: #fff; }
 
 #footer-content p,
 #footer-content li {
-    font-size: rem-calc(13);
-    font-weight: 300;
+    font-size: rem-calc(18);
+    font-weight: 400;
 }
 
 #footer {
@@ -306,9 +306,10 @@ body.video cite { color: #fff; }
 .credits a {
     color: $subfooter-link-color;
     border: 0;
-    text-transform: uppercase;
+    text-transform: none;
+    font-weight: 700;
     &:hover {
-        color: #fff;
+        color: $subfooter-link-color;
   }
 }
 

@@ -8,13 +8,13 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Feeling Responsive'
+title: 'eGo<sup>n</sup>'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A Flexible Theme for Jekyll'
+slogan: 'energy Grid optimization of n flexibilities'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.'
+description: 'Open, inter-grid-level and cross-sectoral planning instrument for the optimal use and expansion of the electrical grid and flexibility options in Germany'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
@@ -25,12 +25,8 @@ author: gplssm
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://phlow.github.io'
+url: 'ego-n.org'
 baseurl: ''
-
-# This is for the editing function in _/includes/improve_content
-# Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -42,7 +38,7 @@ urlimg: 'https://phlow.github.io/feeling-responsive/images/'
 
 
 # Logo size is 600x80 pixels
-# logo: "eGon_logo_noborder_transbg_small.png"
+logo: "logo_egon_top_nav.svg"
 
 # Plugins
 plugins:

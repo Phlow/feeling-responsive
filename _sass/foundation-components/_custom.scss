@@ -1,0 +1,85 @@
+/* Custom CSS not realted to Feeling Responsive */
+
+/* Footer */
+#footer-content {
+    border-top: 1px solid lighten($primary-color-1, 95%);
+}
+#footer-content #subfooter #subfooter-left p {
+    font-size: .75rem;
+    line-height: 1rem;
+    color: $primary-color-1;
+    margin-bottom: 0;
+}
+
+#subfooter {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#subfooter #subfooter__copyright p {
+    color: $primary-color-1;
+    font-size: .75rem;
+    margin-bottom: 0;
+}
+
+#subfooter .subfooter__logo {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#subfooter .subfooter__logo img {
+    width: 4rem;
+}
+
+#subfooter .subfooter__logo img {
+    width: 4rem;
+}
+
+#subfooter .credits {
+    text-align: left;
+    padding-bottom: .5rem;
+    &.credits--imprint {
+        padding-bottom: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 640px)  {
+    #footer-content {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #footer-content #subfooter #subfooter-left p {
+        line-height: 27px;
+    }
+    #subfooter {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    #subfooter .subfooter__logo img {
+        width: 4.5rem;
+    }
+    #subfooter .credits {
+        text-align: left;
+        padding-bottom: .5rem;
+        padding-right: 2rem;
+        &.credits--imprint {
+            padding-bottom: 2rem;
+            text-align: left;
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #subfooter .subfooter__logo {
+        text-align: left;
+    }
+    #subfooter .subfooter__logo img {
+        width: 6rem;
+    }
+}
+
+.top-bar__logo {
+    height: 2rem;
+    transform: translateY(-2px);
+}

@@ -162,6 +162,23 @@
 
 
 // Tools section
+.tools-data__tools .tools__items .tools__item {
+  padding-left: .75rem;
+  padding-right: .75rem;
+
+  @media only screen and (min-width: 640px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .tools__item-name {
   text-align: center;
 }
@@ -177,4 +194,12 @@
   img {
     max-height: 8rem;
   }
+}
+
+.tools__item-upper {
+  justify-content: normal;
+}
+
+.tools__item-link {
+  align-items: flex-end;
 }

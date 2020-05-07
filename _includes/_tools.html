@@ -1,15 +1,17 @@
 <div class="columns tools__items">
-  {% for tool in site.data.tools %}
-    <div class="row" data-equalizer>
+  <div class="row" data-equalizer>
+    {% for tool in site.data.tools %}
       <div class="medium-4 columns tools__item" data-equalizer-watch>
-        <div class="tools__item-name">
-          <h3><a href="{{ tool.link }}">{{ tool.name }}</a></h3>
-        </div>
-        <div class="tools__item-img">
-          <a href="{{ tool.link }}"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ tool.logo }}" alt="{{ site.name }} Logo"></a>
-        </div>
-        <div class="tools__item-text">
-          <p>{{ tool.description | markdownify }}</p>
+        <div class="tools__item-upper">
+          <div class="tools__item-name">
+            <h3><a href="{{ tool.link }}">{{ tool.name }}</a></h3>
+          </div>
+          <div class="tools__item-img">
+            <a href="{{ tool.link }}"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ tool.logo }}" alt="{{ site.name }} Logo"></a>
+          </div>
+          <div class="tools__item-text">
+            <p>{{ tool.description | markdownify }}</p>
+          </div>
         </div>
         <div class="tools__item-link">
           <!-- <ul class="inline-list social-icons"> -->
@@ -25,6 +27,6 @@
           </ul>
         </div>
       </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>

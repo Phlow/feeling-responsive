@@ -1,7 +1,7 @@
 ---
 layout: page
 show_meta: false
-title: "VisIt Images in Science Magazine Article"
+title: "VisIt Images in Science Magazine"
 subheadline: "Analyzing defects in 3D metal printing with VisIt"
 tags:
     - post format

@@ -19,8 +19,7 @@ widget2:
   text: 'Get the [latest release](./executables/#latest) to start visualizing and analyzing your data today. Or, download the <a href="https://github.com/visit-dav/visit/releases/latest/download/build_visit3_1_1">latest build_visit</a> script to build a custom version. Please <a href="https://github.com/visit-dav/live-customer-response/issues/new?assignees=&labels=&template=customer-response.md&title=">share a comment</a> with us about your experiences with VisIt.'
 widget3:
   title: "What's new?"
-  url: '/releases/VisIt-3-1-1-Release'
-#  url: 'https://github.com/visit-dav/visit/issues?q=is%3Aopen+is%3Aissue+milestone%3A3.2'
+  url: '/science/3DMetalPrinting'
   image: gallery-00b.png
   text: 'Learn about recent releases, <a href="https://github.com/visit-dav/visit/milestones">plans for upcomming releases</a>, <a href="https://github.com/visit-dav/visit/branches/active">works in progress</a> and other stuff about VisIt, its related technologies and visualization and data analysis in general.'
 permalink: /index.html

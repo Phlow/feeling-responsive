@@ -14,4 +14,7 @@ image:
 author: miller86
 ---
 
+VisIt was used in some work recently published in Science Magazine.
+You can read the, full article titled
 [Controlling interdependent meso-nanosecond dynamics and defect generation in metal 3D printing](https://science.sciencemag.org/content/368/6491/660.editor-summary)
+there or a [brief overview and short movie here](/examples/ex43).

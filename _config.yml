@@ -25,7 +25,7 @@ author: gplssm
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'ego-n.org'
+url: 'https://staging.ego-n.org'
 baseurl: ''
 
 # This URL points directly to the images directory making

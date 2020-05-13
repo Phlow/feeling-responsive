@@ -6,20 +6,20 @@ header: no
 ---
 
 
-#### Reiner Lemoine Institut gGmbH
+<span class="imprint__heading">Reiner Lemoine Institut gGmbH</span>
 Rudower Chaussee 12<br>
 12489 Berlin
 
 Tel: +49 (0)30 1208 434 0<br>
 Email: info(ät)rl-institut.de
 
-#### Geschäftsführerin
+<span class="imprint__heading">Geschäftsführerin</span>
 Dr. Kathrin Goldammer
 
-#### Registergericht
+<span class="imprint__heading">Registergericht</span>
 Handelsregister Berlin – HRB 124659 B
 
-#### Umsatzsteueridentifikationsnummer
+<span class="imprint__heading">Umsatzsteueridentifikationsnummer</span>
 DE274491408
 
 ## Haftungsausschluss und Datenschutz

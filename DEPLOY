@@ -1,13 +1,14 @@
 #!/bin/bash
 
 # Check input and set variables
-CONFIG_FILE=_config.yml
 case $1 in
 	staging)
 		REMOTE_TARGET=staging
+		CONFIG_FILE=_config_staging.yml
 		;;
 	productive)
 		REMOTE_TARGET=production
+		CONFIG_FILE=_config_production.yml
 		;;
 	*)
 		echo 'Wrong argument! Nothing will be deployed!'

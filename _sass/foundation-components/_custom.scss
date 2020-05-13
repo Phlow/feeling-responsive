@@ -14,6 +14,9 @@
 #subfooter {
     padding-top: .5rem;
     padding-bottom: .5rem;
+    width: 100%;
+    max-width: 62.5rem;
+    margin: 0 auto;
 }
 
 #subfooter #subfooter__copyright p {
@@ -33,6 +36,15 @@
 
 #subfooter .subfooter__logo img {
     width: 4rem;
+}
+
+#subfooter .subfooter__links {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    @media only screen and (min-width: 641px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 #subfooter .credits {
@@ -72,7 +84,8 @@
 
 @media only screen and (min-width: 1024px) {
     #subfooter .subfooter__logo {
-        text-align: left;
+        text-align: right;
+        padding-right: 2rem;
     }
     #subfooter .subfooter__logo img {
         width: 6rem;

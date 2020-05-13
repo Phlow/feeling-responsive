@@ -33,6 +33,27 @@ The flag `--ẁatch` sets Jekyll in autoreload mode. Whenever a file is changed,
 docker run --rm -p 4000:4000 --volume="$PWD/vendor/bundle:/usr/loc/bundle" --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:3.8 jekyll serve --watch
 ```
 
+# Deploy to webserver
+
+Use the deploy script and deploy files from dev or production purpose
+
+# Development
+
+...will be deployed to staging.ego-n.org with restricted access
+
+
+```
+./DEPLOY staging
+```
+
+# Development
+
+...will be deployed publicly accessible to ego-n.org 
+
+
+```
+./DEPLOY productive
+```
 
  [1]: http://phlow.github.io/feeling-responsive/documentation/
  [2]: https://github.com/Phlow/feeling-responsive/blob/gh-pages/LICENSE

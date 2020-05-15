@@ -50,7 +50,7 @@ enhancements and bug-fixes that were added to this release.
 ### Changes for VisIt developers in version 3.1.2
 
 * The build_visit script was enhanced to allow VisIt to build on Ubuntu 19.10 systems using gcc 9.2.
-* The build_visit script was enhanced to allow VisIt to build on Debian 10.<
+* The build_visit script was enhanced to allow VisIt to build on Debian 10.
 
 ### Documentation changes in version 3.1.2
 

@@ -6,9 +6,13 @@ header:
 permalink: "/releases/"
 ---
 
+## May, 2020 - VisIt 3.1.2 released
+
+VisIt is a distributed, parallel visualization and graphical analysis tool for data defined on two- and three-dimensional (2D and 3D) meshes. Version 3.1.2 contains over two dozen bug-fixes and new features. For a complete list of changes see the [VisIt 3.1.2 Release Notes](release-notes-3.1.2).
+
 ## February, 2020 - VisIt 3.1.1 released
 
-VisIt is a distributed, parallel visualization and graphical analysis tool for data defined on two- and three-dimensional (2D and 3D) meshes. Version 3.1.1 is primarily a bug-fix release that resolves about twenty important issues. For a complete list of changes see the [VisIt 3.1.1 Release Notes](release-notes-3.1.1).
+VisIt 3.1.1 contain about twenty bug-fixes and new features. For a complete list of changes see the [VisIt 3.1.1 Release Notes](release-notes-3.1.1).
 
 ## December, 2019 - VisIt 3.1 released
 

@@ -14,8 +14,11 @@ header: no
 
   <section class="hero row row__wrap">
     <div class="medium-7 columns">
-      <h1 class="hero__header">This is a great title</h1>
-      <p class="hero__subheader">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sediam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      <h1 class="hero__header">eGo<sup>n</sup></h1>
+      <h4>Open, inter-grid-level and cross-sectoral planning instrument for the optimal use and expansion of the electrical grid and flexibility options in Germany</h4>
+      <p class="hero__subheader">
+        Driven by the expansion of renewable generation capacity and the progressing integration of other sectors, the electrical grid increasingly faces new challenges: fluctuating supply by renewable energy and simultaneous a changing demand pattern caused by sector coupling. However, the integration of non-electric sectors such as the sectors of gas, heat and e-mobility enables more flexibility options. 
+        This project aims to investigate the effects of sector coupling on the electrical grid and the benefits of flexibilities integrated by the interconnected sectors. Like the previous project <a href="https://openegoproject.,wordpress.com" title="open_eGo">open_eGo</a> this work will follow the open source and open data principles.
       </p>
       <div class="hero__btn">
         <a href="/tools_data/" class="button hero__cta">See our tools</a>
@@ -35,13 +38,13 @@ header: no
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
             <h3 class="tasks__item-title">Planning Tool</h3>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
+            In eGo<sup>n</sup> we will expand the grid planning tool eGo following the established open-source principles. We will connect the electrical grid with additional sectors and integrate more electrical flexibilities.
           </div>
         </div>
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
             <h3 class="tasks__item-title">Sector Coupling</h3>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            We want to identify the opportunities and potentials, but also challenges of progressing sector coupling and optimize the modelled energy system with regard to the overall costs.
           </div>
         </div>
       </div>
@@ -51,13 +54,13 @@ header: no
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
           <h3 class="tasks__item-title">Modeling and Complexity</h3>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            There is a conflict between complexity of modeling and accuracy of calculation. Therefore, we will further develop, examine and apply approaches for an adequate reduction of complexity.
           </div>
         </div>
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
             <h3 class="tasks__item-title">Open Data / Open Source</h3>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+            We will follow open source and open data principles by exclusively using input data which is freely available and publish own results under open source and open data licenses. 
           </div>
         </div>
       </div>
@@ -69,7 +72,8 @@ header: no
       <img src="images/open_ego_logo.jpg" alt="Logo open_ego">
     </div>
     <div class="columns openego__text">
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+      <p>Our previous research project open_eGo with its resulting grid planning tool eGo provides the basis for the current project eGo<sup>n</sup>.  
+Incorporating all grid levels, from transmission grid to low-voltage distribution grids, this tool can be used to investigate grid expansion scenarios considering alternative flexibility options such as storages and redispatch. Just like eGo<sup>n</sup>, open_eGo was carried out following the open source and open data principles.
       </p>
       <div class="openego__btn">
         <a href="#" class="button">See project</a>
@@ -135,17 +139,17 @@ header: no
         <div class="workshops__item medium-6 columns">
           <div class="workshops__item-text">
             <div class="workshops__item-date">
-              25.07.2020
+              End of 2020
             </div>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit amet, consetetur sadipscing elitr</p>
+            <p>Priorization of research questions, scenarios, assumptions and parameters</p>
           </div>
         </div>
         <div class="workshops__item medium-6 columns">
           <div class="workshops__item-text">
             <div class="workshops__item-date">
-              25.07.2020
+              End of 2022
             </div>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+            <p>Presenation of results and introduction to tools and data</p>
           </div>
         </div>
       </div>
@@ -157,7 +161,7 @@ header: no
       <h2>Funding</h2>
     </div>
     <div class="columns funding__text">
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr dolor sit amet, consetetur sadipscing elitr</p>
+      <p>This research project (FKZ: 03EI1002B) receives funding within the <a href="https://www.bmwi.de/Redaktion/EN/Artikel/Energy/research-for-an-ecological-reliable-and-affordable-power-supply.html" title="">7<sup>th</sup> Energy Research Programme</a> by the German Federal Ministry for Economic Affairs and Energy</p>
     </div>
     <div class="columns funding__logo">
       <a href="https://www.bmwi.de/" title="Zur BMWI Website">

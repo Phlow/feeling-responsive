@@ -19,11 +19,9 @@ If you use VisIt to generate images or movies please help us by
 [citing](citing-visit.md) VisIt in your paper or in the credits of your movie.
 Doing so helps us sustain funding for future improvements and on going maintenance.
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
 
 <a name="latest"></a>
-### Series 3.1
 ### Series 3.1
 
 * Links to checksums and file sizes are provided for confirming download integrity.
@@ -145,10 +143,8 @@ Below is using a special github feature, htmlpreview.github.io to render the htm
 [310doc]: https://visit-sphinx-github-user-manual.readthedocs.io/en/v3.1.0/
 [310pdf]: https://visit-sphinx-github-user-manual.readthedocs.io/_/downloads/en/v3.1.0/pdf/
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
 
-### Series 3.0
 ### Series 3.0
 
 * Links to checksums and file sizes are provided for confirming download integrity.

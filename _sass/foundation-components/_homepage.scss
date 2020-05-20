@@ -20,21 +20,30 @@ section.row.row__wrap {
     }
 }
 
-.hero h1 {
-    font-size: 2rem;
-}
 .hero h1.hero__header {
-    font-size: 2rem;
-    text-align: center;
+
+    .hero__header--name {
+        font-size: 1rem;
+        display: block;
+        padding-bottom: .5rem;
+        color: #1F567D;
+        text-align: center;
+    }
+    .hero__header--text {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        display: block;
+        text-align: left;
+    }
 }
 .hero p.hero__subheader {
-    font-size: 1.15rem;
-    line-height: 2rem;
-    color: #000;
-    text-align: center;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #838383;
+    text-align: left;
 }
 .hero .hero__img img {
-    max-height: 20rem;
+    max-height: 18rem;
 }
 .hero .hero__img {
     text-align: center;
@@ -60,16 +69,58 @@ section.row.row__wrap {
         padding: 1rem 1rem 0;
     }
     .hero h1.hero__header {
-        font-size: 2.65rem;
         text-align: left;
+
+        .hero__header--name {
+            font-size: 1.5rem;
+            padding-bottom: .5rem;
+        }
+        .hero__header--text {
+            font-size: 2rem;
+            line-height: 3rem;
+            text-align: left;
+        }
     }
     .hero p.hero__subheader {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
+        line-height: 2rem;
+        text-align: left;
+        padding-top: .5rem;
+        padding-bottom: 1rem;
+    }
+    .hero .hero__img img {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .hero {
+        padding: 1rem 1rem 0;
+    }
+    .hero h1.hero__header {
+        text-align: left;
+        padding-bottom: 2rem;
+
+        .hero__header--name {
+            font-size: 2rem;
+            padding-bottom: .75rem;
+        }
+        .hero__header--text {
+            font-size: 2.625rem;
+            line-height: 3.5rem;
+        }
+    }
+    .hero p.hero__subheader {
+        font-size: 1.15rem;
+        line-height: 2rem;
         margin-right: 3rem;
         text-align: left;
+        padding-top: .5rem;
+        padding-bottom: 1rem;
     }
     .hero .hero__img img {
         max-height: 28rem;
+        margin-top: 1rem;
     }
     .hero .hero__img {
         text-align: right;

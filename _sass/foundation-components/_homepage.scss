@@ -20,6 +20,11 @@ section.row.row__wrap {
     }
 }
 
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .hero h1.hero__header {
 
     .hero__header--name {
@@ -36,6 +41,12 @@ section.row.row__wrap {
         text-align: left;
     }
 }
+.hero__left {
+    order: 2;
+}
+.hero__right {
+    order: 1;
+}
 .hero p.hero__subheader {
     font-size: 1rem;
     line-height: 1.75rem;
@@ -47,6 +58,8 @@ section.row.row__wrap {
 }
 .hero .hero__img {
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .hero .hero__btn {
     padding-top: 0;
@@ -64,7 +77,7 @@ section.row.row__wrap {
     margin-bottom: .75rem;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
     .hero {
         padding: 1rem 1rem 0;
     }
@@ -93,7 +106,7 @@ section.row.row__wrap {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
     .hero {
         padding: 1rem 1rem 0;
     }
@@ -118,12 +131,20 @@ section.row.row__wrap {
         padding-top: .5rem;
         padding-bottom: 1rem;
     }
+    .hero__left {
+        order: 1;
+    }
+    .hero__right {
+        order: 2;
+    }
     .hero .hero__img img {
         max-height: 28rem;
         margin-top: 1rem;
     }
     .hero .hero__img {
         text-align: right;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     .hero .button {
         margin-left: 0;

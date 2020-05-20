@@ -13,9 +13,13 @@ header: no
 <div class="page__wrap">
 
   <section class="hero row row__wrap">
-    <div class="medium-7 columns">
-      <h1 class="hero__header">eGo<sup>n</sup></h1>
-      <h4>Open, inter-grid-level and cross-sectoral planning instrument for the optimal use and expansion of the electrical grid and flexibility options in Germany</h4>
+    <div class="columns">
+      <h1 class="hero__header">
+        <span class="hero__header--name">eGo<sup>n</sup></span>
+        <span class="hero__header--text">Open, inter-grid-level and cross-sectoral planning instrument for the optimal use and expansion of the electrical grid and flexibility options in Germany</span>
+      </h1>
+    </div>
+    <div class="hero__left large-7 columns">
       <p class="hero__subheader">
         Driven by the expansion of renewable generation capacity and the progressing integration of other sectors, the electrical grid increasingly faces new challenges: fluctuating supply by renewable energy and simultaneous a changing demand pattern caused by sector coupling. However, the integration of non-electric sectors such as the sectors of gas, heat and e-mobility enables more flexibility options. 
         This project aims to investigate the effects of sector coupling on the electrical grid and the benefits of flexibilities integrated by the interconnected sectors. Like the previous project <a href="https://openegoproject.,wordpress.com" title="open_eGo">open_eGo</a> this work will follow the open source and open data principles.
@@ -24,7 +28,7 @@ header: no
         <a href="/tools_data/" class="button hero__cta">See our tools</a>
       </div>
     </div>
-    <div class="medium-5 columns hero__img">
+    <div class="hero__right large-5 columns hero__img">
       <img src="images/HP_hero_img_v3_for_web.svg" alt="Image about how open_egon works">
     </div>
   </section>

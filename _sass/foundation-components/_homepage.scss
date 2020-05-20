@@ -204,7 +204,7 @@ section.row.tools {
         width: 5rem;
     }
     .tools__item-text {
-        text-align: center;
+        text-align: left;
         padding-top: 1rem;
     }
     .tools__item-link {
@@ -212,7 +212,7 @@ section.row.tools {
     }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
     section.row.tools {
         margin-top: 4rem;
         background-color: #FFF;
@@ -229,12 +229,11 @@ section.row.tools {
         }
         .tools__item-text {
             flex: 1;
-            padding-top: 2rem;
         }
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
     section.row.row__wrap.tools {
         margin-top: 10rem;
         padding-bottom: 3rem;

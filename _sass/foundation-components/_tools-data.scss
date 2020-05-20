@@ -6,7 +6,7 @@
       padding-bottom: 8rem;
     }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1025px) {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -23,7 +23,7 @@
       line-height: 2.15rem;
     }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1025px) {
       padding-top: 0;
       margin-top: 7rem;
       margin-bottom: 8rem;
@@ -42,8 +42,8 @@
       box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
       border-radius: 8px;
     }
-    @media only screen and (min-width: 1024px) {
-      padding-bottom: 2rem;
+    @media only screen and (min-width: 1025px) {
+      padding-bottom: 3rem;
     }
   }
 
@@ -59,12 +59,12 @@
   .tools-data__tools-text {
     text-align: center;
 
-    @media only screen and (min-width: 640px) {
+    @media only screen and (min-width: 641px) {
       padding-left: 2rem;
       padding-right: 2rem;
     }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1025px) {
       padding-top: 0;
       margin-bottom: 1rem;
       padding-left: 4rem;
@@ -79,7 +79,7 @@
       padding-top: 6rem;
     }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1025px) {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -99,7 +99,7 @@
   .tools-data__table-text {
     padding-top: 2rem;
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1025px) {
       padding-top: 0;
       margin-bottom: 3rem;
       padding-left: 1rem;
@@ -115,7 +115,7 @@
       margin-bottom: 8rem;
     }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1025px) {
       margin-bottom: 10rem;
     }
   }
@@ -157,7 +157,7 @@
     tr td {
       padding: 1.75rem 1rem;
 
-      @media only screen and (min-width: 1024px) {
+      @media only screen and (min-width: 1025px) {
         font-size: 1rem;
         line-height: 1.4rem;
       }
@@ -174,7 +174,7 @@
       padding: 4rem 1rem 3rem;
     }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1025px) {
       padding: 5rem 1rem 4rem;
     }
   }
@@ -219,6 +219,18 @@
 
 
 // Tools section
+
+@media only screen and (min-width: 1025px) {
+  section.tools-data__tools.row.row__wrap {
+      max-width: 82rem;
+
+      .tools__items {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+  }
+}
+
 .tools-data__tools .tools__items .tools__item {
 
   @media only screen and (max-width: 640px) {
@@ -237,7 +249,7 @@
     justify-content: space-between;
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1025px) {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
@@ -260,7 +272,7 @@
   }
 
   img {
-    max-height: 8rem;
+    max-height: 5rem;
   }
 }
 

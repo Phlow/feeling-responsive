@@ -2,7 +2,7 @@
 layout: page
 title: "Release Notes for VisIt 3.1.2"
 header:
-   image_fullwidth: "gallery-05a.png"
+   image_fullwidth: "titan-2012.jpg"
 permalink: "/releases/release-notes-3.1.2/"
 ---
 

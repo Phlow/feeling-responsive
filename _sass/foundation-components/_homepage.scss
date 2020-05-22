@@ -88,6 +88,7 @@ section.row.row__wrap {
         .hero__header--name {
             font-size: 1.5rem;
             padding-bottom: .5rem;
+            text-align: left;
         }
         .hero__header--text {
             font-size: 2rem;
@@ -96,8 +97,6 @@ section.row.row__wrap {
         }
     }
     .hero p.hero__subheader {
-        font-size: 1.15rem;
-        line-height: 2rem;
         text-align: left;
         padding-top: 1.5rem;
         padding-bottom: 1rem;
@@ -122,6 +121,7 @@ section.row.row__wrap {
         .hero__header--name {
             font-size: 2rem;
             padding-bottom: .75rem;
+            text-align: center;
         }
         .hero__header--text {
             font-size: 2.625rem;
@@ -212,8 +212,6 @@ section.row.tasks {
             margin-bottom: 2rem;
         }
         .tasks__item-text {
-            font-size: 1.15rem;
-            line-height: 2rem;
             padding-bottom: 0;
             margin: 1rem;
         }
@@ -223,6 +221,10 @@ section.row.tasks {
 @media only screen and (min-width: 1025px) {
     section.row.tasks {
         margin-top: 5rem;
+    }
+    .tasks__item-text {
+        font-size: 1.15rem;
+        line-height: 2rem;
     }
 }
 
@@ -252,8 +254,6 @@ section.row.openego {
         .openego__text p {
             margin-left: auto;
             margin-right: auto;
-            font-size: 1.15rem;
-            line-height: 2rem;
         }
         .openego__btn {
             padding-top: 1rem;
@@ -267,6 +267,8 @@ section.row.openego {
         .openego__text p {
             text-align: center;
             max-width: 42rem;
+            font-size: 1.15rem;
+            line-height: 2rem;
         }
         .openego__btn {
             text-align: center;

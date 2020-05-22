@@ -13,7 +13,7 @@ section.row.row__wrap {
     flex-direction: column;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
     .page__wrap {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
@@ -52,6 +52,7 @@ section.row.row__wrap {
     line-height: 1.75rem;
     color: #838383;
     text-align: left;
+    padding-top: 1rem;
 }
 .hero .hero__img img {
     max-height: 18rem;
@@ -98,11 +99,15 @@ section.row.row__wrap {
         font-size: 1.15rem;
         line-height: 2rem;
         text-align: left;
-        padding-top: .5rem;
+        padding-top: 1.5rem;
         padding-bottom: 1rem;
     }
     .hero .hero__img img {
         margin-top: 1rem;
+    }
+    .hero .button {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -146,13 +151,9 @@ section.row.row__wrap {
         padding-top: 0;
         padding-bottom: 0;
     }
-    .hero .button {
-        margin-left: 0;
-        margin-right: 0;
-    }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
     .hero {
         padding-top: 3rem;
     }
@@ -198,7 +199,7 @@ section.row.tasks {
     }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
     section.row.tasks {
         margin-top: 3rem;
         .tasks__header {
@@ -219,7 +220,7 @@ section.row.tasks {
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
     section.row.tasks {
         margin-top: 5rem;
     }
@@ -240,21 +241,35 @@ section.row.openego {
     .openego__btn {
         text-align: center;
     }
-    .openego__text p {
-        text-align: center;
-    }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
     section.row.openego {
         margin-top: 7rem;
         margin-bottom: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
         .openego__text p {
-            max-width: 32rem;
             margin-left: auto;
             margin-right: auto;
-            font-size: 1.25rem;
+            font-size: 1.15rem;
             line-height: 2rem;
+        }
+        .openego__btn {
+            padding-top: 1rem;
+            text-align: left;
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    section.row.openego {
+        .openego__text p {
+            text-align: center;
+            max-width: 42rem;
+        }
+        .openego__btn {
+            text-align: center;
         }
     }
 }
@@ -363,7 +378,7 @@ section.row.workshops {
     }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
     section.row.workshops {
         margin-top: 5rem;
         .workshops__header {
@@ -399,31 +414,30 @@ section.row.funding {
         text-align: center;
     }
     .funding__logo {
+        padding-top: 1rem;
         text-align: center;
     }
     .funding__logo img {
-        width: 17rem;
+        width: 12rem;
     }
     .funding__text {
         padding-top: 1.5rem;
     }
-    .funding__text p {
-        text-align: center;
-    }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
     section.row.funding {
         margin-top: 5rem;
         .funding__text p {
             max-width: 26rem;
             margin-left: auto;
             margin-right: auto;
+            text-align: center;
         }
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
     section.row.funding {
         margin-top: 8rem;
     }

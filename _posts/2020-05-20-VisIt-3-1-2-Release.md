@@ -9,9 +9,9 @@ tags:
 categories:
     - releases
 header:
-    image_fullwidth: spheres_and_paths_release_logo.png
+    image_fullwidth: release-banner.jpg
 image:
-    thumb: release-logo.png
+    thumb: release-thumbnail.png
 author: brugger1
 ---
 

@@ -9,9 +9,9 @@ tags:
 categories:
     - releases
 header:
-    image_fullwidth: volume-rendering1-release.png
+    image_fullwidth: release-banner.jpg
 image:
-    thumb: release-logo.png
+    thumb: release-thumbnail.png
 author: brugger1
 ---
 

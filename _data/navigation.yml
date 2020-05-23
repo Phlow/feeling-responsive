@@ -15,8 +15,8 @@
   - title: "Системы контроля управления доступом"
     url: "/services/physical-access-control-system/"
 
-  - title: "Собственные разработки"
-    url: "/services/own workings out/"
+  - title: "Декоративная подсветка"
+    url: "/services/deсorative-lighting/"
 
   - title: "Ремонт дверной автоматики"
     url: "/services/automatic-doors/"
@@ -30,8 +30,6 @@
   dropdown:
   - title: "Leakage Control"
     url: "/products/leakage-control/"
-  - title: "T-Control"
-    url: "/products/T-Control/"
 
 - title: "О компании"
   url: "/about/"

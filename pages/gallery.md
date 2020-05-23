@@ -2,7 +2,7 @@
 layout: page
 title: "Галерея"
 subheadline: "Описание Галерея"
-teaser: "Here are some ideas and features I want to implement in the future."
+teaser: "Это не все, что мы умеем...."
 header:
    image_fullwidth: "header_roadmap_3.jpg"
 permalink: "/gallery/"
@@ -21,8 +21,8 @@ gallery:
       caption: Sample image camera6.jpg
     - image_url: camera7.jpg
       caption: Sample image camera7.jpg
-    - image_url: camera8.jpg
-      caption: Sample image camera8.jpg
+    - image_url: T-control_AVE1.jpg
+      caption: Sample image T-control_AVE1.jpg
 ---
 
 {% include gallery %}

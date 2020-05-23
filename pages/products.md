@@ -1,11 +1,10 @@
 ---
 layout: page-fullwidth
 title: "Продукция"
-subheadline: "Описание Продукция"
-teaser: "The documentation is a work in progress..."
+# teaser: "The documentation is a work in progress..."
 permalink: "/products/"
 header:
-   image_fullwidth: "camera5.jpg"
+   image_fullwidth: "T-control_AVE1.jpg"
 ---
 <div class="row">
 <div class="medium-4 medium-push-8 columns" markdown="1">

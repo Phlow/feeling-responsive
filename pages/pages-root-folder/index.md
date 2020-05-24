@@ -41,14 +41,14 @@ header: no
       <div class="tasks__row row">
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
-            <h3 class="tasks__item-title">Planning Tool</h3>
-            In eGo<sup>n</sup> we will expand the grid planning tool eGo following the established open-source principles. We will connect the electrical grid with additional sectors and integrate more electrical flexibilities.
+            <h3 class="tasks__item-title">Sector Coupling</h3>
+            We want to identify the opportunities and potentials, but also challenges of progressing sector coupling and optimize the modelled energy system with regard to the overall costs.
           </div>
         </div>
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
-            <h3 class="tasks__item-title">Sector Coupling</h3>
-            We want to identify the opportunities and potentials, but also challenges of progressing sector coupling and optimize the modelled energy system with regard to the overall costs.
+            <h3 class="tasks__item-title">Planning Tool</h3>
+            In eGo<sup>n</sup> we will expand the grid planning tool eGo following the established open-source principles. We will connect the electrical grid with additional sectors and integrate more electrical flexibilities.
           </div>
         </div>
       </div>

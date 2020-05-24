@@ -21,6 +21,18 @@ header:
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 {% include _improve_content.html %}
 
+## Новый заголовок
+subheadline: "СРОЧНО"
+Не упустите возможность купить у нас все! и сразу!
+image:
+    title: test.jpg
+    
+
+<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
+
+
+ [1]: {{ site.url }}{{ site.baseurl }}/documentation/
+
 ## Edit Navigation   {#edit-navigation}
 
 To customize the navigation of *Feeling Responsive*, you have to open the [YAML](https://jekyllrb.com/docs/datafiles/)-file `_data/navigation.yml`. Edit the data and adjust it to your own needs.

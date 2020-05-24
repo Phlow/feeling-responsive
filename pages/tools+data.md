@@ -25,7 +25,7 @@ header: no
     </div>
     <div class="columns tools-data__tools-text">
       <p>
-      Within open_eGo we've created a family of three grid planning tools for interlinked modeling of transmission and distribution grid level
+      Within open_eGo we've created a family of three grid planning tools for integrated modeling of transmission and distribution grid level
     </p>
     </div>
 

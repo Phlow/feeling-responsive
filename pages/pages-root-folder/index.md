@@ -21,8 +21,8 @@ header: no
     </div>
     <div class="hero__left large-7 columns">
       <p class="hero__subheader">
-        Driven by the expansion of renewable generation capacity and the progressing integration of other sectors, the electrical grid increasingly faces new challenges: fluctuating supply by renewable energy and simultaneous a changing demand pattern caused by sector coupling. However, the integration of non-electric sectors such as the sectors of gas, heat and e-mobility enables more flexibility options. 
-        This project aims to investigate the effects of sector coupling on the electrical grid and the benefits of flexibilities integrated by the interconnected sectors. Like the previous project <a href="https://openegoproject.,wordpress.com" title="open_eGo">open_eGo</a> this work will follow the open source and open data principles.
+        Driven by the expansion of renewable generation capacity and the progressing electrification of other energy sectors, the electrical grid increasingly faces new challenges: fluctuating supply by renewable energy and simultaneously a changing demand pattern caused by sector coupling. However, the integration of non-electric sectors such as gas, heat and e-mobility enables more flexibility options. 
+        This project aims to investigate the effects of sector coupling on the electrical grid and the benefits of new flexibility options. Like the previous project <a href="https://openegoproject.,wordpress.com" title="open_eGo">open_eGo</a> this work will follow the open source and open data principles.
       </p>
       <div class="hero__btn">
         <a href="/tools_data/" class="button hero__cta">See our tools</a>

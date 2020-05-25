@@ -19,8 +19,8 @@ gallery:
       caption: Sample image camera5.jpg
     - image_url: camera6.jpg
       caption: Sample image camera6.jpg
-    - image_url: L_Модуль_500.jpg
-      caption: Sample image L_Модуль_500-trumb.jpg
+    - image_url: svarka_site/svarka_complect2.jpg
+      caption: Sample image svarka_site/svarka_complect2-thumb/jpg
     - image_url: T-control_AVE1.jpg
       caption: Sample image T-control_AVE1.jpg
 ---

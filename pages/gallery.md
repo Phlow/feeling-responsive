@@ -18,7 +18,7 @@ gallery:
     - image_url: camera5.jpg
       caption: Sample image camera5.jpg
     - image_url: Termo_site/TERMO_CLIP.gif
-      caption: Sample image Termo_site/TERMO_CLIP-thumb.jpg
+      caption: Sample image Termo_site/termo_clip-thumb.jpg
     - image_url: svarka_site/svarka_complect2.jpg
       caption: Sample image svarka_site/svarka_complect2-thumb.jpg
     - image_url: T-control_AVE1.jpg

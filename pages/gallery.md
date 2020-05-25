@@ -17,9 +17,9 @@ gallery:
       caption: Sample image camera4.jpg
     - image_url: camera5.jpg
       caption: Sample image camera5.jpg
-    - image_url: termo_site/TERMO_CLIP.gif
+    - image_url: termo/TERMO_CLIP.gif
       caption: Термозавеса анимация
-    - image_url: svarka_site/svarka_complect2.jpg
+    - image_url: svarka/svarka_complect2.jpg
       caption: Сварочный комплект
     - image_url: T-control_AVE1.jpg
       caption: Устройство T-control

@@ -17,12 +17,12 @@ gallery:
       caption: Sample image camera4.jpg
     - image_url: camera5.jpg
       caption: Sample image camera5.jpg
-    - image_url: Termo_site/TERMO_CLIP.gif
-      caption: Sample image T-control_AVE1-thumb.jpg
+    - image_url: termo_site/TERMO_CLIP.gif
+      caption: Термозавеса анимация
     - image_url: svarka_site/svarka_complect2.jpg
-      caption: Sample image svarka_site/svarka_complect2-thumb.jpg
+      caption: Сварочный комплект
     - image_url: T-control_AVE1.jpg
-      caption: Sample image T-control_AVE1.jpg
+      caption: Устройство T-control
 ---
 
 {% include gallery %}

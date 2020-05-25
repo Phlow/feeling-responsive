@@ -21,7 +21,7 @@
     name: "Docs"
     icon: noun_Book_3324965.svg
 - name: eDisGo
-  description: A distribution grid planning tool based on PyPSA. It offers automatized grid reinforcement, battery integration, grid-supportive curtailment, and can deal with time series.
+  description: eDisGo is a PyPSA based distribution grid planning tool. It offers automatized grid reinforcement, battery integration, grid-supportive curtailment, and can deal with time series.
   logo: Toollogo_eDisGo.svg
   link: https://edisgo.readthedocs.io
   links: 

@@ -18,5 +18,5 @@ author: brugger1
 OSX support for *Dark Mode* has been temporarily disabled until it is
 supported in Qt. In this release, VisIt forces use of *Light Mode* only.
 
-* [Downloads](/releases-as-tables#latest)
-* [More details](/releases/release-notes-3.1.2)
+* [Downloads]({% link pages/releases-as-tables.md %})
+* [More details]({% link pages/releases/release-notes-3.1.2.md %})

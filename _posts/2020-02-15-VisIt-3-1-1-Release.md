@@ -17,11 +17,5 @@ author: brugger1
 
 > Updated for changes related to rzgw gateway for LLNL's RZ host profiles
 
-* [Downloads](/releases-as-tables#latest)
-* [More details](/releases/release-notes-3.1.1)
-
-* [Downloads]({% link pages/releases-as-tables.md %})
+* [Downloads]({% link pages/releases-as-tables.md %} )
 * [More details]({% link pages/releases/release-notes-3.1.1.md %})
-
-* [Downloads]({{ site.baseurl }}/releases-as-tables#latest)
-* [More details]({{ site.baseurl }}/releases/release-notes-3.1.1)

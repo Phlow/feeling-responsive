@@ -23,5 +23,5 @@ author: brugger1
 * [Downloads]({% link pages/releases-as-tables.md %})
 * [More details]({% link pages/releases/release-notes-3.1.1.md %})
 
-* [Downloads]({{ site.base_url }}/releases-as-tables#latest)
-* [More details]({{ site.base_url }}/releases/release-notes-3.1.1)
+* [Downloads]({{ site.baseurl }}/releases-as-tables#latest)
+* [More details]({{ site.baseurl }}/releases/release-notes-3.1.1)

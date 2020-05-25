@@ -19,3 +19,9 @@ author: brugger1
 
 * [Downloads](/releases-as-tables#latest)
 * [More details](/releases/release-notes-3.1.1)
+
+* [Downloads]({% link pages/releases-as-tables.md %})
+* [More details]({% link pages/releases/release-notes-3.1.1.md %})
+
+* [Downloads]({{ site.base_url }}/releases-as-tables#latest)
+* [More details]({{ site.base_url }}/releases/release-notes-3.1.1)

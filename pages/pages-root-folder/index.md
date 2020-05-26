@@ -16,7 +16,7 @@ header: no
     <div class="columns">
       <h1 class="hero__header">
         <span class="hero__header--name">eGo<sup>n</sup></span>
-        <span class="hero__header--text">Open, inter-grid-level and cross-sectoral planning instrument for the optimal use and expansion of the electrical grid and flexibility options in Germany</span>
+        <span class="hero__header--text">Open and cross-sectoral planning of transmission and distribution grids</span>
       </h1>
     </div>
     <div class="hero__left large-7 columns">

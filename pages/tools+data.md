@@ -15,7 +15,10 @@ header: no
       </p>
     </div>
     <div class="columns tools-data__img">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/open_ego_tool-chain_noBorder.svg" alt="Image about open ego tool chain">
+      <picture>
+        <source srcset="../images/Toolchain_web_desktop.svg" media="(min-width: 641px)">
+        <img srcset="../images/Toolchain_web_mobile.svg" alt="Toolchain picture">
+      </picture>
     </div>
   </section>
 

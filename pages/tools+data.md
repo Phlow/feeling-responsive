@@ -17,7 +17,7 @@ header: no
     <div class="columns tools-data__img">
       <picture>
         <source srcset="../images/Toolchain_web_desktop.svg" media="(min-width: 641px)">
-        <img srcset="../images/Toolchain_web_mobile.svg" alt="…">
+        <img srcset="../images/Toolchain_web_mobile.svg" alt="Toolchain picture">
       </picture>
     </div>
   </section>

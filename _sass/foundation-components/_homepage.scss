@@ -38,7 +38,11 @@ section.row.row__wrap {
         font-size: 1.5rem;
         line-height: 2.25rem;
         display: block;
-        text-align: left;
+        text-align: center;
+
+        @media only screen and (min-width: 641px) {
+            text-align: left;
+        }
     }
 }
 .hero__left {
@@ -53,6 +57,11 @@ section.row.row__wrap {
     color: #838383;
     text-align: left;
     padding-top: 1rem;
+    text-align: center;
+
+    @media only screen and (min-width: 641px) {
+        text-align: left;
+    }
 }
 .hero .hero__img img {
     max-height: 18rem;
@@ -240,6 +249,9 @@ section.row.openego {
     .openego__text {
         padding-top: 1.5rem;
     }
+    .openego__text p {
+        text-align: center;
+    }
     .openego__btn {
         text-align: center;
     }
@@ -254,6 +266,7 @@ section.row.openego {
         .openego__text p {
             margin-left: auto;
             margin-right: auto;
+            text-align: left
         }
         .openego__btn {
             padding-top: 1rem;
@@ -425,6 +438,9 @@ section.row.funding {
     .funding__text {
         padding-top: 1.5rem;
     }
+    .funding__text p {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 641px) {
@@ -434,7 +450,6 @@ section.row.funding {
             max-width: 26rem;
             margin-left: auto;
             margin-right: auto;
-            text-align: center;
         }
     }
 }

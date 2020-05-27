@@ -39,10 +39,6 @@ section.row.row__wrap {
         line-height: 2.25rem;
         display: block;
         text-align: center;
-
-        @media only screen and (min-width: 641px) {
-            text-align: left;
-        }
     }
 }
 .hero__left {
@@ -57,11 +53,7 @@ section.row.row__wrap {
     color: #838383;
     text-align: left;
     padding-top: 1rem;
-    text-align: center;
-
-    @media only screen and (min-width: 641px) {
-        text-align: left;
-    }
+    text-align: left;
 }
 .hero .hero__img img {
     max-height: 18rem;
@@ -88,20 +80,17 @@ section.row.row__wrap {
 }
 
 @media only screen and (min-width: 641px) {
-    .hero {
-        padding: 1rem 1rem 0;
-    }
     .hero h1.hero__header {
         text-align: left;
 
         .hero__header--name {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             padding-bottom: .5rem;
             text-align: left;
         }
         .hero__header--text {
-            font-size: 2rem;
-            line-height: 3rem;
+            font-size: 1.85rem;
+            line-height: 2.65rem;
             text-align: left;
         }
     }
@@ -162,12 +151,6 @@ section.row.row__wrap {
     }
 }
 
-@media only screen and (min-width: 1025px) {
-    .hero {
-        padding-top: 3rem;
-    }
-}
-
 section.row.tasks {
     margin-top: 2rem;
     .tasks__header {
@@ -222,8 +205,7 @@ section.row.tasks {
         }
         .tasks__item-text {
             padding-bottom: 0;
-            margin: 1rem;
-        }
+            margin: 1rem;       }
     }
 }
 
@@ -250,7 +232,7 @@ section.row.openego {
         padding-top: 1.5rem;
     }
     .openego__text p {
-        text-align: center;
+        text-align: left;
     }
     .openego__btn {
         text-align: center;
@@ -261,12 +243,9 @@ section.row.openego {
     section.row.openego {
         margin-top: 7rem;
         margin-bottom: 0;
-        padding-left: 1rem;
-        padding-right: 1rem;
         .openego__text p {
             margin-left: auto;
             margin-right: auto;
-            text-align: left
         }
         .openego__btn {
             padding-top: 1rem;
@@ -439,7 +418,7 @@ section.row.funding {
         padding-top: 1.5rem;
     }
     .funding__text p {
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -450,6 +429,7 @@ section.row.funding {
             max-width: 26rem;
             margin-left: auto;
             margin-right: auto;
+            text-align: center;
         }
     }
 }

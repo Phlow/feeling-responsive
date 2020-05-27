@@ -40,17 +40,16 @@
     @media only screen and (min-width: 641px) {
       line-height: 1.75rem;
       text-align: left;
-      padding-right: 1rem;
-      padding-left: 1rem;
     }
 
     @media only screen and (min-width: 1025px) {
       padding-top: 0;
-      margin-top: 7rem;
+      margin-top: 4rem;
       margin-bottom: 2rem;
+      padding-right: 1rem;
       padding-left: 1rem;
       border-left: 1px solid #dadada;
-      line-height: 2.35rem;
+      line-height: 2rem;
     }
   }
 
@@ -208,7 +207,7 @@
     img {
       height: 6rem;
 
-      @media only screen and (min-width: 641px) {
+      @media only screen and (min-width: 1025px) {
         height: 8rem;
       }
     }

@@ -7,11 +7,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg8"
    version="1.1"
    viewBox="0 0 272.83334 820.45533"
    height="820.45532mm"
-   width="272.83334mm">
+   width="272.83334mm"
+   sodipodi:docname="Toolchain_web_mobile.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     id="namedview473"
+     showgrid="false"
+     inkscape:zoom="0.4305212"
+     inkscape:cx="515.59057"
+     inkscape:cy="1271.7348"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <marker
@@ -327,7 +351,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -575,8 +599,7 @@
        id="flowRoot16445"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#0b1c27;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,169.96777,538.27899)"
-       aria-label="Data
-processing">
+       aria-label="Data processing">
       <path
          id="path1297"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#0b1c27;fill-opacity:1"
@@ -1513,8 +1536,7 @@ processing">
        id="flowRoot16693"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,236.8067,1161.0118)"
-       aria-label="Integrated grid
-planning">
+       aria-label="Integrated grid planning">
       <path
          id="path1532"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:Lato;-inkscape-font-specification:'Lato Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1"
@@ -2106,7 +2128,7 @@ planning">
          d="m -1199.2251,1317.0294 q 1.552,0 2.848,0.496 1.312,0.496 2.256,1.456 0.944,0.944 1.472,2.336 0.528,1.376 0.528,3.152 0,0.448 -0.048,0.752 -0.032,0.288 -0.144,0.464 -0.096,0.16 -0.272,0.24 -0.176,0.064 -0.448,0.064 h -10.144 q 0.176,2.528 1.36,3.712 1.184,1.184 3.136,1.184 0.96,0 1.648,-0.224 0.704,-0.224 1.216,-0.496 0.528,-0.272 0.912,-0.496 0.4,-0.224 0.768,-0.224 0.24,0 0.416,0.096 0.176,0.096 0.304,0.272 l 1.152,1.44 q -0.656,0.768 -1.472,1.296 -0.816,0.512 -1.712,0.832 -0.88,0.304 -1.808,0.432 -0.912,0.128 -1.776,0.128 -1.712,0 -3.184,-0.56 -1.472,-0.576 -2.56,-1.68 -1.088,-1.12 -1.712,-2.752 -0.624,-1.648 -0.624,-3.808 0,-1.68 0.544,-3.152 0.544,-1.488 1.552,-2.576 1.024,-1.104 2.48,-1.744 1.472,-0.64 3.312,-0.64 z m 0.08,2.832 q -1.728,0 -2.704,0.976 -0.976,0.976 -1.248,2.768 h 7.424 q 0,-0.768 -0.208,-1.44 -0.208,-0.688 -0.64,-1.2 -0.432,-0.512 -1.088,-0.8 -0.656,-0.304 -1.536,-0.304 z" />
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17113);marker-end:url(#marker17261)"
+       style="fill:none;stroke:#000000;stroke-width:1.99998537;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker17113);marker-end:url(#marker17261)"
        d="m -182.61533,991.49317 v 79.60653"
        id="path16777" />
     <path
@@ -2119,16 +2141,19 @@ planning">
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker26159);marker-end:url(#marker26283)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker27051);marker-end:url(#marker27187)"
-       d="m -182.61533,1236.7861 v 15.819"
-       id="path27047" />
+       d="m -182.61533,1237.3153 v 15.819"
+       id="path27047"
+       inkscape:connector-curvature="0" />
     <path
        id="path28851"
-       d="m -12.223649,1236.7861 v 15.819"
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker28855);marker-end:url(#marker29003)" />
+       d="m -12.223649,1237.3153 v 15.819"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker28855);marker-end:url(#marker29003)"
+       inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker29629);marker-end:url(#marker29789)"
-       d="M -98.20126,854.30267 V 999.97665"
-       id="path29625" />
+       style="fill:none;stroke:#000000;stroke-width:1.99998537;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker29789)"
+       d="M -98.20126,850.44542 V 998.91831"
+       id="path29625"
+       inkscape:connector-curvature="0" />
     <path
        id="path31405"
        d="m -98.20126,1237.4239 v 155.4706"
@@ -2138,8 +2163,10 @@ planning">
        d="m -183.29094,1393.6617 c 0,0 0,28.8196 0,42.7146 0,13.895 13.72878,13.895 13.72878,13.895 h 14.23725"
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1187);marker-end:url(#marker1341)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1713);marker-end:url(#marker1861)"
-       d="m -12.22162,1393.6617 c 0,0 0,28.8196 0,42.7146 0,13.895 -13.728774,13.895 -13.728774,13.895 h -14.237241"
-       id="path1709" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1861)"
+       d="m -12.22162,1391.2034 0,45.1729 c 0,13.895 -13.728774,13.895 -13.728774,13.895 h -14.237241"
+       id="path1709"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscc" />
   </g>
 </svg>

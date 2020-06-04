@@ -8,3 +8,58 @@
     copyright: © Reiner Lemoine Institut
     acronym: ODbL-1.0
     url: https://opendatacommons.org/licenses/odbl/1.0/
+
+- dataset: Demand/Supply
+  description: Lists of electrical consumption and power plants
+  tables:
+    - name: "demand.ego_dp_loadarea"
+      url: https://openenergy-platform.org/dataedit/view/demand/ego_dp_loadarea
+    - name: "supply.ego_dp_conv_powerplant"
+      url: https://openenergy-platform.org/dataedit/view/supply/ego_dp_conv_powerplant
+    - name :"supply.ego_dp_res_powerplant"
+      url: https://openenergy-platform.org/dataedit/view/supply/ego_dp_res_powerplant
+  license:
+    name: Open Data Commons Open Database License 1.0
+    copyright: © Reiner Lemoine Institut
+    acronym: ODbL-1.0
+    url: https://opendatacommons.org/licenses/odbl/1.0/
+    
+- dataset: eTraGo-model
+  description: Elements relevant for HV powerflow
+  tables:
+    - name: "grid.ego_pf_hv_bus"
+      url: https://openenergy-platform.org/dataedit/view/grid/ego_pf_hv_bus
+    - name: "grid.ego_pf_hv_generator"
+      url: https://openenergy-platform.org/dataedit/view/grid/ego_pf_hv_bus
+    - name: "grid.ego_pf_hv_generator_pq_set"
+      url: https://openenergy-platform.org/dataedit/view/grid/ego_pf_hv_generator_pq_set
+    - name: "grid.ego_pf_hv_load"
+      url: https://openenergy-platform.org/dataedit/view/grid/ego_pf_hv_load
+    - name: "grid.ego_pf_hv_load_pq_set"
+      url: https://openenergy-platform.org/dataedit/view/grid/ego_pf_hv_load_pq_set
+    - name: "grid.ego_pf_hv_storage"
+      url: https://openenergy-platform.org/dataedit/view/grid/ego_pf_hv_storage
+    - name: "grid.ego_pf_hv_transformer"
+      url: https://openenergy-platform.org/dataedit/view/grid/ego_pf_hv_transformer
+    - name: "grid.ego_pf_hv_line"
+      url: https://openenergy-platform.org/dataedit/view/grid/ego_pf_hv_line
+  license:
+    name: Open Data Commons Open Database License 1.0
+    copyright: © Reiner Lemoine Institut
+    acronym: ODbL-1.0
+    url: https://opendatacommons.org/licenses/odbl/1.0/
+    
+- dataset: osmTGmod-model
+  description: Data processed by egoTGmod
+  tables:
+    - name: "otg_ehvhv_branch_data"
+      url: https://openenergy-platform.org/dataedit/view/grid/otg_ehvhv_branch_data
+    - name: "otg_ehvhv_bus_data"
+      url: https://openenergy-platform.org/dataedit/view/grid/otg_ehvhv_bus_data
+    - name :"otg_ehvhv_dcline_data"
+      url: https://openenergy-platform.org/dataedit/view/grid/otg_ehvhv_dcline_data
+  license:
+    name: Open Data Commons Open Database License 1.0
+    copyright: © Reiner Lemoine Institut
+    acronym: ODbL-1.0
+    url: https://opendatacommons.org/licenses/odbl/1.0/

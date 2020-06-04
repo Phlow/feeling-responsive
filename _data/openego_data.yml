@@ -8,7 +8,6 @@
     copyright: © Reiner Lemoine Institut
     acronym: ODbL-1.0
     url: https://opendatacommons.org/licenses/odbl/1.0/
-
 - dataset: Demand/Supply
   description: Lists of electrical consumption and power plants
   tables:
@@ -16,14 +15,13 @@
       url: https://openenergy-platform.org/dataedit/view/demand/ego_dp_loadarea
     - name: "supply.ego_dp_conv_powerplant"
       url: https://openenergy-platform.org/dataedit/view/supply/ego_dp_conv_powerplant
-    - name :"supply.ego_dp_res_powerplant"
+    - name: "supply.ego_dp_res_powerplant"
       url: https://openenergy-platform.org/dataedit/view/supply/ego_dp_res_powerplant
   license:
     name: Open Data Commons Open Database License 1.0
     copyright: © Reiner Lemoine Institut
     acronym: ODbL-1.0
     url: https://opendatacommons.org/licenses/odbl/1.0/
-    
 - dataset: eTraGo-model
   description: Elements relevant for HV powerflow
   tables:
@@ -48,7 +46,6 @@
     copyright: © Reiner Lemoine Institut
     acronym: ODbL-1.0
     url: https://opendatacommons.org/licenses/odbl/1.0/
-    
 - dataset: osmTGmod-model
   description: Data processed by egoTGmod
   tables:
@@ -56,7 +53,7 @@
       url: https://openenergy-platform.org/dataedit/view/grid/otg_ehvhv_branch_data
     - name: "otg_ehvhv_bus_data"
       url: https://openenergy-platform.org/dataedit/view/grid/otg_ehvhv_bus_data
-    - name :"otg_ehvhv_dcline_data"
+    - name: "otg_ehvhv_dcline_data"
       url: https://openenergy-platform.org/dataedit/view/grid/otg_ehvhv_dcline_data
   license:
     name: Open Data Commons Open Database License 1.0

@@ -13,9 +13,13 @@
             <tr>
               <td>{{ d.description }}</td>
               <td>{{ d.dataset }}</td>
-              {% for table in d.tables %}
-                <td><a href="{{ table.url }}">{{ table.name }}</a><br></td>
-              {% endfor %}
+              <td>
+                <ul>
+                  {% for table in d.tables %}
+                    <li><a href="{{ table.url }}">{{ table.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              </td>
               <td>
                   <a href="{{ d.license.url }}">{{ d.license.name }} ({{ d.license.acronym }})</a>
               </td>

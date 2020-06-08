@@ -11,8 +11,8 @@
     <tbody>
         {% for d in site.data.openego_data %}
             <tr>
-              <td>{{ d.description }}</td>
               <td>{{ d.dataset }}</td>
+              <td>{{ d.description }}</td>
               <td>
                 <ul>
                   {% for table in d.tables %}
@@ -21,7 +21,10 @@
                 </ul>
               </td>
               <td>
-                  <a href="{{ d.license.url }}">{{ d.license.name }} ({{ d.license.acronym }})</a>
+                  <a href="{{ d.license.url }}">
+                    {{ d.license.name }} ({{ d.license.acronym }}) <br>
+                    {{ d.license.copyright }}
+                  </a>
               </td>
             </tr>
         {% endfor %}

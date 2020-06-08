@@ -111,7 +111,7 @@ Incorporating all grid levels, from transmission grid to low-voltage distributio
             <div class="workshops__item-date">
               End of 2022
             </div>
-            <p>Presenation of results and introduction to tools and data</p>
+            <p>Presentation of results and introduction to tools and data</p>
           </div>
         </div>
       </div>

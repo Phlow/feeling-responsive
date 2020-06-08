@@ -4,11 +4,16 @@
   margin: 0 auto;
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.65rem;
     text-align: center;
 
-    @media only screen and (min-width: 640px) {
-      font-size: 2.65rem;
+    @media only screen and (min-width: 641px) {
+      font-size: 1.85rem;
+      padding-top: 1rem;
+    }
+
+    @media only screen and (min-width: 1025px) {
+      font-size: 2rem;
       padding-top: 1rem;
     }
   }

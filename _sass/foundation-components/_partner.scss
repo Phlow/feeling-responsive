@@ -6,8 +6,13 @@ $partner-card-margin-desktop: .75rem;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  padding-left: .75rem;
-  padding-right: .75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @media only screen and (min-width: 641px) {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
 
   a {
     color: #1F567D;
@@ -17,11 +22,14 @@ $partner-card-margin-desktop: .75rem;
   .partners__text {
     padding-top: 1rem;
     margin-bottom: 1.25rem;
-    text-align: center;
+    text-align: left;
     line-height: 1.75rem;
     width: 100%;
+    text-align: center;
 
-    @media only screen and (min-width: 625px) {
+    @media only screen and (min-width: 1025px) {
+      padding-top: 0;
+      margin-top: 4rem;
       font-size: 1.15rem;
     }
   }
@@ -33,22 +41,24 @@ $partner-card-margin-desktop: .75rem;
     display: block;
     position: relative;
     padding: 0 .75rem 1.5rem;
-    margin: .75rem 0;
-    @media only screen and (min-width: 1024px) {
-      width: calc(50% - #{$partner-card-margin-desktop});
+    margin: $partner-card-margin-desktop 0;
+
+    @media only screen and (min-width: 1025px) {
+      margin: $partner-card-margin-desktop $partner-card-margin-desktop;
+      width: calc(50% - (#{$partner-card-margin-desktop} * 2));
       padding: 0 1.25rem 2rem;
     }
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1025px) {
     > .partners__item:nth-child(odd) {
-      margin-left: 0;
+      margin-left: $partner-card-margin-desktop;
       margin-right: $partner-card-margin-desktop;
     }
 
     > .partners__item:nth-child(even) {
       margin-left: $partner-card-margin-desktop;
-      margin-right: 0;
+      margin-right: $partner-card-margin-desktop;
     }
   }
 
@@ -60,7 +70,7 @@ $partner-card-margin-desktop: .75rem;
     display: none;
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1025px) {
     .partners__upper--helper {
       display: block;
       height: $partner-card-helper-height;
@@ -80,7 +90,7 @@ $partner-card-margin-desktop: .75rem;
 
 .partners__logo {
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1025px) {
     display: flex;
     flex: 1;
     align-items: center;
@@ -91,7 +101,7 @@ $partner-card-margin-desktop: .75rem;
     display: inline;
     padding-top: 1rem;
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1025px) {
       padding-top: 0;
     }
   }

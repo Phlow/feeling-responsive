@@ -67,7 +67,7 @@ $code-padding: rem-calc(2) rem-calc(5) rem-calc(1) !default;
 // We use these to style anchors
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
-$anchor-font-color: $primary-color-1;
+$anchor-font-color: #1F567D;
 $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 
 // We use these to style the <hr> element

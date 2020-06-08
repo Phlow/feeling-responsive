@@ -41,8 +41,8 @@ header: no
     <div class="columns tools-data__table-heading">
       <h2>Our data</h2>
     </div>
-    <div class="large-9 columns">
-      <p class="tools-data__table-text">
+    <div class="columns tools-data__table-text">
+      <p>
         The data is characterized by a high spatial resolution suitable for energy system modeling. It is available through the oedb. You can find some important data sets listed in the following table.
       </p>
     </div>
@@ -55,7 +55,7 @@ header: no
     <div class="columns medium-3 tools-data__oep-logo">
       <img src="{{ site.url }}{{ site.baseurl }}/images/OEP_logo.svg" alt="Logo oedb">
     </div>
-    <div class="columns medium-8 tools-data__oep-right">
+    <div class="columns medium-9 tools-data__oep-right">
       <div class="row">
         <h2 class="tools-data__oep-heading">Open&shy;Energy&shy;Platform</h2>
         <p class="tools-data__oep-text">

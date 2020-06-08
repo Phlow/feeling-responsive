@@ -16,13 +16,13 @@ header: no
     <div class="columns">
       <h1 class="hero__header">
         <span class="hero__header--name">eGo<sup>n</sup></span>
-        <span class="hero__header--text">Open, inter-grid-level and cross-sectoral planning instrument for the optimal use and expansion of the electrical grid and flexibility options in Germany</span>
+        <span class="hero__header--text">Open and cross-sectoral planning of transmission and distribution grids</span>
       </h1>
     </div>
     <div class="hero__left large-7 columns">
       <p class="hero__subheader">
-        Driven by the expansion of renewable generation capacity and the progressing integration of other sectors, the electrical grid increasingly faces new challenges: fluctuating supply by renewable energy with a simultaneously changing demand pattern caused by sector coupling. However, the integration of non-electric sectors such as the sectors of gas, heat and e-mobility enables more flexibility options. 
-        This project aims to investigate the effects of sector coupling on the electrical grid and the benefits of flexibilities integrated by the interconnected sectors. Like the previous project <a href="https://openegoproject.,wordpress.com" title="open_eGo">open_eGo</a> this work will follow the open source and open data principles.
+        Driven by the expansion of renewable generation capacity and the progressing electrification of other energy sectors, the electrical grid increasingly faces new challenges: fluctuating supply by renewable energy and simultaneously a changing demand pattern caused by sector coupling. However, the integration of non-electric sectors such as gas, heat and e-mobility enables more flexibility options. 
+        This project aims to investigate the effects of sector coupling on the electrical grid and the benefits of new flexibility options. Like the previous project <a href="https://openegoproject.,wordpress.com" title="open_eGo">open_eGo</a> this work will follow the open source and open data principles.
       </p>
       <div class="hero__btn">
         <a href="/tools_data/" class="button hero__cta">See our tools</a>
@@ -41,14 +41,14 @@ header: no
       <div class="tasks__row row">
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
-            <h3 class="tasks__item-title">Planning Tool</h3>
-            In eGo<sup>n</sup> we will expand the grid planning tool eGo following the established open source principles. We will connect the electrical grid with additional sectors and integrate more electrical flexibilities.
+            <h3 class="tasks__item-title">Sector Coupling</h3>
+            We want to identify the opportunities and potentials, but also challenges of progressing sector coupling and optimize the modelled energy system with regard to the overall costs.
           </div>
         </div>
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
-            <h3 class="tasks__item-title">Sector Coupling</h3>
-            We want to identify the opportunities and potentials, but also challenges of progressing sector coupling and optimize the modelled energy system with regard to the overall costs.
+            <h3 class="tasks__item-title">Planning Tool</h3>
+            In eGo<sup>n</sup> we will expand the grid planning tool eGo following the established open-source principles. We will connect the electrical grid with additional sectors and integrate more electrical flexibilities.
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@ Incorporating all grid levels, from transmission grid to low-voltage distributio
             <div class="workshops__item-date">
               End of 2022
             </div>
-            <p>Presenation of results and introduction to tools and data</p>
+            <p>Presentation of results and introduction to tools and data</p>
           </div>
         </div>
       </div>

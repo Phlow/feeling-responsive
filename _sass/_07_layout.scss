@@ -46,8 +46,8 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #navigation {
-    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
+    box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
 
     [class^='icon-']:before, [class*=' icon-']:before {
         margin-right: rem-calc(8);
@@ -249,7 +249,7 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #up-to-top {
-    padding: 160px 0 10px 0;
+    padding: 5rem 0 10px 0;
 }
 #up-to-top a {
     font-size: 24px;
@@ -296,7 +296,8 @@ body.video cite { color: #fff; }
 #subfooter {
     background: $subfooter-bg;
     color: $subfooter-color;
-    padding-top: 30px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 #subfooter-left ul.inline-list {
@@ -304,13 +305,7 @@ body.video cite { color: #fff; }
 }
 
 .credits a {
-    color: $subfooter-link-color;
-    border: 0;
-    text-transform: none;
     font-weight: 700;
-    &:hover {
-        color: $subfooter-link-color;
-  }
 }
 
 .social-icons {

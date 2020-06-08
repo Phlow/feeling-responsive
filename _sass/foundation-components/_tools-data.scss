@@ -1,3 +1,20 @@
+@mixin section-text {
+  text-align: center;
+
+  @media only screen and (min-width: 641px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media only screen and (min-width: 1025px) {
+    padding-top: 0;
+    margin-bottom: 1rem;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .tools-data {
     
   .tools-data__header {
@@ -17,19 +34,21 @@
   .tools-data__subheading {
     padding-top: 2rem;
     padding-bottom: 1rem;
-    line-height: 2rem;
+    line-height: 1.75rem;
+    text-align: left;
 
     @media only screen and (min-width: 641px) {
-      line-height: 2.15rem;
+      line-height: 1.75rem;
     }
 
     @media only screen and (min-width: 1025px) {
       padding-top: 0;
-      margin-top: 7rem;
+      margin-top: 4rem;
       margin-bottom: 2rem;
+      padding-right: 1rem;
       padding-left: 1rem;
       border-left: 1px solid #dadada;
-      line-height: 2.35rem;
+      line-height: 2rem;
     }
   }
 
@@ -49,27 +68,11 @@
 
   .tools-data__tools-heading {
     text-align: center;
-    margin-bottom: 1rem;
-
-    @media only screen and (min-width: 641px) {
-      margin-bottom: 1rem;
-    }
+    margin-bottom: .5rem;
   }
 
-  .tools-data__tools-text {
-    text-align: center;
-
-    @media only screen and (min-width: 641px) {
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-
-    @media only screen and (min-width: 1025px) {
-      padding-top: 0;
-      margin-bottom: 1rem;
-      padding-left: 4rem;
-      padding-right: 4rem;
-    }
+  .tools-data__tools-text p {
+    @include section-text;
   }
   
   .tools-data__table {
@@ -92,18 +95,25 @@
     margin-bottom: .5rem;
 
     @media only screen and (min-width: 641px) {
-      margin-bottom: 2rem;
+      margin-bottom: .5rem;
     }
   }
 
   .tools-data__table-text {
-    padding-top: 2rem;
+    @include section-text;
+  }
+
+  .tools-data__table-text p {
+    text-align: center;
+
+    @media only screen and (min-width: 641px) {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-bottom: .5rem;
+    }
 
     @media only screen and (min-width: 1025px) {
       padding-top: 0;
-      margin-bottom: 3rem;
-      padding-left: 1rem;
-      border-left: 1px solid #dadada;
     }
   }
 
@@ -144,6 +154,7 @@
       font-size: 1.125rem;
       font-weight: 400;
       text-align: center;
+      min-width: 10rem;
     }
 
     thead tr th:first-child {
@@ -192,18 +203,27 @@
   .tools-data__oep-logo {
     text-align: center;
 
-    @media only screen and (min-width: 641px) {
-      text-align: right;
-      padding-right: 1rem;
-    }
     img {
-      height: 8rem;
+      height: 6rem;
+
+      @media only screen and (min-width: 1025px) {
+        height: 8rem;
+      }
     }
   }
 
   .tools-data__oep-text {
     @media only screen and (max-width: 640px) {
       text-align: center;
+    }
+  }
+
+  .tools-data__oep-right {
+    @media only screen and (min-width: 641px) {
+      padding-left: 2rem;
+    }
+    @media only screen and (min-width: 1025px) {
+      padding-left: 1rem;
     }
   }
 

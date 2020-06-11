@@ -4,7 +4,7 @@ name: Deploy staging
 # events but only for the master branch
 on:
   push:
-    branches: [ test/deploy_action ]
+    branches: [ dev master ]
 
 jobs:
   deploy:
@@ -14,9 +14,9 @@ jobs:
       shell: bash
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
       id: extract_branch
-    - name: Set staging as target if branch is test/deploy_action
+    - name: Set staging as target if branch is dev
       run: echo "::set-env name=SERVER_TARGET::staging"
-      if: steps.extract_branch.outputs.branch == 'test/deploy_action'
+      if: steps.extract_branch.outputs.branch == 'dev'
     - name: Set production as target if branch is master
       run: echo "::set-env name=SERVER_TARGET::production"
       if: steps.extract_branch.outputs.branch == 'master'

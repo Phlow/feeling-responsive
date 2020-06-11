@@ -14,9 +14,10 @@ jobs:
       shell: bash
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
       id: extract_branch
-    - name: Set target on deploy server
+    - name: Set staging as target if branch is test/deploy_action
       run: echo "::set-env name=SERVER_TARGET::staging"
       if: steps.extract_branch.outputs.branch == 'test/deploy_action'
+    - name: Set production as target if branch is master
       run: echo "::set-env name=SERVER_TARGET::production"
       if: steps.extract_branch.outputs.branch == 'master'
     - uses: actions/checkout@v2

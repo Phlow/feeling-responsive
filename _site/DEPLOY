@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Check input and set variables
+case $1 in
+	staging)
+		REMOTE_TARGET=staging
+		CONFIG_FILE=_config_staging.yml
+		;;
+	productive)
+		REMOTE_TARGET=production
+		CONFIG_FILE=_config_production.yml
+		;;
+	*)
+		echo 'Wrong argument! Nothing will be deployed!'
+		exit 1
+esac
+
+echo "Building and serving site on ${REMOTE_TARGET}\n"
+
+# Build it
+docker run --rm -p 4000:4000 --volume=${PWD}/vendor/bundle:/usr/local/bundle --volume=${PWD}:/srv/jekyll -it jekyll/jekyll:3.8 jekyll build --config ${CONFIG_FILE}
+
+# Test if jekyll build was succesfull
+result=$?
+if [ $result -ne 0 ]; then
+ # Exit if build failed
+ echo "Deployment failed: Jekyll build failed"
+ exit 1
+fi
+
+# Copy site to webserver
+rsync -az --progress _site/ egon_user@wam.rl-institut.de:/services/egon/${REMOTE_TARGET}/
+
+echo "\nSite was built and is live on ${REMOTE_TARGET}"

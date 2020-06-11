@@ -1,0 +1,34 @@
+name: Deploy staging
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ dev master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
+    - name: Set staging as target if branch is dev
+      run: echo "::set-env name=SERVER_TARGET::staging"
+      if: steps.extract_branch.outputs.branch == 'dev'
+    - name: Set production as target if branch is master
+      run: echo "::set-env name=SERVER_TARGET::production"
+      if: steps.extract_branch.outputs.branch == 'master'
+    - uses: actions/checkout@v2
+    - name: rsync deployments
+      uses: burnett01/rsync-deployments@4.0
+      with:
+        switches: -avzr
+        path: _site/
+        remote_path: /services/egon/${{ env.SERVER_TARGET }}/
+        remote_host: ${{ secrets.DEPLOY_HOST }}
+        remote_port: ${{ secrets.DEPLOY_PORT }}
+        remote_user: ${{ secrets.DEPLOY_USER }}
+        remote_key: ${{ secrets.DEPLOY_KEY }}
+

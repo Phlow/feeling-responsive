@@ -4,7 +4,7 @@ name: Deploy staging
 # events but only for the master branch
 on:
   push:
-    branches: [ test/deploy_action ]
+    branches: [ dev ]
 
 jobs:
   deploy:

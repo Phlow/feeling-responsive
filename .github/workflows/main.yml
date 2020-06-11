@@ -4,7 +4,9 @@ name: Deploy staging
 # events but only for the master branch
 on:
   push:
-    branches: [ dev master ]
+    branches: 
+      - fix/#69
+      - master
 
 jobs:
   deploy:
@@ -16,7 +18,7 @@ jobs:
       id: extract_branch
     - name: Set staging as target if branch is dev
       run: echo "::set-env name=SERVER_TARGET::staging"
-      if: steps.extract_branch.outputs.branch == 'dev'
+      if: steps.extract_branch.outputs.branch == 'fix/#69'
     - name: Set production as target if branch is master
       run: echo "::set-env name=SERVER_TARGET::production"
       if: steps.extract_branch.outputs.branch == 'master'

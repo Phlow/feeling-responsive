@@ -4,19 +4,26 @@ name: Deploy staging
 # events but only for the master branch
 on:
   push:
-    branches: [ dev ]
+    branches: [ test/deploy_action ]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
+    - name: Set target on deploy server
+      - run: echo "::set-env name=SERVER_TARGET::staging"
+        if: steps.extract_branch.outputs.branch == 'test/deploy_action'
     - uses: actions/checkout@v2
     - name: rsync deployments
       uses: burnett01/rsync-deployments@4.0
       with:
         switches: -avzr
         path: _site/
-        remote_path: /services/egon/staging/
+        remote_path: /services/egon/${{ env.SERVER_TARGET }}/
         remote_host: ${{ secrets.DEPLOY_HOST }}
         remote_port: ${{ secrets.DEPLOY_PORT }}
         remote_user: ${{ secrets.DEPLOY_USER }}

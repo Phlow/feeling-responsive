@@ -15,8 +15,8 @@ jobs:
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
       id: extract_branch
     - name: Set target on deploy server
-      - run: echo "::set-env name=SERVER_TARGET::staging"
-        if: steps.extract_branch.outputs.branch == 'test/deploy_action'
+      run: echo "::set-env name=SERVER_TARGET::staging"
+      if: steps.extract_branch.outputs.branch == 'test/deploy_action'
     - uses: actions/checkout@v2
     - name: rsync deployments
       uses: burnett01/rsync-deployments@4.0

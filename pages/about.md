@@ -10,10 +10,10 @@ header:
 
 <div class="row">
   <div class="large-6 columns">
-      <img src="{{site.url}}/images/about_img1_raw.jpg">
+      <img src="/images/about_img1_raw.jpg">
   </div>
   <div class="large-6 columns">
-      <img src="{{site.url}}/images/about_img2_raw.jpg">
+      <img src="/images/about_img2_raw.jpg">
   </div>
 </div>
 
@@ -24,8 +24,8 @@ A self-styled gamers' guild calling itself a small business, **Atemosta** wants 
 ## The Team
 {% for author in site.data.about %}
   <h3>{{ author.name }}</h3>
-  <img src="{{ site.url }}/{{ author.avi }}" alt="{{ author.name }}" /><br>
+  <img src="{{ author.avi }}" alt="{{ author.name }}" /><br>
   {{ author.info }} <br>
-  <img src="{{ site.url }}/images/icon/Twitter_Social_Icon_Circle_Color.png" alt="{{ author.twitter }}" height="20" width="20" />
+  <img src="/images/icon/Twitter_Social_Icon_Circle_Color.png" alt="{{ author.twitter }}" height="20" width="20" />
   <a href="{{ author.twitter_url }}">{{ author.twitter_handle}}</a>
 {% endfor %}

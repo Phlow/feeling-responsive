@@ -3,7 +3,7 @@ layout: page
 show_meta: false
 title: "VisIt Top 50"
 subheadline: "Leading Examples of VisIt at Scale"
-teaser: "From laptop to LCF, VisIt can visualize and analize data at any scale."
+teaser: "From laptop to LCF, visualize and analize data at any scale."
 header:
    image_fullwidth: "gallery-07a.png"
 permalink: "/visit-top-50/"

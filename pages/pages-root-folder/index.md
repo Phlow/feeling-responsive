@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: pres_move_b.mp4
+  image_fullwidth: pres_movie_b_smaller.mp4
 widget1:
   title: "Why use VisIt?"
   url: '/about/'

@@ -2,14 +2,14 @@ active:
   biagas:
     name: Kathleen Biagas
     pic: https://avatars0.githubusercontent.com/u/17075318?s=460&u=ee36916d8bc25c3fa796c0efa7833924fdc4ab32&v=4
-    affiliation: "[LLNL](www.llnl.gov)"
+    affiliation: "[LLNL](https://www.llnl.gov)"
     vfocus: VTK, Windows, User Interfaces
     github: https://github.com/biagas
     email: biagas1@llnl.gov
   brugger:
     name: Eric Brugger
     pic: https://bluewaters.ncsa.illinois.edu/liferay-content/image-gallery/webinar%20photos/eric_brugger.png
-    affiliation: "[LLNL](www.llnl.gov)"
+    affiliation: "[LLNL](https://www.llnl.gov)"
     vfocus: VisIt Project Lead, DevOps
     github: https://github.com/brugger1
     email: brugger1@llnl.gov
@@ -30,14 +30,14 @@ active:
   cyrush:
     name: Cyrus Harrison
     pic: https://people.llnl.gov/getImage?per_intr_no=1245945
-    affiliation: "[LLNL](www.llnl.gov)"
+    affiliation: "[LLNL](https://www.llnl.gov)"
     vfocus: VisIt CLI, In-Situ Analysis, Python
     github: https://github.com/cyrush
     email: harrison37@llnl.gov
   griffin:
     name: Kevin Griffin
     pic: https://avatars2.githubusercontent.com/u/26772741?s=460&u=601e8633c1210c113489af163a2c1be0e246c88d&v=4
-    affiliation: "[LLNL](www.llnl.gov)"
+    affiliation: "[LLNL](https://www.llnl.gov)"
     vfocus: OSX, Operator plugins
     github: https://github.com/griffin28
     email: griffin28@llnl.gov
@@ -46,20 +46,20 @@ active:
     name: Matt Larsen
     pic: http://mclarsen.com/images/me.jpg
     vfocus: In-Situ, GPUs, Ascent
-    affiliation: "[LLNL](www.llnl.gov)"
+    affiliation: "[LLNL](https://www.llnl.gov)"
     email: larsen30@llnl.gov
     github: https://github.com/mclarsen
   maguire:
     name: Alister Maguire
     pic: https://avatars0.githubusercontent.com/u/11658578?s=460&u=4894582cc0791544cc0eb04a81e1cc5c047f88e2&v=4
-    affiliation: "[LLNL](www.llnl.gov)"
+    affiliation: "[LLNL](https://www.llnl.gov)"
     vfocus: VisIt Operators, AI/ML, Mili
     email: maguire7@llnl.gov
     github: https://github.com/aowen87
   miller:
     name: Mark C. Miller
     pic: https://people.llnl.gov/getImage?per_intr_no=1011807
-    affiliation: "[LLNL](www.llnl.gov)"
+    affiliation: "[LLNL](https://www.llnl.gov)"
     vfocus: VisIt Db plugins, Scalable I/O, Data Models
     github: https://github.com/markcmiller86
     email: miller86@llnl.gov

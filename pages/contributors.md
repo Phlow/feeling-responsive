@@ -3,6 +3,7 @@ layout: page
 header:
   image_fullwidth: gallery-07a.png
 permalink: "/contributors/"
+foo: cyrush
 ---
 
 {% comment %}
@@ -23,11 +24,23 @@ The person's bio about themselves is truncated to 100 words.
 {% capture newline %}
 {% endcapture %}
 
-**This page is under construction and does not yet fully reflect all the contributors.**
+### Active Developers
 
 |**Name**|**Bio**|
 |:---|:---|
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||
-{% for person in site.contributors -%}
-|![]({{ person.photo_url }})<br>{{ person.name }}<br>{{ person.affiliation }}|{{ person.content | replace: newline, " " | replace: "<p>", " " | replace: "</p>", " " | strip_newlines | truncatewords: 100 }}|
+{% for person in site.data.developers.active -%}
+  {%- assign pname = person | first -%}
+|![]({{ site.data.developers.active[pname].pic }})<br>{{- site.data.developers.active[pname].name -}}<br>{{- site.data.developers.active[pname].affiliation -}}|{{- site.data.developers.active[pname].bio | replace: newline, " " | replace: "<p>", " " | replace: "</p>", " " | strip_newlines | truncatewords: 100 -}}|
 {% endfor %}
+
+### Former Developers
+
+{% for person in site.data.developers.former -%}
+|{{person}}{%- cycle "", "", "", newline -%}{%- endfor -%}
+{{newline}}
+
+### Other collaborators and contributors
+
+{% for person in site.data.developers.contributors -%}
+|{{person}}{%- cycle "", "", "", newline -%}{%- endfor -%}

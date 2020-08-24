@@ -47,7 +47,6 @@ logo: "logo.png"
 # Collections
 #
 collections:
-  contributors:
   top50:
   examples:
     output: true

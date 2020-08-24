@@ -1,0 +1,144 @@
+active:
+  biagas:
+    name: Kathleen Biagas
+    affiliation: LLNL
+    vfocus: VTK, Windows, User Interfaces
+    github: https://github.com/biagas
+    email: biagas1@llnl.gov
+  brugger:
+    name: Eric Brugger
+    pic: https://bluewaters.ncsa.illinois.edu/liferay-content/image-gallery/webinar%20photos/eric_brugger.png
+    affiliation: LLNL
+    vfocus: VisIt Project Lead, DevOps
+    github: https://github.com/brugger1
+    email: brugger1@llnl.gov
+  camp:
+    name: David Camp
+    pic: https://crd.lbl.gov/assets/Uploads/_resampled/SetHeight150-camp.jpg
+    affiliation: LBNL
+    github: https://github.com/David-Camp
+    email: DCamp@lbl.gov
+  childs:
+    name: Hank Childs
+    pic: https://casprofile.uoregon.edu/sites/casprofile2.uoregon.edu/files/picture-3790.jpg
+    vfocus: Scalability and Useability
+    github: https://github.com/hankchilds
+    email: hank@uoregon.edu
+    bio: "Hank is a full Professor in the Department of Computer and Information Science at the University of Oregon. Hank's research focuses on scientific visualization, high performance computing, and the intersection of the two. In July of 2012, Hank received the Department of Energy's Early Career Award to research visualization with exascale computers (i.e., computers that can do 10<sup>18</sup> floating operations per second). Hank spent over a dozen years at Lawrence Berkeley and Lawrence Livermore National Laboratories, directing research in big data visualization. Outside of his research, Hank is best known as one of the founding architects of VisIt."
+  cyrush:
+    name: Cyrus Harrison
+    pic: https://people.llnl.gov/getImage?per_intr_no=1245945
+    affiliation: LLNL
+    vfocus: VisIt CLI, In-Situ Analysis, Python
+    github: https://github.com/cyrush
+    email: harrison37@llnl.gov
+  griffin:
+    name: Kevin Griffin
+    pic: https://avatars2.githubusercontent.com/u/26772741?s=460&u=601e8633c1210c113489af163a2c1be0e246c88d&v=4
+    affiliation: LLNL
+    vfocus: OSX, Operator plugins
+    github: https://github.com/griffin28
+    email: griffin28@llnl.gov
+    bio: "Kevin has 5+ years supporting VisIt development and is also the lead developer for [PyDV ](https://github.com/griffin28/PyDV). He is a recent graduate of the U.C. Davis doctoral program in computer science with a focus on computer graphics and visualization. Kevin also holds the rank of Lt. Commander as an Information Warfare Officer in the Naval Reserves."
+  larsen:
+    name: Matt Larsen
+    pic: http://mclarsen.com/images/me.jpg
+    vfocus: In-Situ, GPUs, Ascent
+    affiliation: LLNL
+    email: larsen30@llnl.gov
+    github: https://github.com/mclarsen
+  maguire:
+    name: Alister Maguire
+    pic: https://avatars0.githubusercontent.com/u/11658578?s=460&u=4894582cc0791544cc0eb04a81e1cc5c047f88e2&v=4
+    affiliation: LLNL
+    vfocus: VisIt Operators, AI/ML, Mili
+    email: maguire7@llnl.gov
+    github: https://github.com/aowen87
+  miller:
+    name: Mark C. Miller
+    pic: https://people.llnl.gov/getImage?per_intr_no=1011807
+    affiliation: LLNL
+    vfocus: VisIt Db plugins, Scalable I/O, Data Models
+    github: https://github.com/markcmiller86
+    email: miller86@llnl.gov
+    bio: "Mark has supported [VisIt](http://visit.llnl.gov) and led development of [Silo](https://silo.llnl.gov) for scalable I/O requirements of LLNL HPC simulation codes such as [ALE3D](https://wci.llnl.gov/simulation/computer-codes/ale3d) [Kull, Ares, LASNEX and Overlink](https://wci.llnl.gov/simulation/computer-codes) for ~20 years.  Mark's interests include data models and their impact on software interoperability, high performance I/O, and Software Quality Engineering ([Smart Libraries](https://wci.llnl.gov/codes/smartlibs/UCRL-JRNL-208636.pdf)) for HPC libraries."
+  pugmire:
+    name: Dave Pugmire
+    affiliation: ORNL
+    github: https://github.com/dpugmire
+    email: pugmire@ornl.gov
+  sanderson:
+    name: Allen Sanderson
+    pic: https://avatars0.githubusercontent.com/u/26089249?s=400&u=57da2d0499b456cb97a84c9ef4143a4005ed306c&v=4
+    affiliation: University of Utah
+    github: https://github.com/ARSanderson
+    email: allen@sci.utah.edu
+  weber:
+    name: Gunther Weber
+    pic: https://crd.lbl.gov/assets/Images/About/Staff/CDS/VIS/_resampled/SetHeight150-GuntherHWeber.jpg
+    affiliation: LBNL
+    github: https://github.com/ghweber
+    email: ghweber@lbl.gov
+  whitlock:
+    name: Brad Whitlock 
+    affiliation: Intelligent Light
+    email: bjw@ilight.com
+
+former:
+  - Sean Ahern
+  - Mark Blair
+  - David Bremer
+  - Cameron Christensen
+  - Thomas Fogal
+  - Harinarayan Krishnan
+  - Jeremy Meredith
+  - Shelly Prevost
+  - Ellen Tarwater
+  - Tom Treadway 
+
+contributors:
+  - Cihan Altinay
+  - John Anderson
+  - John Bemis
+  - Ed Boyce
+  - Ralph Bruckschen
+  - John Cary
+  - Linnea Cook
+  - Rich Cook
+  - Bob Corey
+  - Brian Dotson
+  - Marc Durant
+  - Jean Favre
+  - Gauthier Fauchet
+  - Patrick Fragile
+  - Christoph Garth
+  - Henri Girard
+  - Markus Glatter
+  - Akira Haddox
+  - Allen S. Harvey Jr.
+  - Randy Hudson
+  - Walter Herrera Jimenez
+  - William T. Jones
+  - Terry Jordan
+  - Dorian Krause
+  - Henk Krüs
+  - Kenneth Leiter
+  - Maxim Loginov
+  - Rob Managan
+  - Benoit Mathieu
+  - Paul Navratil
+  - Hua Pan
+  - Mickael Philit
+  - Christian Reisswig
+  - Erik Schnetter
+  - John Schreiner
+  - Paul Selby
+  - Cristina Siegerist
+  - Rob Sisneros
+  - Dale Slone
+  - Paul Stewart
+  - David Stuebe
+  - Andrew Szymkowiak
+  - Matt Wheeler
+  - Joel Welling
+  - Chris Wojtan

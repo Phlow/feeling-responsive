@@ -31,7 +31,7 @@ The person's bio about themselves is truncated to 100 words.
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||
 {% for person in site.data.developers.active -%}
   {%- assign pname = person | first -%}
-|![]({{ site.data.developers.active[pname].pic }})<br>{{- site.data.developers.active[pname].name -}}<br>{{- site.data.developers.active[pname].affiliation -}}|{{- site.data.developers.active[pname].bio | replace: newline, " " | replace: "<p>", " " | replace: "</p>", " " | strip_newlines | truncatewords: 100 -}}|
+|![]({%- if site.data.developers.active[pname].pic -%}{{ site.data.developers.active[pname].pic }}{%- else -%}{{site.url}}{{site.baseurl}}/images/default-developer-picture.png{%- endif -%})<br>{{- site.data.developers.active[pname].name -}}<br>{{- site.data.developers.active[pname].affiliation -}}&nbsp;[email](mailto:{{- site.data.developers.active[pname].email -}})&nbsp;[GitHub]({{- site.data.developers.active[pname].github -}})|{{- site.data.developers.active[pname].bio | replace: newline, " " | replace: "<p>", " " | replace: "</p>", " " | strip_newlines | truncatewords: 100 -}}|
 {% endfor %}
 
 ### Former Developers

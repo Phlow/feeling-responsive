@@ -40,7 +40,7 @@ The person's bio about themselves is truncated to 100 words.
 |{{person}}{%- cycle "", "", "", newline -%}{%- endfor -%}
 {{newline}}
 
-### Other collaborators and contributors
+### Other contributors and collaborators
 
 {% for person in site.data.developers.contributors -%}
 |{{person}}{%- cycle "", "", "", newline -%}{%- endfor -%}

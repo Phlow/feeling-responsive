@@ -1,25 +1,29 @@
 ---
 layout: page
 title: "Contact"
-meta_title: "Contact and use our contact form"
+meta_title: "Contacting us and getting help"
 header:
     image_fullwidth: "llnl_machine.jpg"
 permalink: "/contact/"
 ---
-Methods of contact we offer differ in *requirements* and *privacy* level.
+Methods of contact we offer differ in *requirements* and *privacy* level. In
+addition, while we try to accommodate a variety of means of *initial contact*,
+any issues involving *ongoing dialog* must use only a *preferred* method of
+communication. Please read about our
+[communication policies](https://visit-sphinx-github-user-manual.readthedocs.io/en/develop/dev_manual/SiteReliabilityEngineering.html#supported-methods-of-contact) for more details.
 
 ### Options for contacting us
 
-Method | Privacy | Requirements
+Method | Privacy | Requirements | Preferred
 --- | --- | ---
-[GitHub issue][gh1]    | [None] | Must have a (free) [GitHub account][gh2]<br>*(This is the preferred method)*
-[General email][ge1]   | [None] | Must [subscribe to visit-users][ge2] email list
-[User Forum][uf1]      | [None] | Must have a (free) [Forum account][uf2]
-[ASC email][ae1]       | [Some] | Must be ASC related work
-[SciDAC email][se1]    | [Some] | Must be SciDAC related work
-[Developer email][de1] | [Some] | Must be a VisIt developer & [subscribe<br>to visit-developers][de2] email list
-[Hotline call][hc1]    | [Most] | Must be LLNL employee
-Announcements | N/A    | Must [subscribe][An1] to get<br>important/release announcements
+[GitHub issue][gh1]    | [None] | Must have a (free) [GitHub account][gh2]|Yes
+[General email][ge1]   | [None] | Must [subscribe to visit-users][ge2] email list|Yes
+[ASC email][ae1]       | [Some] | Must be ASC related work | No
+[SciDAC email][se1]    | [Some] | Must be SciDAC related work | No
+[Developer email][de1] | [Some] | Must be a VisIt developer & [subscribe<br>to visit-developers][de2] email list | Yes
+[Hotline call][hc1]    | [Most] | Must be LLNL employee | No
+[MS Teams Chat][mst]   | [Some] | Must be member of [VisIt channel](mst) | No 
+Announcements | N/A    | Must [subscribe][An1] to get<br>important/release announcements | N/A
 
 ### More details
 
@@ -47,9 +51,8 @@ processes to understand how we aim to respond to inquiries.
 [hc1]: tel:42847 "Initiate a call to 42-Vis"
 [de1]: mailto:visit-developers@ornl.gov "Start an email to visit-developers list"
 [de2]: https://elist.ornl.gov/mailman/listinfo/visit-developers "Subscribe to visit-developers email list"
-[uf1]: http://www.visitusers.org/forum/YaBB.pl "Go to the VisIt User Forum" 
-[uf2]: http://visitusers.org/forum/YaBB.pl?action=register "Register for a user forum account"
 [An1]: https://elist.ornl.gov/mailman/listinfo/visit-announce "Subscribe to visit-announce email list"
+[mst]: https://teams.microsoft.com/l/team/19%3af2ed7be3682d40d1b8e038744e500a09%40thread.skype/conversations?groupId=70162982-9587-4bcc-ad53-20178c76fe11&tenantId=a722dec9-ae4e-4ae3-9d75-fd66e2680a63
 
 [None]: #none-privacy "World readable and discoverable"
 [Some]: #some-privacy "Not archived or discoverable on any server"

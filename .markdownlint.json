@@ -1,0 +1,6 @@
+{
+  "default": true,
+  "ignore_front_matter": true,
+  "MD013": { "line_length": 80, "code_blocks": false, "tables": false },
+  "MD041": false
+}

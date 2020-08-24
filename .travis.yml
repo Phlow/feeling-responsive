@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - '8'
+
+install:
+  - npm install -g markdownlint-cli
+  - npm install -g markdown-spellcheck
+
+script:
+  - |
+    CHANGED_MD_FILES=""
+    if [ -z "${TRAVIS_COMMIT_RANGE}" ] ; then
+      CHANGED_MD_FILES="$(git diff --name-only ${TRAVIS_COMMIT} -- | grep "^.*\.md$")"
+    else
+      COMMIT1="$(echo ${TRAVIS_COMMIT_RANGE} | cut -f 1 -d '.')"
+      COMMIT2="$(echo ${TRAVIS_COMMIT_RANGE} | cut -f 4 -d '.')"
+      CHANGED_MD_FILES="$(git diff --name-only ${COMMIT1}..${COMMIT2} -- | grep "^.*\.md$")"
+    fi
+    test -z "${CHANGED_MD_FILES}" && exit 0
+    markdownlint ${CHANGED_MD_FILES} || exit 1
+    mdspell -a -n -r -x --en-us ${CHANGED_MD_FILES} || exit 1

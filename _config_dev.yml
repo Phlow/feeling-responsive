@@ -3,7 +3,7 @@
 # everytime you work locally on the project, you start both config-files, overwriting
 # the first one with the development variables needed.
 #
-# Start development with › $ jekyll serve --config _config.yml,_config_dev.yml
+# Start development with › $ bundle exec jekyll serve --config _config.yml,_config_dev.yml
 
 url: 		'http://localhost:4000'
 baseurl: 	''

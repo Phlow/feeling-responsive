@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: "The First Adventure"
+subheadline: "Time in the Laboratory"
 title: "Coming Soon..."
 teaser: "A new battle is about to begin..."
 header:
@@ -11,9 +11,9 @@ image:
     thumb:  thumbnail_waiting.jpg
     homepage: waiting_raw.jpg
 categories:
-    - virtual-reality/evolution-of-experience-OLD
+    - virtual-reality/edge-of-eclipse
 tags:
-    - evolution-of-experience
+    - edge-of-eclipse
 author: mtfallsVR
 show_meta: true
 ---

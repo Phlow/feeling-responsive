@@ -11,9 +11,9 @@ image:
     thumb:  thumbnail_waiting.jpg
     homepage: waiting_raw.jpg
 categories:
-    - virtual-reality/vr-developer-diaries
+    - virtual-reality/edge-of-eclipse
 tags:
-    - vr-developer-diaries
+    - edge-of-eclipse
 author: mtfallsVR
 show_meta: true
 ---

@@ -12,7 +12,7 @@ image:
     thumb:  blog/evolution-of-experience/thumb-intro.jpg
     homepage: blog/evolution-of-experience/header-intro.jpg
 categories:
-    - virtual-reality
+    - virtual-reality-OLD
 tags:
     - Virtual Reality
     - Oculus Quest

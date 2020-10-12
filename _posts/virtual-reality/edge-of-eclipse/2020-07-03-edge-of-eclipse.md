@@ -1,8 +1,8 @@
 ---
-permalink: /virtual-reality/vr-developer-diaries/
+permalink: /virtual-reality/edge-of-eclipse/
 layout: page
 subheadline: "Blog"
-title: "VR Developer Diaries"
+title: "Edge of Eclipse"
 teaser: "A blog following mtfallsVR's journey in creating virtual worlds and experiences."
 header:
     image_fullwidth: "blog/vr-developer-diaries/header-intro.jpg"
@@ -19,13 +19,13 @@ tags:
 author: mtfallsVR
 show_meta: true
 ---
-The most important value in gaining knowledge, is the application of it. The most important value in applying things, is finding out what your limits are, so you can exceed them on your next attempt. In this blog, I will be putting my [knowledge][1] to the test to see if I can get even just an inch closer to creating the worlds I've dreamed of for so long.  
+The most important value in gaining knowledge, is the application of it. The most important value in applying things is finding out what your limits are, so you can exceed them. In this blog, I will be putting my knowledge to the test to see if I can get even just an inch closer to creating the worlds I've dreamed of for so long.  
 
 ![Aincrad](/images/blog/vr-developer-diaries/aincrad-full.jpg)
 
 # Latest Blog Posts
 <ul>
-    {% for post in site.tags.vr-developer-diaries %}
+    {% for post in site.tags.edge-of-eclipse %}
     <div class="row">
       <div class="small-12 columns b60">
         <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -42,7 +42,7 @@ The most important value in gaining knowledge, is the application of it. The mos
 </ul>
 
 
-[1]: {{site.baseurl}}/virtual-reality/evolution-of-experience
+<!-- [1]: {{site.baseurl}}/virtual-reality/evolution-of-experience -->
 
 
 <!-- [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q81LOP9) -->

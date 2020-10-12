@@ -10,10 +10,10 @@
   url: "/virtual-reality/"
   side: left
   dropdown:
-  - title: "Evolution of Experience"
-    url: "/virtual-reality/evolution-of-experience/"
-  - title: "VR Developer Diaries"
-    url: "/virtual-reality/vr-developer-diaries/"
+  - title: "Edge of Eclipse"
+    url: "/virtual-reality/edge-of-eclipse/"
+  # - title: "VR Developer Diaries"
+  #  url: "/virtual-reality/vr-developer-diaries/"
   # - title: "Page/Post"
   #   url: "/design/page/"
   # - title: "Post-Left-Sidebar"
@@ -58,6 +58,8 @@
   dropdown:
   - title: "Perfecting Your Protagonist"
     url: "/blog/perfecting-your-protagonist"
+  - title: "Teller of Worlds"
+    url: "/blog/teller-of-worlds"
 
 - title: "Search"
   url: "/search/"
@@ -65,4 +67,8 @@
 
 - title: "Contact"
   url: "/contact/"
+  side: right
+
+- title: "Donate"
+  url: "/donate/"
   side: right

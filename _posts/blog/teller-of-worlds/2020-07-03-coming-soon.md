@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: "The First Adventure"
+subheadline: "The Story Begins"
 title: "Coming Soon..."
 teaser: "A new battle is about to begin..."
 header:
@@ -11,10 +11,11 @@ image:
     thumb:  thumbnail_waiting.jpg
     homepage: waiting_raw.jpg
 categories:
-    - virtual-reality/evolution-of-experience-OLD
+    - blog/perfecting-your-protagonist
 tags:
-    - evolution-of-experience
-author: mtfallsVR
+    - perfecting-your-protagonist
+author: Ousikai
 show_meta: true
 ---
+Hewwo
 <!-- [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q81LOP9) -->

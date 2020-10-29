@@ -16,5 +16,6 @@ tags:
     - edge-of-eclipse
 author: mtfallsVR
 show_meta: true
+comments: true
 ---
 <!-- [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q81LOP9) -->

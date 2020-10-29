@@ -13,7 +13,7 @@ image:
 categories:
     - virtual-reality/edge-of-eclipse
 tags:
-    - edge-of-eclipse
+    - evolution-of-experience
 author: mtfallsVR
 show_meta: true
 ---

@@ -4,12 +4,12 @@ subheadline: "Blog"
 title: "Teller of Worlds"
 teaser: "A blog following Ousikai's daily musings and meanderings."
 header:
-    image_fullwidth: "blog/perfecting-your-protagonist/intro-header.jpg"
+    image_fullwidth: "blog/teller-of-worlds/floor-1-original.png"
     caption: In this world, a single blade can take you anywhere you want to go.
     caption_url: "https://en.wikipedia.org/wiki/Sword_Art_Online"
 image:
-    thumb:  blog/perfecting-your-protagonist/intro-thumb.jpg
-    homepage: blog/perfecting-your-protagonist/intro.jpg
+    thumb:  blog/teller-of-worlds/floor-1-thumb.jpg
+    homepage: blog/teller-of-worlds/floor-1-thumb.jpg
 categories:
     - blog
 tags:

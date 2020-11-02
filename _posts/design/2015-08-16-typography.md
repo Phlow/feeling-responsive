@@ -289,7 +289,7 @@ If you need footnotes for your posts, articles and entries, the Kramdown-Parser 
  [4]: https://www.google.com/fonts/specimen/Lato
  [5]: https://www.google.com/fonts/specimen/Volkhov
  [6]: http://www.latofonts.com/
- [7]: http://modularscale.com/
+ [7]: https://www.modularscale.com/
  [8]: #
  [9]: #
  [10]: #

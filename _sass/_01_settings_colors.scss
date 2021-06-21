@@ -16,9 +16,9 @@
 /* Basics
 ------------------------------------------------------------------- */
 
-$text-color:       	#111;
-$body-font-color: 	$text-color;
-$body-bg: 			#fdfdfd;
+$text-color         : #111;
+$body-font-color    : $text-color;
+$body-bg            : #fdfdfd;
 
 
 
@@ -26,59 +26,59 @@ $body-bg: 			#fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
-$ci-1: #334D5C;		// dark turquoise
-$ci-2: #45B29D;		// turquoise
-$ci-3: #EFC94C;		// yellow
-$ci-4: #E27A3F;		// orange
-$ci-5: #DF4949;		// red
-$ci-6: #A1D044;     // green
+$ci-1               : #334D5C; // dark turquoise
+$ci-2               : #45B29D; // turquoise
+$ci-3               : #EFC94C; // yellow
+$ci-4               : #E27A3F; // orange
+$ci-5               : #DF4949; // red
+$ci-6               : #A1D044; // green
 
 
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
 
-$primary-color: $ci-1;
-$secondary-color: $ci-6;
-$alert-color: $ci-5;
-$success-color: $ci-6;
-$warning-color: $ci-4;
-$info-color: $ci-1;
+$primary-color      : $ci-1;
+$secondary-color    : $ci-6;
+$alert-color        : $ci-5;
+$success-color      : $ci-6;
+$warning-color      : $ci-4;
+$info-color         : $ci-1;
 
 
 
 /* Grey Scale
 ------------------------------------------------------------------- */
 
-$grey-1: #E4E4E4;
-$grey-2: #D7D7D7;
-$grey-3: #CBCBCB;
-$grey-4: #BEBEBE;
-$grey-5: #A4A4A4;
-$grey-6: #979797;
-$grey-7: #8B8B8B;
-$grey-8: #7E7E7E;
-$grey-9: #646464;
-$grey-10: #575757;
-$grey-11: #4B4B4B;
-$grey-12: #3E3E3E;
-$grey-13: #313131;
-$grey-14: #242424;
-$grey-15: #171717;
-$grey-16: #0B0B0B;
+$grey-1             : #E4E4E4;
+$grey-2             : #D7D7D7;
+$grey-3             : #CBCBCB;
+$grey-4             : #BEBEBE;
+$grey-5             : #A4A4A4;
+$grey-6             : #979797;
+$grey-7             : #8B8B8B;
+$grey-8             : #7E7E7E;
+$grey-9             : #646464;
+$grey-10            : #575757;
+$grey-11            : #4B4B4B;
+$grey-12            : #3E3E3E;
+$grey-13            : #313131;
+$grey-14            : #242424;
+$grey-15            : #171717;
+$grey-16            : #0B0B0B;
 
 
 
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-$topbar-bg-color: $body-bg;
-$topbar-bg: $topbar-bg-color;
+$topbar-bg-color    : $body-bg;
+$topbar-bg          : $topbar-bg-color;
 
 
 $topbar-dropdown-toggle-color: $ci-1;
 
-$topbar-link-color: #000;
+$topbar-link-color  : #000;
 $topbar-link-color-hover: #000;
 $topbar-link-color-active: #000;
 $topbar-link-color-active-hover: #000;
@@ -107,13 +107,13 @@ $topbar-menu-icon-color-toggled: $ci-6;
 /* Footer
 ------------------------------------------------------------------- */
 
-$footer-bg: $grey-8;
-$footer-color: #fff;
-$footer-link-color: $ci-6;
+$footer-bg          : $grey-8;
+$footer-color       : #fff;
+$footer-link-color  : $ci-6;
 
 
-$subfooter-bg: $grey-13;
-$subfooter-color: $grey-8;
+$subfooter-bg       : $grey-13;
+$subfooter-color    : $grey-8;
 $subfooter-link-color: $grey-8;
 
 

@@ -89,3 +89,13 @@
 	{% unless page.style == NULL %}
 	<style type="text/css">{{ page.style }}</style>
 	{% endunless %}
+
+	{% if site.google_analytics_tracking_id %}
+	<script>
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', '{{ site.analytics.google.tracking_id }}', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	{% endif %}
+

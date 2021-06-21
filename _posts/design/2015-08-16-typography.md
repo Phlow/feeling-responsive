@@ -30,8 +30,6 @@ categories:
 </div>
 </div><!-- /.medium-4.columns -->
 
-
-
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
 ## Lato – A Sans Serif Typeface Family
@@ -281,18 +279,13 @@ Need a break? I give you three!<br><br><br>
 
 If you need footnotes for your posts, articles and entries, the Kramdown-Parser [^1] got you covered. How to use footnotes? Read this footnote. [^2]
 
-
-
  [1]: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list
  [2]: http://phlow.de/
  [3]: http://en.wikipedia.org/wiki/Ed_Benguiat
  [4]: https://www.google.com/fonts/specimen/Lato
  [5]: https://www.google.com/fonts/specimen/Volkhov
  [6]: http://www.latofonts.com/
- [7]: http://modularscale.com/
- [8]: #
- [9]: #
- [10]: #
+ [7]: https://www.modularscale.com/
 
 
 [^1]: Find out more about Kramdown on <http://kramdown.gettalong.org/>
@@ -378,12 +371,6 @@ element</td>
       <td>no styling needed</td>
     </tr>
 </table>
-
-
-
-
-
-
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->

@@ -122,7 +122,7 @@ With foundation responsive videos are easy. [More ›](http://foundation.zurb.co
 
 ## Images: Title, Thumbnails, Homepage   {#images}
 
-There are several types of images you can define via front matter. If you want to change the images used in the header have a look at [Style your Header]({{ site.url }}/headers/). 
+There are several types of images you can define via front matter. If you want to change the images used in the header have a look at [Style your Header]({{ site.url }}{{ site.baseurl }}/headers/). 
 
 
 ### Title Images

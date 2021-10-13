@@ -4,6 +4,13 @@
 
 .highlight {
     background: #fff;
+    [data-lang]::before {
+    content: attr(data-lang);
+    display: block;
+    text-align: right;
+    margin-right: 5px;
+    text-transform: uppercase;
+    }
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
     .k     { font-weight: bold } // Keyword

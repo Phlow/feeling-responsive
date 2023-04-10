@@ -6,7 +6,7 @@
 #
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 ebuntel: # replace this with your info
-  name: "ebuntel"
+  name: Ellery Buntel
   siterole: "webmaster, developer, copywriter, designer"
   uri: 
   email: buntel.ellery@gmail.com

@@ -6,8 +6,6 @@ teaser: "Project Highlights and Summary"
 permalink: "/rlproject/"
 header:
     image_fullwidth: "pacman.jpg"
-image: 
-    title: RLProjectDiagram.jpg
 ---
 
 ## Highlights

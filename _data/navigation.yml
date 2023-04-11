@@ -2,20 +2,20 @@
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
+- title: "Reinforcement Learning Project"
+  url: "/rlproject/"
   side: left
   
- - title: "Projects"
-   url: "/rlproject/"
-   side: left
-   dropdown:
-   - title: "Reinforcement Learning with Demonstrations"
-     url: "/rlproject/"
-   - title: "Image Recognition with Bayesian Deep Learning"
-     url: "/rlproject/"
-   - title: "Timeseries Data Exploration Project"
-     url: "/rlproject/"
+ #- title: "Projects"
+ #  url: "/rlproject/"
+ #  side: left
+ #  dropdown:
+ #  - title: "Reinforcement Learning with Demonstrations"
+ #    url: "/rlproject/"
+ #  - title: "Image Recognition with Bayesian Deep Learning"
+ #    url: "/rlproject/"
+ #  - title: "Timeseries Data Exploration Project"
+ #    url: "/rlproject/"
 
 #- title: "Header Styles"
 #  url: "/headers/"

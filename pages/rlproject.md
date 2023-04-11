@@ -18,6 +18,12 @@ header:
 ### Project Diagram
 ![RL Project Diagram](/assets/img/RLProjectDiagram.jpg)
 
+### Videos
+#### Random Actions 
+#### Human Play
+<iframe width="461" height="819" src="https://www.youtube.com/embed/rVoaz1puziQ" title="Human Playing Pacman" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#### DQN Play
+
 ## Technologies Used
 * Python
 * Jupyter notebook

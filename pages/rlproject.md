@@ -18,7 +18,7 @@ image:
 ## Summary
 
 ### Project Diagram
-![RL Project Diagram](/../assets/img/RLProjectDiagram.jpg)
+![RL Project Diagram](/ebuntel.github.io/assets/img/RLProjectDiagram.jpg)
 
 ## Technologies Used
 * Python

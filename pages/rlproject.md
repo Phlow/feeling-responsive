@@ -6,6 +6,8 @@ teaser: "Project Highlights and Summary"
 permalink: "/rlproject/"
 header:
     image_fullwidth: "pacman.jpg"
+image: 
+    title: RLProjectDiagram.jpg
 ---
 
 ## Highlights
@@ -16,7 +18,7 @@ header:
 ## Summary
 
 ### Project Diagram
-![RL Project Diagram](https://github.com/ebuntel/ebuntel.github.io/blob/c0ab5ced3af972c27dc11960a2e359386b2c9bcd/assets/img/RLProjectDiagram.jpg)
+![RL Project Diagram](assets/img/RLProjectDiagram.jpg)
 
 ## Technologies Used
 * Python

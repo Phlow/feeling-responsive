@@ -7,7 +7,7 @@
   side: left
   
  - title: Projects
-   url: ""
+   url: "/rlproject/"
    side: left
    dropdown:
    - title: "Reinforcement Learning with Demonstrations"

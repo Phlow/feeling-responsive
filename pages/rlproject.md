@@ -1,11 +1,16 @@
 ---
 layout: page
-title: "Reinforcement Learning Project"
-subheadline: "Using fNIRS to Improve RL Agent Learning"
-teaser: "Reinforcement learning project information"
+title: "Using fNIRS to Improve RL Agent Learning"
+subheadline: "Reinforcement Learning Project"
+teaser: "Project Highlights and Summary"
 permalink: "/rlproject/"
 header:
-    image_fullwidth: "header_drop.jpg"
+    image_fullwidth: "pacman.jpg"
 ---
+
+## Highlights
+* Somethiiiiiiiing
+* ehhh
+* other highlights
 
 ## Summary

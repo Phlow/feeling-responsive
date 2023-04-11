@@ -5,6 +5,17 @@
 - title: Getting Started
   url: "/getting-started/"
   side: left
+  
+ - title: Projects
+   url: ""
+   side: left
+   dropdown:
+   - title: "Reinforcement Learning with Demonstrations"
+     url: "/projects/rlproject/"
+   - title: "Image Recognition with Bayesian Deep Learning"
+     url: ""
+   - title: "Timeseries Data Exploration Project"
+     url: ""
 
 #- title: "Header Styles"
 #  url: "/headers/"

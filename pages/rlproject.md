@@ -19,8 +19,8 @@ Some of the most impressive recent accomplishments in AI have been the result
 of reinforcement learning (RL) systems. That is, AI systems that learn and
 adapt to their environment. These systems can perform complex tasks with
 little-to-no prior information by exploring their environment and developing a
-behavioral policy as they go. This process allows RL agents to learn very com-
-plex behaviors. However, RL agents have a tendency to struggle when they start
+behavioral policy as they go. This process allows RL agents to learn very complex 
+behaviors. However, RL agents have a tendency to struggle when they start
 training as they often have little to no information about their environment. In
 situations like this it can be helpful to give the RL agent a human demonstration
 of the task to learn from. Doing so dramatically increases the training speed of

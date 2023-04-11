@@ -16,7 +16,7 @@ header:
 ## Summary
 
 ### Project Diagram
-![RL Project Diagram](/ebuntel/ebuntel.github.io/assets/img/RLProjectDiagram.jpg)
+![RL Project Diagram](https://github.com/ebuntel/ebuntel.github.io/blob/b6aaff26c17057d87b39f99c602fa0e321ff93da/assets/img/RLProjectDiagram.jpg)
 
 ## Technologies Used
 * Python

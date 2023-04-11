@@ -19,6 +19,7 @@ header:
 ![RL Project Diagram](/assets/img/RLProjectDiagram.jpg)
 
 ### Videos
+
 #### Random Actions 
 <iframe width="461" height="819" src="https://www.youtube.com/embed/VOWrLTI_080" title="Random actions taken in Pacman" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

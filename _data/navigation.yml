@@ -11,11 +11,11 @@
    side: left
    dropdown:
    - title: "Reinforcement Learning with Demonstrations"
-     url: "/projects/rlproject/"
+     url: "/rlproject/"
    - title: "Image Recognition with Bayesian Deep Learning"
-     url: ""
+     url: "/rlproject/"
    - title: "Timeseries Data Exploration Project"
-     url: ""
+     url: "/rlproject/"
 
 #- title: "Header Styles"
 #  url: "/headers/"

@@ -1,9 +1,20 @@
 ---
 layout              : page
 title               : "Contact"
-meta_title          : "Contact and use our contact form"
-subheadline         : "Contact Form"
-teaser              : "Get in touch with me? Use the contact form."
+meta_title          : "Contact Methods"
+subheadline         : "Contact me"
+teaser              : "Need to get in touch with me? Find my details here."
 permalink           : "/contact/"
 ---
-If you need a fabulous contact form for your website, I suggest you use the free version of [Wufoo](http://www.wufoo.com/)
+
+## Contact Info 
+Email 1: buntel.ellery@gmail.com
+Email 2: ellery.buntel@tufts.edu
+Phone Number: 781-518-3881
+
+## Accounts
+### Github
+https://github.com/ebuntel/
+
+### LinkedIn
+https://www.linkedin.com/in/ellery-buntel/

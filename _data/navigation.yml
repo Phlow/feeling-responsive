@@ -6,7 +6,7 @@
   url: "/getting-started/"
   side: left
   
- - title: Projects
+ - title: "Projects"
    url: "/rlproject/"
    side: left
    dropdown:

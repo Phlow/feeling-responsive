@@ -6,6 +6,22 @@
   url: "/rlproject/"
   side: left
   
+- title: "CNN with Bayesian DL Project"
+  url: "/imagerecognitionproject/"
+  side: left
+  
+- title: "Timeseries Data Exploration Project"
+  url: "/timeseriesproject/"
+  side: left
+  
+- title: "Resume"
+  url: "/resume/"
+  side: left
+  
+- title: "My Cats"
+  url: "/cats/"
+  side: left
+  
  #- title: "Projects"
  #  url: "/rlproject/"
  #  side: left

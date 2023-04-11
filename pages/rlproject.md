@@ -21,8 +21,10 @@ header:
 ### Videos
 #### Random Actions 
 <iframe width="461" height="819" src="https://www.youtube.com/embed/VOWrLTI_080" title="Random actions taken in Pacman" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### Human Play
 <iframe width="461" height="819" src="https://www.youtube.com/embed/rVoaz1puziQ" title="Human Playing Pacman" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 #### DQN Play
 <iframe width="461" height="819" src="https://www.youtube.com/embed/rsx2se0w9vk" title="A Trained Deep Q-Network Plays Pacman" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

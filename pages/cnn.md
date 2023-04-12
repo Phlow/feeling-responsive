@@ -27,3 +27,4 @@ Blomqvist, Kenneth, Samuel Kaski, and Markus Heinonen. "Deep convolutional Gauss
 * Jupyter
 * Numpy
 * Tensorflow, Keras, and GPFlow (Library for gaussian processes in Python)
+* Convolutional neural networks and deep convolutional gaussian processes

@@ -10,7 +10,7 @@ header:
 
 ## Highlights
 
-* The goal of this project was to use a novel Bayesian deep learning network (a deep convolutional gaussian process or DCGP) to improve the performance of an image classification convolutional neural network. 
+* The goal of this project was to use a novel Bayesian deep learning network (a deep convolutional gaussian process or DCGP) to improve the performance of an image classification convolutional neural network without requiring more training data. 
 * DCGPs tend to be less accurate than CNNs for image recognition tasks, but are frequently more confident about their predictions than most CNNs. Using this property, we can combine the answers of the CNN and the DCGP to get better classification results. 
 * We used both a 3-layer CNN and a 2-layer DCGP to classify 10,000 images from the commonly-used CIFAR-10 dataset. These results, as well as the confidence values each network gave their classifications, were then passed into another CNN to produce final answers. The resulting classification accuracy was superior to either of the networks on their own. 
 * This project improved the accuracy of our CNN on CIFAR-10 by 6%, from 72% to 78%, without an increase in training data. This technique could, therefore, be useful in domains with limited training data. 

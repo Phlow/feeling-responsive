@@ -25,6 +25,8 @@ header:
 
 ## Summary
 
+![CNN Project Results](/assets/img/picture5.png)
+
 
 ## References
 

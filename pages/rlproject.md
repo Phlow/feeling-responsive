@@ -56,6 +56,8 @@ impact of including mental workload as an input to a training RL agent.
 ### Project Diagram
 ![RL Project Diagram](/assets/img/RLProjectDiagram.jpg)
 
+Below, you can view some of the results of this project. These videos show different agents playing Pacman. The first is a random set of actions, the second is me playing (to create demonstrations for the project), and the last is the trained deep Q-netowrk model playing.
+
 ### Videos
 
 #### Random Actions 

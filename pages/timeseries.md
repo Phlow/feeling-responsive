@@ -5,7 +5,7 @@ subheadline: "Using Clustering to Efficiently Search for Similarities in Timeser
 teaser: "Timeseries Data Exploration Project Details"
 permalink: "/timeseriesproject/"
 header:
-    image_fullwidth: "header_drop.jpg"
+    image_fullwidth: "nanzan.jpg"
 ---
 
 ## Highlights

@@ -20,7 +20,7 @@ header:
 * OpenAI Gym
 * Deep Q-networks, Dueling Deep Q-networks
 
-## Project Introduction & Summary
+## Project Introduction & Details
 
 Some of the most impressive recent accomplishments in AI have been the result
 of reinforcement learning (RL) systems. That is, AI systems that learn and

@@ -1,12 +1,14 @@
 ---
 layout: page
-title: "Timeseries Data Exploration Project"
-subheadline: "Using Clustering to Efficiently Search for Similarities in Timeseries Data"
-teaser: "Timeseries Data Exploration Project Details"
+title: "Timeseries Data Projects"
+subheadline: "Working with Timeseries Datasets"
+teaser: "Some of my Major Projects Involving Timseries Data"
 permalink: "/timeseriesproject/"
 header:
     image_fullwidth: "nanzan.jpg"
 ---
+
+# Timeseries Data Exploration Project
 
 ## Highlights
 
@@ -19,5 +21,15 @@ header:
 * Cloud computing tools including: AWS Lambda, AWS API Gateway, and AWS Batch
 * Django and React
 * Docker
+
+## Summary
+
+
+
+# Automated Machine Learning on Neural Data
+
+## Highlights
+
+## Technologies Used
 
 ## Summary

@@ -12,4 +12,12 @@ header:
     image_fullwidth: "header_drop.jpg"
 ---
 
-## Summary
+For more info on me and the work I do please check out:
+
+[My LinkedIn](https://www.linkedin.com/in/ellery-buntel/)
+
+**OR**
+
+Download my resume here:
+
+<a href="downloadURL" target="[_blank](https://ebuntel.github.io/assets/pdf/resume2023-1pg.pdf)" />

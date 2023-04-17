@@ -22,6 +22,8 @@ header:
 
 ## Project Introduction & Details
 
+### Introduction
+
 Some of the most impressive recent accomplishments in AI have been the result
 of reinforcement learning (RL) systems. That is, AI systems that learn and
 adapt to their environment. These systems can perform complex tasks with

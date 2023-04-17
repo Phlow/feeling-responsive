@@ -20,4 +20,4 @@ For more info on me and the work I do please check out:
 
 Download my resume here:
 
-<a href="downloadURL" target="[_blank](https://ebuntel.github.io/assets/pdf/resume2023-1pg.pdf)" />
+<a href="downloadURL" target="https://ebuntel.github.io/assets/pdf/resume2023-1pg.pdf" />

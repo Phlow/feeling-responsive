@@ -10,12 +10,8 @@
   url: "/imagerecognitionproject/"
   side: left
   
-- title: "Timeseries Data Exploration Project"
+- title: "Timeseries Data Projects"
   url: "/timeseriesproject/"
-  side: left
-  
-- title: "Automated Machine Learning Project"
-  url: "/naml/"
   side: left
   
 - title: "Resume"

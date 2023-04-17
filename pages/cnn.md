@@ -2,7 +2,7 @@
 layout: page
 title: "Image Recognition with CNNs"
 subheadline: "Using Bayesian Deep Learning to Improve CNN Image Recognition Accuracy"
-teaser: "Image Recognition Project highlights and details"
+teaser: "Image Recognition Project Highlights and Details"
 permalink: "/imagerecognitionproject/"
 header:
     image_fullwidth: "IMG_20171229_065330815(1).jpg"

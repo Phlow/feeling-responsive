@@ -14,6 +14,10 @@
   url: "/timeseriesproject/"
   side: left
   
+- title: "Automated Machine Learning Project"
+  url: "/naml/"
+  side: left
+  
 - title: "Resume"
   url: "/resume/"
   side: left

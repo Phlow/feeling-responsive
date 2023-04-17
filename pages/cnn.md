@@ -25,7 +25,17 @@ header:
 
 ## Summary
 
+### Images
+
+#### Sample of CIFAR-10 Images
+
+This is a sample of pictures contained in the CIFAR-10 dataset. The dataset contains 10 different classes of image. 
+
 ![Sample CIFAR-10 Images](/assets/img/CIFAR10images.jpeg)
+
+#### Project Results
+
+This is a bar graph showing the final classification results of each of our networks. DCGP is the deep convolutional gaussian process, ICNN is our initial CNN result, and ECNN is the improved result obtained by combining the other two networks' outputs. 
 
 ![CNN Project Results](/assets/img/CNNProjectresults.jpg)
 

@@ -13,6 +13,13 @@ header:
 * The RL agent, which was either a deep Q-network or a dueling deep Q-network, used human demonstrations to help teach itself to play pacman. Human demonstrations are commonly used in this way to improve RL agent learning, but demonstrations where the human makes a mistake can actually be counterproductive. The brain data, therefore, was used as a physiological input to (hopefully) help the RL agent distinguish between good and bad demonstrations. 
 * The hypothesis was that demonstrations given during times of high mental workload would be more likely to contain mistakes under the assumption that the player may have been overwhelmed at the time. 
 
+## Technologies Used
+* Python
+* Jupyter notebook
+* Tensorflow and tf-agents
+* OpenAI Gym
+* Deep Q-networks, Dueling Deep Q-networks
+
 ## Project Introduction & Summary
 
 Some of the most impressive recent accomplishments in AI have been the result
@@ -59,10 +66,3 @@ impact of including mental workload as an input to a training RL agent.
 
 #### DQN Play
 <iframe width="461" height="819" src="https://www.youtube.com/embed/rsx2se0w9vk" title="A Trained Deep Q-Network Plays Pacman" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## Technologies Used
-* Python
-* Jupyter notebook
-* Tensorflow and tf-agents
-* OpenAI Gym
-* Deep Q-networks, Dueling Deep Q-networks

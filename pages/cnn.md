@@ -25,7 +25,7 @@ header:
 
 ## Summary
 
-![Sample CIFAR-10 Images](/assets/img/CIFAR10Images.jpg)
+![Sample CIFAR-10 Images](/assets/img/CIFAR10images.jpeg)
 
 ![CNN Project Results](/assets/img/CNNProjectresults.jpg)
 

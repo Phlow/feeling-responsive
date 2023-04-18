@@ -12,3 +12,5 @@ gallery:
 ---
 
 {% include gallery %}
+
+Click the thumbnails for bigger versions.

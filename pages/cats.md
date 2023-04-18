@@ -11,4 +11,4 @@ gallery:
     - image_url: D3.jpg
 ---
 
-{% raw %}{% include gallery %}{% endraw %}
+{% include gallery %}

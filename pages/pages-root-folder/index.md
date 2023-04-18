@@ -12,7 +12,6 @@ homepage            : True
 
 ## About me
 
-![Picture of me](/assets/img/picofme2.jpg)
 
 ## Projects
 

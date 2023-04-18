@@ -5,7 +5,7 @@ subheadline: ""
 teaser: "Ellery Buntel Resume"
 permalink: "/resume/"
 header:
-    image_fullwidth: "EBuntel@Dad'sWedding.jpg"
+    image_fullwidth: "EBuntel@Dad'sWeddingCropped.jpg"
 ---
 
 For more info on me and the work I do please check out:

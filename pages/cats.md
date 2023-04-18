@@ -4,8 +4,11 @@ title: "My Cats"
 subheadline: "Dash (orange) & Lily (Black)"
 teaser: "Cat pictures!"
 permalink: "/cats/"
-header:
-    image_fullwidth: "header_drop.jpg"
+gallery:
+    - image_url: L+D-1.jpg
+    - image_url: D1.jpg
+    - image_url: D2.jpg
+    - image_url: D3.jpg
 ---
 
-## Summary
+{% raw %}{% include gallery %}{% endraw %}

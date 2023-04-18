@@ -5,7 +5,7 @@ title               : "Home"
 subheadline         : "Ellery Buntel's Personal Site/ Project Portfolio"
 teaser              : "Welcome!"
 header:
-   image_fullwidth  : "IMG_20171229_065330815(1).jpg"
+   image_fullwidth  : "EJB Castle Island.jpg"
 permalink           : "//"
 homepage            : True
 ---

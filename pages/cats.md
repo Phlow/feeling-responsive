@@ -5,7 +5,7 @@ subheadline: "Dash (orange) & Lily (Black)"
 teaser: "Cat pictures!"
 permalink: "/cats/"
 gallery:
-    - image_url: L+D-1.jpg
+    - image_url: D+L1.jpg
     - image_url: D1.jpg
     - image_url: D2.jpg
     - image_url: D3.jpg

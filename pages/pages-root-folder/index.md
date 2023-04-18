@@ -11,13 +11,21 @@ homepage            : True
 ---
 
 ## About me
+Hello! I'm Ellery Buntel, a computer scientist specializing in AI and machine learning. 
 
+I'm currently getting my PhD in computer science at Tufts University. My research is focused on brain computer interfaces and machine learning systems for interpreting neural data. In practice, this means I do a lot of deep learning work, but I also have experience with other emerging technologies like reinforcement learning and cloud computing. 
+
+This website is meant to showcase a few of my major projects as well as the technologies used. Check below for some quick overviews of the projects, and look at each project page for additional details. 
+
+If you have any questions about the me / my projects, feel free to get in touch via the Contact page. 
 
 ## Projects
 
-### RL
+### RL - Using fNIRS neural data to Improve RL Agent Learning
+A project experimenting with the use of fNIRS (functional near infrared spectroscopy, a brain imaging technique) as a physiological input to a reinforcement learning agent that learns from human demonstrations. 
 
-### CNN
+### CNN - Using Bayesian Deep Learning to Improve CNN Image Recognition Accuracy
+This project used bayesian deep learning techniques in conjunction with a standard image recognition convolutional neural network (CNN) to produce a network architecture that has superior classification accuracy without requiring an increase in training data. 
 
-### Timeseries
-
+### Timeseries - Some of my Major Projects Involving Timseries Data
+A few projects related to timeseries data that I have done as part of my brain computer interfaces research. One is a web application for exploring similar subsections of a timeseries dataset, and the other is an application for running machine learning jobs on neural data. 

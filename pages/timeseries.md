@@ -32,7 +32,7 @@ header:
 * The goal of this project was to create an application that would allow un-trained users to run classification models on inputted neural data. This application was meant for researchers doing work in brain computer interfaces who don't have machine learning experience. 
 * The application used sktime, a timeseries data classification library, to give users a number of options for classification models to run. 
 
-## Technologies Used\
+## Technologies Used
 * Python
 * Numpy and Scipy
 * sklearn

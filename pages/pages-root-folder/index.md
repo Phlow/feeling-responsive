@@ -13,7 +13,7 @@ homepage            : True
 ## About me
 Hello! I'm Ellery Buntel, a computer scientist specializing in AI and machine learning. 
 
-I'm currently getting my PhD in computer science at Tufts University. My research is focused on brain computer interfaces and machine learning systems for interpreting neural data. In practice, this means I do a lot of deep learning work, but I also have experience with other emerging technologies like reinforcement learning and cloud computing. 
+I am currently on a period of leave from a computer science PhD program at Tufts University, seeking to apply my research experience to a role in a commercial setting. My research is focused on brain computer interfaces and machine learning systems for interpreting neural data. In practice, this means I do a lot of deep learning work, but I also have experience with other emerging technologies like reinforcement learning and cloud computing. 
 
 This website is meant to showcase a few of my major projects as well as the technologies used. Check below for some quick overviews of the projects, and look at each project page for additional details. 
 

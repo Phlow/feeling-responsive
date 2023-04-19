@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "My Cats"
+title: "Obligatory Cat Pictures"
 subheadline: "Dash (orange) & Lily (Black)"
 teaser: "Cat pictures!"
 permalink: "/cats/"

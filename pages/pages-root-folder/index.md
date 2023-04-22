@@ -1,7 +1,7 @@
 ---
 layout              : page
 show_meta           : false
-title               : "Home"
+title               : "Ellery Buntel's Homepage"
 subheadline         : "Ellery Buntel's Personal Site/ Project Portfolio"
 teaser              : "Welcome!"
 header:

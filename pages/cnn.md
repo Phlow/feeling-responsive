@@ -20,7 +20,7 @@ header:
 * Python
 * Jupyter
 * Numpy
-* Tensorflow, Keras, and GPFlow (Library for gaussian processes in Python)
+* Pytorch, Tensorflow, Keras, and GPFlow (Library for gaussian processes in Python)
 * Convolutional neural networks and deep convolutional gaussian processes
 
 ## Project Introduction & Details

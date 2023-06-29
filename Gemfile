@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'mini racer'
 
 group :jekyll_plugins do
   gem 'jekyll-gist'

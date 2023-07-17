@@ -45,8 +45,8 @@ $last-child-float: $opposite-direction !default;
   // use @include grid-row(nest); to include a nested row
   @if $behavior == nest {
     width: auto;
-    margin-#{$default-float}: -($column-gutter/2);
-    margin-#{$opposite-direction}: -($column-gutter/2);
+    margin-#{$default-float}: calc($column-gutter / 2);
+    margin-#{$opposite-direction}: calc($column-gutter / 2);
     margin-top: 0;
     margin-bottom: 0;
     max-width: none;

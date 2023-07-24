@@ -11,9 +11,13 @@ homepage            : True
 ---
 
 ## About me
-Hello! I'm Ellery Buntel, a computer scientist specializing in AI and machine learning. 
+Hello! I'm Ellery Buntel, a computer scientist specializing in computational neuroscience and brain comptuer interfaces.
 
-I am currently on a period of leave from a computer science PhD program at Tufts University, seeking to apply my research experience to a role in a commercial setting. My research is focused on brain computer interfaces and machine learning systems for interpreting neural data. In practice, this means I do a lot of deep learning work, but I also have experience with other emerging technologies like reinforcement learning and cloud computing. 
+I am currently on a period of leave from a computer science PhD program at Tufts University, seeking to apply my research experience to a role in a commercial setting. 
+
+Right now, I'm developing fundamental technologies in the field of augmentation as a member of the [Augmentation Lab](https://www.augmentationlab.org/)'s 2023 augmentation residency. Our projects include a system for reconstructing images from human neural data, and a general-use BCI control system. 
+
+My research is focused on brain computer interfaces and machine learning systems for interpreting neural data. In practice, this means I do a lot of deep learning work, but I also have experience with other emerging technologies like reinforcement learning and cloud computing. 
 
 This website is meant to showcase a few of my major projects as well as the technologies used. Check below for some quick overviews of the projects, and look at each project page for additional details. 
 

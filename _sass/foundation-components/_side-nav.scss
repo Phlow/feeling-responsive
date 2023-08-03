@@ -22,7 +22,7 @@ $side-nav-list-margin: rem-calc(0 0 7 0) !default;
 $side-nav-link-color: $primary-color !default;
 $side-nav-link-color-active: scale-color($side-nav-link-color, $lightness: 30%) !default;
 $side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%) !default;
-$side-nav-link-bg-hover: hsla(0, 0, 0, 0.025) !default;
+$side-nav-link-bg-hover: hsla(0deg, 0%, 0%, 0.025) !default;
 $side-nav-link-margin: 0 !default;
 $side-nav-link-padding: rem-calc(7 14) !default;
 $side-nav-font-size: rem-calc(14) !default;
@@ -54,12 +54,11 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
 // $font-size - Font size of nav items. Default: $side-nav-font-size.
 // $link-color - Color of navigation links. Default: $side-nav-link-color.
 // $link-color-hover - Color of navigation links when hovered. Default: $side-nav-link-color-hover.
-@mixin side-nav(
-  $divider-color:$side-nav-divider-color,
-  $font-size:$side-nav-font-size,
-  $link-color:$side-nav-link-color,
-  $link-color-hover:$side-nav-link-color-hover,
-  $link-bg-hover:$side-nav-link-bg-hover) {
+@mixin side-nav($divider-color: $side-nav-divider-color,
+  $font-size: $side-nav-font-size,
+  $link-color: $side-nav-link-color,
+  $link-color-hover: $side-nav-link-color-hover,
+  $link-bg-hover: $side-nav-link-bg-hover) {
   display: block;
   margin: 0;
   padding: $side-nav-padding;
@@ -77,6 +76,7 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
       color: $link-color;
       margin: $side-nav-link-margin;
       padding: $side-nav-link-padding;
+
       &:hover,
       &:focus {
         background: $link-bg-hover;
@@ -84,7 +84,7 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
       }
     }
 
-    &.active > a:first-child:not(.button) {
+    &.active>a:first-child:not(.button) {
       color: $side-nav-link-color-active;
       font-weight: $side-nav-font-weight-active;
       font-family: $side-nav-font-family-active;
@@ -100,10 +100,12 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
 
     &.heading {
       color: $side-nav-heading-color;
+
       font: {
         size: $side-nav-heading-font-size;
         weight: $side-nav-heading-font-weight;
       }
+
       text-transform: $side-nav-heading-text-transform;
     }
   }
@@ -111,6 +113,8 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
 
 @include exports("side-nav") {
   @if $include-html-nav-classes {
-    .side-nav { @include side-nav; }
+    .side-nav {
+      @include side-nav;
+    }
   }
 }

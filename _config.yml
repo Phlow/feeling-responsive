@@ -21,11 +21,11 @@ credits: '<p>With &hearts; to <a href="http://phlow.de/">Phlow</a> and <a href="
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: caitlin joy baxendale
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://phlow.github.io'
+url: 'https://baxendaleink.github.io'
 baseurl: '/feeling-responsive'
 
 # This is for the editing function in _/includes/improve_content
@@ -38,7 +38,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+urlimg: 'https://baxendaleink.github.io/feeling-responsive/images/'
 
 
 # Logo size is 600x80 pixels

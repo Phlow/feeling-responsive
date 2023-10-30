@@ -1,8 +1,8 @@
-- title: Start
+- title: HOME
   url: "/"
   side: left
 
-- title: Getting Started
+- title: WHO AM I?
   url: "/getting-started/"
   side: left
 

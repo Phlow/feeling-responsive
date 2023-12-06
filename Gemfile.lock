@@ -90,6 +90,7 @@ DEPENDENCIES
   asciidoctor (~> 1.5.4)
   coderay (= 1.1.1)
   jekyll (~> 3.9)
+  kramdown-parser-gfm (~> 1.1)
   webrick
   jekyll-asciidoc
   jekyll-gist

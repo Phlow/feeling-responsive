@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+  gem 'jekyll', '~> 3.9'
+  gem 'webrick'
+  gem "rake", "~> 13.1"
+  gem 'asciidoctor', '~> 1.5.4'
+  gem 'coderay', '1.1.1'
 
 # gem "github-pages", group: :jekyll_plugins
 
@@ -18,10 +22,6 @@ group :jekyll_plugins do
   gem "jekyll-remote-theme", "~> 0.4.3"
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-titles-from-headings"
-  gem 'webrick'
-  gem "rake", "~> 13.1"
-end
 
-gem 'asciidoctor', '~> 1.5.4'
-gem 'coderay', '1.1.1'
+end
 

@@ -22,7 +22,6 @@ GEM
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    jekyll (4.3.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -81,6 +80,34 @@ GEM
       unicode-display_width (>= 1.1.1, < 3)
     unicode-display_width (2.4.2)
     webrick (1.8.1)
+        jekyll-commonmark (1.4.0)
+      commonmarker (~> 0.22)
+    jekyll-commonmark-ghpages (0.4.0)
+      commonmarker (~> 0.23.7)
+      jekyll (~> 3.9.0)
+      jekyll-commonmark (~> 1.4.0)
+      rouge (>= 2.0, < 5.0)
+    jekyll-default-layout (0.1.4)
+      jekyll (~> 3.0)
+    jekyll-include-cache (0.2.1)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-optional-front-matter (0.3.2)
+      jekyll (>= 3.0, < 5.0)
+    jekyll-readme-index (0.3.0)
+      jekyll (>= 3.0, < 5.0)
+    jekyll-relative-links (0.7.0)
+      jekyll (>= 3.3, < 5.0)
+    jekyll-remote-theme (0.4.3)
+      addressable (~> 2.0)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-sass-converter (>= 1.0, <= 3.0.0, != 2.0.0)
+      rubyzip (>= 1.3.0, < 3.0)
+      jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
+    jekyll-titles-from-headings (0.5.3)
+      jekyll (>= 3.3, < 5.0)
+      rake (13.1.0)
+      rubyzip (2.3.2)
 
 PLATFORMS
   arm64-darwin-22
@@ -95,6 +122,16 @@ DEPENDENCIES
   jekyll-asciidoc
   jekyll-gist
   jekyll-paginate
+  jekyll-commonmark-ghpages (~> 0.4.0)
+  jekyll-default-layout
+  jekyll-include-cache (~> 0.2.1)
+  jekyll-optional-front-matter (~> 0.3.2)
+  jekyll-readme-index
+  jekyll-relative-links (~> 0.7.0)
+  jekyll-remote-theme (~> 0.4.3)
+  jekyll-seo-tag (~> 2.8)
+  jekyll-titles-from-headings
+  rake (~> 13.1)
 
 BUNDLED WITH
    2.4.18

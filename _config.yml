@@ -49,6 +49,15 @@ plugins:
     - jekyll-asciidoc
     - jekyll-gist
     - jekyll-paginate
+    - jekyll-commonmark-ghpages
+    - jekyll-default-layout
+    - jekyll-include-cache
+    - jekyll-optional-front-matter
+    - jekyll-readme-index
+    - jekyll-relative-links
+    - jekyll-remote-theme
+    - jekyll-seo-tag
+    - jekyll-titles-from-headings
 
 
 #       ____              _             __  _

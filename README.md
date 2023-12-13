@@ -9,7 +9,7 @@ If you are a webdesigner interested in Jekyll, the static website generator, thi
 
 [![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
 
-## A Responsive Jekyll Theme: *Feeling Responsive*
+## A Responsive Jekyll Theme: Feeling Responsive
 
 Do you want to get to know *Feeling Responsive*? Than check it out first and have a look on its home at  <http://phlow.github.io/feeling-responsive/>.
 

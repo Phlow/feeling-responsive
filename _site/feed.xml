@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:4000/feeling-responsive/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="http://localhost:4000/feeling-responsive/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Feeling Responsive</title>
+		<description>»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.</description>
+		<link>http://localhost:4000/feeling-responsive/</link>
+		<atom:link href="http://localhost:4000/feeling-responsive/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Play Audio &amp; Video with media&amp;shy;element.js</title>
+				<link>http://localhost:4000/feeling-responsive/design/mediaelement_js/</link>
+				<pubDate>Thu, 15 Oct 2015 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;&lt;a href=&quot;http://mediaelementjs.com/&quot;&gt;mediaelement.js&lt;/a&gt; is like magic. It’s browser and device support is perfect. To activate the video or audio player just set the following variable in front matter to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mediaplayer: true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To use the player just use some HTML5-magic like…&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;audio&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://path-to-file.com/music.mp3&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;audio/mp3&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;controls=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;controls&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/audio&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;All possible functions and how to use &lt;em&gt;mediaelement.js&lt;/em&gt; is well-documented on the &lt;a href=&quot;http://mediaelementjs.com/&quot;&gt;players website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;music-from-all-around-the-world&quot;&gt;»Music From All Around The World«&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://archive.org/details/music_from_all_around_the_world&quot;&gt;»Music From All Around The World«&lt;/a&gt; is a compilation curated by Jeannette Corneille and Moritz “mo.” Sauer for &lt;a href=&quot;http://phlow-magazine.com/&quot;&gt;Phlow-Magazine.com&lt;/a&gt;. Cover &lt;a href=&quot;http://mediaelementjs.com/&quot;&gt;Artwork designed by Jeannette Corneille&lt;/a&gt;. All tracks were released under a &lt;a href=&quot;http://jcorneille.de/&quot;&gt;creative commons licence&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;b-ju---philly-run&quot;&gt;B-Ju - »Philly Run«&lt;/h3&gt;
+
+&lt;audio src=&quot;http://archive.org/download/music_from_all_around_the_world/13._music_from_all_around_the_world_-_b-ju_-_philly_run.mp3&quot; type=&quot;audio/mp3&quot; controls=&quot;controls&quot;&gt;&lt;/audio&gt;
+
+&lt;h3 id=&quot;comfort-fit---freeze-the-cut&quot;&gt;Comfort Fit - »Freeze The Cut«&lt;/h3&gt;
+
+&lt;audio src=&quot;http://archive.org/download/music_from_all_around_the_world/05._music_from_all_around_the_world_-_comfort_fit_-_freeze_the_cut_opolopos_emotional_draft_remix.mp3&quot; type=&quot;audio/mp3&quot; controls=&quot;controls&quot;&gt;&lt;/audio&gt;
+
+&lt;h3 id=&quot;the-black-atlantic---dandelion&quot;&gt;The Black Atlantic - »Dandelion«&lt;/h3&gt;
+
+&lt;audio src=&quot;http://archive.org/download/music_from_all_around_the_world/02._music_from_all_around_the_world_-_the_black_atlantic_-_dandelion.mp3&quot; type=&quot;audio/mp3&quot; controls=&quot;controls&quot;&gt;&lt;/audio&gt;
+
+&lt;p class=&quot;t30 button radius&quot;&gt;&lt;a href=&quot;https://archive.org/details/music_from_all_around_the_world&quot;&gt;Download Compilation ›&lt;/a&gt;&lt;/p&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/mediaelement_js/</guid>
+			</item>
+		
+			<item>
+				<title>Wonderful Typography</title>
+				<link>http://localhost:4000/feeling-responsive/design/typography/typography/</link>
+				<pubDate>Sun, 16 Aug 2015 00:00:00 +0000</pubDate>
+				<description>&lt;!--more--&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;medium-4 medium-push-8 columns&quot;&gt;
+    &lt;div class=&quot;panel radius&quot;&gt;
+      &lt;p id=&quot;toc&quot;&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#lato--a-sans-serif-typeface-family&quot; id=&quot;markdown-toc-lato--a-sans-serif-typeface-family&quot;&gt;Lato – A Sans Serif Typeface Family&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#about-volkhov-h2&quot; id=&quot;markdown-toc-about-volkhov-h2&quot;&gt;About Volkhov &amp;lt;h2&amp;gt;&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#feeling-responsive-uses-volkhov-for--h3&quot; id=&quot;markdown-toc-feeling-responsive-uses-volkhov-for--h3&quot;&gt;Feeling Responsive uses Volkhov for…  &amp;lt;h3&amp;gt;&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#heading-in-volkhov-h4&quot; id=&quot;markdown-toc-heading-in-volkhov-h4&quot;&gt;Heading in Volkhov &amp;lt;h4&amp;gt;&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#heading-in-volkhov-h5&quot; id=&quot;markdown-toc-heading-in-volkhov-h5&quot;&gt;Heading in Volkhov &amp;lt;h5&amp;gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#modular-scale&quot; id=&quot;markdown-toc-modular-scale&quot;&gt;Modular Scale&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#typographical-elements&quot; id=&quot;markdown-toc-typographical-elements&quot;&gt;Typographical Elements&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#hr-horizontal-line&quot; id=&quot;markdown-toc-hr-horizontal-line&quot;&gt;&amp;lt;hr&amp;gt; Horizontal Line&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pre-displaying-code&quot; id=&quot;markdown-toc-pre-displaying-code&quot;&gt;&amp;lt;pre&amp;gt; Displaying Code&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#blockquote-quotation&quot; id=&quot;markdown-toc-blockquote-quotation&quot;&gt;&amp;lt;blockquote&amp;gt; Quotation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#blockquote-and-cite--together&quot; id=&quot;markdown-toc-blockquote-and-cite--together&quot;&gt;&amp;lt;blockquote&amp;gt; and &amp;lt;cite&amp;gt;  together&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ol-ordered-lists&quot; id=&quot;markdown-toc-ol-ordered-lists&quot;&gt;&amp;lt;ol&amp;gt; Ordered Lists&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ul-unordered-lists&quot; id=&quot;markdown-toc-ul-unordered-lists&quot;&gt;&amp;lt;ul&amp;gt; Unordered Lists&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dl-definition-lists&quot; id=&quot;markdown-toc-dl-definition-lists&quot;&gt;&amp;lt;dl&amp;gt; Definition Lists&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#a&quot; id=&quot;markdown-toc-a&quot;&gt;&amp;lt;a&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#em&quot; id=&quot;markdown-toc-em&quot;&gt;&amp;lt;em&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#strong&quot; id=&quot;markdown-toc-strong&quot;&gt;&amp;lt;strong&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#small&quot; id=&quot;markdown-toc-small&quot;&gt;&amp;lt;small&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#s&quot; id=&quot;markdown-toc-s&quot;&gt;&amp;lt;s&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cite&quot; id=&quot;markdown-toc-cite&quot;&gt;&amp;lt;cite&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#q&quot; id=&quot;markdown-toc-q&quot;&gt;&amp;lt;q&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dfn&quot; id=&quot;markdown-toc-dfn&quot;&gt;&amp;lt;dfn&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#abbr&quot; id=&quot;markdown-toc-abbr&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#time&quot; id=&quot;markdown-toc-time&quot;&gt;&amp;lt;time&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#code&quot; id=&quot;markdown-toc-code&quot;&gt;&amp;lt;code&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#var&quot; id=&quot;markdown-toc-var&quot;&gt;&amp;lt;var&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#samp&quot; id=&quot;markdown-toc-samp&quot;&gt;&amp;lt;samp&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#kbd&quot; id=&quot;markdown-toc-kbd&quot;&gt;&amp;lt;kbd&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#sub&quot; id=&quot;markdown-toc-sub&quot;&gt;&amp;lt;sub&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#sup&quot; id=&quot;markdown-toc-sup&quot;&gt;&amp;lt;sup&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#i&quot; id=&quot;markdown-toc-i&quot;&gt;&amp;lt;i&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#b&quot; id=&quot;markdown-toc-b&quot;&gt;&amp;lt;b&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#u&quot; id=&quot;markdown-toc-u&quot;&gt;&amp;lt;u&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mark&quot; id=&quot;markdown-toc-mark&quot;&gt;&amp;lt;mark&amp;gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#br&quot; id=&quot;markdown-toc-br&quot;&gt;&amp;lt;br&amp;gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#footnotes&quot; id=&quot;markdown-toc-footnotes&quot;&gt;Footnotes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#h1-heading-in-volkhov&quot; id=&quot;markdown-toc-h1-heading-in-volkhov&quot;&gt;&amp;lt;h1&amp;gt;-Heading in Volkhov&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#h2-heading-in-volkhov&quot; id=&quot;markdown-toc-h2-heading-in-volkhov&quot;&gt;&amp;lt;h2&amp;gt;-Heading in Volkhov&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#h3-heading-in-volkhov&quot; id=&quot;markdown-toc-h3-heading-in-volkhov&quot;&gt;&amp;lt;h3&amp;gt;-Heading in Volkhov&lt;/a&gt;            &lt;ul&gt;
+              &lt;li&gt;&lt;a href=&quot;#h4-heading-in-volkhov&quot; id=&quot;markdown-toc-h4-heading-in-volkhov&quot;&gt;&amp;lt;h4&amp;gt;-Heading in Volkhov&lt;/a&gt;                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;#h5-heading-in-volkhov&quot; id=&quot;markdown-toc-h5-heading-in-volkhov&quot;&gt;&amp;lt;h5&amp;gt;-Heading in Volkhov&lt;/a&gt;                    &lt;ul&gt;
+                      &lt;li&gt;&lt;a href=&quot;#h6-heading-in-volkhov&quot; id=&quot;markdown-toc-h6-heading-in-volkhov&quot;&gt;&amp;lt;h6&amp;gt;-Heading in Volkhov&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                  &lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#tables&quot; id=&quot;markdown-toc-tables&quot;&gt;Tables&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;!-- /.medium-4.columns --&gt;
+
+&lt;div class=&quot;medium-8 medium-pull-4 columns&quot;&gt;
+
+    &lt;h2 id=&quot;lato--a-sans-serif-typeface-family&quot;&gt;Lato – A Sans Serif Typeface Family&lt;/h2&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.google.com/fonts/specimen/Lato&quot;&gt;&lt;dfn&gt;Lato&lt;/dfn&gt;&lt;/a&gt; is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic. »Lato« means »Summer« in Polish. In December 2010 the Lato family was published under the Open Font License by his foundry tyPoland, with support from Google.&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;span class=&quot;teaser&quot;&gt;I do not think of type as something that should be readable. It should be beautiful.&lt;/span&gt;&lt;cite&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ed_Benguiat&quot;&gt;Ed Benguiat&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;In the last ten or so years, during which Łukasz has been designing type, most of his projects were rooted in a particular design task that he needed to solve. With Lato, it was no different. Originally, the family was conceived as a set of corporate fonts for a large client — who in the end decided to go in different stylistic direction, so the family became available for a public release.&lt;/p&gt;
+
+    &lt;p&gt;When working on Lato, Łukasz tried to carefully balance some potentially conflicting priorities. He wanted to create a typeface that would seem quite “transparent” when used in body text but would display some original traits when used in larger sizes. He used classical proportions (particularly visible in the uppercase) to give the letterforms familiar harmony and elegance. At the same time, he created a sleek sans serif look, which makes evident the fact that Lato was designed in 2010 — even though it does not follow any current trend.&lt;/p&gt;
+
+    &lt;p&gt;The semi-rounded details of the letters give Lato a feeling of warmth, while the strong structure provides stability and seriousness. “Male and female, serious but friendly. With the feeling of the Summer,” says Łukasz. Learn more at &lt;a href=&quot;http://www.latofonts.com/&quot;&gt;www.latofonts.com&lt;/a&gt;&lt;/p&gt;
+
+    &lt;h2 id=&quot;about-volkhov-h2&quot;&gt;About Volkhov &amp;lt;h2&amp;gt;&lt;/h2&gt;
+
+    &lt;p&gt;&lt;dfn&gt;Volkhov&lt;/dfn&gt; is a low-contrast seriffed typeface with a robust character, intended for providing a motivating reading experience. Volkhov was designed by Ivan Petrov.&lt;/p&gt;
+
+    &lt;h3 id=&quot;feeling-responsive-uses-volkhov-for--h3&quot;&gt;Feeling Responsive uses Volkhov for…  &amp;lt;h3&amp;gt;&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&amp;lt;h1&amp;gt;-headings&lt;/li&gt;
+      &lt;li&gt;&amp;lt;h2&amp;gt;-headings&lt;/li&gt;
+      &lt;li&gt;&amp;lt;h3&amp;gt;-headings&lt;/li&gt;
+      &lt;li&gt;&amp;lt;h4&amp;gt;-headings&lt;/li&gt;
+      &lt;li&gt;&amp;lt;h5&amp;gt;-headings&lt;/li&gt;
+      &lt;li&gt;&amp;lt;h6&amp;gt;-headings&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h4 id=&quot;heading-in-volkhov-h4&quot;&gt;Heading in Volkhov &amp;lt;h4&amp;gt;&lt;/h4&gt;
+
+    &lt;p&gt;As a four-weight family it is well-suited for complex text environments being economic and legible, contemporary and prominent. Many of its design solutions relate to this purpose: large open counters, rather short descenders, and brutal asymmetric serifs.&lt;/p&gt;
+
+    &lt;h5 id=&quot;heading-in-volkhov-h5&quot;&gt;Heading in Volkhov &amp;lt;h5&amp;gt;&lt;/h5&gt;
+
+    &lt;p&gt;Spacing in Bold is slightly increased compared to the normal weight, because the bold mass is mostly grown inwards. The Italic has a steep angle and a distinctive calligraphically reminiscent character, as a counterpart to the rigorous Regular.&lt;/p&gt;
+
+    &lt;h2 id=&quot;modular-scale&quot;&gt;Modular Scale&lt;/h2&gt;
+
+    &lt;p&gt;&lt;em&gt;Feeling Responsive&lt;/em&gt; explores the &lt;em&gt;2:3 perfect fifth&lt;/em&gt; modular scale created with &lt;a href=&quot;https://www.modularscale.com/&quot;&gt;www.modular-scale.com&lt;/a&gt;. This is the modular scale of  &lt;em&gt;Feeling Responsive&lt;/em&gt;.&lt;/p&gt;
+
+    &lt;p&gt;44px @ 1:1.5 – Ideal text size&lt;br /&gt;
+16px @ 1:1.5 – Important number&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;Modular Scale&lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+          &lt;th&gt; &lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;44.000&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;2.75&lt;/td&gt;
+          &lt;td&gt;338.462&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;36.000&lt;/td&gt;
+          &lt;td&gt;0.818&lt;/td&gt;
+          &lt;td&gt;2.25&lt;/td&gt;
+          &lt;td&gt;276.923&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;29.333&lt;/td&gt;
+          &lt;td&gt;0.667&lt;/td&gt;
+          &lt;td&gt;1.833&lt;/td&gt;
+          &lt;td&gt;225.638&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;24.000&lt;/td&gt;
+          &lt;td&gt;0.545&lt;/td&gt;
+          &lt;td&gt;1.5&lt;/td&gt;
+          &lt;td&gt;184.615&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;19.555&lt;/td&gt;
+          &lt;td&gt;0.444&lt;/td&gt;
+          &lt;td&gt;1.222&lt;/td&gt;
+          &lt;td&gt;150.423&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;16.000&lt;/td&gt;
+          &lt;td&gt;0.364&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;123.077&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+
+    &lt;h2 class=&quot;t60&quot; id=&quot;typographical-elements&quot;&gt;Typographical Elements&lt;/h2&gt;
+
+    &lt;p&gt;Here you’ll find the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list&quot;&gt;complete list of HTML5-Tags&lt;/a&gt; and this is how they look like.&lt;/p&gt;
+
+    &lt;h3 id=&quot;hr-horizontal-line&quot;&gt;&amp;lt;hr&amp;gt; Horizontal Line&lt;/h3&gt;
+    &lt;hr /&gt;
+
+    &lt;h3 id=&quot;pre-displaying-code&quot;&gt;&amp;lt;pre&amp;gt; Displaying Code&lt;/h3&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;title&amp;gt;Code Blocks&amp;lt;/title&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;h3 id=&quot;blockquote-quotation&quot;&gt;&amp;lt;blockquote&amp;gt; Quotation&lt;/h3&gt;
+    &lt;blockquote&gt;Everything happens for a reason. (Britney Spears)&lt;/blockquote&gt;
+
+    &lt;h3 id=&quot;blockquote-and-cite--together&quot;&gt;&amp;lt;blockquote&amp;gt; and &amp;lt;cite&amp;gt;  together&lt;/h3&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Age is an issue of mind over matter. If you don’t mind, it doesn’t matter.
+&lt;cite&gt;Mark Twain&lt;/cite&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;h3 id=&quot;ol-ordered-lists&quot;&gt;&amp;lt;ol&amp;gt; Ordered Lists&lt;/h3&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;Ordered List&lt;/li&gt;
+      &lt;li&gt;Second List Item&lt;/li&gt;
+      &lt;li&gt;Third List Item
+        &lt;ol&gt;
+          &lt;li&gt;Second Level First Item&lt;/li&gt;
+          &lt;li&gt;Second Level Second Item&lt;/li&gt;
+          &lt;li&gt;Second Level Third Item
+            &lt;ol&gt;
+              &lt;li&gt;And a third level First Item&lt;/li&gt;
+              &lt;li&gt;And a third level Second Item&lt;/li&gt;
+              &lt;li&gt;And a third level Third Item&lt;/li&gt;
+            &lt;/ol&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Fourth List Item&lt;/li&gt;
+      &lt;li&gt;Fifth List Item&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;h3 id=&quot;ul-unordered-lists&quot;&gt;&amp;lt;ul&amp;gt; Unordered Lists&lt;/h3&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Unordered List&lt;/li&gt;
+      &lt;li&gt;Second List Item&lt;/li&gt;
+      &lt;li&gt;Third List Item
+        &lt;ul&gt;
+          &lt;li&gt;Second Level First Item&lt;/li&gt;
+          &lt;li&gt;Second Level Second Item&lt;/li&gt;
+          &lt;li&gt;Second Level Third Item
+            &lt;ul&gt;
+              &lt;li&gt;And a third level First Item&lt;/li&gt;
+              &lt;li&gt;And a third level Second Item&lt;/li&gt;
+              &lt;li&gt;And a third level Third Item&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Fourth List Item&lt;/li&gt;
+      &lt;li&gt;Fifth List Item&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;dl-definition-lists&quot;&gt;&amp;lt;dl&amp;gt; Definition Lists&lt;/h3&gt;
+
+    &lt;dl&gt;
+      &lt;dt&gt;Definition List&lt;/dt&gt;
+      &lt;dd&gt;Bacon ipsum dolor sit amet spare ribs brisket ribeye, andouille sirloin bresaola frankfurter corned beef capicola bacon. Salami beef ribs sirloin, short loin hamburger shoulder t-bone.&lt;/dd&gt;
+      &lt;dt&gt;Beef ribs jowl swine porchetta&lt;/dt&gt;
+      &lt;dd&gt;Sirloin tenderloin swine frankfurter pork loin pork capicola ham hock strip steak ribeye beef ribs. Hamburger t-bone ribeye ham prosciutto bresaola.&lt;/dd&gt;
+      &lt;dt&gt;Pancetta flank sirloin pork&lt;/dt&gt;
+      &lt;dd&gt;short ribs shankle prosciutto landjaeger. Beef ribs turkey shoulder drumstick. Leberkas pork belly ribeye, bresaola jerky strip steak tenderloin bacon landjaeger short ribs beef ribs. Flank pork chop fatback tail kielbasa filet mignon jowl landjaeger bresaola tongue corned beef biltong.&lt;/dd&gt;
+      &lt;dd&gt;Landjaeger spare ribs fatback corned beef tenderloin drumstick, swine chicken beef turkey biltong doner tri-tip filet mignon.&lt;/dd&gt;
+    &lt;/dl&gt;
+
+    &lt;h3 id=&quot;a&quot;&gt;&amp;lt;a&amp;gt;&lt;/h3&gt;
+    &lt;p&gt;&lt;a href=&quot;http://phlow.de/&quot;&gt;Links&lt;/a&gt; make the web exceptional.&lt;/p&gt;
+
+    &lt;h3 id=&quot;em&quot;&gt;&amp;lt;em&amp;gt;&lt;/h3&gt;
+    &lt;p&gt;Let’s &lt;em&gt;emphasize&lt;/em&gt; how important responsive webdesign is.&lt;/p&gt;
+
+    &lt;h3 id=&quot;strong&quot;&gt;&amp;lt;strong&amp;gt;&lt;/h3&gt;
+    &lt;p&gt;This looks like &lt;strong&gt;bold&lt;/strong&gt; text.&lt;/p&gt;
+
+    &lt;h3 id=&quot;small&quot;&gt;&amp;lt;small&amp;gt;&lt;/h3&gt;
+    &lt;p&gt;&lt;small&gt;This is small text.&lt;/small&gt;&lt;/p&gt;
+
+    &lt;h3 id=&quot;s&quot;&gt;&amp;lt;s&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;It’s nice getting things done. Just strike through &lt;s&gt;finished tasks&lt;/s&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;cite&quot;&gt;&amp;lt;cite&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;&lt;cite&gt;Albert Einstein&lt;/cite&gt;&lt;/p&gt;
+
+    &lt;h3 id=&quot;q&quot;&gt;&amp;lt;q&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;If you use &amp;lt;q&amp;gt; your text gets &lt;q&gt;automagically quotes around the text passage&lt;/q&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;dfn&quot;&gt;&amp;lt;dfn&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;The &amp;lt;dfn&amp;gt; tag is a phrase tag. It defines a &lt;dfn&gt;definition term&lt;/dfn&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;abbr&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;The &lt;abbr title=&quot;World Health Organization&quot;&gt;WHO&lt;/abbr&gt; was founded in 1948.&lt;/p&gt;
+
+    &lt;h3 id=&quot;time&quot;&gt;&amp;lt;time&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;The concert took place on &lt;time datetime=&quot;2001-05-15 19:00&quot;&gt;May 15&lt;/time&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;code&quot;&gt;&amp;lt;code&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;Some &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;code: lucida console&lt;/code&gt; displayed.&lt;/p&gt;
+
+    &lt;h3 id=&quot;var&quot;&gt;&amp;lt;var&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;The &amp;lt;var&amp;gt; tag is a phrase tag. It defines a &lt;var&gt;variable&lt;/var&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;samp&quot;&gt;&amp;lt;samp&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;Text surrounded by &amp;lt;samp&amp;gt; &lt;samp&gt;looks like this in monospace&lt;/samp&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;kbd&quot;&gt;&amp;lt;kbd&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;Copycats enjoy pressing &lt;kbd&gt;CMD&lt;/kbd&gt; + &lt;kbd&gt;c&lt;/kbd&gt; and &lt;kbd&gt;CMD&lt;/kbd&gt; + &lt;kbd&gt;v&lt;/kbd&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;sub&quot;&gt;&amp;lt;sub&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;This text &lt;sub&gt;lays low&lt;/sub&gt; and chills a bit.&lt;/p&gt;
+
+    &lt;h3 id=&quot;sup&quot;&gt;&amp;lt;sup&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;This text &lt;sup&gt;gets high&lt;/sup&gt; above the clouds.&lt;/p&gt;
+
+    &lt;h3 id=&quot;i&quot;&gt;&amp;lt;i&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;This looks &lt;i&gt;italic&lt;/i&gt;.&lt;/p&gt;
+
+    &lt;h3 id=&quot;b&quot;&gt;&amp;lt;b&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;This looks &lt;b&gt;bold&lt;/b&gt;, too.&lt;/p&gt;
+
+    &lt;h3 id=&quot;u&quot;&gt;&amp;lt;u&amp;gt;&lt;/h3&gt;
+
+    &lt;div&gt;&lt;p&gt;&lt;u&gt;Underlining&lt;/u&gt; content for emphasize is not the best choice. You can&apos;t read it so well.&lt;/p&gt;&lt;/div&gt;
+
+    &lt;h3 id=&quot;mark&quot;&gt;&amp;lt;mark&amp;gt;&lt;/h3&gt;
+    &lt;p&gt;Let’s &lt;mark&gt;mark this hint&lt;/mark&gt; to give you a clue.&lt;/p&gt;
+
+    &lt;h3 id=&quot;br&quot;&gt;&amp;lt;br&amp;gt;&lt;/h3&gt;
+
+    &lt;p&gt;Need a break? I give you three!&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+    &lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
+
+    &lt;p&gt;If you need footnotes for your posts, articles and entries, the Kramdown-Parser &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; got you covered. How to use footnotes? Read this footnote. &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+    &lt;h1 id=&quot;h1-heading-in-volkhov&quot;&gt;&amp;lt;h1&amp;gt;-Heading in Volkhov&lt;/h1&gt;
+
+    &lt;h2 id=&quot;h2-heading-in-volkhov&quot;&gt;&amp;lt;h2&amp;gt;-Heading in Volkhov&lt;/h2&gt;
+
+    &lt;h3 id=&quot;h3-heading-in-volkhov&quot;&gt;&amp;lt;h3&amp;gt;-Heading in Volkhov&lt;/h3&gt;
+
+    &lt;h4 id=&quot;h4-heading-in-volkhov&quot;&gt;&amp;lt;h4&amp;gt;-Heading in Volkhov&lt;/h4&gt;
+
+    &lt;h5 id=&quot;h5-heading-in-volkhov&quot;&gt;&amp;lt;h5&amp;gt;-Heading in Volkhov&lt;/h5&gt;
+
+    &lt;h6 id=&quot;h6-heading-in-volkhov&quot;&gt;&amp;lt;h6&amp;gt;-Heading in Volkhov&lt;/h6&gt;
+
+    &lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+
+    &lt;p&gt;Even tables are responsive thanks to foundation. A table can consist of these elements.&lt;/p&gt;
+
+    &lt;table&gt;
+  &lt;caption&gt;&amp;lt;table&amp;gt; defines an HTML table&lt;/caption&gt;
+  &lt;colgroup&gt;
+    &lt;col span=&quot;1&quot; style=&quot;width: 15%;&quot; /&gt;
+    &lt;col span=&quot;1&quot; style=&quot;width: 50%;&quot; /&gt;
+    &lt;col span=&quot;1&quot; style=&quot;width: 35%;&quot; /&gt;
+  &lt;/colgroup&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;HTML Tag&lt;/th&gt;
+      &lt;th&gt;Defintion&lt;/th&gt;
+      &lt;th&gt;Style&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;caption&amp;gt;&lt;/td&gt;
+      &lt;td&gt;defines a table caption&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;font-weight: bold;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;colgroup&amp;gt;&lt;/td&gt;
+      &lt;td&gt;specifies a group of one or more columns in a table for 
+formatting. The &amp;lt;colgroup&amp;gt; tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.&lt;/td&gt;
+      &lt;td&gt;no styling needed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;col&amp;gt;&lt;/td&gt;
+      &lt;td&gt;specifies column properties for each column within a `&amp;lt;colgroup&amp;gt;` 
+element&lt;/td&gt;
+      &lt;td&gt;no styling needed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;thead&amp;gt;&lt;/td&gt;
+      &lt;td&gt;is used to group header content in an HTML table&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;font-weight: bold;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;tbody&amp;gt;&lt;/td&gt;
+      &lt;td&gt;is used to group the body content in an HTML table&lt;/td&gt;
+      &lt;td&gt;no styling needed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;tr&amp;gt;&lt;/td&gt;
+      &lt;td&gt;defines a row in an HTML table&lt;/td&gt;
+      &lt;td&gt;no styling needed&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;th&amp;gt;&lt;/td&gt;
+      &lt;td&gt;defines a header cell in an HTML table&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;font-weight: bold;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;td&amp;gt;&lt;/td&gt;
+      &lt;td&gt;defines a standard cell in an HTML table&lt;/td&gt;
+      &lt;td&gt;&lt;code&gt;font-weight: normal;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;tfoot&amp;gt;&lt;/td&gt;
+      &lt;td&gt;is used to group footer content in an HTML table&lt;/td&gt;
+      &lt;td&gt;no styling needed&lt;/td&gt;
+    &lt;/tr&gt;
+&amp;lt;/table&amp;gt;
+
+&amp;lt;/div&amp;gt;&lt;!-- /.medium-8.columns --&gt;
+&amp;lt;/div&amp;gt;&lt;!-- /.row --&gt;
+
+
+&lt;/tbody&gt;&lt;/table&gt;
+  &lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Find out more about Kramdown on &lt;a href=&quot;http://kramdown.gettalong.org/&quot;&gt;http://kramdown.gettalong.org/&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Kramdown has an excellent documentation of all its features. Check out, on how to &lt;a href=&quot;http://kramdown.gettalong.org/syntax.html#footnotes&quot;&gt;footnotes&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/typography/typography/</guid>
+			</item>
+		
+			<item>
+				<title>Now with Comments!</title>
+				<link>http://localhost:4000/feeling-responsive/design/comments/</link>
+				<pubDate>Sat, 15 Aug 2015 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;If you want to use Disqus-Comments with &lt;em&gt;Feeling Responsive&lt;/em&gt;, just open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config.yml&lt;/code&gt; and add your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;disqus_shortname&lt;/code&gt;. &lt;a href=&quot;https://disqus.com/websites/&quot;&gt;More on how to use Disqus ›&lt;/a&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;By default comments are turned off. You can customize the default behaviour in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config.yml&lt;/code&gt;. To &lt;strong&gt;turn on comments&lt;/strong&gt; just add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; to front matter using the page layout &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout: page&lt;/code&gt;.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/comments/</guid>
+			</item>
+		
+			<item>
+				<title>No Header</title>
+				<link>http://localhost:4000/feeling-responsive/design/no-header/</link>
+				<pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;&lt;em&gt;Silence is beautiful.&lt;/em&gt; Sometimes you just want no distractions at all. Whether you like the content to speak for itself or enjoy pure typography on a plain background: &lt;em&gt;Feeling Responsive&lt;/em&gt; got you covered. Just say &lt;em&gt;no&lt;/em&gt; like this:
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;header: no
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/no-header/</guid>
+			</item>
+		
+			<item>
+				<title>No Header but Article Image</title>
+				<link>http://localhost:4000/feeling-responsive/design/no-header-but-image/</link>
+				<pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;First turn of the header with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header: no&lt;/code&gt;. Then add an image to with the following code. The caption is optional.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;header: no
+image:
+    title: unsplash_eagle.jpg
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/no-header-but-image/</guid>
+			</item>
+		
+			<item>
+				<title>Header With Text</title>
+				<link>http://localhost:4000/feeling-responsive/design/header-with-text/</link>
+				<pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+				<description>&lt;!--more--&gt;
+
+&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;header:
+    title: header with text
+    image_fullwidth: unsplash_brooklyn-bridge_header.jpg
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/header-with-text/</guid>
+			</item>
+		
+			<item>
+				<title>Header With Logo Only</title>
+				<link>http://localhost:4000/feeling-responsive/design/header-logo-only/</link>
+				<pubDate>Thu, 09 Oct 2014 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;No front matter code needed.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/header-logo-only/</guid>
+			</item>
+		
+			<item>
+				<title>Header Image With Background Color</title>
+				<link>http://localhost:4000/feeling-responsive/design/header-image-color/</link>
+				<pubDate>Thu, 09 Oct 2014 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;It’s so easy to do. Just define in front matter an image and a background color. Instead of a color you can also use a pattern image. Have a look at the &lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-pattern/&quot;&gt;example with a background pattern&lt;/a&gt;.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
+
+&lt;div class=&quot;alert-box alert &quot;&gt;&lt;p&gt;WARNING: To make this work the value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background-color&lt;/code&gt; must be inbetween quotes.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;header:
+    image: &quot;header_unsplash_2-970x.jpg&quot;
+    background-color: &quot;#fabb00&quot;
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/header-image-color/</guid>
+			</item>
+		
+			<item>
+				<title>Header with a Full-Width-Image</title>
+				<link>http://localhost:4000/feeling-responsive/design/header-full-width-image/</link>
+				<pubDate>Thu, 09 Oct 2014 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;It’s so easy to do. Just define in front matter your image.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;header:
+    image_fullwidth: &quot;unsplash_brooklyn-bridge_header.jpg&quot;
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/header-full-width-image/</guid>
+			</item>
+		
+			<item>
+				<title>Header Image With Pattern</title>
+				<link>http://localhost:4000/feeling-responsive/design/header-image-pattern/</link>
+				<pubDate>Wed, 08 Oct 2014 00:00:00 +0000</pubDate>
+				<description>&lt;p&gt;It’s so easy to do. Just define in front matter an image and a pattern image. Instead of a pattern you can also use a color. Have a look at the &lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-color/&quot;&gt;example with a background color&lt;/a&gt;.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;front-matter-code&quot;&gt;Front Matter Code&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;header:
+    image:  &quot;header_unsplash_2-970x.jpg&quot;
+    pattern:  &quot;pattern_concrete.jpg&quot;
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;t60&quot; id=&quot;all-header-styles&quot;&gt;All Header-Styles&lt;/h3&gt;
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/no-header-but-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;No Header but Article Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-with-text/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Text&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-logo-only/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header With Logo Only&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-color/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Background Color&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-full-width-image/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header with a Full-Width-Image&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+      &lt;li&gt;&lt;a href=&quot;http://localhost:4000/feeling-responsive/design/header-image-pattern/&quot;&gt;Headers With Style &amp;middot; &lt;strong&gt;Header Image With Pattern&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    
+
+  
+&lt;/ul&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/feeling-responsive/design/header-image-pattern/</guid>
+			</item>
+		
+	</channel>
+</rss>

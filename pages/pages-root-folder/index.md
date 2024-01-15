@@ -13,9 +13,11 @@ homepage            : True
 ## About me
 Hello! I'm Ellery Buntel, a computer scientist specializing in computational neuroscience and brain comptuer interfaces.
 
-I am currently on a period of leave from a computer science PhD program at Tufts University, seeking to apply my research experience to a role in a commercial setting. 
+I am currently on a period of leave from a computer science PhD program at Tufts University, but my work in brain computer interfaces continues. 
 
-Right now, I'm developing fundamental technologies in the field of augmentation as a member of the [Augmentation Lab](https://www.augmentationlab.org/)'s [2023 augmentation residency](https://www.augmentationlab.org/incubator). Our projects include a system for reconstructing images from human neural data, and a general-use BCI control system. 
+My work today is focused on my startup, Telepath, which is creating non-invasive brain computer interfaces for communication. Our goal is to understand the language of the brain in unprecedented detail by helping solve speech paralysis for people with severe paralysis. Please check out our website, [TELEPATH_LINK](LIIIIIIIIIIIINK), for more details. 
+
+I  was recently a member of the [Augmentation Lab](https://www.augmentationlab.org/)'s [2023 augmentation residency](https://www.augmentationlab.org/incubator), where we developed fundamental technologies in the field of augmentation. Our projects included a collaboration with MIT's Media Lab to build a system for reconstructing images from solely human neural data. 
 
 My research is focused on brain computer interfaces and machine learning systems for interpreting neural data. In practice, this means I do a lot of deep learning work, but I also have experience with other emerging technologies like reinforcement learning and cloud computing. 
 

@@ -8,6 +8,9 @@ header:
    image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/changelog/"
 ---
+2023-08-04 // Version 1.93
+:   Thanks to the help of [Remco Schrijver](https://github.com/RemcoSchrijver), who migrated the sass code so that no warnings are shown when building, the build process is clean again.
+
 2021-06-21 // Version 1.92
 :   I changed lots of different small things. The most important was to fix a problem from a commit caused to break the mobile navigation.
 

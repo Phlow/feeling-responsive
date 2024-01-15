@@ -22,7 +22,7 @@ $form-label-font-color: scale-color($black, $lightness: 30%) !default;
 $form-label-small-transform: capitalize !default;
 $form-label-bottom-margin: 0 !default;
 $input-font-family: inherit !default;
-$input-font-color: rgba(0,0,0,0.75) !default;
+$input-font-color: rgba(0, 0, 0, 0.75) !default;
 $input-font-size: rem-calc(14) !default;
 $input-bg-color: $white !default;
 $input-focus-bg-color: scale-color($white, $lightness: -2%) !default;
@@ -33,7 +33,7 @@ $input-border-width: 1px !default;
 $input-border-radius: $global-radius !default;
 $input-disabled-bg: $gainsboro !default;
 $input-disabled-cursor: $cursor-default-value !default;
-$input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1) !default;
+$input-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1) !default;
 $input-include-glowing-effect: true !default;
 
 // We use these to style the fieldset border and spacing.
@@ -84,26 +84,36 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
 
 // We use this mixin to give us form styles for rows inside of forms
 @mixin form-row-base {
-  .row { margin: 0 ((-$form-spacing) / 2);
+  .row {
+    margin: 0 calc((-1 * $form-spacing) / 2);
 
     .column,
-    .columns { padding: 0 ($form-spacing / 2); }
+    .columns {
+      padding: 0 calc($form-spacing / 2);
+    }
 
     // Use this to collapse the margins of a form row
-    &.collapse { margin: 0;
+    &.collapse {
+      margin: 0;
 
       .column,
-      .columns { padding: 0; }
+      .columns {
+        padding: 0;
+      }
+
       input {
         @include side-radius($opposite-direction, 0);
       }
 
     }
   }
+
   input.column,
   input.columns,
   textarea.column,
-  textarea.columns { padding-#{$default-float}: ($form-spacing / 2); }
+  textarea.columns {
+    padding-#{$default-float}: calc($form-spacing / 2);
+  }
 }
 
 // @MIXIN
@@ -112,30 +122,35 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
 @mixin form-element {
   background-color: $input-bg-color;
   font-family: $input-font-family;
+
   border: {
     style: $input-border-style;
     width: $input-border-width;
     color: $input-border-color;
   }
+
   box-shadow: $input-box-shadow;
   color: $input-font-color;
   display: block;
   font-size: $input-font-size;
   margin: 0 0 $form-spacing 0;
-  padding: $form-spacing / 2;
+  padding: calc($form-spacing / 2);
   height: ($input-font-size + ($form-spacing * 1.5) - rem-calc(1));
   width: 100%;
   @include box-sizing(border-box);
+
   @if $input-include-glowing-effect {
     @include block-glowing-effect(focus, $glowing-effect-fade-time, $glowing-effect-color);
   }
+
   // Basic focus styles
   &:focus {
     background: $input-focus-bg-color;
     border-color: $input-focus-border-color;
     outline: none;
   }
-  // Disbaled Styles
+
+  // Disabled Styles
   &:disabled {
     background-color: $input-disabled-bg;
     cursor: $input-disabled-cursor;
@@ -156,7 +171,7 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
 //
 // $alignment - Alignment options. Default: false. Options: [right, inline, false]
 // $base-style - Control whether or not the base styles come through. Default: true.
-@mixin form-label($alignment:false, $base-style:true) {
+@mixin form-label($alignment: false, $base-style: true) {
 
   // Control whether or not the base styles come through.
   @if $base-style {
@@ -170,13 +185,14 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
   }
 
   // Alignment options
-  @if $alignment == right {
+  @if $alignment ==right {
     float: none !important;
     text-align: right;
   }
-  @else if $alignment == inline {
+
+  @else if $alignment ==inline {
     margin: 0 0 $form-spacing 0;
-    padding: $form-spacing / 2 + rem-calc($input-border-width) 0;
+    padding: calc($form-spacing / 2) + rem-calc($input-border-width) 0;
   }
 }
 
@@ -203,7 +219,7 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
 // $bg - Default:$input-prefix-bg || scale-color($white, $lightness: -5%) !default;
 // $is-button - Toggle position settings if prefix is a button. Default:false
 //
-@mixin prefix($bg:$input-prefix-bg, $border:$input-prefix-border-color, $is-button:false) {
+@mixin prefix($bg: $input-prefix-bg, $border: $input-prefix-border-color, $is-button: false) {
 
   @if $bg {
     $bg-lightness: lightness($bg);
@@ -211,8 +227,13 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
     border-#{$opposite-direction}: none;
 
     // Control the font color based on background brightness
-    @if $bg-lightness > 70% or $bg == yellow { color: $input-prefix-font-color; }
-    @else { color: $input-prefix-font-color-alt; }
+    @if $bg-lightness >70% or $bg ==yellow {
+      color: $input-prefix-font-color;
+    }
+
+    @else {
+      color: $input-prefix-font-color-alt;
+    }
   }
 
   @if $border {
@@ -235,7 +256,7 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
 // We use this mixin to create postfix label styles
 // $bg - Default:$input-prefix-bg || scale-color($white, $lightness: -5%) !default;
 // $is-button - Toggle position settings if prefix is a button. Default: false
-@mixin postfix($bg:$input-prefix-bg, $border:$input-prefix-border-color, $is-button:false) {
+@mixin postfix($bg: $input-prefix-bg, $border: $input-prefix-border-color, $is-button: false) {
 
   @if $bg {
     $bg-lightness: lightness($bg);
@@ -243,8 +264,13 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
     border-#{$default-float}: none;
 
     // Control the font color based on background brightness
-    @if $bg-lightness > 70%  or $bg == yellow { color: $input-prefix-font-color; }
-    @else { color: $input-prefix-font-color-alt; }
+    @if $bg-lightness >70% or $bg ==yellow {
+      color: $input-prefix-font-color;
+    }
+
+    @else {
+      color: $input-prefix-font-color-alt;
+    }
   }
 
   @if $border {
@@ -282,7 +308,7 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
 //
 // We use this mixin to control border and background color of error inputs
 // $color - Default: $alert-color (found in settings file)
-@mixin form-error-color($color:$alert-color) {
+@mixin form-error-color($color: $alert-color) {
   border-color: $color;
   background-color: rgba($color, 0.1);
 
@@ -297,13 +323,15 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
 //
 // We use this simple mixin to style labels for error inputs
 // $color - Default:$alert-color. Found in settings file
-@mixin form-label-error-color($color:$alert-color) { color: $color; }
+@mixin form-label-error-color($color: $alert-color) {
+  color: $color;
+}
 
 // @MIXIN
 //
 // We use this mixin to create error message styles
 // $bg - Default: $alert-color (Found in settings file)
-@mixin form-error-message($bg:$input-error-message-bg-color) {
+@mixin form-error-message($bg: $input-error-message-bg-color) {
   display: block;
   padding: $input-error-message-padding;
   margin-top: $input-error-message-top;
@@ -315,12 +343,18 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
   // We can control the text color based on the brightness of the background.
   $bg-lightness: lightness($bg);
   background: $bg;
-  @if $bg-lightness < 70% or $bg == yellow { color: $input-error-message-font-color; }
-  @else { color: $input-error-message-font-color-alt; }
+
+  @if $bg-lightness < 70% or $bg ==yellow {
+    color: $input-error-message-font-color;
+  }
+
+  @else {
+    color: $input-error-message-font-color-alt;
+  }
 }
 
 // We use this mixin to style select elements
-@mixin form-select  {
+@mixin form-select {
   -webkit-appearance: none !important;
   border-radius: 0;
   background-color: $select-bg-color;
@@ -335,25 +369,32 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
 
   // We can safely use leftmost and rightmost now
-  background-position: if($text-direction == 'rtl', 0%, 100%) center;
+  background-position: if($text-direction =='rtl', 0%, 100%) center;
 
   background-repeat: no-repeat;
+
   border: {
     style: $input-border-style;
     width: $input-border-width;
     color: $input-border-color;
   }
-  padding: ($form-spacing / 2);
+
+  padding: calc($form-spacing / 2);
   font-size: $input-font-size;
   font-family: $body-font-family;
   color: $input-font-color;
   line-height: normal;
   @include radius(0);
-  &.radius { @include radius($global-radius); }
+
+  &.radius {
+    @include radius($global-radius);
+  }
+
   &:hover {
     background-color: $select-hover-bg-color;
     border-color: $input-focus-border-color;
   }
+
   // Disabled Styles
   &:disabled {
     background-color: $input-disabled-bg;
@@ -362,29 +403,44 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
 }
 
 // We use this mixin to turn on/off HTML5 number spinners
-@mixin html5number($browser, $on:true) {
+@mixin html5number($browser, $on: true) {
   @if $on==false {
-      @if $browser==webkit {
-        -webkit-appearance: none;
-        margin: 0;
-      } @else if $browser==moz {
-        -moz-appearance: textfield;
-      }
+    @if $browser==webkit {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    @else if $browser==moz {
+      -moz-appearance: textfield;
+    }
   }
 }
 
 @include exports("form") {
   @if $include-html-form-classes {
+
     /* Standard Forms */
-    form { margin: 0 0 $form-spacing; }
+    form {
+      margin: 0 0 $form-spacing;
+    }
 
     /* Using forms within rows, we need to set some defaults */
-    form .row { @include form-row-base; }
+    form .row {
+      @include form-row-base;
+    }
 
     /* Label Styles */
-    label { @include form-label;
-      &.right { @include form-label(right,false); }
-      &.inline { @include form-label(inline,false); }
+    label {
+      @include form-label;
+
+      &.right {
+        @include form-label(right, false);
+      }
+
+      &.inline {
+        @include form-label(inline, false);
+      }
+
       /* Styles for required inputs */
       small {
         text-transform: $form-label-small-transform;
@@ -394,29 +450,62 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
 
     /* Attach elements to the beginning or end of an input */
     .prefix,
-    .postfix { @include prefix-postfix-base; }
+    .postfix {
+      @include prefix-postfix-base;
+    }
 
     /* Adjust padding, alignment and radius if pre/post element is a button */
-    .postfix.button { @include button-size(false,false); @include postfix(false, false, true); }
-    .prefix.button { @include button-size(false,false); @include prefix(false, false, true); }
+    .postfix.button {
+      @include button-size(false, false);
+      @include postfix(false, false, true);
+    }
 
-    .prefix.button.radius { @include radius(0); @include side-radius($default-float, $button-radius); }
-    .postfix.button.radius { @include radius(0); @include side-radius($opposite-direction, $button-radius); }
-    .prefix.button.round { @include radius(0); @include side-radius($default-float, $button-round); }
-    .postfix.button.round { @include radius(0); @include side-radius($opposite-direction, $button-round); }
+    .prefix.button {
+      @include button-size(false, false);
+      @include prefix(false, false, true);
+    }
+
+    .prefix.button.radius {
+      @include radius(0);
+      @include side-radius($default-float, $button-radius);
+    }
+
+    .postfix.button.radius {
+      @include radius(0);
+      @include side-radius($opposite-direction, $button-radius);
+    }
+
+    .prefix.button.round {
+      @include radius(0);
+      @include side-radius($default-float, $button-round);
+    }
+
+    .postfix.button.round {
+      @include radius(0);
+      @include side-radius($opposite-direction, $button-round);
+    }
 
     /* Separate prefix and postfix styles when on span or label so buttons keep their own */
-    span.prefix,label.prefix { @include prefix(); }
-    span.postfix,label.postfix { @include postfix(); }
+    span.prefix,
+    label.prefix {
+      @include prefix();
+    }
+
+    span.postfix,
+    label.postfix {
+      @include postfix();
+    }
 
     /* We use this to get basic styling on all basic form elements */
     #{text-inputs(all, 'input')} {
       -webkit-appearance: none;
       border-radius: 0;
       @include form-element;
-      @if $input-include-glowing-effect == false {
-          @include single-transition(all, 0.15s, linear);
+
+      @if $input-include-glowing-effect ==false {
+        @include single-transition(all, 0.15s, linear);
       }
+
       &.radius {
         @include radius($input-border-radius);
       }
@@ -425,28 +514,63 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
     form {
       .row {
         .prefix-radius.row.collapse {
+
           input,
           textarea,
-          select { @include radius(0); @include side-radius($opposite-direction, $button-radius); }
-          .prefix { @include radius(0); @include side-radius($default-float, $button-radius); }
+          select {
+            @include radius(0);
+            @include side-radius($opposite-direction, $button-radius);
+          }
+
+          .prefix {
+            @include radius(0);
+            @include side-radius($default-float, $button-radius);
+          }
         }
+
         .postfix-radius.row.collapse {
+
           input,
           textarea,
-          select { @include radius(0); @include side-radius($default-float, $button-radius); }
-          .postfix { @include radius(0); @include side-radius($opposite-direction, $button-radius); }
+          select {
+            @include radius(0);
+            @include side-radius($default-float, $button-radius);
+          }
+
+          .postfix {
+            @include radius(0);
+            @include side-radius($opposite-direction, $button-radius);
+          }
         }
+
         .prefix-round.row.collapse {
+
           input,
           textarea,
-          select { @include radius(0); @include side-radius($opposite-direction, $button-round); }
-          .prefix { @include radius(0); @include side-radius($default-float, $button-round); }
+          select {
+            @include radius(0);
+            @include side-radius($opposite-direction, $button-round);
+          }
+
+          .prefix {
+            @include radius(0);
+            @include side-radius($default-float, $button-round);
+          }
         }
+
         .postfix-round.row.collapse {
+
           input,
           textarea,
-          select { @include radius(0); @include side-radius($default-float, $button-round); }
-          .postfix { @include radius(0); @include side-radius($opposite-direction, $button-round); }
+          select {
+            @include radius(0);
+            @include side-radius($default-float, $button-round);
+          }
+
+          .postfix {
+            @include radius(0);
+            @include side-radius($opposite-direction, $button-round);
+          }
         }
       }
     }
@@ -461,10 +585,10 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
       height: auto;
     }
 
-	/* Not allow resize out of parent */
-	textarea {
-		max-width: 100%;
-	}
+    /* Not allow resize out of parent */
+    textarea {
+      max-width: 100%;
+    }
 
     /* Add height value for select elements to match text input height */
     select {
@@ -480,8 +604,8 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
       margin: 0 0 $form-spacing 0;
     }
 
-    input[type="checkbox"] + label,
-    input[type="radio"] + label {
+    input[type="checkbox"]+label,
+    input[type="radio"]+label {
       display: inline-block;
       margin-#{$default-float}: $form-spacing * .5;
       margin-#{$opposite-direction}: $form-spacing;
@@ -491,13 +615,14 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
 
     /* Normalize file input width */
     input[type="file"] {
-      width:100%;
+      width: 100%;
     }
 
     /* HTML5 Number spinners settings */
     input[type=number] {
       @include html5number(moz, $input-number-spinners)
     }
+
     input[type="number"]::-webkit-inner-spin-button,
     input[type="number"]::-webkit-outer-spin-button {
       @include html5number(webkit, $input-number-spinners);
@@ -511,17 +636,27 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
     /* Error Handling */
 
     #{data('abide')} {
-      .error small.error, .error span.error, span.error, small.error {
+
+      .error small.error,
+      .error span.error,
+      span.error,
+      small.error {
         @include form-error-message;
       }
-      span.error, small.error { display: none; }
+
+      span.error,
+      small.error {
+        display: none;
+      }
     }
 
-    span.error, small.error {
+    span.error,
+    small.error {
       @include form-error-message;
     }
 
     .error {
+
       input,
       textarea,
       select {
@@ -542,8 +677,8 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
         @include form-error-message;
       }
 
-      > label {
-        > small {
+      >label {
+        >small {
           color: scale-color($form-label-font-color, $lightness: 15%);
           background: transparent;
           padding: 0;
@@ -565,6 +700,9 @@ $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%) !default;
     select.error {
       margin-bottom: 0;
     }
-    label.error { @include form-label-error-color; }
+
+    label.error {
+      @include form-label-error-color;
+    }
   }
 }

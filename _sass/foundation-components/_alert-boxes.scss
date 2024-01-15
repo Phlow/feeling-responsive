@@ -66,7 +66,7 @@ $alert-transition-ease: ease-out !default;
 // We use this mixin to add alert styles
 //
 // $bg - The background of the alert. Default: $primary-color.
-@mixin alert-style($bg:$primary-color) {
+@mixin alert-style($bg: $primary-color) {
 
   // This finds the lightness percentage of the background color.
   $bg-lightness: lightness($bg);
@@ -76,8 +76,13 @@ $alert-transition-ease: ease-out !default;
   border-color: scale-color($bg, $lightness: $alert-function-factor);
 
   // We control the text color for you based on the background color.
-  @if $bg-lightness > 70% { color: $alert-font-color-alt; }
-  @else                   { color: $alert-font-color; }
+  @if $bg-lightness >70% {
+    color: $alert-font-color-alt;
+  }
+
+  @else {
+    color: $alert-font-color;
+  }
 
 }
 
@@ -88,20 +93,23 @@ $alert-transition-ease: ease-out !default;
   line-height: 0;
   position: absolute;
   top: $alert-close-top;
-  margin-top: -($alert-close-font-size / 2);
+  margin-top: -(calc($alert-close-font-size / 2));
   #{$opposite-direction}: $alert-close-position;
   color: $alert-close-color;
   opacity: $alert-close-opacity;
   background: $alert-close-background;
+
   &:hover,
-  &:focus { opacity: $alert-close-opacity-hover; }
+  &:focus {
+    opacity: $alert-close-opacity-hover;
+  }
 }
 
 // We use this to quickly create alerts with a single mixin.
 //
 // $bg - Background of alert. Default: $primary-color.
 // $radius - Radius of alert box. Default: false.
-@mixin alert($bg:$primary-color, $radius:false) {
+@mixin alert($bg: $primary-color, $radius: false) {
   @include alert-base;
   @include alert-style($bg);
   @include radius($radius);
@@ -112,17 +120,41 @@ $alert-transition-ease: ease-out !default;
     .alert-box {
       @include alert;
 
-      .close      { @include alert-close; }
+      .close {
+        @include alert-close;
+      }
 
-      &.radius    { @include radius($alert-radius); }
-      &.round     { @include radius($global-rounded); }
+      &.radius {
+        @include radius($alert-radius);
+      }
 
-      &.success   { @include alert-style($success-color); }
-      &.alert     { @include alert-style($alert-color); }
-      &.secondary { @include alert-style($secondary-color); }
-      &.warning { @include alert-style($warning-color); }
-      &.info { @include alert-style($info-color); }
-      &.alert-close { opacity: 0}
+      &.round {
+        @include radius($global-rounded);
+      }
+
+      &.success {
+        @include alert-style($success-color);
+      }
+
+      &.alert {
+        @include alert-style($alert-color);
+      }
+
+      &.secondary {
+        @include alert-style($secondary-color);
+      }
+
+      &.warning {
+        @include alert-style($warning-color);
+      }
+
+      &.info {
+        @include alert-style($info-color);
+      }
+
+      &.alert-close {
+        opacity: 0
+      }
     }
   }
 }

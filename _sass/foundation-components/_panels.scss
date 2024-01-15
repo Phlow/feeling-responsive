@@ -29,6 +29,7 @@ $panel-font-color-alt: $white !default;
 $panel-header-adjust: true !default;
 $callout-panel-link-color: $primary-color !default;
 $callout-panel-link-color-hover: scale-color($callout-panel-link-color, $lightness: -14%) !default;
+
 //
 // @mixins
 //
@@ -36,7 +37,7 @@ $callout-panel-link-color-hover: scale-color($callout-panel-link-color, $lightne
 // $bg - Sets the panel background color. Default: $panel-pg || scale-color($white, $lightness: -5%) !default
 // $padding - Sets the panel padding amount. Default: $panel-padding || rem-calc(20)
 // $adjust - Sets the font color based on the darkness of the bg & resets header line-heights for panels. Default: $panel-header-adjust || true
-@mixin panel($bg:$panel-bg, $padding:$panel-padding, $adjust:$panel-header-adjust) {
+@mixin panel($bg: $panel-bg, $padding: $panel-padding, $adjust: $panel-header-adjust) {
 
   @if $bg {
     $bg-lightness: lightness($bg);
@@ -48,26 +49,70 @@ $callout-panel-link-color-hover: scale-color($callout-panel-link-color, $lightne
     padding: $padding;
 
     background: $bg;
-    @if $bg-lightness >= 50% { color: $panel-font-color; }
-    @else { color: $panel-font-color-alt; }
+
+    @if $bg-lightness >=50% {
+      color: $panel-font-color;
+    }
+
+    @else {
+      color: $panel-font-color-alt;
+    }
 
     // Respect the padding, fool.
-    &>:first-child { margin-top: 0; }
-    &>:last-child { margin-bottom: 0; }
+    &>:first-child {
+      margin-top: 0;
+    }
+
+    &>:last-child {
+      margin-bottom: 0;
+    }
 
     @if $adjust {
+
       // We set the font color based on the darkness of the bg.
-      @if $bg-lightness >= 50% { 
-        h1,h2,h3,h4,h5,h6,p,li,dl { color: $panel-font-color; }
+      @if $bg-lightness >=50% {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        li,
+        dl {
+          color: $panel-font-color;
+        }
       }
-      @else { 
-        h1,h2,h3,h4,h5,h6,p,li,dl { color: $panel-font-color-alt; }
+
+      @else {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        li,
+        dl {
+          color: $panel-font-color-alt;
+        }
       }
 
       // reset header line-heights for panels
-      h1,h2,h3,h4,h5,h6 {
-        line-height: 1; margin-bottom: rem-calc(20) / 2;
-        &.subheader { line-height: 1.4; }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        line-height: 1;
+        margin-bottom: calc(rem-calc(20) / 2);
+
+        &.subheader {
+          line-height: 1.4;
+        }
       }
     }
   }
@@ -77,10 +122,12 @@ $callout-panel-link-color-hover: scale-color($callout-panel-link-color, $lightne
   @if $include-html-panel-classes {
 
     /* Panels */
-    .panel { @include panel;
+    .panel {
+      @include panel;
 
       &.callout {
         @include panel(scale-color($primary-color, $lightness: 94%));
+
         a:not(.button) {
           color: $callout-panel-link-color;
 

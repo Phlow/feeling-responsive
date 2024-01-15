@@ -39,7 +39,7 @@ $topbar-link-bg-active: $primary-color !default;
 $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%) !default;
 $topbar-link-font-family: $body-font-family !default;
 $topbar-link-text-transform: none !default;
-$topbar-link-padding: ($topbar-height / 3) !default;
+$topbar-link-padding: calc($topbar-height / 3) !default;
 $topbar-back-link-size: rem-calc(18) !default;
 $topbar-link-dropdown-padding: rem-calc(20) !default;
 $topbar-button-font-size: 0.75rem !default;
@@ -119,7 +119,9 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       width: 100%;
       background: $topbar-bg;
 
-      .top-bar { margin-bottom: $topbar-margin-bottom; }
+      .top-bar {
+        margin-bottom: $topbar-margin-bottom;
+      }
     }
 
     // Wrapped around .top-bar to make it stick to the top
@@ -141,6 +143,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           width: 100%;
           z-index: 99;
         }
+
         // Ensure you can scroll the menu on small screens
         .top-bar-section {
           z-index: 98;
@@ -163,19 +166,24 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         list-style: none;
       }
 
-      .row { max-width: none; }
-
-      form,
-      input { margin-bottom: 0; }
-
-      input { 
-        height: $topbar-input-height; 
-        padding-top: .35rem; 
-        padding-bottom: .35rem; 
-        font-size: $topbar-button-font-size; 
+      .row {
+        max-width: none;
       }
 
-      .button, button {
+      form,
+      input {
+        margin-bottom: 0;
+      }
+
+      input {
+        height: $topbar-input-height;
+        padding-top: .35rem;
+        padding-bottom: .35rem;
+        font-size: $topbar-button-font-size;
+      }
+
+      .button,
+      button {
         padding-top: .35rem + rem-calc(1);
         padding-bottom: .35rem + rem-calc(1);
         margin-bottom: 0;
@@ -201,10 +209,16 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         margin: 0;
         font-size: $rem-base;
 
-        h1, h2, h3, h4, p, span {
+        h1,
+        h2,
+        h3,
+        h4,
+        p,
+        span {
           line-height: $topbar-height;
           font-size: $topbar-title-font-size;
           margin: 0;
+
           a {
             font-weight: $topbar-title-weight;
             color: $topbar-link-color;
@@ -239,9 +253,10 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           margin-top: -16px;
 
           a {
-            @if $text-direction == rtl {
+            @if $text-direction ==rtl {
               text-indent: -58px;
             }
+
             height: 34px;
             line-height: 33px;
             padding: 0 $topbar-link-padding+rem-calc(25) 0 $topbar-link-padding;
@@ -271,16 +286,20 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         height: auto;
         background: transparent;
 
-        .title-area { background: $topbar-bg; }
+        .title-area {
+          background: $topbar-bg;
+        }
 
         .toggle-topbar {
-          a { color: $topbar-menu-link-color-toggled;
-      span::after {
+          a {
+            color: $topbar-menu-link-color-toggled;
+
+            span::after {
               // Shh, don't tell, but box-shadows create the menu icon :)
               // Change the color of the bars when the menu is expanded, using given thickness from hamburger() above
               box-shadow: 0 0 0 1px $topbar-menu-icon-color-toggled,
-                          0 7px 0 1px $topbar-menu-icon-color-toggled,
-                          0 14px 0 1px $topbar-menu-icon-color-toggled;
+                0 7px 0 1px $topbar-menu-icon-color-toggled,
+                0 14px 0 1px $topbar-menu-icon-color-toggled;
             }
           }
         }
@@ -313,7 +332,8 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
       ul li {
         background: $topbar-dropdown-bg;
-        & > a {
+
+        &>a {
           display: block;
           width: 100%;
           color: $topbar-link-color;
@@ -328,39 +348,65 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             font-size: $topbar-link-font-size;
             padding-#{$opposite-direction}: $topbar-link-padding;
             padding-#{$default-float}: $topbar-link-padding;
-            @include button-style($bg:$primary-color);
+            @include button-style($bg: $primary-color);
           }
-          &.button.secondary { @include button-style($bg:$secondary-color); }
-          &.button.success { @include button-style($bg:$success-color); }
-          &.button.alert { @include button-style($bg:$alert-color); }
-          &.button.warning { @include button-style($bg:$warning-color); }
+
+          &.button.secondary {
+            @include button-style($bg: $secondary-color);
+          }
+
+          &.button.success {
+            @include button-style($bg: $success-color);
+          }
+
+          &.button.alert {
+            @include button-style($bg: $alert-color);
+          }
+
+          &.button.warning {
+            @include button-style($bg: $warning-color);
+          }
         }
 
-        > button {
+        >button {
           font-size: $topbar-link-font-size;
           padding-#{$opposite-direction}: $topbar-link-padding;
           padding-#{$default-float}: $topbar-link-padding;
-          @include button-style($bg:$primary-color);
+          @include button-style($bg: $primary-color);
 
-          &.secondary { @include button-style($bg:$secondary-color); }
-          &.success { @include button-style($bg:$success-color); }
-          &.alert { @include button-style($bg:$alert-color); }
-          &.warning { @include button-style($bg:$warning-color); }
+          &.secondary {
+            @include button-style($bg: $secondary-color);
+          }
+
+          &.success {
+            @include button-style($bg: $success-color);
+          }
+
+          &.alert {
+            @include button-style($bg: $alert-color);
+          }
+
+          &.warning {
+            @include button-style($bg: $warning-color);
+          }
         }
 
         // Apply the hover link color when it has that class
-        &:hover:not(.has-form) > a {
+        &:hover:not(.has-form)>a {
           background-color: $topbar-link-bg-color-hover;
+
           @if ($topbar-link-bg-hover) {
             background: $topbar-link-bg-hover;
           }
+
           color: $topbar-link-color-hover;
         }
 
         // Apply the active link color when it has that class
-        &.active > a {
+        &.active>a {
           background: $topbar-link-bg-active;
           color: $topbar-link-color-active;
+
           &:hover {
             background: $topbar-link-bg-active-hover;
             color: $topbar-link-color-active-hover;
@@ -369,31 +415,37 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       }
 
       // Add some extra padding for list items contains buttons
-      .has-form { padding: $topbar-link-padding; }
+      .has-form {
+        padding: $topbar-link-padding;
+      }
 
       // Styling for list items that have a dropdown within them.
       .has-dropdown {
         position: relative;
 
-        & > a {
+        &>a {
           &:after {
-            @if ($topbar-arrows){
+            @if ($topbar-arrows) {
               @include css-triangle($topbar-dropdown-toggle-size, rgba($topbar-dropdown-toggle-color, $topbar-dropdown-toggle-alpha), $default-float);
             }
+
             margin-#{$opposite-direction}: $topbar-link-padding;
-            margin-top: -($topbar-dropdown-toggle-size / 2) - 2;
+            margin-top: -(calc($topbar-dropdown-toggle-size / 2)) - 2;
             position: absolute;
             top: 50%;
             #{$opposite-direction}: 0;
           }
         }
 
-        &.moved { position: static;
-          & > .dropdown {
+        &.moved {
+          position: static;
+
+          &>.dropdown {
             @include topbar-show-dropdown();
             width: 100%;
           }
-          & > a:after {
+
+          &>a:after {
             display: none;
           }
         }
@@ -415,25 +467,38 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           a {
             font-weight: $topbar-dropdown-link-weight;
             padding: 8px $topbar-link-padding;
+
             &.parent-link {
               font-weight: $topbar-link-weight;
             }
           }
 
-          &.title h5, &.parent-link {
+          &.title h5,
+          &.parent-link {
             // Back Button
             margin-bottom: 0;
             margin-top: 0;
             font-size: $topbar-back-link-size;
+
             a {
               color: $topbar-link-color;
               // line-height: ($topbar-height / 2);
               display: block;
-              &:hover { background:none; }
+
+              &:hover {
+                background: none;
+              }
             }
           }
-          &.has-form { padding: 8px $topbar-link-padding; }
-          .button, button { top: auto; }
+
+          &.has-form {
+            padding: 8px $topbar-link-padding;
+          }
+
+          .button,
+          button {
+            top: auto;
+          }
         }
 
         label {
@@ -447,7 +512,9 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       }
     }
 
-    .js-generated { display: block; }
+    .js-generated {
+      display: block;
+    }
 
 
     // Top Bar styles intended for screen sizes above the breakpoint.
@@ -457,10 +524,17 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         @include clearfix;
         overflow: visible;
 
-        .toggle-topbar { display: none; }
+        .toggle-topbar {
+          display: none;
+        }
 
-        .title-area { float: $default-float; }
-        .name h1 a { width: auto; }
+        .title-area {
+          float: $default-float;
+        }
+
+        .name h1 a {
+          width: auto;
+        }
 
         input,
         .button,
@@ -468,10 +542,12 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           font-size: rem-calc(14);
           position: relative;
           height: $topbar-input-height;
-          top: (($topbar-height - $topbar-input-height) / 2);
+          top: calc(($topbar-height - $topbar-input-height) / 2);
         }
 
-        &.expanded { background: $topbar-bg; }
+        &.expanded {
+          background: $topbar-bg;
+        }
       }
 
       .contain-to-grid .top-bar {
@@ -481,7 +557,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       }
 
       .top-bar-section {
-        @include single-transition(none,0,0);
+        @include single-transition(none, 0, 0);
         #{$default-float}: 0 !important;
 
         ul {
@@ -491,39 +567,49 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
           li {
             float: $default-float;
-            .js-generated { display: none; }
+
+            .js-generated {
+              display: none;
+            }
           }
         }
 
         li {
           &.hover {
-            > a:not(.button) {
+            >a:not(.button) {
               background-color: $topbar-link-bg-color-hover;
+
               @if ($topbar-link-bg-hover) {
                 background: $topbar-link-bg-hover;
               }
+
               color: $topbar-link-color-hover;
             }
           }
+
           &:not(.has-form) {
             a:not(.button) {
               padding: 0 $topbar-link-padding;
               line-height: $topbar-height;
               background: $topbar-link-bg;
+
               &:hover {
                 background-color: $topbar-link-bg-color-hover;
+
                 @if ($topbar-link-bg-hover) {
                   background: $topbar-link-bg-hover;
                 }
               }
             }
           }
+
           &.active:not(.has-form) {
             a:not(.button) {
               padding: 0 $topbar-link-padding;
               line-height: $topbar-height;
               color: $topbar-link-color-active;
               background: $topbar-link-bg-active;
+
               &:hover {
                 background: $topbar-link-bg-active-hover;
                 color: $topbar-link-color-active-hover;
@@ -533,35 +619,40 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
         }
 
         .has-dropdown {
-          @if($topbar-arrows){
-            & > a {
+          @if($topbar-arrows) {
+            &>a {
               padding-#{$opposite-direction}: $topbar-link-padding + $topbar-link-dropdown-padding !important;
+
               &:after {
                 @include css-triangle($topbar-dropdown-toggle-size, rgba($topbar-dropdown-toggle-color, $topbar-dropdown-toggle-alpha), top);
-                margin-top: -($topbar-dropdown-toggle-size / 2);
-                top: ($topbar-height / 2);
+                margin-top: -(calc($topbar-dropdown-toggle-size / 2));
+                top: calc($topbar-height / 2);
               }
             }
           }
 
-          &.moved { position: relative;
-            & > .dropdown {
+          &.moved {
+            position: relative;
+
+            &>.dropdown {
               @include topbar-hide-dropdown();
             }
           }
 
-          &.hover, &.not-click:hover {
-            & > .dropdown {
+          &.hover,
+          &.not-click:hover {
+            &>.dropdown {
               @include topbar-show-dropdown();
             }
           }
-          > a:focus + .dropdown {
+
+          >a:focus+.dropdown {
             @include topbar-show-dropdown();
           }
 
           .dropdown li.has-dropdown {
-            & > a {
-              @if ($topbar-dropdown-arrows){
+            &>a {
+              @if ($topbar-dropdown-arrows) {
                 &:after {
                   border: none;
                   content: "\00bb";
@@ -591,14 +682,15 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             }
 
             &:not(.has-form):not(.active) {
-              & > a:not(.button) {
+              &>a:not(.button) {
                 color: $topbar-dropdown-link-color;
                 background: $topbar-dropdown-link-bg;
               }
 
-              &:hover > a:not(.button) {
+              &:hover>a:not(.button) {
                 color: $topbar-dropdown-link-color-hover;
                 background-color: $topbar-link-bg-color-hover;
+
                 @if ($topbar-dropdown-link-bg-hover) {
                   background: $topbar-dropdown-link-bg-hover;
                 }
@@ -618,8 +710,8 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           }
         }
 
-        & > ul > .divider,
-        & > ul > [role="separator"] {
+        &>ul>.divider,
+        &>ul>[role="separator"] {
           border-bottom: none;
           border-top: none;
           border-#{$opposite-direction}: $topbar-divider-border-bottom;
@@ -630,7 +722,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         .has-form {
           background: $topbar-link-bg;
-          padding: 0 ($topbar-height / 3);
+          padding: 0 calc($topbar-height / 3);
           height: $topbar-height;
         }
 
@@ -640,15 +732,20 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             #{$default-float}: auto;
             #{$opposite-direction}: 0;
 
-            li .dropdown { #{$opposite-direction}: 100%; }
+            li .dropdown {
+              #{$opposite-direction}: 100%;
+            }
           }
         }
+
         .#{$default-float} {
           li .dropdown {
             #{$opposite-direction}: auto;
             #{$default-float}: 0;
 
-            li .dropdown { #{$default-float}: 100%; }
+            li .dropdown {
+              #{$default-float}: 100%;
+            }
           }
         }
       }
@@ -657,17 +754,20 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       // background & text color on hover.
       .no-js .top-bar-section {
         ul li {
+
           // Apply the hover link color when it has that class
-          &:hover > a {
+          &:hover>a {
             background-color: $topbar-link-bg-color-hover;
+
             @if ($topbar-link-bg-hover) {
               background: $topbar-link-bg-hover;
             }
+
             color: $topbar-link-color-hover;
           }
 
           // Apply the active link color when it has that class
-          &:active > a {
+          &:active>a {
             background: $topbar-link-bg-active;
             color: $topbar-link-color-active;
           }
@@ -675,11 +775,12 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
 
         .has-dropdown {
           &:hover {
-            & > .dropdown {
+            &>.dropdown {
               @include topbar-show-dropdown();
             }
           }
-          > a:focus + .dropdown {
+
+          >a:focus+.dropdown {
             @include topbar-show-dropdown();
           }
         }

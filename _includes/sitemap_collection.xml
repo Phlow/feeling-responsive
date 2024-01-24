@@ -1,6 +1,6 @@
 <!-- {{ include.name }}: {{ include.links | size }} links with priority={{ include.priority }}, changefreq={{ include.changefreq }} -->
 {% for link in include.links %}
-	{% unless link.sitemap.exclude or link.published == false %}
+	{% unless link.sitemap == false or link.sitemap.exclude or link.published == false %}
 	<url>
 	<loc>{{ site.url }}{{ site.baseurl }}{{ link.url | remove: 'index.html' }}</loc>
 	{% if link.sitemap.lastmod %}

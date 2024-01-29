@@ -15,7 +15,7 @@ Hello! I'm Ellery Buntel, a computer scientist specializing in computational neu
 
 I am currently on a period of leave from a computer science PhD program at Tufts University, but my work in brain computer interfaces continues. 
 
-My work today is focused on my startup, Telepath, which is creating non-invasive brain computer interfaces for communication. Our goal is to understand the language of the brain in unprecedented detail by helping solve speech paralysis for people with severe paralysis. Please check out our website, [TELEPATH_LINK](LIIIIIIIIIIIINK), for more details. 
+My work today is focused on my startup, Telepath, which is creating non-invasive brain computer interfaces for communication. Our goal is to understand the language of the brain in unprecedented detail by helping solve speech paralysis for people with severe paralysis. Please check out our website, [Telepath](https://telepathtechnologies.com), for more details. 
 
 I  was recently a member of the [Augmentation Lab](https://www.augmentationlab.org/)'s [2023 augmentation residency](https://www.augmentationlab.org/incubator), where we developed fundamental technologies in the field of augmentation. Our projects included a collaboration with MIT's Media Lab to build a system for reconstructing images from solely human neural data. 
 

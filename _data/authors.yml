@@ -12,3 +12,9 @@ phlow: # replace this with your info
   email:
   twitter: "@phlow"
 # you can add more authors here
+blugeren: # replace this with your info
+  name: "Blugeren"
+  siterole: "tester"
+  uri: http://phlow.de/
+  email:
+  twitter: "@phlow"

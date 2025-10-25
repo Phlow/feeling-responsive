@@ -1,10 +1,10 @@
 - name: GitHub
-  url: http://github.com/phlow
+  url: http://github.com/blugeren
   class: icon-github
-  title: Code und mehr...
+  title: Code und surf...
 
 - name: YouTube
-  url: http://www.youtube.com/PhlowMedia
+  url: https://www.youtube.com/@AristiDevs
   class: icon-youtube
   title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 

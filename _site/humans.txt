@@ -1,0 +1,22 @@
+/* TEAM */
+
+Name: Phlow
+Site: http://phlow.de/
+Twitter: @phlow
+
+
+/* THANKS */
+
+Name: Moritz »mo.« Sauer
+Role: Creator of the Theme
+Site: http://mo.phlow.de/
+Twitter: @phlow
+Theme: http://phlow.github.io/feeling-responsive/
+
+
+/* SITE */
+
+Last Updated: 2023/12/14
+Standards: HTML5, CSS3
+Software: Sublime Text, Chrome, Jekyll, Git, Imageoptim, JPEGMini, Gulp.js, Sass
+Components: Foundation Framework, Modernizr, jQuery, Backstretch.js, Reveal

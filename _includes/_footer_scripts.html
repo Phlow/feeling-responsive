@@ -39,3 +39,11 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 {% endif %}
 
+{% comment %}
+#  Knocket live chat — https://trtc.io/solutions/knocket
+#  Set knocket_identifier in _config.yml. Free forever, no seat limits.
+{% endcomment %}
+{% if site.knocket_identifier %}
+<script src="https://trtc.io/knocket-sdk/sdk.js?identifier={{ site.knocket_identifier }}" async></script>
+{% endif %}
+

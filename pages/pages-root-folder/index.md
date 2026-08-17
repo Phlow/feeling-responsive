@@ -1,52 +1,46 @@
 ---
-#
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
-#
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_12.jpg
+  image_fullwidth: logo-sas.png
 widget1:
-  title: "Blog & Portfolio"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  title: "Sobre o III SAS"
+  url: "/sobre/"
+  image: logo-sas-lg-blue.png
+  text: "O III Simpósio de Automação e Sistemas reúne estudantes, pesquisadores e profissionais para compartilhar conhecimentos, celebrar os 30 anos da Engenharia da Computação e discutir os caminhos da automação."
 widget2:
-  title: "Why use this theme?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  title: "Programação"
+  url: "/programacao/"
+  image: programa.png
+  text: "Confira a programação completa dos dias 12 e 13 de novembro de 2026, com palestras, plenárias, mesas e apresentações de artigos."
 widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. The code is well-documented and explains you how it works.'
-#
-# Use the call for action to show a button on the frontpage
-#
-# To make internal links, just use a permalink like this
-# url: /getting-started/
-#
-# To style the button in different colors, use no value
-# to use the main color or success, alert or secondary.
-# To change colors see sass/_01_settings_colors.scss
-#
-callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
+  title: "Inscrições"
+  url: "/inscricoes/"
+  image: inscricao.png
+  text: "Acompanhe as informações sobre prazos, modalidades e participe do evento. Inscrições abertas de 01/10 a 23/10/2026."
 permalink: /index.html
-#
-# This is a nasty hack to make the navigation highlight
-# this page as active in the topbar navigation
-#
 homepage: true
 ---
+<div class="row">
+  <div class="small-12 columns">
 
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
+    <h2>III Simpósio de Automação e Sistemas</h2>
+
+    <p>
+      O III SAS — Seminário de Automação e Sistemas reúne estudantes, pesquisadores, profissionais e representantes do setor para compartilhar conhecimentos, apresentar pesquisas e discutir tendências e desafios relacionados à automação e aos sistemas.
+    </p>
+
+    <p>
+      Nesta edição, o evento conta com uma programação especial em comemoração aos <strong>30 anos do curso de Engenharia da Computação</strong>, celebrando três décadas de formação, pesquisa, tecnologia e inovação.
+    </p>
+
+    <hr>
+
+    <h3>Informações Gerais</h3>
+    <ul>
+      <li><strong>Datas:</strong> 12 e 13 de novembro de 2026</li>
+      <li><strong>Local:</strong> Auditório do LAUT ou CTEC (a definir) - Natal/RN</li>
+      <li><strong>Submissão de Artigos:</strong> 31/08 a 30/09/2026</li>
+      <li><strong>Inscrições:</strong> 01/10 a 23/10/2026</li>
+    </ul>
   </div>
-  <a class="close-reveal-modal">&#215;</a>
 </div>

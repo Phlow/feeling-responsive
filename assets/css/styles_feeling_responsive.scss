@@ -47,3 +47,7 @@ sitemap:
 {% endif %}
 
 @import "11_syntax-highlighting.scss";
+
+#logo {
+  display: none !important;
+}
